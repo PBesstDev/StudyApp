@@ -1,22 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>StudyApp</title>
-    <link rel="stylesheet" href="css/styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>StudyApp</title>
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <div id="app">
-        <nav id="top-nav" class="persistent-nav">
-            <!-- Nav module will populate this -->
-        </nav>
-        <main id="content">
-            <section id="notes-module" class="module" style="display:none;"></section>
-            <section id="io-module" class="module" style="display:none;"></section>
-            <section id="study-module" class="module" style="display:none;"></section>
-        </main>
-    </div>
-    <script type="module" src="js/app.js"></script>
+  <nav id="top-nav">
+    <button data-view="notes">Take Notes</button>
+    <button data-view="transfer">Download/Upload Notes</button>
+    <button data-view="study">Study</button>
+  </nav>
+  <main>
+    <section id="notes-view" class="view active">
+      <div id="notes-container"></div>
+    </section>
+    <section id="transfer-view" class="view">
+      <div id="transfer-container"></div>
+    </section>
+    <section id="study-view" class="view">
+      <div id="study-container"></div>
+    </section>
+  </main>
+  <script type="module" src="js/app.js"></script>
 </body>
 </html>
