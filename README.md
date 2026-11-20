@@ -1,24 +1,27 @@
-# StudyApp
+# StudyApp (React Version)
 
-Lightweight modular study application for taking notes (flashcards), downloading/uploading subjects as JSON/JSONL, and studying with swipe and search.
+Lightweight modular React flashcard study app.
 
 ## Features
-- Persistent top navigation
-- Take Notes: subjects with fuzzy match, flashcards, dirty state handling
-- Download/Upload: JSON/JSONL with validation and merge
-- Study: random cards, flip, swipe left/right, draggable search with timed BST
+- Persistent top navigation (Take Notes, Download/Upload Notes, Study)
+- Isolated React components with separation of responsibility
+- Subjects with fuzzy near-identical check
+- Flashcards stored in localStorage, export/import as .json or .jsonl
+- Non-blocking save/discard popups
+- Study mode: random cards, click to flip, swipe buttons (left discard / right keep)
+- Search with timing
 
-## Run
-Open `index.html` in a modern browser. Data stored in localStorage. Export/import via the Download/Upload module.
+## Setup
+```bash
+npm install
+npm run dev
+```
 
-## Architecture
-Separation of responsibility:
-- `js/modules/nav.js`
-- `js/modules/notes.js`
-- `js/modules/io.js`
-- `js/modules/study.js`
-- `js/utils/storage.js`
-- `js/utils/search.js`
-- `js/app.js` orchestrator
+Open the local URL shown by Vite.
 
-Limited scope per module.
+## Structure
+- src/components/Nav.jsx, Notes.jsx, IO.jsx, Study.jsx
+- src/utils/storage.js
+- src/App.jsx orchestrates module switching
+
+Built with Vite + React. All client-side.
