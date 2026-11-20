@@ -1,17 +1,21 @@
-function Nav({ currentView, setCurrentView }) {
+export default function Nav({ currentModule, setCurrentModule }) {
+  const modules = [
+    { id: 'notes', label: 'Take Notes' },
+    { id: 'io', label: 'Download/Upload Notes' },
+    { id: 'study', label: 'Study' }
+  ]
+
   return (
-    <nav id="top-nav">
-      <button className={currentView === 'notes' ? 'active' : ''} onClick={() => setCurrentView('notes')}>
-        Take Notes
-      </button>
-      <button className={currentView === 'transfer' ? 'active' : ''} onClick={() => setCurrentView('transfer')}>
-        Download/Upload Notes
-      </button>
-      <button className={currentView === 'study' ? 'active' : ''} onClick={() => setCurrentView('study')}>
-        Study
-      </button>
+    <nav className="nav">
+      {modules.map(mod => (
+        <button
+          key={mod.id}
+          className={currentModule === mod.id ? 'active' : ''}
+          onClick={() => setCurrentModule(mod.id)}
+        >
+          {mod.label}
+        </button>
+      ))}
     </nav>
   )
 }
-
-export default Nav

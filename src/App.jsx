@@ -3,18 +3,17 @@ import Nav from './components/Nav'
 import Notes from './components/Notes'
 import IO from './components/IO'
 import Study from './components/Study'
-import './App.css'
 
 function App() {
-  const [currentView, setCurrentView] = useState('notes')
+  const [currentModule, setCurrentModule] = useState('notes')
 
   return (
-    <div className="App">
-      <Nav currentView={currentView} setCurrentView={setCurrentView} />
-      <main>
-        {currentView === 'notes' && <Notes />}
-        {currentView === 'transfer' && <IO />}
-        {currentView === 'study' && <Study />}
+    <div className="app">
+      <Nav currentModule={currentModule} setCurrentModule={setCurrentModule} />
+      <main className="main">
+        {currentModule === 'notes' && <Notes />}
+        {currentModule === 'io' && <IO />}
+        {currentModule === 'study' && <Study />}
       </main>
     </div>
   )
