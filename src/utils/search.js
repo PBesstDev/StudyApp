@@ -13,27 +13,27 @@ export class BinarySearchTree {
   }
 
   insert(key, card) {
-    if (!key) return;
     const newNode = new Node(key, card);
     if (!this.root) {
       this.root = newNode;
       return;
     }
-    this._insertNode(this.root, newNode);
+    this._insert(this.root, newNode);
   }
 
-  _insertNode(node, newNode) {
+  _insert(node, newNode) {
     if (newNode.key < node.key) {
       if (!node.left) node.left = newNode;
-      else this._insertNode(node.left, newNode);
-    } else if (newNode.key > node.key) {
+      else this._insert(node.left, newNode);
+    } else {
       if (!node.right) node.right = newNode;
-      else this._insertNode(node.right, newNode);
+      else this._insert(node.right, newNode);
     }
   }
 
   search(query) {
-    return this._search(this.root, query.toLowerCase());
+    const q = query.toLowerCase();
+    return this._search(this.root, q);
   }
 
   _search(node, q) {

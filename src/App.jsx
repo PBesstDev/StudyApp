@@ -1,16 +1,16 @@
 import { useState } from 'react'
-import Nav from './components/Nav.jsx'
-import Notes from './components/Notes.jsx'
-import IO from './components/IO.jsx'
-import Study from './components/Study.jsx'
+import Nav from './components/Nav'
+import Notes from './components/Notes'
+import IO from './components/IO'
+import Study from './components/Study'
 
 function App() {
   const [currentModule, setCurrentModule] = useState('notes')
 
   return (
-    <div>
-      <Nav current={currentModule} onChange={setCurrentModule} />
-      <main>
+    <div className="app">
+      <Nav currentModule={currentModule} setCurrentModule={setCurrentModule} />
+      <main className="main">
         {currentModule === 'notes' && <Notes />}
         {currentModule === 'io' && <IO />}
         {currentModule === 'study' && <Study />}

@@ -1,79 +1,81 @@
 import { useState, useEffect } from 'react'
-import { getSubjects, getCards, setCards, fuzzyFindSubject } from '../utils/storage.js'
+import { loadSubjects, getSubjectCards, saveSubjectCards, fuzzyMatch } from '../utils/storage'
 
 export default function Notes() {
-  const [subjectInput, setSubjectInput] = useState('')
+  const [subjects, setSubjects] = useState({})
   const [currentSubject, setCurrentSubject] = useState('')
-  const [cards, setCardsState] = useState([])
-  const [currentIndex, setCurrentIndex] = useState(0)
+  const [subjectInput, setSubjectInput] = useState('')
+  const [cards, setCards] = useState([])
+  const [currentIndex, setCurrentIndex] = useState(-1)
   const [keyword, setKeyword] = useState('')
   const [notes, setNotes] = useState('')
   const [isDirty, setIsDirty] = useState(false)
   const [popup, setPopup] = useState(null)
 
   useEffect(() => {
-    if (currentSubject) {
-      const loaded = getCards(currentSubject)
-      setCardsState(loaded.length ? loaded : [{ keyword: '', notes: '' }])
-      setCurrentIndex(0)
-    }
-  }, [currentSubject])
+    setSubjects(loadSubjects())
+  }, [])
 
-  useEffect(() => {
-    if (cards.length > 0) {
-      const card = cards[currentIndex] || { keyword: '', notes: '' }
-      setKeyword(card.keyword)
-      setNotes(card.notes)
-      setIsDirty(false)
-    }
-  }, [currentIndex, cards])
-
-  const handleSubject = () => {
+  const handleSetSubject = () => {
     const input = subjectInput.trim()
     if (!input) return
-    const existing = fuzzyFindSubject(input)
-    if (existing && existing.toLowerCase() !== input.toLowerCase()) {
+    const match = fuzzyMatch(input, subjects)
+    if (match && match !== input) {
       setPopup({
-        msg: `Similar subject "${existing}" exists. Use it or create new?`,
-        onYes: () => { setCurrentSubject(existing); setPopup(null); },
-        onNo: () => { setCurrentSubject(input); setPopup(null); }
+        message: `Near-identical subject "${match}" exists. Use existing or create new?`,
+        onYes: () => { setCurrentSubject(match); loadCards(match); setPopup(null) },
+        onNo: () => { setCurrentSubject(input); loadCards(input); setPopup(null) }
       })
     } else {
-      setCurrentSubject(existing || input)
+      setCurrentSubject(input)
+      loadCards(input)
     }
   }
 
-  const saveCurrent = () => {
-    if (!currentSubject) return
-    const updated = [...cards]
-    updated[currentIndex] = { keyword, notes }
-    setCards(currentSubject, updated)
-    setCardsState(updated)
+  const loadCards = (sub) => {
+    const loaded = getSubjectCards(sub)
+    setCards(loaded)
+    setCurrentIndex(loaded.length > 0 ? 0 : -1)
+    displayCard(loaded, loaded.length > 0 ? 0 : -1)
     setIsDirty(false)
   }
 
-  const navigate = (dir) => {
+  const displayCard = (cardList, idx) => {
+    if (idx >= 0 && idx < cardList.length) {
+      setKeyword(cardList[idx].keyword || '')
+      setNotes(cardList[idx].notes || '')
+    } else {
+      setKeyword('')
+      setNotes('')
+    }
+  }
+
+  const navigate = (delta) => {
     if (isDirty) {
       setPopup({
-        msg: 'Save changes before moving?',
-        onYes: () => { saveCurrent(); doNav(dir); setPopup(null); },
-        onNo: () => { setIsDirty(false); doNav(dir); setPopup(null); }
+        message: 'Unsaved changes. Save or discard?',
+        onYes: () => { saveCurrent(); doNavigate(delta); setPopup(null) },
+        onNo: () => { setIsDirty(false); doNavigate(delta); setPopup(null) }
       })
       return
     }
-    doNav(dir)
+    doNavigate(delta)
   }
 
-  const doNav = (dir) => {
-    setCurrentIndex(Math.max(0, Math.min(cards.length - 1, currentIndex + dir)))
+  const doNavigate = (delta) => {
+    let newIdx = currentIndex + delta
+    if (newIdx < 0) newIdx = 0
+    if (newIdx >= cards.length) newIdx = cards.length - 1
+    setCurrentIndex(newIdx)
+    displayCard(cards, newIdx)
   }
 
   const createNew = () => {
     if (isDirty) {
       setPopup({
-        msg: 'Save before new card?',
-        onYes: () => { saveCurrent(); addNew(); setPopup(null); },
-        onNo: () => { setIsDirty(false); addNew(); setPopup(null); }
+        message: 'Save before new card?',
+        onYes: () => { saveCurrent(); addNew(); setPopup(null) },
+        onNo: () => { setIsDirty(false); addNew(); setPopup(null) }
       })
       return
     }
@@ -81,37 +83,61 @@ export default function Notes() {
   }
 
   const addNew = () => {
-    const updated = [...cards, { keyword: '', notes: '' }]
-    setCardsState(updated)
-    setCurrentIndex(updated.length - 1)
-    if (currentSubject) setCards(currentSubject, updated)
+    const newCards = [...cards, { keyword: '', notes: '' }]
+    setCards(newCards)
+    setCurrentIndex(newCards.length - 1)
+    setKeyword('')
+    setNotes('')
+    setIsDirty(false)
+  }
+
+  const saveCurrent = () => {
+    const newCards = [...cards]
+    if (currentIndex >= 0 && currentIndex < newCards.length) {
+      newCards[currentIndex] = { keyword, notes }
+    } else {
+      newCards.push({ keyword, notes })
+      setCurrentIndex(newCards.length - 1)
+    }
+    setCards(newCards)
+    saveSubjectCards(currentSubject, newCards)
+    setIsDirty(false)
   }
 
   return (
-    <div className="module">
+    <div>
       <h2>Take Notes</h2>
       <div>
-        <input value={subjectInput} onChange={e => setSubjectInput(e.target.value)} placeholder="Subject (Math, Biology...)" list="subjects" />
-        <datalist id="subjects">{getSubjects().map(s => <option key={s} value={s} />)}</datalist>
-        <button onClick={handleSubject}>Load / Create</button>
+        <input
+          value={subjectInput}
+          onChange={e => setSubjectInput(e.target.value)}
+          placeholder="Study subject (e.g. Math)"
+        />
+        <button onClick={handleSetSubject}>Set Subject</button>
+        {Object.keys(subjects).length > 0 && (
+          <select onChange={e => { if (e.target.value) { setCurrentSubject(e.target.value); setSubjectInput(e.target.value); loadCards(e.target.value) } }}>
+            <option value="">-- Select existing --</option>
+            {Object.keys(subjects).map(s => <option key={s} value={s}>{s}</option>)}
+          </select>
+        )}
       </div>
       {currentSubject && (
         <div>
-          <p>Subject: {currentSubject} | Card {currentIndex + 1} of {cards.length}</p>
-          <input value={keyword} onChange={e => { setKeyword(e.target.value); setIsDirty(true); }} placeholder="Keyword / Key phrase" />
-          <textarea value={notes} onChange={e => { setNotes(e.target.value); setIsDirty(true); }} placeholder="Notes / definition" />
-          <div>
-            <button onClick={() => navigate(-1)}>Prev</button>
-            <button onClick={() => navigate(1)}>Next</button>
-            <button onClick={createNew}>New Card</button>
-            <button onClick={saveCurrent}>Save</button>
-            <button onClick={() => { setKeyword(''); setNotes(''); setIsDirty(true); }}>Clear</button>
+          <div className="flashcard">
+            <input value={keyword} onChange={e => { setKeyword(e.target.value); setIsDirty(true) }} placeholder="Keyword / Key Phrase" />
+            <textarea value={notes} onChange={e => { setNotes(e.target.value); setIsDirty(true) }} placeholder="Associated notes" rows="5" />
           </div>
+          <button onClick={() => navigate(-1)}>Prev</button>
+          <button onClick={() => navigate(1)}>Next</button>
+          <button onClick={createNew}>New Card</button>
+          <button onClick={() => { setKeyword(''); setNotes(''); setIsDirty(true) }}>Clear</button>
+          <button onClick={saveCurrent}>Save</button>
+          <span>Card {currentIndex + 1} of {cards.length} | Subject: {currentSubject}</span>
         </div>
       )}
       {popup && (
-        <div className="non-intrusive-popup">
-          <p>{popup.msg}</p>
+        <div className="popup">
+          <p>{popup.message}</p>
           <button onClick={popup.onYes}>Yes / Save</button>
           <button onClick={popup.onNo}>No / Discard</button>
           <button onClick={() => setPopup(null)}>Cancel</button>

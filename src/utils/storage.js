@@ -1,63 +1,57 @@
-const STORAGE_KEY = 'studyAppData';
+const STORAGE_KEY = 'studyAppSubjects';
 
-export function loadData() {
+export function loadSubjects() {
   try {
-    const raw = localStorage.getItem(STORAGE_KEY);
-    return raw ? JSON.parse(raw) : { subjects: {} };
+    const data = localStorage.getItem(STORAGE_KEY);
+    return data ? JSON.parse(data) : {};
   } catch (e) {
-    return { subjects: {} };
+    console.error('Load error', e);
+    return {};
   }
 }
 
-export function saveData(data) {
-  localStorage.setItem(STORAGE_KEY, JSON.stringify(data));
+export function saveSubjects(subjects) {
+  localStorage.setItem(STORAGE_KEY, JSON.stringify(subjects));
 }
 
-export function getSubjects() {
-  return Object.keys(loadData().subjects || {});
+export function getSubjectCards(subject) {
+  const subjects = loadSubjects();
+  return subjects[subject] || [];
 }
 
-export function getCards(subject) {
-  const data = loadData();
-  return (data.subjects && data.subjects[subject]) || [];
+export function saveSubjectCards(subject, cards) {
+  const subjects = loadSubjects();
+  subjects[subject] = cards;
+  saveSubjects(subjects);
 }
 
-export function setCards(subject, cards) {
-  const data = loadData();
-  if (!data.subjects) data.subjects = {};
-  data.subjects[subject] = cards;
-  saveData(data);
-}
-
-export function fuzzyFindSubject(input) {
-  if (!input) return null;
-  const data = loadData();
-  const lower = input.toLowerCase().trim();
-  for (const sub of Object.keys(data.subjects || {})) {
-    const sl = sub.toLowerCase();
-    if (sl === lower || sl.includes(lower) || lower.includes(sl)) return sub;
+export function fuzzyMatch(subjectInput, subjects) {
+  const lower = subjectInput.toLowerCase().trim();
+  for (const existing of Object.keys(subjects)) {
+    if (existing.toLowerCase() === lower || existing.toLowerCase().includes(lower) || lower.includes(existing.toLowerCase())) {
+      return existing;
+    }
   }
   return null;
 }
 
-export function exportSubjectJSONL(subject) {
-  const cards = getCards(subject);
-  return cards.map(c => JSON.stringify({ subject, keyword: c.keyword || '', notes: c.notes || '' })).join('\n');
+export function exportJSONL(subject) {
+  const cards = getSubjectCards(subject);
+  return cards.map(card => JSON.stringify({ subject, keyword: card.keyword, notes: card.notes })).join('\n');
 }
 
-export function exportSubjectJSON(subject) {
-  return JSON.stringify({ subject, cards: getCards(subject) }, null, 2);
-}
-
-export function parseJSONL(text) {
+export function importJSONL(text) {
+  const lines = text.trim().split('\n').filter(Boolean);
   const cards = [];
-  text.split('\n').forEach(line => {
-    const trimmed = line.trim();
-    if (!trimmed) return;
+  for (const line of lines) {
     try {
-      const obj = JSON.parse(trimmed);
-      cards.push({ keyword: obj.keyword || '', notes: obj.notes || '' });
-    } catch (e) {}
-  });
+      const parsed = JSON.parse(line);
+      if (parsed.keyword !== undefined && parsed.notes !== undefined) {
+        cards.push({ keyword: parsed.keyword, notes: parsed.notes });
+      }
+    } catch (e) {
+      console.warn('Invalid line', line);
+    }
+  }
   return cards;
 }
