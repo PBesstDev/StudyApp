@@ -1,21 +1,24 @@
 # StudyApp
-Lightweight modular flashcard study application.
+
+Lightweight modular study application for taking notes (flashcards), downloading/uploading subjects as JSON/JSONL, and studying with swipe and search.
 
 ## Features
-- Persistent top navigation bar (Take Notes, Download/Upload Notes, Study)
-- Isolated modules with separation of responsibility
-- Subject management with near-identical detection
-- Flashcards stored as .jsonl / localStorage
-- Non-intrusive save prompts
-- Study mode with random cards, flip, swipe left/right, draggable search magnifier with timed binary tree search
+- Persistent top navigation
+- Take Notes: subjects with fuzzy match, flashcards, dirty state handling
+- Download/Upload: JSON/JSONL with validation and merge
+- Study: random cards, flip, swipe left/right, draggable search with timed BST
 
-## Usage
-Open `index.html` in a modern web browser. All functionality is client-side.
+## Run
+Open `index.html` in a modern browser. Data stored in localStorage. Export/import via the Download/Upload module.
 
-## Modules
-- `js/modules/nav.js` - Persistent navigation
-- `js/modules/notes.js` - Take Notes
-- `js/modules/io.js` - Download/Upload
-- `js/modules/study.js` - Study session
-- `js/utils/storage.js` - Data persistence
-- `js/utils/search.js` - Binary search tree implementation
+## Architecture
+Separation of responsibility:
+- `js/modules/nav.js`
+- `js/modules/notes.js`
+- `js/modules/io.js`
+- `js/modules/study.js`
+- `js/utils/storage.js`
+- `js/utils/search.js`
+- `js/app.js` orchestrator
+
+Limited scope per module.
