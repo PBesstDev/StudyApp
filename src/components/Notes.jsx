@@ -16,22 +16,53 @@ export default function Notes() {
     setSubjects(loadSubjects())
   }, [])
 
-  const handleSetSubject = () => {
-    const input = subjectInput.trim()
-    if (!input) return
+  // Set the subject, with fuzzy matching to suggest existing subjects
+  // Its a lot of try/catch blocks, but will hopefully lead to a cleaner user experience.
+const handleSetSubject = () => {
+  const input = subjectInput.trim()
+  if (!input) return
+
+  try {
     const match = fuzzyMatch(input, subjects)
+    // If a near-identical subject exists, prompt user to choose between using the existing subject and creating a new one.
     if (match && match !== input) {
       setPopup({
         message: `Near-identical subject "${match}" exists. Use existing or create new?`,
-        onYes: () => { setCurrentSubject(match); loadCards(match); setPopup(null) },
-        onNo: () => { setCurrentSubject(input); loadCards(input); setPopup(null) }
+        onYes: () => {
+          try {
+            setCurrentSubject(match)
+            loadCards(match)
+            setPopup(null)
+          } catch (err) {
+            console.error('Failed to load existing subject', err)
+            setStatus(`Could not load "${match}": ${err.message || 'unknown error'}`)
+            setPopup(null)
+          }
+        },
+        onNo: () => {
+          try {
+            setCurrentSubject(input)
+            loadCards(input)
+            setPopup(null)
+          } catch (err) {
+            console.error('Failed to create subject', err)
+            setStatus(`Could not create "${input}": ${err.message || 'unknown error'}`)
+            setPopup(null)
+          }
+        }
       })
+    // Else, if no near-identical subject exists, just set the current subject to the input and load its cards.
     } else {
       setCurrentSubject(input)
       loadCards(input)
     }
+  } catch (err) {
+    console.error('handleSetSubject failed', err)
+    setStatus(`Subject error: ${err.message || 'unknown error'}`)
   }
+}
 
+  // Load the cards for the specified subject
   const loadCards = (sub) => {
     const loaded = getSubjectCards(sub)
     setCards(loaded)
@@ -40,6 +71,7 @@ export default function Notes() {
     setIsDirty(false)
   }
 
+  // Display the card at the specified index, else clear the fields if the index is out of bounds
   const displayCard = (cardList, idx) => {
     if (idx >= 0 && idx < cardList.length) {
       setKeyword(cardList[idx].keyword || '')
@@ -49,27 +81,28 @@ export default function Notes() {
       setNotes('')
     }
   }
-
-  const navigate = (delta) => {
+  // Check for unsaved changes, and then navigate to the next or previous card
+  const navigate = (change) => {
     if (isDirty) {
       setPopup({
         message: 'Unsaved changes. Save or discard?',
-        onYes: () => { saveCurrent(); doNavigate(delta); setPopup(null) },
-        onNo: () => { setIsDirty(false); doNavigate(delta); setPopup(null) }
+        onYes: () => { saveCurrent(); doNavigate(change); setPopup(null) },
+        onNo: () => { setIsDirty(false); doNavigate(change); setPopup(null) }
       })
       return
     }
-    doNavigate(delta)
+    doNavigate(change)
   }
-
-  const doNavigate = (delta) => {
-    let newIdx = currentIndex + delta
+  // Perform the actual navigation to the next or previous card
+  const doNavigate = (change) => {
+    let newIdx = currentIndex + change
     if (newIdx < 0) newIdx = 0
     if (newIdx >= cards.length) newIdx = cards.length - 1
     setCurrentIndex(newIdx)
     displayCard(cards, newIdx)
   }
 
+  // Create a new card, prompting user to save if there are unsaved changes
   const createNew = () => {
     if (isDirty) {
       setPopup({
@@ -82,6 +115,7 @@ export default function Notes() {
     addNew()
   }
 
+  // Add a new card to the list and reset the input fields
   const addNew = () => {
     const newCards = [...cards, { keyword: '', notes: '' }]
     setCards(newCards)
@@ -91,6 +125,7 @@ export default function Notes() {
     setIsDirty(false)
   }
 
+  // Save current card, either updating an existing one or adding a new one, and persist the changes to storage
   const saveCurrent = () => {
     const newCards = [...cards]
     if (currentIndex >= 0 && currentIndex < newCards.length) {
@@ -104,6 +139,7 @@ export default function Notes() {
     setIsDirty(false)
   }
 
+  // Actual component rendering
   return (
     <div>
       <h2>Take Notes</h2>

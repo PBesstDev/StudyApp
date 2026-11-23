@@ -7,6 +7,7 @@ class Node {
   }
 }
 
+// Binary Search Tree implementation for searching cards by keyword or notes
 export class BinarySearchTree {
   constructor() {
     this.root = null;

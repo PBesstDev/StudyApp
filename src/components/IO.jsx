@@ -12,35 +12,57 @@ export default function IO() {
     setSubjects(loadSubjects())
   }, [])
 
-  const showPreview = (sub) => {
-    setSelectedSubject(sub)
-    setPreview(getSubjectCards(sub))
+  // Show a preview of the selected subject's cards
+  const showPreview = (subject) => {
+    setSelectedSubject(subject)
+    setPreview(getSubjectCards(subject))
   }
 
+  // Download the selected subject's cards in the specified format (JSON or JSONL)
   const download = (format) => {
     if (!selectedSubject) return setStatus('Select a subject')
-    const cards = getSubjectCards(selectedSubject)
-    let content, filename
-    if (format === 'jsonl') {
-      content = exportJSONL(selectedSubject)
-      filename = `${selectedSubject}.jsonl`
-    } else {
-      content = JSON.stringify({ subject: selectedSubject, cards }, null, 2)
-      filename = `${selectedSubject}.json`
+
+    // Try-catchh block to handle any errors during the download process
+    try {
+      const cards = getSubjectCards(selectedSubject)
+      let content, filename
+
+      if (format === 'jsonl') {
+        content = exportJSONL(selectedSubject)
+        filename = `${selectedSubject}.jsonl`
+      } else {
+        content = JSON.stringify({ subject: selectedSubject, cards }, null, 2)
+        filename = `${selectedSubject}.json`
+      }
+
+      // Create a blob and trigger the download
+      const blob = new Blob([content], { type: 'application/json' })
+      const url = URL.createObjectURL(blob)
+      const a = document.createElement('a')
+      a.href = url
+      a.download = filename
+      a.click()
+
+      // Free memory after the download starts
+      setTimeout(() => URL.revokeObjectURL(url), 1000)
+
+      setStatus(`Downloaded ${filename}`)
+    } catch (err) {
+      console.error('Export failed', err)
+      setStatus(`Export failed: ${err.message || 'unknown error'}`)
     }
-    const blob = new Blob([content], { type: 'application/json' })
-    const a = document.createElement('a')
-    a.href = URL.createObjectURL(blob)
-    a.download = filename
-    a.click()
   }
 
+  // Upload file and merge with existing cards if necessary
   const handleUpload = (e) => {
     const file = e.target.files[0]
     if (!file || !uploadSubject) return setStatus('Select file and enter subject')
+
     const reader = new FileReader()
+
     reader.onload = (ev) => {
       try {
+        // Determine the file type and parse accordingly
         let cards = []
         if (file.name.endsWith('.jsonl')) {
           cards = importJSONL(ev.target.result)
@@ -49,12 +71,16 @@ export default function IO() {
           cards = data.cards || []
         }
         if (!cards.length) throw new Error('No valid cards')
+
+        // If the subject already exists, ask the user if they want to merge the new cards with the existing ones
         const existing = getSubjectCards(uploadSubject)
         if (existing.length > 0) {
           if (window.confirm(`Subject "${uploadSubject}" exists. Merge?`)) {
             cards = [...existing, ...cards]
           }
         }
+
+        // Save the uploaded cards and update the state
         saveSubjectCards(uploadSubject, cards)
         setStatus(`Uploaded ${cards.length} cards`)
         setSubjects(loadSubjects())
@@ -62,9 +88,12 @@ export default function IO() {
         setStatus(`Error: ${err.message}`)
       }
     }
+
     reader.readAsText(file)
+
   }
 
+  // Actual In/Out component rendering
   return (
     <div>
       <h2>Download / Upload Notes</h2>

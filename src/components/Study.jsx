@@ -19,6 +19,7 @@ export default function Study() {
     setSubjects(loadSubjects())
   }, [])
 
+  // Start study session
   const startStudy = () => {
     if (!selectedSubject) return alert('Select subject')
     const cards = getSubjectCards(selectedSubject)
@@ -27,6 +28,7 @@ export default function Study() {
     showNext([...cards])
   }
 
+  // Show the next card from the pile, randomly selecting one
   const showNext = (currentPile = pile) => {
     if (!currentPile.length) {
       setCurrentCard(null)
@@ -39,6 +41,8 @@ export default function Study() {
 
   const flip = () => setIsFlipped(!isFlipped)
 
+  // Discard the current card, removing it from the pile of potential cards, 
+  // then show the next card in pile
   const discard = () => {
     const newPile = pile.filter(c => c !== currentCard)
     setPile(newPile)
@@ -47,6 +51,8 @@ export default function Study() {
 
   const keep = () => showNext()
 
+  // Perform a search on the current pile of cards using a binary search tree.
+  // Keeping a timer on the search tree since we will eventually move to a vector search tree.
   const performSearch = () => {
     if (!searchQuery) return
     const bst = buildBST(pile)
@@ -57,7 +63,8 @@ export default function Study() {
     setSearchTime(`Search took ${time} ms`)
   }
 
-  // Simple drag for magnifier
+  // Simple drag for "Search" magnifier icon, allowing user to move it around the screen. 
+  // Ideally, I'd want for the entire UI to be customizable to fit the end user's needs
   useEffect(() => {
     const el = magRef.current
     if (!el) return
@@ -84,6 +91,7 @@ export default function Study() {
     }
   }, [])
 
+  // Actual component rendering
   return (
     <div>
       <h2>Study</h2>
