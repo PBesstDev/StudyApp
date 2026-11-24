@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import { loadSubjects, getSubjectCards, saveSubjectCards, exportJSONL, importJSONL } from '../utils/storage'
 
+// In/Out component for downloading and uploading notes/ "Download/Upload Notes" section of the app
 export default function IO() {
   const [subjects, setSubjects] = useState({})
   const [selectedSubject, setSelectedSubject] = useState('')
