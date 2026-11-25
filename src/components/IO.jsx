@@ -1,69 +1,62 @@
 import { useState, useEffect } from 'react'
 import { loadSubjects, getSubjectCards, saveSubjectCards, exportJSONL, importJSONL } from '../utils/storage'
+import { isLoggedIn, listSubjects, downloadSubject, uploadCards } from '../utils/api'
 
-// In/Out component for downloading and uploading notes/ "Download/Upload Notes" section of the app
 export default function IO() {
   const [subjects, setSubjects] = useState({})
   const [selectedSubject, setSelectedSubject] = useState('')
   const [uploadSubject, setUploadSubject] = useState('')
   const [status, setStatus] = useState('')
   const [preview, setPreview] = useState([])
+  const [serverSubjects, setServerSubjects] = useState([])
+  const [pullStatus, setPullStatus] = useState('')
 
   useEffect(() => {
     setSubjects(loadSubjects())
+    if (isLoggedIn()) {
+      listSubjects()
+        .then(subs => setServerSubjects(Array.isArray(subs) ? subs : subs.subjects || []))
+        .catch(() => setServerSubjects([]))
+    }
   }, [])
 
-  // Show a preview of the selected subject's cards
-  const showPreview = (subject) => {
-    setSelectedSubject(subject)
-    setPreview(getSubjectCards(subject))
+  const showPreview = (sub) => {
+    setSelectedSubject(sub)
+    setPreview(getSubjectCards(sub))
   }
 
-  // Download the selected subject's cards in the specified format (JSON or JSONL)
-  const download = (format) => {
+  const download = async (format) => {
     if (!selectedSubject) return setStatus('Select a subject')
-
-    // Try-catchh block to handle any errors during the download process
+    if (!isLoggedIn()) return setStatus('Please log in to download from server')
     try {
-      const cards = getSubjectCards(selectedSubject)
+      setStatus('Downloading from server...')
+      const cards = await downloadSubject(selectedSubject, format)
       let content, filename
-
       if (format === 'jsonl') {
-        content = exportJSONL(selectedSubject)
+        content = cards.map(c => JSON.stringify({ subject: selectedSubject, keyword: c.keyword, notes: c.notes })).join('\n')
         filename = `${selectedSubject}.jsonl`
       } else {
         content = JSON.stringify({ subject: selectedSubject, cards }, null, 2)
         filename = `${selectedSubject}.json`
       }
-
-      // Create a blob and trigger the download
       const blob = new Blob([content], { type: 'application/json' })
-      const url = URL.createObjectURL(blob)
       const a = document.createElement('a')
-      a.href = url
+      a.href = URL.createObjectURL(blob)
       a.download = filename
       a.click()
-
-      // Free memory after the download starts
-      setTimeout(() => URL.revokeObjectURL(url), 1000)
-
-      setStatus(`Downloaded ${filename}`)
+      setStatus(`Downloaded ${cards.length} cards from server`)
     } catch (err) {
-      console.error('Export failed', err)
-      setStatus(`Export failed: ${err.message || 'unknown error'}`)
+      setStatus(`Download failed: ${err.message}`)
     }
   }
 
-  // Upload file and merge with existing cards if necessary
   const handleUpload = (e) => {
     const file = e.target.files[0]
     if (!file || !uploadSubject) return setStatus('Select file and enter subject')
-
+    if (!isLoggedIn()) return setStatus('Please log in to upload to server')
     const reader = new FileReader()
-
-    reader.onload = (ev) => {
+    reader.onload = async (ev) => {
       try {
-        // Determine the file type and parse accordingly
         let cards = []
         if (file.name.endsWith('.jsonl')) {
           cards = importJSONL(ev.target.result)
@@ -72,29 +65,52 @@ export default function IO() {
           cards = data.cards || []
         }
         if (!cards.length) throw new Error('No valid cards')
-
-        // If the subject already exists, ask the user if they want to merge the new cards with the existing ones
-        const existing = getSubjectCards(uploadSubject)
-        if (existing.length > 0) {
-          if (window.confirm(`Subject "${uploadSubject}" exists. Merge?`)) {
-            cards = [...existing, ...cards]
-          }
-        }
-
-        // Save the uploaded cards and update the state
+        setStatus('Uploading to server...')
+        await uploadCards(uploadSubject, cards)
+        setStatus(`Uploaded ${cards.length} cards to server for "${uploadSubject}"`)
+        // also save locally for immediate use
         saveSubjectCards(uploadSubject, cards)
-        setStatus(`Uploaded ${cards.length} cards`)
         setSubjects(loadSubjects())
+        const subs = await listSubjects()
+        setServerSubjects(Array.isArray(subs) ? subs : subs.subjects || [])
       } catch (err) {
         setStatus(`Error: ${err.message}`)
       }
     }
-
     reader.readAsText(file)
-
   }
 
-  // Actual In/Out component rendering
+  const pullFromServer = async (subject) => {
+    if (!isLoggedIn()) return setPullStatus('Please log in first')
+    if (!subject) return setPullStatus('Select a server subject')
+    try {
+      setPullStatus('Pulling...')
+      const cards = await downloadSubject(subject, 'json')
+      saveSubjectCards(subject, cards)
+      setSubjects(loadSubjects())
+      setPullStatus(`Pulled ${cards.length} cards for "${subject}" into local storage`)
+    } catch (err) {
+      setPullStatus(`Pull failed: ${err.message}`)
+    }
+  }
+
+  const pushToServer = async () => {
+    if (!isLoggedIn()) return setPullStatus('Please log in first')
+    if (!selectedSubject) return setPullStatus('Select a local subject to push')
+    try {
+      const cards = getSubjectCards(selectedSubject)
+      if (!cards.length) return setPullStatus('No cards to push')
+      setPullStatus('Pushing...')
+      await uploadCards(selectedSubject, cards)
+      setPullStatus(`Pushed ${cards.length} cards for "${selectedSubject}" to server`)
+      // refresh server subjects
+      const subs = await listSubjects()
+      setServerSubjects(Array.isArray(subs) ? subs : subs.subjects || [])
+    } catch (err) {
+      setPullStatus(`Push failed: ${err.message}`)
+    }
+  }
+
   return (
     <div>
       <h2>Download / Upload Notes</h2>
@@ -102,7 +118,7 @@ export default function IO() {
         <h3>Download</h3>
         <select onChange={e => showPreview(e.target.value)} value={selectedSubject}>
           <option value="">-- Select subject --</option>
-          {Object.keys(subjects).map(s => <option key={s} value={s}>{s}</option>)}
+          {(isLoggedIn() ? serverSubjects : Object.keys(subjects)).map(s => <option key={s} value={s}>{s}</option>)}
         </select>
         <button onClick={() => download('json')}>Download as JSON</button>
         <button onClick={() => download('jsonl')}>Download as JSONL</button>
@@ -120,6 +136,21 @@ export default function IO() {
         <input value={uploadSubject} onChange={e => setUploadSubject(e.target.value)} placeholder="Study subject for upload" />
         <div>{status}</div>
       </div>
+
+      {isLoggedIn() && (
+        <div style={{ marginTop: 20, borderTop: '1px solid #ccc', paddingTop: 10 }}>
+          <h3>Server Sync</h3>
+          <div>
+            <label>Pull from server subject: </label>
+            <select onChange={e => pullFromServer(e.target.value)} defaultValue="">
+              <option value="">-- Select --</option>
+              {serverSubjects.map(s => <option key={s} value={s}>{s}</option>)}
+            </select>
+          </div>
+          <button onClick={pushToServer} style={{ marginTop: 8 }}>Push current local subject to server</button>
+          <div>{pullStatus}</div>
+        </div>
+      )}
     </div>
   )
 }
