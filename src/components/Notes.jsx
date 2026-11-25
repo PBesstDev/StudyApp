@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import { loadSubjects, getSubjectCards, saveSubjectCards, fuzzyMatch } from '../utils/storage'
+import { isLoggedIn, getSubjects, downloadCards, uploadCards } from '../utils/api'
 
 export default function Notes() {
   const [subjects, setSubjects] = useState({})
@@ -11,67 +12,67 @@ export default function Notes() {
   const [notes, setNotes] = useState('')
   const [isDirty, setIsDirty] = useState(false)
   const [popup, setPopup] = useState(null)
+  const [status, setStatus] = useState('')
 
   useEffect(() => {
-    setSubjects(loadSubjects())
+    loadInitialSubjects()
   }, [])
 
-  // Set the subject, with fuzzy matching to suggest existing subjects
-  // Its a lot of try/catch blocks, but will hopefully lead to a cleaner user experience.
-const handleSetSubject = () => {
-  const input = subjectInput.trim()
-  if (!input) return
-
-  try {
-    const match = fuzzyMatch(input, subjects)
-    // If a near-identical subject exists, prompt user to choose between using the existing subject and creating a new one.
-    if (match && match !== input) {
-      setPopup({
-        message: `Near-identical subject "${match}" exists. Use existing or create new?`,
-        onYes: () => {
-          try {
-            setCurrentSubject(match)
-            loadCards(match)
-            setPopup(null)
-          } catch (err) {
-            console.error('Failed to load existing subject', err)
-            setStatus(`Could not load "${match}": ${err.message || 'unknown error'}`)
-            setPopup(null)
-          }
-        },
-        onNo: () => {
-          try {
-            setCurrentSubject(input)
-            loadCards(input)
-            setPopup(null)
-          } catch (err) {
-            console.error('Failed to create subject', err)
-            setStatus(`Could not create "${input}": ${err.message || 'unknown error'}`)
-            setPopup(null)
-          }
-        }
-      })
-    // Else, if no near-identical subject exists, just set the current subject to the input and load its cards.
-    } else {
-      setCurrentSubject(input)
-      loadCards(input)
+  const loadInitialSubjects = async () => {
+    const local = loadSubjects()
+    setSubjects(local)
+    if (isLoggedIn()) {
+      try {
+        const serverSubs = await getSubjects()
+        const merged = { ...local }
+        serverSubs.forEach(s => { if (!merged[s]) merged[s] = [] })
+        setSubjects(merged)
+      } catch (err) {
+        console.warn('Could not load server subjects', err)
+      }
     }
-  } catch (err) {
-    console.error('handleSetSubject failed', err)
-    setStatus(`Subject error: ${err.message || 'unknown error'}`)
   }
-}
 
-  // Load the cards for the specified subject
-  const loadCards = (sub) => {
-    const loaded = getSubjectCards(sub)
+  const loadCards = async (sub) => {
+    let loaded = getSubjectCards(sub)
+    if (isLoggedIn() && loaded.length === 0) {
+      try {
+        const serverCards = await downloadCards(sub)
+        if (serverCards.length > 0) {
+          saveSubjectCards(sub, serverCards)
+          loaded = serverCards
+          setStatus(`Loaded ${serverCards.length} cards from server`)
+        }
+      } catch (err) {
+        console.warn('Could not download from server', err)
+      }
+    }
     setCards(loaded)
     setCurrentIndex(loaded.length > 0 ? 0 : -1)
     displayCard(loaded, loaded.length > 0 ? 0 : -1)
     setIsDirty(false)
   }
 
-  // Display the card at the specified index, else clear the fields if the index is out of bounds
+  const handleSetSubject = () => {
+    const input = subjectInput.trim()
+    if (!input) return
+    try {
+      const match = fuzzyMatch(input, subjects)
+      if (match && match !== input) {
+        setPopup({
+          message: `Near-identical subject "${match}" exists. Use existing or create new?`,
+          onYes: () => { setCurrentSubject(match); loadCards(match); setPopup(null) },
+          onNo: () => { setCurrentSubject(input); loadCards(input); setPopup(null) }
+        })
+      } else {
+        setCurrentSubject(input)
+        loadCards(input)
+      }
+    } catch (err) {
+      setStatus(`Subject error: ${err.message}`)
+    }
+  }
+
   const displayCard = (cardList, idx) => {
     if (idx >= 0 && idx < cardList.length) {
       setKeyword(cardList[idx].keyword || '')
@@ -81,7 +82,7 @@ const handleSetSubject = () => {
       setNotes('')
     }
   }
-  // Check for unsaved changes, and then navigate to the next or previous card
+
   const navigate = (change) => {
     if (isDirty) {
       setPopup({
@@ -93,7 +94,7 @@ const handleSetSubject = () => {
     }
     doNavigate(change)
   }
-  // Perform the actual navigation to the next or previous card
+
   const doNavigate = (change) => {
     let newIdx = currentIndex + change
     if (newIdx < 0) newIdx = 0
@@ -102,7 +103,6 @@ const handleSetSubject = () => {
     displayCard(cards, newIdx)
   }
 
-  // Create a new card, prompting user to save if there are unsaved changes
   const createNew = () => {
     if (isDirty) {
       setPopup({
@@ -115,7 +115,6 @@ const handleSetSubject = () => {
     addNew()
   }
 
-  // Add a new card to the list and reset the input fields
   const addNew = () => {
     const newCards = [...cards, { keyword: '', notes: '' }]
     setCards(newCards)
@@ -125,8 +124,7 @@ const handleSetSubject = () => {
     setIsDirty(false)
   }
 
-  // Save current card, either updating an existing one or adding a new one, and persist the changes to storage
-  const saveCurrent = () => {
+  const saveCurrent = async () => {
     const newCards = [...cards]
     if (currentIndex >= 0 && currentIndex < newCards.length) {
       newCards[currentIndex] = { keyword, notes }
@@ -137,12 +135,22 @@ const handleSetSubject = () => {
     setCards(newCards)
     saveSubjectCards(currentSubject, newCards)
     setIsDirty(false)
+
+    // Also push to server if logged in
+    if (isLoggedIn() && currentSubject) {
+      try {
+        await uploadCards(currentSubject, newCards)
+        setStatus('Saved to server')
+      } catch (err) {
+        setStatus('Saved locally (server push failed: ' + err.message + ')')
+      }
+    }
   }
 
-  // Actual component rendering
   return (
     <div>
       <h2>Take Notes</h2>
+      {status && <div>{status}</div>}
       <div>
         <input
           value={subjectInput}
