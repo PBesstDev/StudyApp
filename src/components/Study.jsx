@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef } from 'react'
 import { loadSubjects, getSubjectCards } from '../utils/storage'
 import { buildBST } from '../utils/search'
+import { isLoggedIn, searchNotes } from '../utils/api'
 
 export default function Study() {
   const [subjects, setSubjects] = useState({})
@@ -10,16 +11,16 @@ export default function Study() {
   const [currentCard, setCurrentCard] = useState(null)
   const [isFlipped, setIsFlipped] = useState(false)
   const [searchQuery, setSearchQuery] = useState('')
-  const [searchResult, setSearchResult] = useState('')
+  const [searchResults, setSearchResults] = useState([])
   const [searchTime, setSearchTime] = useState('')
   const [showSearch, setShowSearch] = useState(false)
+  const [searchMode, setSearchMode] = useState('local') // 'local' or 'server'
   const magRef = useRef(null)
 
   useEffect(() => {
     setSubjects(loadSubjects())
   }, [])
 
-  // Start study session
   const startStudy = () => {
     if (!selectedSubject) return alert('Select subject')
     const cards = getSubjectCards(selectedSubject)
@@ -28,7 +29,6 @@ export default function Study() {
     showNext([...cards])
   }
 
-  // Show the next card from the pile, randomly selecting one
   const showNext = (currentPile = pile) => {
     if (!currentPile.length) {
       setCurrentCard(null)
@@ -41,8 +41,6 @@ export default function Study() {
 
   const flip = () => setIsFlipped(!isFlipped)
 
-  // Discard the current card, removing it from the pile of potential cards, 
-  // then show the next card in pile
   const discard = () => {
     const newPile = pile.filter(c => c !== currentCard)
     setPile(newPile)
@@ -51,20 +49,29 @@ export default function Study() {
 
   const keep = () => showNext()
 
-  // Perform a search on the current pile of cards using a binary search tree.
-  // Keeping a timer on the search tree since we will eventually move to a vector search tree.
-  const performSearch = () => {
+  const performSearch = async () => {
     if (!searchQuery) return
-    const bst = buildBST(pile)
     const start = performance.now()
-    const found = bst.search(searchQuery)
+    let results = []
+    if (searchMode === 'server' && isLoggedIn()) {
+      try {
+        const data = await searchNotes(searchQuery)
+        results = Array.isArray(data) ? data : (data.results || data.cards || [])
+      } catch (err) {
+        setSearchResults([{ keyword: 'Error', notes: err.message }])
+        setSearchTime('')
+        return
+      }
+    } else {
+      const bst = buildBST(pile)
+      results = bst.searchAll(searchQuery)
+    }
     const time = (performance.now() - start).toFixed(2)
-    setSearchResult(found ? `Found: ${found.keyword}` : 'Nothing found')
-    setSearchTime(`Search took ${time} ms`)
+    setSearchResults(results)
+    setSearchTime(`Found ${results.length} result(s) in ${time} ms`)
   }
 
-  // Simple drag for "Search" magnifier icon, allowing user to move it around the screen. 
-  // Ideally, I'd want for the entire UI to be customizable to fit the end user's needs
+  // Simple drag for magnifier
   useEffect(() => {
     const el = magRef.current
     if (!el) return
@@ -91,7 +98,6 @@ export default function Study() {
     }
   }, [])
 
-  // Actual component rendering
   return (
     <div>
       <h2>Study</h2>
@@ -118,10 +124,24 @@ export default function Study() {
           <div ref={magRef} className="magnifier" style={{ position: 'absolute', top: 10, right: 10 }} onClick={() => setShowSearch(!showSearch)}>🔍</div>
           {showSearch && (
             <div className="popup" style={{ position: 'absolute' }}>
-              <input value={searchQuery} onChange={e => setSearchQuery(e.target.value)} placeholder="Search" />
+              <input value={searchQuery} onChange={e => setSearchQuery(e.target.value)} placeholder="Search keyword or phrase" />
+              <label>
+                <input type="radio" checked={searchMode === 'local'} onChange={() => setSearchMode('local')} /> Local pile
+              </label>
+              <label>
+                <input type="radio" checked={searchMode === 'server'} onChange={() => setSearchMode('server')} disabled={!isLoggedIn()} /> Server (all subjects)
+              </label>
               <button onClick={performSearch}>Search</button>
-              <div>{searchResult}</div>
               <div>{searchTime}</div>
+              <div style={{ maxHeight: 200, overflowY: 'auto', marginTop: 6 }}>
+                {searchResults.map((r, i) => (
+                  <div key={i} style={{ padding: 4, borderBottom: '1px solid #eee', cursor: 'pointer' }} onClick={() => alert(`${r.keyword || r.subject || ''}: ${r.notes || ''}`)}>
+                    <strong>{r.keyword || '(no keyword)'}</strong>
+                    {r.subject && <em> ({r.subject})</em>}
+                    <div style={{ fontSize: '0.85em', color: '#555' }}>{(r.notes || '').slice(0, 120)}{(r.notes || '').length > 120 ? '…' : ''}</div>
+                  </div>
+                ))}
+              </div>
             </div>
           )}
         </div>
