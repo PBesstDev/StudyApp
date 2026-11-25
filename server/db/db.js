@@ -4,11 +4,13 @@ dotenv.config();
 
 const { Pool } = pg;
 
+// Create a new PostgreSQL connection pool using the connection string from environment variables.
 export const pool = new Pool({
   connectionString: process.env.DATABASE_URL || 'postgresql://localhost/studyapp',
   ssl: process.env.NODE_ENV === 'production' ? { rejectUnauthorized: false } : false
 });
 
+// Function to initialize the database schema if it doesn't exist.
 export async function initSchema() {
   const client = await pool.connect();
   try {

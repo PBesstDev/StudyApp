@@ -1,7 +1,10 @@
+// jsonwebtoken is used for creating and verifying JWT tokens.
+// It is a popular library for handling authentication in Node.js applications.
 import jwt from 'jsonwebtoken';
 
 const JWT_SECRET = process.env.JWT_SECRET || 'studyapp-secret-key-change-me';
 
+// Middleware to authenticate requests using JWT
 export function authMiddleware(req, res, next) {
   try {
     const authHeader = req.headers.authorization;

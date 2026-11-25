@@ -48,7 +48,7 @@ router.post('/upload', upload.single('file'), async (req, res) => {
       return res.status(400).json({ error: 'No valid cards found' });
     }
 
-    // Upsert cards
+    // Insert or update cards
     const client = await pool.connect();
     try {
       await client.query('BEGIN');

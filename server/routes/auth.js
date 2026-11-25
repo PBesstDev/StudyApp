@@ -5,6 +5,7 @@ import { generateToken } from '../middleware/auth.js';
 
 const router = express.Router();
 
+// POST for user registration
 router.post('/register', async (req, res) => {
   try {
     const { username, password } = req.body;
@@ -32,6 +33,7 @@ router.post('/register', async (req, res) => {
   }
 });
 
+// POST for user login
 router.post('/login', async (req, res) => {
   try {
     const { username, password } = req.body;

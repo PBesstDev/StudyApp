@@ -1,0 +1,1500 @@
+{"subject": "Mathematics", "keyword": "What is Integral of cos x", "notes": "sin x + C This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Explain: Euler's identity", "notes": "e^{iπ} + 1 = 0 This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "What is Midpoint formula", "notes": "((x1+x2)/2, (y1+y2)/2)"}
+{"subject": "Mathematics", "keyword": "Describe Logarithm change of base", "notes": "log_b a = log a / log b This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Divergence theorem", "notes": "∭_V (∇·F) dV = ∯_S F·dS This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Explain: Mean value theorem", "notes": "There exists c in (a,b) such that f'(c) = [f(b)-f(a)]/(b-a)"}
+{"subject": "Mathematics", "keyword": "Describe Derivative of x²", "notes": "2x This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Describe Integral of cos x", "notes": "sin x + C"}
+{"subject": "Mathematics", "keyword": "Important: L'Hôpital's rule", "notes": "lim f/g = lim f'/g' when indeterminate This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Geometric sequence sum", "notes": "a(1-r^n)/(1-r)"}
+{"subject": "Mathematics", "keyword": "Concept – Product rule", "notes": "(uv)' = u'v + uv'"}
+{"subject": "Mathematics", "keyword": "Explain: Quadratic formula", "notes": "x = [-b ± √(b²-4ac)] / 2a"}
+{"subject": "Mathematics", "keyword": "What is 2×2 matrix determinant", "notes": "ad - bc This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Recall: Chain rule", "notes": "d/dx [f(g(x))] = f'(g(x)) · g'(x)"}
+{"subject": "Mathematics", "keyword": "Key fact about Derivative of e^x", "notes": "e^x"}
+{"subject": "Mathematics", "keyword": "State: Midpoint formula", "notes": "((x1+x2)/2, (y1+y2)/2)"}
+{"subject": "Mathematics", "keyword": "Concept – Dot product", "notes": "a·b = |a||b| cos θ This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Important: Logarithm power rule", "notes": "log(a^b) = b · log(a)"}
+{"subject": "Mathematics", "keyword": "Important: Eigenvalue definition", "notes": "Av = λv for nonzero v This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Pythagorean theorem", "notes": "a² + b² = c²"}
+{"subject": "Mathematics", "keyword": "Key fact about Area of a circle", "notes": "πr²"}
+{"subject": "Mathematics", "keyword": "Explain: Geometric sequence sum", "notes": "a(1-r^n)/(1-r)"}
+{"subject": "Mathematics", "keyword": "Key fact about Taylor series", "notes": "f(x) ≈ Σ f^{(n)}(a)(x-a)^n / n!"}
+{"subject": "Mathematics", "keyword": "Recall: Arithmetic sequence sum", "notes": "n/2 · (2a + (n-1)d) This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Explain: Eigenvalue definition", "notes": "Av = λv for nonzero v"}
+{"subject": "Mathematics", "keyword": "What is Distance formula", "notes": "√[(x2-x1)² + (y2-y1)²]"}
+{"subject": "Mathematics", "keyword": "Describe Product rule", "notes": "(uv)' = u'v + uv'"}
+{"subject": "Mathematics", "keyword": "State: Product rule", "notes": "(uv)' = u'v + uv'"}
+{"subject": "Mathematics", "keyword": "Describe Dot product", "notes": "a·b = |a||b| cos θ This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "2×2 matrix determinant", "notes": "ad - bc This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Recall: Integral of 1/x", "notes": "ln|x| + C"}
+{"subject": "Mathematics", "keyword": "Explain: Pythagorean theorem", "notes": "a² + b² = c²"}
+{"subject": "Mathematics", "keyword": "Recall: Derivative of sin x", "notes": "cos x This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Concept – Integration by parts", "notes": "∫ u dv = uv - ∫ v du"}
+{"subject": "Mathematics", "keyword": "State: Integral of cos x", "notes": "sin x + C This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Explain: Quadratic formula", "notes": "x = [-b ± √(b²-4ac)] / 2a"}
+{"subject": "Mathematics", "keyword": "Key fact about Law of cosines", "notes": "c² = a² + b² - 2ab cos C"}
+{"subject": "Mathematics", "keyword": "Important: Divergence theorem", "notes": "∭_V (∇·F) dV = ∯_S F·dS"}
+{"subject": "Mathematics", "keyword": "Define Fundamental theorem of calculus", "notes": "∫_a^b f(x) dx = F(b) - F(a) where F' = f"}
+{"subject": "Mathematics", "keyword": "Pythagorean theorem", "notes": "a² + b² = c²"}
+{"subject": "Mathematics", "keyword": "Define Quadratic formula", "notes": "x = [-b ± √(b²-4ac)] / 2a"}
+{"subject": "Mathematics", "keyword": "Important: Divergence theorem", "notes": "∭_V (∇·F) dV = ∯_S F·dS This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Important: Taylor series", "notes": "f(x) ≈ Σ f^{(n)}(a)(x-a)^n / n!"}
+{"subject": "Mathematics", "keyword": "Key fact about Binomial theorem", "notes": "(x+y)^n = Σ C(n,k) x^{n-k} y^k"}
+{"subject": "Mathematics", "keyword": "Geometric sequence sum", "notes": "a(1-r^n)/(1-r)"}
+{"subject": "Mathematics", "keyword": "Describe Chain rule", "notes": "d/dx [f(g(x))] = f'(g(x)) · g'(x)"}
+{"subject": "Mathematics", "keyword": "Recall: Area of a circle", "notes": "πr² This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Define Divergence theorem", "notes": "∭_V (∇·F) dV = ∯_S F·dS"}
+{"subject": "Mathematics", "keyword": "Key fact about Midpoint formula", "notes": "((x1+x2)/2, (y1+y2)/2)"}
+{"subject": "Mathematics", "keyword": "Define Area of a circle", "notes": "πr²"}
+{"subject": "Mathematics", "keyword": "Key fact about Chain rule", "notes": "d/dx [f(g(x))] = f'(g(x)) · g'(x)"}
+{"subject": "Mathematics", "keyword": "Important: Binomial theorem", "notes": "(x+y)^n = Σ C(n,k) x^{n-k} y^k This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Define Eigenvalue definition", "notes": "Av = λv for nonzero v"}
+{"subject": "Mathematics", "keyword": "Describe Area of a circle", "notes": "πr²"}
+{"subject": "Mathematics", "keyword": "Recall: Derivative of e^x", "notes": "e^x"}
+{"subject": "Mathematics", "keyword": "Recall: Chain rule", "notes": "d/dx [f(g(x))] = f'(g(x)) · g'(x)"}
+{"subject": "Mathematics", "keyword": "Key fact about Arithmetic sequence sum", "notes": "n/2 · (2a + (n-1)d) This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Important: Fundamental theorem of calculus", "notes": "∫_a^b f(x) dx = F(b) - F(a) where F' = f"}
+{"subject": "Mathematics", "keyword": "State: Pythagorean theorem", "notes": "a² + b² = c²"}
+{"subject": "Mathematics", "keyword": "Describe Area of a circle", "notes": "πr²"}
+{"subject": "Mathematics", "keyword": "State: Quadratic formula", "notes": "x = [-b ± √(b²-4ac)] / 2a"}
+{"subject": "Mathematics", "keyword": "Key fact about Product rule", "notes": "(uv)' = u'v + uv'"}
+{"subject": "Mathematics", "keyword": "Concept – Derivative of e^x", "notes": "e^x"}
+{"subject": "Mathematics", "keyword": "Describe Dot product", "notes": "a·b = |a||b| cos θ"}
+{"subject": "Mathematics", "keyword": "Explain: Distance formula", "notes": "√[(x2-x1)² + (y2-y1)²]"}
+{"subject": "Mathematics", "keyword": "Recall: Taylor series", "notes": "f(x) ≈ Σ f^{(n)}(a)(x-a)^n / n!"}
+{"subject": "Mathematics", "keyword": "State: Binomial theorem", "notes": "(x+y)^n = Σ C(n,k) x^{n-k} y^k This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "What is Fundamental theorem of calculus", "notes": "∫_a^b f(x) dx = F(b) - F(a) where F' = f"}
+{"subject": "Mathematics", "keyword": "Describe Derivative of sin x", "notes": "cos x This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Fundamental theorem of calculus", "notes": "∫_a^b f(x) dx = F(b) - F(a) where F' = f This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Integral of cos x", "notes": "sin x + C This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Logarithm change of base", "notes": "log_b a = log a / log b"}
+{"subject": "Mathematics", "keyword": "Describe Pythagorean theorem", "notes": "a² + b² = c² This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "State: Slope of a line", "notes": "m = (y2-y1)/(x2-x1) This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Important: Quadratic formula", "notes": "x = [-b ± √(b²-4ac)] / 2a"}
+{"subject": "Mathematics", "keyword": "State: Fundamental theorem of calculus", "notes": "∫_a^b f(x) dx = F(b) - F(a) where F' = f"}
+{"subject": "Mathematics", "keyword": "What is Mean value theorem", "notes": "There exists c in (a,b) such that f'(c) = [f(b)-f(a)]/(b-a) This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Recall: Divergence theorem", "notes": "∭_V (∇·F) dV = ∯_S F·dS"}
+{"subject": "Mathematics", "keyword": "L'Hôpital's rule", "notes": "lim f/g = lim f'/g' when indeterminate"}
+{"subject": "Mathematics", "keyword": "What is Integral of cos x", "notes": "sin x + C This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Recall: Midpoint formula", "notes": "((x1+x2)/2, (y1+y2)/2)"}
+{"subject": "Mathematics", "keyword": "Explain: Chain rule", "notes": "d/dx [f(g(x))] = f'(g(x)) · g'(x) This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "State: Law of cosines", "notes": "c² = a² + b² - 2ab cos C This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Key fact about Product rule", "notes": "(uv)' = u'v + uv'"}
+{"subject": "Mathematics", "keyword": "What is Geometric sequence sum", "notes": "a(1-r^n)/(1-r)"}
+{"subject": "Mathematics", "keyword": "Describe Geometric sequence sum", "notes": "a(1-r^n)/(1-r) This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Describe Integral of cos x", "notes": "sin x + C"}
+{"subject": "Mathematics", "keyword": "Explain: Pythagorean theorem", "notes": "a² + b² = c² This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "State: Integration by parts", "notes": "∫ u dv = uv - ∫ v du This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Taylor series", "notes": "f(x) ≈ Σ f^{(n)}(a)(x-a)^n / n! This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Concept – Derivative of x²", "notes": "2x This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "State: Volume of a sphere", "notes": "(4/3)πr³ This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Describe Distance formula", "notes": "√[(x2-x1)² + (y2-y1)²]"}
+{"subject": "Mathematics", "keyword": "Define Integration by parts", "notes": "∫ u dv = uv - ∫ v du This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Mean value theorem", "notes": "There exists c in (a,b) such that f'(c) = [f(b)-f(a)]/(b-a)"}
+{"subject": "Mathematics", "keyword": "Law of cosines", "notes": "c² = a² + b² - 2ab cos C"}
+{"subject": "Mathematics", "keyword": "Integral of 1/x", "notes": "ln|x| + C"}
+{"subject": "Mathematics", "keyword": "Describe Binomial theorem", "notes": "(x+y)^n = Σ C(n,k) x^{n-k} y^k This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "What is Binomial theorem", "notes": "(x+y)^n = Σ C(n,k) x^{n-k} y^k"}
+{"subject": "Mathematics", "keyword": "Important: Pythagorean theorem", "notes": "a² + b² = c² This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Explain: Geometric sequence sum", "notes": "a(1-r^n)/(1-r)"}
+{"subject": "Mathematics", "keyword": "Important: Logarithm change of base", "notes": "log_b a = log a / log b This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Derivative of e^x", "notes": "e^x"}
+{"subject": "Mathematics", "keyword": "Important: Divergence theorem", "notes": "∭_V (∇·F) dV = ∯_S F·dS"}
+{"subject": "Mathematics", "keyword": "Key fact about 2×2 matrix determinant", "notes": "ad - bc This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Recall: Distance formula", "notes": "√[(x2-x1)² + (y2-y1)²] This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Define Taylor series", "notes": "f(x) ≈ Σ f^{(n)}(a)(x-a)^n / n!"}
+{"subject": "Mathematics", "keyword": "State: Logarithm power rule", "notes": "log(a^b) = b · log(a)"}
+{"subject": "Mathematics", "keyword": "What is Area of a circle", "notes": "πr² This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Important: Derivative of e^x", "notes": "e^x"}
+{"subject": "Mathematics", "keyword": "Describe Pythagorean theorem", "notes": "a² + b² = c² This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Define Euler's identity", "notes": "e^{iπ} + 1 = 0"}
+{"subject": "Mathematics", "keyword": "What is Logarithm change of base", "notes": "log_b a = log a / log b"}
+{"subject": "Mathematics", "keyword": "Key fact about Eigenvalue definition", "notes": "Av = λv for nonzero v This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Describe Arithmetic sequence sum", "notes": "n/2 · (2a + (n-1)d)"}
+{"subject": "Mathematics", "keyword": "Describe Derivative of e^x", "notes": "e^x This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Describe Arithmetic sequence sum", "notes": "n/2 · (2a + (n-1)d) This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "What is Slope of a line", "notes": "m = (y2-y1)/(x2-x1)"}
+{"subject": "Mathematics", "keyword": "Key fact about Quadratic formula", "notes": "x = [-b ± √(b²-4ac)] / 2a This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Describe Chain rule", "notes": "d/dx [f(g(x))] = f'(g(x)) · g'(x) This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Important: Logarithm power rule", "notes": "log(a^b) = b · log(a) This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Explain: 2×2 matrix determinant", "notes": "ad - bc"}
+{"subject": "Mathematics", "keyword": "Key fact about Geometric sequence sum", "notes": "a(1-r^n)/(1-r)"}
+{"subject": "Mathematics", "keyword": "Euler's identity", "notes": "e^{iπ} + 1 = 0 This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Key fact about Divergence theorem", "notes": "∭_V (∇·F) dV = ∯_S F·dS This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Define 2×2 matrix determinant", "notes": "ad - bc"}
+{"subject": "Mathematics", "keyword": "Define Euler's identity", "notes": "e^{iπ} + 1 = 0"}
+{"subject": "Mathematics", "keyword": "Concept – Law of cosines", "notes": "c² = a² + b² - 2ab cos C"}
+{"subject": "Mathematics", "keyword": "What is Chain rule", "notes": "d/dx [f(g(x))] = f'(g(x)) · g'(x)"}
+{"subject": "Mathematics", "keyword": "Define Distance formula", "notes": "√[(x2-x1)² + (y2-y1)²]"}
+{"subject": "Mathematics", "keyword": "Recall: Arithmetic sequence sum", "notes": "n/2 · (2a + (n-1)d)"}
+{"subject": "Mathematics", "keyword": "Concept – Quadratic formula", "notes": "x = [-b ± √(b²-4ac)] / 2a This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Recall: Logarithm power rule", "notes": "log(a^b) = b · log(a)"}
+{"subject": "Mathematics", "keyword": "Volume of a sphere", "notes": "(4/3)πr³"}
+{"subject": "Mathematics", "keyword": "Explain: Mean value theorem", "notes": "There exists c in (a,b) such that f'(c) = [f(b)-f(a)]/(b-a)"}
+{"subject": "Mathematics", "keyword": "Describe Eigenvalue definition", "notes": "Av = λv for nonzero v"}
+{"subject": "Mathematics", "keyword": "Important: Divergence theorem", "notes": "∭_V (∇·F) dV = ∯_S F·dS"}
+{"subject": "Mathematics", "keyword": "Explain: Dot product", "notes": "a·b = |a||b| cos θ"}
+{"subject": "Mathematics", "keyword": "Define Volume of a sphere", "notes": "(4/3)πr³"}
+{"subject": "Mathematics", "keyword": "Define Derivative of x²", "notes": "2x"}
+{"subject": "Mathematics", "keyword": "Concept – 2×2 matrix determinant", "notes": "ad - bc"}
+{"subject": "Mathematics", "keyword": "Explain: Geometric sequence sum", "notes": "a(1-r^n)/(1-r) This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "What is Volume of a sphere", "notes": "(4/3)πr³"}
+{"subject": "Mathematics", "keyword": "State: Integral of 1/x", "notes": "ln|x| + C This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "State: Arithmetic sequence sum", "notes": "n/2 · (2a + (n-1)d)"}
+{"subject": "Mathematics", "keyword": "Explain: Arithmetic sequence sum", "notes": "n/2 · (2a + (n-1)d) This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Explain: Slope of a line", "notes": "m = (y2-y1)/(x2-x1)"}
+{"subject": "Mathematics", "keyword": "What is Euler's identity", "notes": "e^{iπ} + 1 = 0"}
+{"subject": "Mathematics", "keyword": "Recall: Euler's identity", "notes": "e^{iπ} + 1 = 0"}
+{"subject": "Mathematics", "keyword": "Describe Taylor series", "notes": "f(x) ≈ Σ f^{(n)}(a)(x-a)^n / n!"}
+{"subject": "Mathematics", "keyword": "What is Derivative of x²", "notes": "2x"}
+{"subject": "Mathematics", "keyword": "Define Euler's identity", "notes": "e^{iπ} + 1 = 0"}
+{"subject": "Mathematics", "keyword": "Euler's identity", "notes": "e^{iπ} + 1 = 0 This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Recall: Divergence theorem", "notes": "∭_V (∇·F) dV = ∯_S F·dS"}
+{"subject": "Mathematics", "keyword": "Concept – 2×2 matrix determinant", "notes": "ad - bc"}
+{"subject": "Mathematics", "keyword": "What is Binomial theorem", "notes": "(x+y)^n = Σ C(n,k) x^{n-k} y^k"}
+{"subject": "Mathematics", "keyword": "Explain: Derivative of sin x", "notes": "cos x This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Concept – Distance formula", "notes": "√[(x2-x1)² + (y2-y1)²] This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Describe Dot product", "notes": "a·b = |a||b| cos θ"}
+{"subject": "Mathematics", "keyword": "Explain: Midpoint formula", "notes": "((x1+x2)/2, (y1+y2)/2)"}
+{"subject": "Mathematics", "keyword": "Recall: Pythagorean theorem", "notes": "a² + b² = c²"}
+{"subject": "Mathematics", "keyword": "What is Slope of a line", "notes": "m = (y2-y1)/(x2-x1)"}
+{"subject": "Mathematics", "keyword": "Describe Logarithm power rule", "notes": "log(a^b) = b · log(a)"}
+{"subject": "Mathematics", "keyword": "Recall: Divergence theorem", "notes": "∭_V (∇·F) dV = ∯_S F·dS"}
+{"subject": "Mathematics", "keyword": "Describe Logarithm power rule", "notes": "log(a^b) = b · log(a) This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Concept – Divergence theorem", "notes": "∭_V (∇·F) dV = ∯_S F·dS"}
+{"subject": "Mathematics", "keyword": "Define Logarithm change of base", "notes": "log_b a = log a / log b"}
+{"subject": "Mathematics", "keyword": "Concept – Logarithm power rule", "notes": "log(a^b) = b · log(a)"}
+{"subject": "Mathematics", "keyword": "Key fact about Derivative of x²", "notes": "2x This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Important: Divergence theorem", "notes": "∭_V (∇·F) dV = ∯_S F·dS"}
+{"subject": "Mathematics", "keyword": "State: 2×2 matrix determinant", "notes": "ad - bc"}
+{"subject": "Mathematics", "keyword": "Explain: Slope of a line", "notes": "m = (y2-y1)/(x2-x1)"}
+{"subject": "Mathematics", "keyword": "Define Volume of a sphere", "notes": "(4/3)πr³"}
+{"subject": "Mathematics", "keyword": "Describe Logarithm power rule", "notes": "log(a^b) = b · log(a)"}
+{"subject": "Mathematics", "keyword": "Recall: Derivative of e^x", "notes": "e^x This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Explain: Area of a circle", "notes": "πr²"}
+{"subject": "Mathematics", "keyword": "Explain: Fundamental theorem of calculus", "notes": "∫_a^b f(x) dx = F(b) - F(a) where F' = f This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Explain: Integral of 1/x", "notes": "ln|x| + C"}
+{"subject": "Mathematics", "keyword": "What is Derivative of e^x", "notes": "e^x"}
+{"subject": "Mathematics", "keyword": "Important: Logarithm change of base", "notes": "log_b a = log a / log b This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Concept – Distance formula", "notes": "√[(x2-x1)² + (y2-y1)²]"}
+{"subject": "Mathematics", "keyword": "Define Fundamental theorem of calculus", "notes": "∫_a^b f(x) dx = F(b) - F(a) where F' = f"}
+{"subject": "Mathematics", "keyword": "What is Derivative of x²", "notes": "2x"}
+{"subject": "Mathematics", "keyword": "Define Fundamental theorem of calculus", "notes": "∫_a^b f(x) dx = F(b) - F(a) where F' = f"}
+{"subject": "Mathematics", "keyword": "Describe Distance formula", "notes": "√[(x2-x1)² + (y2-y1)²]"}
+{"subject": "Mathematics", "keyword": "Explain: Law of cosines", "notes": "c² = a² + b² - 2ab cos C"}
+{"subject": "Mathematics", "keyword": "State: Chain rule", "notes": "d/dx [f(g(x))] = f'(g(x)) · g'(x) This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Describe L'Hôpital's rule", "notes": "lim f/g = lim f'/g' when indeterminate"}
+{"subject": "Mathematics", "keyword": "Recall: Derivative of e^x", "notes": "e^x"}
+{"subject": "Mathematics", "keyword": "State: Logarithm change of base", "notes": "log_b a = log a / log b"}
+{"subject": "Mathematics", "keyword": "Describe Midpoint formula", "notes": "((x1+x2)/2, (y1+y2)/2)"}
+{"subject": "Mathematics", "keyword": "Describe Dot product", "notes": "a·b = |a||b| cos θ"}
+{"subject": "Mathematics", "keyword": "State: Product rule", "notes": "(uv)' = u'v + uv'"}
+{"subject": "Mathematics", "keyword": "Explain: Area of a circle", "notes": "πr²"}
+{"subject": "Mathematics", "keyword": "Describe Euler's identity", "notes": "e^{iπ} + 1 = 0"}
+{"subject": "Mathematics", "keyword": "Key fact about Fundamental theorem of calculus", "notes": "∫_a^b f(x) dx = F(b) - F(a) where F' = f"}
+{"subject": "Mathematics", "keyword": "Key fact about Distance formula", "notes": "√[(x2-x1)² + (y2-y1)²] This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Recall: 2×2 matrix determinant", "notes": "ad - bc"}
+{"subject": "Mathematics", "keyword": "Define Pythagorean theorem", "notes": "a² + b² = c² This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Define Taylor series", "notes": "f(x) ≈ Σ f^{(n)}(a)(x-a)^n / n!"}
+{"subject": "Mathematics", "keyword": "Concept – Pythagorean theorem", "notes": "a² + b² = c²"}
+{"subject": "Mathematics", "keyword": "State: Law of cosines", "notes": "c² = a² + b² - 2ab cos C"}
+{"subject": "Mathematics", "keyword": "Concept – Mean value theorem", "notes": "There exists c in (a,b) such that f'(c) = [f(b)-f(a)]/(b-a)"}
+{"subject": "Mathematics", "keyword": "Important: Area of a circle", "notes": "πr²"}
+{"subject": "Mathematics", "keyword": "Important: Derivative of x²", "notes": "2x"}
+{"subject": "Mathematics", "keyword": "Recall: Derivative of x²", "notes": "2x This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Concept – Taylor series", "notes": "f(x) ≈ Σ f^{(n)}(a)(x-a)^n / n!"}
+{"subject": "Mathematics", "keyword": "Describe Midpoint formula", "notes": "((x1+x2)/2, (y1+y2)/2)"}
+{"subject": "Mathematics", "keyword": "Explain: Logarithm change of base", "notes": "log_b a = log a / log b"}
+{"subject": "Mathematics", "keyword": "Concept – Euler's identity", "notes": "e^{iπ} + 1 = 0"}
+{"subject": "Mathematics", "keyword": "Recall: Taylor series", "notes": "f(x) ≈ Σ f^{(n)}(a)(x-a)^n / n!"}
+{"subject": "Mathematics", "keyword": "Concept – Volume of a sphere", "notes": "(4/3)πr³"}
+{"subject": "Mathematics", "keyword": "State: Arithmetic sequence sum", "notes": "n/2 · (2a + (n-1)d)"}
+{"subject": "Mathematics", "keyword": "Describe Derivative of e^x", "notes": "e^x This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Important: Taylor series", "notes": "f(x) ≈ Σ f^{(n)}(a)(x-a)^n / n!"}
+{"subject": "Mathematics", "keyword": "What is Derivative of x²", "notes": "2x"}
+{"subject": "Mathematics", "keyword": "State: Quadratic formula", "notes": "x = [-b ± √(b²-4ac)] / 2a This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Concept – Euler's identity", "notes": "e^{iπ} + 1 = 0"}
+{"subject": "Mathematics", "keyword": "Recall: L'Hôpital's rule", "notes": "lim f/g = lim f'/g' when indeterminate"}
+{"subject": "Mathematics", "keyword": "Concept – Logarithm change of base", "notes": "log_b a = log a / log b This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Concept – Arithmetic sequence sum", "notes": "n/2 · (2a + (n-1)d) This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "State: Pythagorean theorem", "notes": "a² + b² = c² This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Law of cosines", "notes": "c² = a² + b² - 2ab cos C"}
+{"subject": "Mathematics", "keyword": "Explain: Eigenvalue definition", "notes": "Av = λv for nonzero v"}
+{"subject": "Mathematics", "keyword": "Area of a circle", "notes": "πr²"}
+{"subject": "Mathematics", "keyword": "Explain: Fundamental theorem of calculus", "notes": "∫_a^b f(x) dx = F(b) - F(a) where F' = f"}
+{"subject": "Mathematics", "keyword": "Define Derivative of e^x", "notes": "e^x This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "What is Integration by parts", "notes": "∫ u dv = uv - ∫ v du"}
+{"subject": "Mathematics", "keyword": "State: Mean value theorem", "notes": "There exists c in (a,b) such that f'(c) = [f(b)-f(a)]/(b-a)"}
+{"subject": "Mathematics", "keyword": "Recall: Area of a circle", "notes": "πr² This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "What is Derivative of e^x", "notes": "e^x"}
+{"subject": "Mathematics", "keyword": "Key fact about Product rule", "notes": "(uv)' = u'v + uv' This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Key fact about Derivative of x²", "notes": "2x"}
+{"subject": "Mathematics", "keyword": "Concept – Dot product", "notes": "a·b = |a||b| cos θ"}
+{"subject": "Mathematics", "keyword": "Explain: Distance formula", "notes": "√[(x2-x1)² + (y2-y1)²] This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Explain: Distance formula", "notes": "√[(x2-x1)² + (y2-y1)²] This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Key fact about Area of a circle", "notes": "πr²"}
+{"subject": "Mathematics", "keyword": "What is Derivative of e^x", "notes": "e^x"}
+{"subject": "Mathematics", "keyword": "Derivative of sin x", "notes": "cos x"}
+{"subject": "Mathematics", "keyword": "Recall: Divergence theorem", "notes": "∭_V (∇·F) dV = ∯_S F·dS This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Recall: Integral of cos x", "notes": "sin x + C This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "State: Divergence theorem", "notes": "∭_V (∇·F) dV = ∯_S F·dS This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "State: Eigenvalue definition", "notes": "Av = λv for nonzero v"}
+{"subject": "Mathematics", "keyword": "Define Divergence theorem", "notes": "∭_V (∇·F) dV = ∯_S F·dS"}
+{"subject": "Mathematics", "keyword": "Key fact about Integral of cos x", "notes": "sin x + C"}
+{"subject": "Mathematics", "keyword": "Describe Dot product", "notes": "a·b = |a||b| cos θ"}
+{"subject": "Mathematics", "keyword": "Concept – L'Hôpital's rule", "notes": "lim f/g = lim f'/g' when indeterminate"}
+{"subject": "Mathematics", "keyword": "Key fact about Derivative of sin x", "notes": "cos x"}
+{"subject": "Mathematics", "keyword": "What is Fundamental theorem of calculus", "notes": "∫_a^b f(x) dx = F(b) - F(a) where F' = f This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Explain: L'Hôpital's rule", "notes": "lim f/g = lim f'/g' when indeterminate"}
+{"subject": "Mathematics", "keyword": "Important: Derivative of sin x", "notes": "cos x"}
+{"subject": "Mathematics", "keyword": "2×2 matrix determinant", "notes": "ad - bc"}
+{"subject": "Mathematics", "keyword": "Define 2×2 matrix determinant", "notes": "ad - bc"}
+{"subject": "Mathematics", "keyword": "Key fact about Eigenvalue definition", "notes": "Av = λv for nonzero v"}
+{"subject": "Mathematics", "keyword": "Important: Logarithm change of base", "notes": "log_b a = log a / log b"}
+{"subject": "Mathematics", "keyword": "Describe Euler's identity", "notes": "e^{iπ} + 1 = 0 This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "What is Mean value theorem", "notes": "There exists c in (a,b) such that f'(c) = [f(b)-f(a)]/(b-a) This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "State: Divergence theorem", "notes": "∭_V (∇·F) dV = ∯_S F·dS"}
+{"subject": "Mathematics", "keyword": "State: Fundamental theorem of calculus", "notes": "∫_a^b f(x) dx = F(b) - F(a) where F' = f"}
+{"subject": "Mathematics", "keyword": "State: Integration by parts", "notes": "∫ u dv = uv - ∫ v du"}
+{"subject": "Mathematics", "keyword": "Key fact about Pythagorean theorem", "notes": "a² + b² = c² This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Explain: Distance formula", "notes": "√[(x2-x1)² + (y2-y1)²]"}
+{"subject": "Mathematics", "keyword": "Recall: Derivative of sin x", "notes": "cos x"}
+{"subject": "Mathematics", "keyword": "Recall: Binomial theorem", "notes": "(x+y)^n = Σ C(n,k) x^{n-k} y^k"}
+{"subject": "Mathematics", "keyword": "Describe Midpoint formula", "notes": "((x1+x2)/2, (y1+y2)/2)"}
+{"subject": "Mathematics", "keyword": "State: Distance formula", "notes": "√[(x2-x1)² + (y2-y1)²] This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Explain: Euler's identity", "notes": "e^{iπ} + 1 = 0 This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Recall: Mean value theorem", "notes": "There exists c in (a,b) such that f'(c) = [f(b)-f(a)]/(b-a) This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Define Law of cosines", "notes": "c² = a² + b² - 2ab cos C This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "State: Midpoint formula", "notes": "((x1+x2)/2, (y1+y2)/2) This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Describe Derivative of sin x", "notes": "cos x"}
+{"subject": "Mathematics", "keyword": "Explain: Chain rule", "notes": "d/dx [f(g(x))] = f'(g(x)) · g'(x) This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Define Eigenvalue definition", "notes": "Av = λv for nonzero v"}
+{"subject": "Mathematics", "keyword": "Describe Distance formula", "notes": "√[(x2-x1)² + (y2-y1)²] This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Integral of 1/x", "notes": "ln|x| + C"}
+{"subject": "Mathematics", "keyword": "Define Distance formula", "notes": "√[(x2-x1)² + (y2-y1)²]"}
+{"subject": "Mathematics", "keyword": "State: Area of a circle", "notes": "πr² This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Important: Derivative of x²", "notes": "2x This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "State: Integration by parts", "notes": "∫ u dv = uv - ∫ v du"}
+{"subject": "Mathematics", "keyword": "Key fact about Integral of 1/x", "notes": "ln|x| + C"}
+{"subject": "Mathematics", "keyword": "What is Integration by parts", "notes": "∫ u dv = uv - ∫ v du"}
+{"subject": "Mathematics", "keyword": "State: Taylor series", "notes": "f(x) ≈ Σ f^{(n)}(a)(x-a)^n / n! This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Integral of cos x", "notes": "sin x + C This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Important: Volume of a sphere", "notes": "(4/3)πr³"}
+{"subject": "Mathematics", "keyword": "Explain: Pythagorean theorem", "notes": "a² + b² = c² This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Concept – Area of a circle", "notes": "πr²"}
+{"subject": "Mathematics", "keyword": "Important: Volume of a sphere", "notes": "(4/3)πr³ This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Concept – Binomial theorem", "notes": "(x+y)^n = Σ C(n,k) x^{n-k} y^k"}
+{"subject": "Mathematics", "keyword": "Key fact about L'Hôpital's rule", "notes": "lim f/g = lim f'/g' when indeterminate"}
+{"subject": "Mathematics", "keyword": "Key fact about Divergence theorem", "notes": "∭_V (∇·F) dV = ∯_S F·dS"}
+{"subject": "Mathematics", "keyword": "Important: Integral of 1/x", "notes": "ln|x| + C"}
+{"subject": "Mathematics", "keyword": "Explain: Chain rule", "notes": "d/dx [f(g(x))] = f'(g(x)) · g'(x)"}
+{"subject": "Mathematics", "keyword": "What is Euler's identity", "notes": "e^{iπ} + 1 = 0 This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Describe Product rule", "notes": "(uv)' = u'v + uv' This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Concept – Derivative of x²", "notes": "2x"}
+{"subject": "Mathematics", "keyword": "State: Derivative of e^x", "notes": "e^x This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Key fact about Fundamental theorem of calculus", "notes": "∫_a^b f(x) dx = F(b) - F(a) where F' = f"}
+{"subject": "Mathematics", "keyword": "State: Distance formula", "notes": "√[(x2-x1)² + (y2-y1)²] This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Key fact about Fundamental theorem of calculus", "notes": "∫_a^b f(x) dx = F(b) - F(a) where F' = f"}
+{"subject": "Mathematics", "keyword": "Important: Integral of cos x", "notes": "sin x + C"}
+{"subject": "Mathematics", "keyword": "Explain: Dot product", "notes": "a·b = |a||b| cos θ"}
+{"subject": "Mathematics", "keyword": "Explain: Law of cosines", "notes": "c² = a² + b² - 2ab cos C"}
+{"subject": "Mathematics", "keyword": "Key fact about Dot product", "notes": "a·b = |a||b| cos θ"}
+{"subject": "Mathematics", "keyword": "Pythagorean theorem", "notes": "a² + b² = c² This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Important: Logarithm power rule", "notes": "log(a^b) = b · log(a)"}
+{"subject": "Mathematics", "keyword": "Key fact about Derivative of sin x", "notes": "cos x"}
+{"subject": "Mathematics", "keyword": "Key fact about L'Hôpital's rule", "notes": "lim f/g = lim f'/g' when indeterminate"}
+{"subject": "Mathematics", "keyword": "Describe Euler's identity", "notes": "e^{iπ} + 1 = 0"}
+{"subject": "Mathematics", "keyword": "What is L'Hôpital's rule", "notes": "lim f/g = lim f'/g' when indeterminate"}
+{"subject": "Mathematics", "keyword": "Concept – Logarithm change of base", "notes": "log_b a = log a / log b"}
+{"subject": "Mathematics", "keyword": "Key fact about Derivative of e^x", "notes": "e^x This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Important: Fundamental theorem of calculus", "notes": "∫_a^b f(x) dx = F(b) - F(a) where F' = f"}
+{"subject": "Mathematics", "keyword": "Key fact about Derivative of x²", "notes": "2x"}
+{"subject": "Mathematics", "keyword": "Define Area of a circle", "notes": "πr²"}
+{"subject": "Mathematics", "keyword": "State: Integral of cos x", "notes": "sin x + C"}
+{"subject": "Mathematics", "keyword": "Important: Product rule", "notes": "(uv)' = u'v + uv'"}
+{"subject": "Mathematics", "keyword": "State: Arithmetic sequence sum", "notes": "n/2 · (2a + (n-1)d)"}
+{"subject": "Mathematics", "keyword": "Recall: Integration by parts", "notes": "∫ u dv = uv - ∫ v du"}
+{"subject": "Mathematics", "keyword": "What is 2×2 matrix determinant", "notes": "ad - bc"}
+{"subject": "Mathematics", "keyword": "Concept – 2×2 matrix determinant", "notes": "ad - bc"}
+{"subject": "Mathematics", "keyword": "Concept – Logarithm power rule", "notes": "log(a^b) = b · log(a)"}
+{"subject": "Mathematics", "keyword": "Law of cosines", "notes": "c² = a² + b² - 2ab cos C"}
+{"subject": "Mathematics", "keyword": "Key fact about 2×2 matrix determinant", "notes": "ad - bc"}
+{"subject": "Mathematics", "keyword": "Concept – Area of a circle", "notes": "πr²"}
+{"subject": "Mathematics", "keyword": "Arithmetic sequence sum", "notes": "n/2 · (2a + (n-1)d)"}
+{"subject": "Mathematics", "keyword": "State: Law of cosines", "notes": "c² = a² + b² - 2ab cos C"}
+{"subject": "Mathematics", "keyword": "Describe Mean value theorem", "notes": "There exists c in (a,b) such that f'(c) = [f(b)-f(a)]/(b-a)"}
+{"subject": "Mathematics", "keyword": "State: Area of a circle", "notes": "πr²"}
+{"subject": "Mathematics", "keyword": "Area of a circle", "notes": "πr² This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Define Law of cosines", "notes": "c² = a² + b² - 2ab cos C"}
+{"subject": "Mathematics", "keyword": "State: L'Hôpital's rule", "notes": "lim f/g = lim f'/g' when indeterminate This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Important: Integral of cos x", "notes": "sin x + C"}
+{"subject": "Mathematics", "keyword": "Define Distance formula", "notes": "√[(x2-x1)² + (y2-y1)²]"}
+{"subject": "Mathematics", "keyword": "Describe Derivative of x²", "notes": "2x"}
+{"subject": "Mathematics", "keyword": "What is Fundamental theorem of calculus", "notes": "∫_a^b f(x) dx = F(b) - F(a) where F' = f"}
+{"subject": "Mathematics", "keyword": "Define Chain rule", "notes": "d/dx [f(g(x))] = f'(g(x)) · g'(x)"}
+{"subject": "Mathematics", "keyword": "Key fact about Distance formula", "notes": "√[(x2-x1)² + (y2-y1)²]"}
+{"subject": "Mathematics", "keyword": "Concept – Euler's identity", "notes": "e^{iπ} + 1 = 0"}
+{"subject": "Mathematics", "keyword": "Explain: Integration by parts", "notes": "∫ u dv = uv - ∫ v du"}
+{"subject": "Mathematics", "keyword": "Concept – Quadratic formula", "notes": "x = [-b ± √(b²-4ac)] / 2a This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Describe Derivative of e^x", "notes": "e^x"}
+{"subject": "Mathematics", "keyword": "What is Quadratic formula", "notes": "x = [-b ± √(b²-4ac)] / 2a This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Concept – Volume of a sphere", "notes": "(4/3)πr³"}
+{"subject": "Mathematics", "keyword": "Describe Volume of a sphere", "notes": "(4/3)πr³ This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Key fact about Derivative of x²", "notes": "2x"}
+{"subject": "Mathematics", "keyword": "Important: Arithmetic sequence sum", "notes": "n/2 · (2a + (n-1)d)"}
+{"subject": "Mathematics", "keyword": "State: Slope of a line", "notes": "m = (y2-y1)/(x2-x1)"}
+{"subject": "Mathematics", "keyword": "Describe L'Hôpital's rule", "notes": "lim f/g = lim f'/g' when indeterminate"}
+{"subject": "Mathematics", "keyword": "Describe 2×2 matrix determinant", "notes": "ad - bc"}
+{"subject": "Mathematics", "keyword": "State: Taylor series", "notes": "f(x) ≈ Σ f^{(n)}(a)(x-a)^n / n!"}
+{"subject": "Mathematics", "keyword": "Explain: Geometric sequence sum", "notes": "a(1-r^n)/(1-r)"}
+{"subject": "Mathematics", "keyword": "Important: Fundamental theorem of calculus", "notes": "∫_a^b f(x) dx = F(b) - F(a) where F' = f"}
+{"subject": "Mathematics", "keyword": "Concept – Geometric sequence sum", "notes": "a(1-r^n)/(1-r) This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "State: Midpoint formula", "notes": "((x1+x2)/2, (y1+y2)/2)"}
+{"subject": "Mathematics", "keyword": "Concept – Volume of a sphere", "notes": "(4/3)πr³"}
+{"subject": "Mathematics", "keyword": "Define Slope of a line", "notes": "m = (y2-y1)/(x2-x1)"}
+{"subject": "Mathematics", "keyword": "Define Integral of 1/x", "notes": "ln|x| + C"}
+{"subject": "Mathematics", "keyword": "Recall: Derivative of sin x", "notes": "cos x"}
+{"subject": "Mathematics", "keyword": "State: Geometric sequence sum", "notes": "a(1-r^n)/(1-r) This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "State: Dot product", "notes": "a·b = |a||b| cos θ This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Concept – Quadratic formula", "notes": "x = [-b ± √(b²-4ac)] / 2a"}
+{"subject": "Mathematics", "keyword": "What is Quadratic formula", "notes": "x = [-b ± √(b²-4ac)] / 2a"}
+{"subject": "Mathematics", "keyword": "Recall: Euler's identity", "notes": "e^{iπ} + 1 = 0"}
+{"subject": "Mathematics", "keyword": "What is Taylor series", "notes": "f(x) ≈ Σ f^{(n)}(a)(x-a)^n / n!"}
+{"subject": "Mathematics", "keyword": "Describe Geometric sequence sum", "notes": "a(1-r^n)/(1-r)"}
+{"subject": "Mathematics", "keyword": "State: 2×2 matrix determinant", "notes": "ad - bc"}
+{"subject": "Mathematics", "keyword": "Important: Integral of 1/x", "notes": "ln|x| + C This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Key fact about Integral of cos x", "notes": "sin x + C"}
+{"subject": "Mathematics", "keyword": "What is Midpoint formula", "notes": "((x1+x2)/2, (y1+y2)/2)"}
+{"subject": "Mathematics", "keyword": "What is Chain rule", "notes": "d/dx [f(g(x))] = f'(g(x)) · g'(x)"}
+{"subject": "Mathematics", "keyword": "Key fact about Distance formula", "notes": "√[(x2-x1)² + (y2-y1)²]"}
+{"subject": "Mathematics", "keyword": "Recall: Integral of 1/x", "notes": "ln|x| + C"}
+{"subject": "Mathematics", "keyword": "Recall: Logarithm power rule", "notes": "log(a^b) = b · log(a)"}
+{"subject": "Mathematics", "keyword": "Explain: Quadratic formula", "notes": "x = [-b ± √(b²-4ac)] / 2a"}
+{"subject": "Mathematics", "keyword": "Define Derivative of sin x", "notes": "cos x This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Important: Pythagorean theorem", "notes": "a² + b² = c²"}
+{"subject": "Mathematics", "keyword": "Explain: Derivative of e^x", "notes": "e^x"}
+{"subject": "Mathematics", "keyword": "Define Derivative of sin x", "notes": "cos x This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Key fact about Integral of cos x", "notes": "sin x + C"}
+{"subject": "Mathematics", "keyword": "Slope of a line", "notes": "m = (y2-y1)/(x2-x1)"}
+{"subject": "Mathematics", "keyword": "Key fact about L'Hôpital's rule", "notes": "lim f/g = lim f'/g' when indeterminate"}
+{"subject": "Mathematics", "keyword": "What is Product rule", "notes": "(uv)' = u'v + uv'"}
+{"subject": "Mathematics", "keyword": "Important: Eigenvalue definition", "notes": "Av = λv for nonzero v This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Key fact about Divergence theorem", "notes": "∭_V (∇·F) dV = ∯_S F·dS"}
+{"subject": "Mathematics", "keyword": "Explain: Logarithm power rule", "notes": "log(a^b) = b · log(a)"}
+{"subject": "Mathematics", "keyword": "State: Geometric sequence sum", "notes": "a(1-r^n)/(1-r) This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Important: Taylor series", "notes": "f(x) ≈ Σ f^{(n)}(a)(x-a)^n / n!"}
+{"subject": "Mathematics", "keyword": "Key fact about Logarithm power rule", "notes": "log(a^b) = b · log(a) This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Concept – Arithmetic sequence sum", "notes": "n/2 · (2a + (n-1)d) This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Derivative of sin x", "notes": "cos x"}
+{"subject": "Mathematics", "keyword": "State: Midpoint formula", "notes": "((x1+x2)/2, (y1+y2)/2)"}
+{"subject": "Mathematics", "keyword": "Key fact about Logarithm change of base", "notes": "log_b a = log a / log b"}
+{"subject": "Mathematics", "keyword": "Important: Fundamental theorem of calculus", "notes": "∫_a^b f(x) dx = F(b) - F(a) where F' = f"}
+{"subject": "Mathematics", "keyword": "Explain: Fundamental theorem of calculus", "notes": "∫_a^b f(x) dx = F(b) - F(a) where F' = f"}
+{"subject": "Mathematics", "keyword": "Define Slope of a line", "notes": "m = (y2-y1)/(x2-x1)"}
+{"subject": "Mathematics", "keyword": "Logarithm change of base", "notes": "log_b a = log a / log b"}
+{"subject": "Mathematics", "keyword": "L'Hôpital's rule", "notes": "lim f/g = lim f'/g' when indeterminate"}
+{"subject": "Mathematics", "keyword": "Define Midpoint formula", "notes": "((x1+x2)/2, (y1+y2)/2) This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Recall: Logarithm power rule", "notes": "log(a^b) = b · log(a)"}
+{"subject": "Mathematics", "keyword": "Explain: Product rule", "notes": "(uv)' = u'v + uv' This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Recall: Law of cosines", "notes": "c² = a² + b² - 2ab cos C"}
+{"subject": "Mathematics", "keyword": "Key fact about Dot product", "notes": "a·b = |a||b| cos θ"}
+{"subject": "Mathematics", "keyword": "State: Euler's identity", "notes": "e^{iπ} + 1 = 0"}
+{"subject": "Mathematics", "keyword": "Recall: Logarithm power rule", "notes": "log(a^b) = b · log(a)"}
+{"subject": "Mathematics", "keyword": "What is L'Hôpital's rule", "notes": "lim f/g = lim f'/g' when indeterminate This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Concept – Fundamental theorem of calculus", "notes": "∫_a^b f(x) dx = F(b) - F(a) where F' = f"}
+{"subject": "Mathematics", "keyword": "Describe Volume of a sphere", "notes": "(4/3)πr³"}
+{"subject": "Mathematics", "keyword": "Concept – Volume of a sphere", "notes": "(4/3)πr³ This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "What is Law of cosines", "notes": "c² = a² + b² - 2ab cos C"}
+{"subject": "Mathematics", "keyword": "Key fact about Slope of a line", "notes": "m = (y2-y1)/(x2-x1)"}
+{"subject": "Mathematics", "keyword": "Recall: Arithmetic sequence sum", "notes": "n/2 · (2a + (n-1)d) This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "State: Fundamental theorem of calculus", "notes": "∫_a^b f(x) dx = F(b) - F(a) where F' = f This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Describe Logarithm change of base", "notes": "log_b a = log a / log b"}
+{"subject": "Mathematics", "keyword": "Explain: Derivative of e^x", "notes": "e^x"}
+{"subject": "Mathematics", "keyword": "State: Integral of cos x", "notes": "sin x + C"}
+{"subject": "Mathematics", "keyword": "Concept – Logarithm power rule", "notes": "log(a^b) = b · log(a) This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Integral of 1/x", "notes": "ln|x| + C"}
+{"subject": "Mathematics", "keyword": "What is Integration by parts", "notes": "∫ u dv = uv - ∫ v du This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Describe Logarithm change of base", "notes": "log_b a = log a / log b This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Recall: L'Hôpital's rule", "notes": "lim f/g = lim f'/g' when indeterminate"}
+{"subject": "Mathematics", "keyword": "Describe Midpoint formula", "notes": "((x1+x2)/2, (y1+y2)/2)"}
+{"subject": "Mathematics", "keyword": "Define Midpoint formula", "notes": "((x1+x2)/2, (y1+y2)/2)"}
+{"subject": "Mathematics", "keyword": "What is Integral of cos x", "notes": "sin x + C"}
+{"subject": "Mathematics", "keyword": "Concept – Derivative of e^x", "notes": "e^x"}
+{"subject": "Mathematics", "keyword": "Euler's identity", "notes": "e^{iπ} + 1 = 0"}
+{"subject": "Mathematics", "keyword": "State: Mean value theorem", "notes": "There exists c in (a,b) such that f'(c) = [f(b)-f(a)]/(b-a)"}
+{"subject": "Mathematics", "keyword": "Recall: Fundamental theorem of calculus", "notes": "∫_a^b f(x) dx = F(b) - F(a) where F' = f This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Recall: Slope of a line", "notes": "m = (y2-y1)/(x2-x1)"}
+{"subject": "Mathematics", "keyword": "Recall: Integral of cos x", "notes": "sin x + C This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Explain: Euler's identity", "notes": "e^{iπ} + 1 = 0"}
+{"subject": "Mathematics", "keyword": "State: Geometric sequence sum", "notes": "a(1-r^n)/(1-r) This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Important: Mean value theorem", "notes": "There exists c in (a,b) such that f'(c) = [f(b)-f(a)]/(b-a)"}
+{"subject": "Mathematics", "keyword": "Recall: Integral of 1/x", "notes": "ln|x| + C This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Important: Quadratic formula", "notes": "x = [-b ± √(b²-4ac)] / 2a This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Describe Arithmetic sequence sum", "notes": "n/2 · (2a + (n-1)d) This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Explain: Mean value theorem", "notes": "There exists c in (a,b) such that f'(c) = [f(b)-f(a)]/(b-a)"}
+{"subject": "Mathematics", "keyword": "Important: Quadratic formula", "notes": "x = [-b ± √(b²-4ac)] / 2a This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Define Geometric sequence sum", "notes": "a(1-r^n)/(1-r)"}
+{"subject": "Mathematics", "keyword": "Key fact about Law of cosines", "notes": "c² = a² + b² - 2ab cos C"}
+{"subject": "Mathematics", "keyword": "Chain rule", "notes": "d/dx [f(g(x))] = f'(g(x)) · g'(x) This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Explain: Eigenvalue definition", "notes": "Av = λv for nonzero v"}
+{"subject": "Mathematics", "keyword": "Define Derivative of x²", "notes": "2x This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Concept – Quadratic formula", "notes": "x = [-b ± √(b²-4ac)] / 2a"}
+{"subject": "Mathematics", "keyword": "What is Midpoint formula", "notes": "((x1+x2)/2, (y1+y2)/2)"}
+{"subject": "Mathematics", "keyword": "Recall: Area of a circle", "notes": "πr²"}
+{"subject": "Mathematics", "keyword": "State: Chain rule", "notes": "d/dx [f(g(x))] = f'(g(x)) · g'(x)"}
+{"subject": "Mathematics", "keyword": "Derivative of e^x", "notes": "e^x"}
+{"subject": "Mathematics", "keyword": "Describe Dot product", "notes": "a·b = |a||b| cos θ"}
+{"subject": "Mathematics", "keyword": "Integral of cos x", "notes": "sin x + C This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Concept – Integration by parts", "notes": "∫ u dv = uv - ∫ v du"}
+{"subject": "Mathematics", "keyword": "State: Chain rule", "notes": "d/dx [f(g(x))] = f'(g(x)) · g'(x)"}
+{"subject": "Mathematics", "keyword": "What is L'Hôpital's rule", "notes": "lim f/g = lim f'/g' when indeterminate"}
+{"subject": "Mathematics", "keyword": "Important: 2×2 matrix determinant", "notes": "ad - bc This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Key fact about Quadratic formula", "notes": "x = [-b ± √(b²-4ac)] / 2a"}
+{"subject": "Mathematics", "keyword": "Describe Derivative of sin x", "notes": "cos x"}
+{"subject": "Mathematics", "keyword": "Important: Taylor series", "notes": "f(x) ≈ Σ f^{(n)}(a)(x-a)^n / n!"}
+{"subject": "Mathematics", "keyword": "Describe L'Hôpital's rule", "notes": "lim f/g = lim f'/g' when indeterminate"}
+{"subject": "Mathematics", "keyword": "What is Chain rule", "notes": "d/dx [f(g(x))] = f'(g(x)) · g'(x)"}
+{"subject": "Mathematics", "keyword": "Describe Integral of cos x", "notes": "sin x + C"}
+{"subject": "Mathematics", "keyword": "Concept – Mean value theorem", "notes": "There exists c in (a,b) such that f'(c) = [f(b)-f(a)]/(b-a)"}
+{"subject": "Mathematics", "keyword": "Concept – Fundamental theorem of calculus", "notes": "∫_a^b f(x) dx = F(b) - F(a) where F' = f"}
+{"subject": "Mathematics", "keyword": "Concept – L'Hôpital's rule", "notes": "lim f/g = lim f'/g' when indeterminate"}
+{"subject": "Mathematics", "keyword": "Recall: Chain rule", "notes": "d/dx [f(g(x))] = f'(g(x)) · g'(x)"}
+{"subject": "Mathematics", "keyword": "Key fact about Slope of a line", "notes": "m = (y2-y1)/(x2-x1)"}
+{"subject": "Mathematics", "keyword": "State: Quadratic formula", "notes": "x = [-b ± √(b²-4ac)] / 2a This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "What is Arithmetic sequence sum", "notes": "n/2 · (2a + (n-1)d) This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Recall: Chain rule", "notes": "d/dx [f(g(x))] = f'(g(x)) · g'(x)"}
+{"subject": "Mathematics", "keyword": "Law of cosines", "notes": "c² = a² + b² - 2ab cos C"}
+{"subject": "Mathematics", "keyword": "Describe Law of cosines", "notes": "c² = a² + b² - 2ab cos C"}
+{"subject": "Mathematics", "keyword": "Concept – Chain rule", "notes": "d/dx [f(g(x))] = f'(g(x)) · g'(x)"}
+{"subject": "Mathematics", "keyword": "Concept – Slope of a line", "notes": "m = (y2-y1)/(x2-x1)"}
+{"subject": "Mathematics", "keyword": "Midpoint formula", "notes": "((x1+x2)/2, (y1+y2)/2)"}
+{"subject": "Mathematics", "keyword": "Key fact about Derivative of e^x", "notes": "e^x"}
+{"subject": "Mathematics", "keyword": "Describe Derivative of sin x", "notes": "cos x This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "State: Slope of a line", "notes": "m = (y2-y1)/(x2-x1) This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Recall: Chain rule", "notes": "d/dx [f(g(x))] = f'(g(x)) · g'(x)"}
+{"subject": "Mathematics", "keyword": "What is Eigenvalue definition", "notes": "Av = λv for nonzero v"}
+{"subject": "Mathematics", "keyword": "Explain: Derivative of sin x", "notes": "cos x"}
+{"subject": "Mathematics", "keyword": "Describe Geometric sequence sum", "notes": "a(1-r^n)/(1-r)"}
+{"subject": "Mathematics", "keyword": "Important: Arithmetic sequence sum", "notes": "n/2 · (2a + (n-1)d)"}
+{"subject": "Mathematics", "keyword": "Describe Integral of cos x", "notes": "sin x + C This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Key fact about Dot product", "notes": "a·b = |a||b| cos θ This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Key fact about Euler's identity", "notes": "e^{iπ} + 1 = 0"}
+{"subject": "Mathematics", "keyword": "Eigenvalue definition", "notes": "Av = λv for nonzero v This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Important: Quadratic formula", "notes": "x = [-b ± √(b²-4ac)] / 2a"}
+{"subject": "Mathematics", "keyword": "Define Pythagorean theorem", "notes": "a² + b² = c²"}
+{"subject": "Mathematics", "keyword": "What is Derivative of x²", "notes": "2x"}
+{"subject": "Mathematics", "keyword": "Concept – Mean value theorem", "notes": "There exists c in (a,b) such that f'(c) = [f(b)-f(a)]/(b-a)"}
+{"subject": "Mathematics", "keyword": "Define 2×2 matrix determinant", "notes": "ad - bc"}
+{"subject": "Mathematics", "keyword": "Recall: Midpoint formula", "notes": "((x1+x2)/2, (y1+y2)/2)"}
+{"subject": "Mathematics", "keyword": "Important: Derivative of sin x", "notes": "cos x This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Define Integral of 1/x", "notes": "ln|x| + C This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Derivative of e^x", "notes": "e^x"}
+{"subject": "Mathematics", "keyword": "State: Euler's identity", "notes": "e^{iπ} + 1 = 0"}
+{"subject": "Mathematics", "keyword": "Important: Integration by parts", "notes": "∫ u dv = uv - ∫ v du"}
+{"subject": "Mathematics", "keyword": "Explain: Euler's identity", "notes": "e^{iπ} + 1 = 0"}
+{"subject": "Mathematics", "keyword": "Recall: Chain rule", "notes": "d/dx [f(g(x))] = f'(g(x)) · g'(x)"}
+{"subject": "Mathematics", "keyword": "Important: Logarithm power rule", "notes": "log(a^b) = b · log(a)"}
+{"subject": "Mathematics", "keyword": "Key fact about Slope of a line", "notes": "m = (y2-y1)/(x2-x1) This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Important: Taylor series", "notes": "f(x) ≈ Σ f^{(n)}(a)(x-a)^n / n! This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Key fact about Mean value theorem", "notes": "There exists c in (a,b) such that f'(c) = [f(b)-f(a)]/(b-a)"}
+{"subject": "Mathematics", "keyword": "Define Area of a circle", "notes": "πr²"}
+{"subject": "Mathematics", "keyword": "Recall: Logarithm power rule", "notes": "log(a^b) = b · log(a) This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Concept – Integration by parts", "notes": "∫ u dv = uv - ∫ v du This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Describe Taylor series", "notes": "f(x) ≈ Σ f^{(n)}(a)(x-a)^n / n!"}
+{"subject": "Mathematics", "keyword": "Describe Binomial theorem", "notes": "(x+y)^n = Σ C(n,k) x^{n-k} y^k"}
+{"subject": "Mathematics", "keyword": "Recall: Volume of a sphere", "notes": "(4/3)πr³ This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Geometric sequence sum", "notes": "a(1-r^n)/(1-r)"}
+{"subject": "Mathematics", "keyword": "What is L'Hôpital's rule", "notes": "lim f/g = lim f'/g' when indeterminate"}
+{"subject": "Mathematics", "keyword": "Concept – Derivative of sin x", "notes": "cos x"}
+{"subject": "Mathematics", "keyword": "Concept – Distance formula", "notes": "√[(x2-x1)² + (y2-y1)²] This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Taylor series", "notes": "f(x) ≈ Σ f^{(n)}(a)(x-a)^n / n!"}
+{"subject": "Mathematics", "keyword": "Important: Product rule", "notes": "(uv)' = u'v + uv'"}
+{"subject": "Mathematics", "keyword": "Recall: Distance formula", "notes": "√[(x2-x1)² + (y2-y1)²] This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "What is Geometric sequence sum", "notes": "a(1-r^n)/(1-r) This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Concept – Derivative of sin x", "notes": "cos x"}
+{"subject": "Mathematics", "keyword": "Key fact about Taylor series", "notes": "f(x) ≈ Σ f^{(n)}(a)(x-a)^n / n!"}
+{"subject": "Mathematics", "keyword": "Recall: Fundamental theorem of calculus", "notes": "∫_a^b f(x) dx = F(b) - F(a) where F' = f"}
+{"subject": "Mathematics", "keyword": "Describe Pythagorean theorem", "notes": "a² + b² = c²"}
+{"subject": "Mathematics", "keyword": "Describe Binomial theorem", "notes": "(x+y)^n = Σ C(n,k) x^{n-k} y^k This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Recall: Area of a circle", "notes": "πr²"}
+{"subject": "Mathematics", "keyword": "Define Arithmetic sequence sum", "notes": "n/2 · (2a + (n-1)d) This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Key fact about Quadratic formula", "notes": "x = [-b ± √(b²-4ac)] / 2a This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Define Derivative of e^x", "notes": "e^x"}
+{"subject": "Mathematics", "keyword": "What is Integral of cos x", "notes": "sin x + C This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "State: Area of a circle", "notes": "πr²"}
+{"subject": "Mathematics", "keyword": "Important: Derivative of sin x", "notes": "cos x"}
+{"subject": "Mathematics", "keyword": "Important: Dot product", "notes": "a·b = |a||b| cos θ"}
+{"subject": "Mathematics", "keyword": "Recall: Derivative of e^x", "notes": "e^x"}
+{"subject": "Mathematics", "keyword": "Recall: Integral of cos x", "notes": "sin x + C This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "State: Pythagorean theorem", "notes": "a² + b² = c²"}
+{"subject": "Mathematics", "keyword": "Key fact about Logarithm power rule", "notes": "log(a^b) = b · log(a)"}
+{"subject": "Mathematics", "keyword": "Describe Eigenvalue definition", "notes": "Av = λv for nonzero v This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "State: L'Hôpital's rule", "notes": "lim f/g = lim f'/g' when indeterminate This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Key fact about Eigenvalue definition", "notes": "Av = λv for nonzero v This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "What is Geometric sequence sum", "notes": "a(1-r^n)/(1-r)"}
+{"subject": "Mathematics", "keyword": "Concept – Binomial theorem", "notes": "(x+y)^n = Σ C(n,k) x^{n-k} y^k"}
+{"subject": "Mathematics", "keyword": "Law of cosines", "notes": "c² = a² + b² - 2ab cos C"}
+{"subject": "Mathematics", "keyword": "Important: Volume of a sphere", "notes": "(4/3)πr³"}
+{"subject": "Mathematics", "keyword": "Important: 2×2 matrix determinant", "notes": "ad - bc"}
+{"subject": "Mathematics", "keyword": "Quadratic formula", "notes": "x = [-b ± √(b²-4ac)] / 2a"}
+{"subject": "Mathematics", "keyword": "Recall: Volume of a sphere", "notes": "(4/3)πr³"}
+{"subject": "Mathematics", "keyword": "Describe Pythagorean theorem", "notes": "a² + b² = c²"}
+{"subject": "Mathematics", "keyword": "Explain: Integral of 1/x", "notes": "ln|x| + C"}
+{"subject": "Mathematics", "keyword": "Describe L'Hôpital's rule", "notes": "lim f/g = lim f'/g' when indeterminate"}
+{"subject": "Mathematics", "keyword": "Recall: Product rule", "notes": "(uv)' = u'v + uv'"}
+{"subject": "Mathematics", "keyword": "Concept – Logarithm power rule", "notes": "log(a^b) = b · log(a)"}
+{"subject": "Mathematics", "keyword": "Important: 2×2 matrix determinant", "notes": "ad - bc This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Recall: Integral of cos x", "notes": "sin x + C This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Describe Chain rule", "notes": "d/dx [f(g(x))] = f'(g(x)) · g'(x)"}
+{"subject": "Mathematics", "keyword": "Key fact about Logarithm power rule", "notes": "log(a^b) = b · log(a)"}
+{"subject": "Mathematics", "keyword": "Important: Slope of a line", "notes": "m = (y2-y1)/(x2-x1)"}
+{"subject": "Mathematics", "keyword": "What is 2×2 matrix determinant", "notes": "ad - bc"}
+{"subject": "Mathematics", "keyword": "Recall: Quadratic formula", "notes": "x = [-b ± √(b²-4ac)] / 2a"}
+{"subject": "Mathematics", "keyword": "Concept – Integral of cos x", "notes": "sin x + C This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "What is Distance formula", "notes": "√[(x2-x1)² + (y2-y1)²]"}
+{"subject": "Mathematics", "keyword": "Recall: Taylor series", "notes": "f(x) ≈ Σ f^{(n)}(a)(x-a)^n / n!"}
+{"subject": "Mathematics", "keyword": "Describe Slope of a line", "notes": "m = (y2-y1)/(x2-x1) This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Concept – Slope of a line", "notes": "m = (y2-y1)/(x2-x1)"}
+{"subject": "Mathematics", "keyword": "Recall: Derivative of x²", "notes": "2x"}
+{"subject": "Mathematics", "keyword": "Recall: Mean value theorem", "notes": "There exists c in (a,b) such that f'(c) = [f(b)-f(a)]/(b-a)"}
+{"subject": "Mathematics", "keyword": "Explain: Integration by parts", "notes": "∫ u dv = uv - ∫ v du This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Define Quadratic formula", "notes": "x = [-b ± √(b²-4ac)] / 2a This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "What is Geometric sequence sum", "notes": "a(1-r^n)/(1-r)"}
+{"subject": "Mathematics", "keyword": "Describe Law of cosines", "notes": "c² = a² + b² - 2ab cos C This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Important: 2×2 matrix determinant", "notes": "ad - bc This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Define Taylor series", "notes": "f(x) ≈ Σ f^{(n)}(a)(x-a)^n / n! This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Important: Arithmetic sequence sum", "notes": "n/2 · (2a + (n-1)d)"}
+{"subject": "Mathematics", "keyword": "State: Product rule", "notes": "(uv)' = u'v + uv' This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Explain: Eigenvalue definition", "notes": "Av = λv for nonzero v"}
+{"subject": "Mathematics", "keyword": "Key fact about Derivative of e^x", "notes": "e^x"}
+{"subject": "Mathematics", "keyword": "State: Volume of a sphere", "notes": "(4/3)πr³ This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Key fact about Fundamental theorem of calculus", "notes": "∫_a^b f(x) dx = F(b) - F(a) where F' = f"}
+{"subject": "Mathematics", "keyword": "State: Volume of a sphere", "notes": "(4/3)πr³"}
+{"subject": "Mathematics", "keyword": "Recall: Mean value theorem", "notes": "There exists c in (a,b) such that f'(c) = [f(b)-f(a)]/(b-a)"}
+{"subject": "Mathematics", "keyword": "State: Derivative of sin x", "notes": "cos x"}
+{"subject": "Mathematics", "keyword": "Concept – Logarithm power rule", "notes": "log(a^b) = b · log(a)"}
+{"subject": "Mathematics", "keyword": "Define Divergence theorem", "notes": "∭_V (∇·F) dV = ∯_S F·dS"}
+{"subject": "Mathematics", "keyword": "Important: Volume of a sphere", "notes": "(4/3)πr³ This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Euler's identity", "notes": "e^{iπ} + 1 = 0"}
+{"subject": "Mathematics", "keyword": "Recall: Geometric sequence sum", "notes": "a(1-r^n)/(1-r)"}
+{"subject": "Mathematics", "keyword": "Describe Chain rule", "notes": "d/dx [f(g(x))] = f'(g(x)) · g'(x)"}
+{"subject": "Mathematics", "keyword": "What is Logarithm power rule", "notes": "log(a^b) = b · log(a)"}
+{"subject": "Mathematics", "keyword": "State: Euler's identity", "notes": "e^{iπ} + 1 = 0"}
+{"subject": "Mathematics", "keyword": "Concept – Quadratic formula", "notes": "x = [-b ± √(b²-4ac)] / 2a This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Explain: Dot product", "notes": "a·b = |a||b| cos θ"}
+{"subject": "Mathematics", "keyword": "Recall: Logarithm change of base", "notes": "log_b a = log a / log b"}
+{"subject": "Mathematics", "keyword": "Divergence theorem", "notes": "∭_V (∇·F) dV = ∯_S F·dS"}
+{"subject": "Mathematics", "keyword": "Explain: Eigenvalue definition", "notes": "Av = λv for nonzero v"}
+{"subject": "Mathematics", "keyword": "Recall: Pythagorean theorem", "notes": "a² + b² = c² This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "What is 2×2 matrix determinant", "notes": "ad - bc"}
+{"subject": "Mathematics", "keyword": "Recall: Integral of cos x", "notes": "sin x + C"}
+{"subject": "Mathematics", "keyword": "Quadratic formula", "notes": "x = [-b ± √(b²-4ac)] / 2a This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "State: Arithmetic sequence sum", "notes": "n/2 · (2a + (n-1)d)"}
+{"subject": "Mathematics", "keyword": "State: Quadratic formula", "notes": "x = [-b ± √(b²-4ac)] / 2a"}
+{"subject": "Mathematics", "keyword": "What is Derivative of x²", "notes": "2x This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Define Mean value theorem", "notes": "There exists c in (a,b) such that f'(c) = [f(b)-f(a)]/(b-a)"}
+{"subject": "Mathematics", "keyword": "Important: Midpoint formula", "notes": "((x1+x2)/2, (y1+y2)/2)"}
+{"subject": "Mathematics", "keyword": "Key fact about Chain rule", "notes": "d/dx [f(g(x))] = f'(g(x)) · g'(x) This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Chain rule", "notes": "d/dx [f(g(x))] = f'(g(x)) · g'(x) This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Important: Integral of cos x", "notes": "sin x + C"}
+{"subject": "Mathematics", "keyword": "State: Chain rule", "notes": "d/dx [f(g(x))] = f'(g(x)) · g'(x)"}
+{"subject": "Mathematics", "keyword": "Describe Derivative of x²", "notes": "2x"}
+{"subject": "Mathematics", "keyword": "Define Distance formula", "notes": "√[(x2-x1)² + (y2-y1)²] This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Important: Derivative of x²", "notes": "2x"}
+{"subject": "Mathematics", "keyword": "Concept – Derivative of sin x", "notes": "cos x This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "What is Slope of a line", "notes": "m = (y2-y1)/(x2-x1)"}
+{"subject": "Mathematics", "keyword": "What is Eigenvalue definition", "notes": "Av = λv for nonzero v"}
+{"subject": "Mathematics", "keyword": "Describe Law of cosines", "notes": "c² = a² + b² - 2ab cos C"}
+{"subject": "Mathematics", "keyword": "Describe Binomial theorem", "notes": "(x+y)^n = Σ C(n,k) x^{n-k} y^k This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "State: Geometric sequence sum", "notes": "a(1-r^n)/(1-r) This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Recall: Taylor series", "notes": "f(x) ≈ Σ f^{(n)}(a)(x-a)^n / n! This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Recall: Derivative of x²", "notes": "2x"}
+{"subject": "Mathematics", "keyword": "Explain: Eigenvalue definition", "notes": "Av = λv for nonzero v"}
+{"subject": "Mathematics", "keyword": "What is Integral of cos x", "notes": "sin x + C"}
+{"subject": "Mathematics", "keyword": "Recall: Midpoint formula", "notes": "((x1+x2)/2, (y1+y2)/2) This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Describe Eigenvalue definition", "notes": "Av = λv for nonzero v"}
+{"subject": "Mathematics", "keyword": "Define Integral of cos x", "notes": "sin x + C"}
+{"subject": "Mathematics", "keyword": "State: Slope of a line", "notes": "m = (y2-y1)/(x2-x1)"}
+{"subject": "Mathematics", "keyword": "Define Integration by parts", "notes": "∫ u dv = uv - ∫ v du"}
+{"subject": "Mathematics", "keyword": "State: Pythagorean theorem", "notes": "a² + b² = c² This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Mean value theorem", "notes": "There exists c in (a,b) such that f'(c) = [f(b)-f(a)]/(b-a)"}
+{"subject": "Mathematics", "keyword": "Logarithm change of base", "notes": "log_b a = log a / log b"}
+{"subject": "Mathematics", "keyword": "Describe Logarithm power rule", "notes": "log(a^b) = b · log(a)"}
+{"subject": "Mathematics", "keyword": "Describe Arithmetic sequence sum", "notes": "n/2 · (2a + (n-1)d)"}
+{"subject": "Mathematics", "keyword": "Explain: Integral of 1/x", "notes": "ln|x| + C This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Geometric sequence sum", "notes": "a(1-r^n)/(1-r)"}
+{"subject": "Mathematics", "keyword": "Key fact about 2×2 matrix determinant", "notes": "ad - bc This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Concept – Eigenvalue definition", "notes": "Av = λv for nonzero v"}
+{"subject": "Mathematics", "keyword": "State: Midpoint formula", "notes": "((x1+x2)/2, (y1+y2)/2)"}
+{"subject": "Mathematics", "keyword": "Recall: Taylor series", "notes": "f(x) ≈ Σ f^{(n)}(a)(x-a)^n / n!"}
+{"subject": "Mathematics", "keyword": "State: Integration by parts", "notes": "∫ u dv = uv - ∫ v du"}
+{"subject": "Mathematics", "keyword": "Describe Volume of a sphere", "notes": "(4/3)πr³ This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Concept – Pythagorean theorem", "notes": "a² + b² = c² This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Define Derivative of e^x", "notes": "e^x"}
+{"subject": "Mathematics", "keyword": "What is 2×2 matrix determinant", "notes": "ad - bc This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Key fact about Slope of a line", "notes": "m = (y2-y1)/(x2-x1)"}
+{"subject": "Mathematics", "keyword": "Concept – Derivative of e^x", "notes": "e^x This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Recall: L'Hôpital's rule", "notes": "lim f/g = lim f'/g' when indeterminate"}
+{"subject": "Mathematics", "keyword": "Recall: Midpoint formula", "notes": "((x1+x2)/2, (y1+y2)/2)"}
+{"subject": "Mathematics", "keyword": "Key fact about Divergence theorem", "notes": "∭_V (∇·F) dV = ∯_S F·dS"}
+{"subject": "Mathematics", "keyword": "Volume of a sphere", "notes": "(4/3)πr³ This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Concept – Integral of cos x", "notes": "sin x + C"}
+{"subject": "Mathematics", "keyword": "Define Volume of a sphere", "notes": "(4/3)πr³"}
+{"subject": "Mathematics", "keyword": "Important: Quadratic formula", "notes": "x = [-b ± √(b²-4ac)] / 2a"}
+{"subject": "Mathematics", "keyword": "L'Hôpital's rule", "notes": "lim f/g = lim f'/g' when indeterminate This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Recall: Fundamental theorem of calculus", "notes": "∫_a^b f(x) dx = F(b) - F(a) where F' = f"}
+{"subject": "Mathematics", "keyword": "Derivative of sin x", "notes": "cos x"}
+{"subject": "Mathematics", "keyword": "State: Slope of a line", "notes": "m = (y2-y1)/(x2-x1)"}
+{"subject": "Mathematics", "keyword": "State: Eigenvalue definition", "notes": "Av = λv for nonzero v"}
+{"subject": "Mathematics", "keyword": "Define Derivative of sin x", "notes": "cos x"}
+{"subject": "Mathematics", "keyword": "Recall: Taylor series", "notes": "f(x) ≈ Σ f^{(n)}(a)(x-a)^n / n!"}
+{"subject": "Mathematics", "keyword": "What is Fundamental theorem of calculus", "notes": "∫_a^b f(x) dx = F(b) - F(a) where F' = f This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "State: Product rule", "notes": "(uv)' = u'v + uv'"}
+{"subject": "Mathematics", "keyword": "Describe Dot product", "notes": "a·b = |a||b| cos θ This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Key fact about Area of a circle", "notes": "πr²"}
+{"subject": "Mathematics", "keyword": "Important: Mean value theorem", "notes": "There exists c in (a,b) such that f'(c) = [f(b)-f(a)]/(b-a) This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "State: Dot product", "notes": "a·b = |a||b| cos θ This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "What is Quadratic formula", "notes": "x = [-b ± √(b²-4ac)] / 2a"}
+{"subject": "Mathematics", "keyword": "State: Logarithm change of base", "notes": "log_b a = log a / log b"}
+{"subject": "Mathematics", "keyword": "Recall: Volume of a sphere", "notes": "(4/3)πr³"}
+{"subject": "Mathematics", "keyword": "What is Distance formula", "notes": "√[(x2-x1)² + (y2-y1)²]"}
+{"subject": "Mathematics", "keyword": "Key fact about Logarithm power rule", "notes": "log(a^b) = b · log(a)"}
+{"subject": "Mathematics", "keyword": "Define Distance formula", "notes": "√[(x2-x1)² + (y2-y1)²]"}
+{"subject": "Mathematics", "keyword": "Explain: Binomial theorem", "notes": "(x+y)^n = Σ C(n,k) x^{n-k} y^k This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Define Mean value theorem", "notes": "There exists c in (a,b) such that f'(c) = [f(b)-f(a)]/(b-a) This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Integration by parts", "notes": "∫ u dv = uv - ∫ v du"}
+{"subject": "Mathematics", "keyword": "Recall: Derivative of sin x", "notes": "cos x"}
+{"subject": "Mathematics", "keyword": "Define Law of cosines", "notes": "c² = a² + b² - 2ab cos C"}
+{"subject": "Mathematics", "keyword": "What is Pythagorean theorem", "notes": "a² + b² = c²"}
+{"subject": "Mathematics", "keyword": "State: Distance formula", "notes": "√[(x2-x1)² + (y2-y1)²]"}
+{"subject": "Mathematics", "keyword": "Concept – Area of a circle", "notes": "πr²"}
+{"subject": "Mathematics", "keyword": "Define Pythagorean theorem", "notes": "a² + b² = c²"}
+{"subject": "Mathematics", "keyword": "What is Integral of cos x", "notes": "sin x + C"}
+{"subject": "Mathematics", "keyword": "Describe Slope of a line", "notes": "m = (y2-y1)/(x2-x1)"}
+{"subject": "Mathematics", "keyword": "Describe Logarithm change of base", "notes": "log_b a = log a / log b"}
+{"subject": "Mathematics", "keyword": "Define Product rule", "notes": "(uv)' = u'v + uv'"}
+{"subject": "Mathematics", "keyword": "Dot product", "notes": "a·b = |a||b| cos θ"}
+{"subject": "Mathematics", "keyword": "Define Binomial theorem", "notes": "(x+y)^n = Σ C(n,k) x^{n-k} y^k"}
+{"subject": "Mathematics", "keyword": "Recall: Product rule", "notes": "(uv)' = u'v + uv'"}
+{"subject": "Mathematics", "keyword": "Recall: Fundamental theorem of calculus", "notes": "∫_a^b f(x) dx = F(b) - F(a) where F' = f"}
+{"subject": "Mathematics", "keyword": "Key fact about Binomial theorem", "notes": "(x+y)^n = Σ C(n,k) x^{n-k} y^k"}
+{"subject": "Mathematics", "keyword": "Explain: Euler's identity", "notes": "e^{iπ} + 1 = 0"}
+{"subject": "Mathematics", "keyword": "Key fact about Law of cosines", "notes": "c² = a² + b² - 2ab cos C This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Important: Logarithm power rule", "notes": "log(a^b) = b · log(a)"}
+{"subject": "Mathematics", "keyword": "Define Binomial theorem", "notes": "(x+y)^n = Σ C(n,k) x^{n-k} y^k"}
+{"subject": "Mathematics", "keyword": "Define Derivative of sin x", "notes": "cos x This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Important: Derivative of e^x", "notes": "e^x"}
+{"subject": "Mathematics", "keyword": "Important: Dot product", "notes": "a·b = |a||b| cos θ This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Geometric sequence sum", "notes": "a(1-r^n)/(1-r) This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Important: Integral of cos x", "notes": "sin x + C This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Important: Mean value theorem", "notes": "There exists c in (a,b) such that f'(c) = [f(b)-f(a)]/(b-a)"}
+{"subject": "Mathematics", "keyword": "Integral of cos x", "notes": "sin x + C"}
+{"subject": "Mathematics", "keyword": "Describe Integral of cos x", "notes": "sin x + C This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "State: Logarithm power rule", "notes": "log(a^b) = b · log(a) This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Concept – Volume of a sphere", "notes": "(4/3)πr³ This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Pythagorean theorem", "notes": "a² + b² = c² This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "State: Divergence theorem", "notes": "∭_V (∇·F) dV = ∯_S F·dS"}
+{"subject": "Mathematics", "keyword": "Important: 2×2 matrix determinant", "notes": "ad - bc This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Recall: Geometric sequence sum", "notes": "a(1-r^n)/(1-r)"}
+{"subject": "Mathematics", "keyword": "Recall: Geometric sequence sum", "notes": "a(1-r^n)/(1-r)"}
+{"subject": "Mathematics", "keyword": "Recall: Quadratic formula", "notes": "x = [-b ± √(b²-4ac)] / 2a"}
+{"subject": "Mathematics", "keyword": "Recall: Chain rule", "notes": "d/dx [f(g(x))] = f'(g(x)) · g'(x) This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Key fact about Chain rule", "notes": "d/dx [f(g(x))] = f'(g(x)) · g'(x)"}
+{"subject": "Mathematics", "keyword": "What is Quadratic formula", "notes": "x = [-b ± √(b²-4ac)] / 2a This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Important: Taylor series", "notes": "f(x) ≈ Σ f^{(n)}(a)(x-a)^n / n!"}
+{"subject": "Mathematics", "keyword": "Define Geometric sequence sum", "notes": "a(1-r^n)/(1-r)"}
+{"subject": "Mathematics", "keyword": "Important: Dot product", "notes": "a·b = |a||b| cos θ"}
+{"subject": "Mathematics", "keyword": "Define Mean value theorem", "notes": "There exists c in (a,b) such that f'(c) = [f(b)-f(a)]/(b-a)"}
+{"subject": "Mathematics", "keyword": "State: Binomial theorem", "notes": "(x+y)^n = Σ C(n,k) x^{n-k} y^k"}
+{"subject": "Mathematics", "keyword": "State: Logarithm power rule", "notes": "log(a^b) = b · log(a) This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Describe Taylor series", "notes": "f(x) ≈ Σ f^{(n)}(a)(x-a)^n / n!"}
+{"subject": "Mathematics", "keyword": "Explain: Fundamental theorem of calculus", "notes": "∫_a^b f(x) dx = F(b) - F(a) where F' = f"}
+{"subject": "Mathematics", "keyword": "Integral of 1/x", "notes": "ln|x| + C This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "State: Derivative of e^x", "notes": "e^x This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "What is Derivative of x²", "notes": "2x"}
+{"subject": "Mathematics", "keyword": "Key fact about Logarithm change of base", "notes": "log_b a = log a / log b"}
+{"subject": "Mathematics", "keyword": "Concept – Area of a circle", "notes": "πr²"}
+{"subject": "Mathematics", "keyword": "Taylor series", "notes": "f(x) ≈ Σ f^{(n)}(a)(x-a)^n / n!"}
+{"subject": "Mathematics", "keyword": "Recall: Mean value theorem", "notes": "There exists c in (a,b) such that f'(c) = [f(b)-f(a)]/(b-a)"}
+{"subject": "Mathematics", "keyword": "Concept – Pythagorean theorem", "notes": "a² + b² = c²"}
+{"subject": "Mathematics", "keyword": "Describe Area of a circle", "notes": "πr² This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Important: Derivative of e^x", "notes": "e^x This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Concept – Chain rule", "notes": "d/dx [f(g(x))] = f'(g(x)) · g'(x)"}
+{"subject": "Mathematics", "keyword": "Describe 2×2 matrix determinant", "notes": "ad - bc"}
+{"subject": "Mathematics", "keyword": "Define Area of a circle", "notes": "πr² This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Concept – Binomial theorem", "notes": "(x+y)^n = Σ C(n,k) x^{n-k} y^k"}
+{"subject": "Mathematics", "keyword": "Integral of 1/x", "notes": "ln|x| + C This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "State: 2×2 matrix determinant", "notes": "ad - bc"}
+{"subject": "Mathematics", "keyword": "Important: Quadratic formula", "notes": "x = [-b ± √(b²-4ac)] / 2a"}
+{"subject": "Mathematics", "keyword": "Recall: Quadratic formula", "notes": "x = [-b ± √(b²-4ac)] / 2a"}
+{"subject": "Mathematics", "keyword": "Define 2×2 matrix determinant", "notes": "ad - bc"}
+{"subject": "Mathematics", "keyword": "Key fact about Derivative of e^x", "notes": "e^x"}
+{"subject": "Mathematics", "keyword": "Describe Binomial theorem", "notes": "(x+y)^n = Σ C(n,k) x^{n-k} y^k"}
+{"subject": "Mathematics", "keyword": "Important: Distance formula", "notes": "√[(x2-x1)² + (y2-y1)²] This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Arithmetic sequence sum", "notes": "n/2 · (2a + (n-1)d)"}
+{"subject": "Mathematics", "keyword": "What is Slope of a line", "notes": "m = (y2-y1)/(x2-x1)"}
+{"subject": "Mathematics", "keyword": "Key fact about Derivative of sin x", "notes": "cos x"}
+{"subject": "Mathematics", "keyword": "Midpoint formula", "notes": "((x1+x2)/2, (y1+y2)/2)"}
+{"subject": "Mathematics", "keyword": "Important: Euler's identity", "notes": "e^{iπ} + 1 = 0"}
+{"subject": "Mathematics", "keyword": "Midpoint formula", "notes": "((x1+x2)/2, (y1+y2)/2)"}
+{"subject": "Mathematics", "keyword": "Describe Product rule", "notes": "(uv)' = u'v + uv'"}
+{"subject": "Mathematics", "keyword": "Concept – Derivative of e^x", "notes": "e^x This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Explain: Slope of a line", "notes": "m = (y2-y1)/(x2-x1) This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "What is Distance formula", "notes": "√[(x2-x1)² + (y2-y1)²] This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Recall: L'Hôpital's rule", "notes": "lim f/g = lim f'/g' when indeterminate"}
+{"subject": "Mathematics", "keyword": "Explain: Divergence theorem", "notes": "∭_V (∇·F) dV = ∯_S F·dS"}
+{"subject": "Mathematics", "keyword": "Important: Area of a circle", "notes": "πr²"}
+{"subject": "Mathematics", "keyword": "Geometric sequence sum", "notes": "a(1-r^n)/(1-r)"}
+{"subject": "Mathematics", "keyword": "Explain: Binomial theorem", "notes": "(x+y)^n = Σ C(n,k) x^{n-k} y^k"}
+{"subject": "Mathematics", "keyword": "State: Slope of a line", "notes": "m = (y2-y1)/(x2-x1)"}
+{"subject": "Mathematics", "keyword": "Define 2×2 matrix determinant", "notes": "ad - bc"}
+{"subject": "Mathematics", "keyword": "Recall: Law of cosines", "notes": "c² = a² + b² - 2ab cos C"}
+{"subject": "Mathematics", "keyword": "Key fact about Slope of a line", "notes": "m = (y2-y1)/(x2-x1)"}
+{"subject": "Mathematics", "keyword": "Explain: Mean value theorem", "notes": "There exists c in (a,b) such that f'(c) = [f(b)-f(a)]/(b-a) This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Explain: Logarithm power rule", "notes": "log(a^b) = b · log(a)"}
+{"subject": "Mathematics", "keyword": "Key fact about Logarithm power rule", "notes": "log(a^b) = b · log(a)"}
+{"subject": "Mathematics", "keyword": "State: Distance formula", "notes": "√[(x2-x1)² + (y2-y1)²]"}
+{"subject": "Mathematics", "keyword": "Describe Eigenvalue definition", "notes": "Av = λv for nonzero v"}
+{"subject": "Mathematics", "keyword": "Key fact about Volume of a sphere", "notes": "(4/3)πr³ This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Describe Derivative of sin x", "notes": "cos x"}
+{"subject": "Mathematics", "keyword": "Recall: Taylor series", "notes": "f(x) ≈ Σ f^{(n)}(a)(x-a)^n / n!"}
+{"subject": "Mathematics", "keyword": "Define Volume of a sphere", "notes": "(4/3)πr³ This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "What is Logarithm power rule", "notes": "log(a^b) = b · log(a)"}
+{"subject": "Mathematics", "keyword": "Key fact about L'Hôpital's rule", "notes": "lim f/g = lim f'/g' when indeterminate"}
+{"subject": "Mathematics", "keyword": "Explain: Mean value theorem", "notes": "There exists c in (a,b) such that f'(c) = [f(b)-f(a)]/(b-a)"}
+{"subject": "Mathematics", "keyword": "Describe Euler's identity", "notes": "e^{iπ} + 1 = 0"}
+{"subject": "Mathematics", "keyword": "What is Quadratic formula", "notes": "x = [-b ± √(b²-4ac)] / 2a"}
+{"subject": "Mathematics", "keyword": "Explain: Derivative of sin x", "notes": "cos x This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Describe Slope of a line", "notes": "m = (y2-y1)/(x2-x1) This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Fundamental theorem of calculus", "notes": "∫_a^b f(x) dx = F(b) - F(a) where F' = f This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "State: 2×2 matrix determinant", "notes": "ad - bc This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Define Area of a circle", "notes": "πr² This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Define Law of cosines", "notes": "c² = a² + b² - 2ab cos C"}
+{"subject": "Mathematics", "keyword": "State: Dot product", "notes": "a·b = |a||b| cos θ"}
+{"subject": "Mathematics", "keyword": "Key fact about Mean value theorem", "notes": "There exists c in (a,b) such that f'(c) = [f(b)-f(a)]/(b-a)"}
+{"subject": "Mathematics", "keyword": "Integral of cos x", "notes": "sin x + C"}
+{"subject": "Mathematics", "keyword": "Important: Pythagorean theorem", "notes": "a² + b² = c² This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Midpoint formula", "notes": "((x1+x2)/2, (y1+y2)/2)"}
+{"subject": "Mathematics", "keyword": "Concept – Product rule", "notes": "(uv)' = u'v + uv'"}
+{"subject": "Mathematics", "keyword": "Product rule", "notes": "(uv)' = u'v + uv'"}
+{"subject": "Mathematics", "keyword": "State: Taylor series", "notes": "f(x) ≈ Σ f^{(n)}(a)(x-a)^n / n! This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Key fact about Midpoint formula", "notes": "((x1+x2)/2, (y1+y2)/2)"}
+{"subject": "Mathematics", "keyword": "Key fact about Derivative of x²", "notes": "2x"}
+{"subject": "Mathematics", "keyword": "Recall: Chain rule", "notes": "d/dx [f(g(x))] = f'(g(x)) · g'(x) This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Describe Integral of cos x", "notes": "sin x + C"}
+{"subject": "Mathematics", "keyword": "Define Logarithm change of base", "notes": "log_b a = log a / log b"}
+{"subject": "Mathematics", "keyword": "Key fact about L'Hôpital's rule", "notes": "lim f/g = lim f'/g' when indeterminate This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Recall: Chain rule", "notes": "d/dx [f(g(x))] = f'(g(x)) · g'(x) This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Key fact about L'Hôpital's rule", "notes": "lim f/g = lim f'/g' when indeterminate"}
+{"subject": "Mathematics", "keyword": "Recall: Derivative of x²", "notes": "2x"}
+{"subject": "Mathematics", "keyword": "Explain: Derivative of sin x", "notes": "cos x This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Concept – Geometric sequence sum", "notes": "a(1-r^n)/(1-r)"}
+{"subject": "Mathematics", "keyword": "Recall: Binomial theorem", "notes": "(x+y)^n = Σ C(n,k) x^{n-k} y^k This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "What is Slope of a line", "notes": "m = (y2-y1)/(x2-x1) This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "State: Quadratic formula", "notes": "x = [-b ± √(b²-4ac)] / 2a"}
+{"subject": "Mathematics", "keyword": "Fundamental theorem of calculus", "notes": "∫_a^b f(x) dx = F(b) - F(a) where F' = f This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "State: Fundamental theorem of calculus", "notes": "∫_a^b f(x) dx = F(b) - F(a) where F' = f"}
+{"subject": "Mathematics", "keyword": "Key fact about 2×2 matrix determinant", "notes": "ad - bc"}
+{"subject": "Mathematics", "keyword": "Derivative of sin x", "notes": "cos x This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Explain: Eigenvalue definition", "notes": "Av = λv for nonzero v This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "State: Chain rule", "notes": "d/dx [f(g(x))] = f'(g(x)) · g'(x)"}
+{"subject": "Mathematics", "keyword": "Describe Taylor series", "notes": "f(x) ≈ Σ f^{(n)}(a)(x-a)^n / n!"}
+{"subject": "Mathematics", "keyword": "Key fact about Logarithm change of base", "notes": "log_b a = log a / log b"}
+{"subject": "Mathematics", "keyword": "Key fact about Integral of cos x", "notes": "sin x + C"}
+{"subject": "Mathematics", "keyword": "Explain: Fundamental theorem of calculus", "notes": "∫_a^b f(x) dx = F(b) - F(a) where F' = f"}
+{"subject": "Mathematics", "keyword": "Define Integration by parts", "notes": "∫ u dv = uv - ∫ v du"}
+{"subject": "Mathematics", "keyword": "Recall: Derivative of e^x", "notes": "e^x"}
+{"subject": "Mathematics", "keyword": "State: Law of cosines", "notes": "c² = a² + b² - 2ab cos C"}
+{"subject": "Mathematics", "keyword": "Explain: Volume of a sphere", "notes": "(4/3)πr³"}
+{"subject": "Mathematics", "keyword": "Important: Slope of a line", "notes": "m = (y2-y1)/(x2-x1)"}
+{"subject": "Mathematics", "keyword": "Describe Pythagorean theorem", "notes": "a² + b² = c²"}
+{"subject": "Mathematics", "keyword": "Recall: Distance formula", "notes": "√[(x2-x1)² + (y2-y1)²] This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "What is Derivative of sin x", "notes": "cos x This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Describe Law of cosines", "notes": "c² = a² + b² - 2ab cos C This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Define Law of cosines", "notes": "c² = a² + b² - 2ab cos C This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Describe Geometric sequence sum", "notes": "a(1-r^n)/(1-r)"}
+{"subject": "Mathematics", "keyword": "Explain: Slope of a line", "notes": "m = (y2-y1)/(x2-x1)"}
+{"subject": "Mathematics", "keyword": "What is Integration by parts", "notes": "∫ u dv = uv - ∫ v du"}
+{"subject": "Mathematics", "keyword": "L'Hôpital's rule", "notes": "lim f/g = lim f'/g' when indeterminate"}
+{"subject": "Mathematics", "keyword": "Concept – Binomial theorem", "notes": "(x+y)^n = Σ C(n,k) x^{n-k} y^k"}
+{"subject": "Mathematics", "keyword": "Describe Integral of 1/x", "notes": "ln|x| + C"}
+{"subject": "Mathematics", "keyword": "Key fact about Volume of a sphere", "notes": "(4/3)πr³"}
+{"subject": "Mathematics", "keyword": "Key fact about Taylor series", "notes": "f(x) ≈ Σ f^{(n)}(a)(x-a)^n / n!"}
+{"subject": "Mathematics", "keyword": "Explain: Midpoint formula", "notes": "((x1+x2)/2, (y1+y2)/2)"}
+{"subject": "Mathematics", "keyword": "Concept – Integral of 1/x", "notes": "ln|x| + C"}
+{"subject": "Mathematics", "keyword": "Describe Pythagorean theorem", "notes": "a² + b² = c²"}
+{"subject": "Mathematics", "keyword": "What is Dot product", "notes": "a·b = |a||b| cos θ"}
+{"subject": "Mathematics", "keyword": "Integration by parts", "notes": "∫ u dv = uv - ∫ v du This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Define Product rule", "notes": "(uv)' = u'v + uv'"}
+{"subject": "Mathematics", "keyword": "Concept – Midpoint formula", "notes": "((x1+x2)/2, (y1+y2)/2)"}
+{"subject": "Mathematics", "keyword": "Concept – Logarithm change of base", "notes": "log_b a = log a / log b"}
+{"subject": "Mathematics", "keyword": "Concept – Dot product", "notes": "a·b = |a||b| cos θ"}
+{"subject": "Mathematics", "keyword": "Describe Slope of a line", "notes": "m = (y2-y1)/(x2-x1) This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Recall: Geometric sequence sum", "notes": "a(1-r^n)/(1-r) This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Concept – Law of cosines", "notes": "c² = a² + b² - 2ab cos C"}
+{"subject": "Mathematics", "keyword": "Explain: Midpoint formula", "notes": "((x1+x2)/2, (y1+y2)/2)"}
+{"subject": "Mathematics", "keyword": "Area of a circle", "notes": "πr²"}
+{"subject": "Mathematics", "keyword": "Describe L'Hôpital's rule", "notes": "lim f/g = lim f'/g' when indeterminate"}
+{"subject": "Mathematics", "keyword": "Explain: Taylor series", "notes": "f(x) ≈ Σ f^{(n)}(a)(x-a)^n / n! This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Define Eigenvalue definition", "notes": "Av = λv for nonzero v This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "What is Dot product", "notes": "a·b = |a||b| cos θ This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Concept – Slope of a line", "notes": "m = (y2-y1)/(x2-x1)"}
+{"subject": "Mathematics", "keyword": "Dot product", "notes": "a·b = |a||b| cos θ This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "What is Pythagorean theorem", "notes": "a² + b² = c²"}
+{"subject": "Mathematics", "keyword": "Important: L'Hôpital's rule", "notes": "lim f/g = lim f'/g' when indeterminate"}
+{"subject": "Mathematics", "keyword": "Geometric sequence sum", "notes": "a(1-r^n)/(1-r) This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Concept – Integral of 1/x", "notes": "ln|x| + C"}
+{"subject": "Mathematics", "keyword": "Explain: Law of cosines", "notes": "c² = a² + b² - 2ab cos C"}
+{"subject": "Mathematics", "keyword": "Area of a circle", "notes": "πr² This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Explain: Logarithm power rule", "notes": "log(a^b) = b · log(a)"}
+{"subject": "Mathematics", "keyword": "Important: Midpoint formula", "notes": "((x1+x2)/2, (y1+y2)/2)"}
+{"subject": "Mathematics", "keyword": "Recall: Derivative of e^x", "notes": "e^x This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Define Logarithm change of base", "notes": "log_b a = log a / log b"}
+{"subject": "Mathematics", "keyword": "Explain: Binomial theorem", "notes": "(x+y)^n = Σ C(n,k) x^{n-k} y^k"}
+{"subject": "Mathematics", "keyword": "Euler's identity", "notes": "e^{iπ} + 1 = 0"}
+{"subject": "Mathematics", "keyword": "Define Derivative of sin x", "notes": "cos x"}
+{"subject": "Mathematics", "keyword": "Describe Divergence theorem", "notes": "∭_V (∇·F) dV = ∯_S F·dS"}
+{"subject": "Mathematics", "keyword": "Concept – Eigenvalue definition", "notes": "Av = λv for nonzero v"}
+{"subject": "Mathematics", "keyword": "Concept – 2×2 matrix determinant", "notes": "ad - bc"}
+{"subject": "Mathematics", "keyword": "Concept – Logarithm power rule", "notes": "log(a^b) = b · log(a) This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "State: Law of cosines", "notes": "c² = a² + b² - 2ab cos C This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Key fact about Fundamental theorem of calculus", "notes": "∫_a^b f(x) dx = F(b) - F(a) where F' = f"}
+{"subject": "Mathematics", "keyword": "State: Quadratic formula", "notes": "x = [-b ± √(b²-4ac)] / 2a"}
+{"subject": "Mathematics", "keyword": "Concept – Law of cosines", "notes": "c² = a² + b² - 2ab cos C"}
+{"subject": "Mathematics", "keyword": "Describe Law of cosines", "notes": "c² = a² + b² - 2ab cos C This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Key fact about Fundamental theorem of calculus", "notes": "∫_a^b f(x) dx = F(b) - F(a) where F' = f This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "What is Integral of cos x", "notes": "sin x + C"}
+{"subject": "Mathematics", "keyword": "Recall: Geometric sequence sum", "notes": "a(1-r^n)/(1-r) This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Explain: Midpoint formula", "notes": "((x1+x2)/2, (y1+y2)/2) This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Important: Taylor series", "notes": "f(x) ≈ Σ f^{(n)}(a)(x-a)^n / n!"}
+{"subject": "Mathematics", "keyword": "What is Geometric sequence sum", "notes": "a(1-r^n)/(1-r) This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Important: Area of a circle", "notes": "πr²"}
+{"subject": "Mathematics", "keyword": "Explain: Law of cosines", "notes": "c² = a² + b² - 2ab cos C"}
+{"subject": "Mathematics", "keyword": "Recall: Geometric sequence sum", "notes": "a(1-r^n)/(1-r)"}
+{"subject": "Mathematics", "keyword": "Dot product", "notes": "a·b = |a||b| cos θ This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "What is Mean value theorem", "notes": "There exists c in (a,b) such that f'(c) = [f(b)-f(a)]/(b-a)"}
+{"subject": "Mathematics", "keyword": "State: Area of a circle", "notes": "πr²"}
+{"subject": "Mathematics", "keyword": "Important: Distance formula", "notes": "√[(x2-x1)² + (y2-y1)²]"}
+{"subject": "Mathematics", "keyword": "Explain: Taylor series", "notes": "f(x) ≈ Σ f^{(n)}(a)(x-a)^n / n!"}
+{"subject": "Mathematics", "keyword": "Key fact about Area of a circle", "notes": "πr²"}
+{"subject": "Mathematics", "keyword": "Recall: Law of cosines", "notes": "c² = a² + b² - 2ab cos C"}
+{"subject": "Mathematics", "keyword": "Describe Eigenvalue definition", "notes": "Av = λv for nonzero v"}
+{"subject": "Mathematics", "keyword": "What is L'Hôpital's rule", "notes": "lim f/g = lim f'/g' when indeterminate"}
+{"subject": "Mathematics", "keyword": "State: Midpoint formula", "notes": "((x1+x2)/2, (y1+y2)/2)"}
+{"subject": "Mathematics", "keyword": "Explain: 2×2 matrix determinant", "notes": "ad - bc"}
+{"subject": "Mathematics", "keyword": "Divergence theorem", "notes": "∭_V (∇·F) dV = ∯_S F·dS"}
+{"subject": "Mathematics", "keyword": "Define Fundamental theorem of calculus", "notes": "∫_a^b f(x) dx = F(b) - F(a) where F' = f This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Important: Law of cosines", "notes": "c² = a² + b² - 2ab cos C"}
+{"subject": "Mathematics", "keyword": "Key fact about Divergence theorem", "notes": "∭_V (∇·F) dV = ∯_S F·dS This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Explain: 2×2 matrix determinant", "notes": "ad - bc"}
+{"subject": "Mathematics", "keyword": "Explain: Arithmetic sequence sum", "notes": "n/2 · (2a + (n-1)d)"}
+{"subject": "Mathematics", "keyword": "Recall: Integral of cos x", "notes": "sin x + C This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "State: Arithmetic sequence sum", "notes": "n/2 · (2a + (n-1)d)"}
+{"subject": "Mathematics", "keyword": "State: Integral of cos x", "notes": "sin x + C"}
+{"subject": "Mathematics", "keyword": "Recall: Midpoint formula", "notes": "((x1+x2)/2, (y1+y2)/2) This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Describe Midpoint formula", "notes": "((x1+x2)/2, (y1+y2)/2)"}
+{"subject": "Mathematics", "keyword": "Describe Dot product", "notes": "a·b = |a||b| cos θ"}
+{"subject": "Mathematics", "keyword": "Describe Integral of 1/x", "notes": "ln|x| + C This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "What is Geometric sequence sum", "notes": "a(1-r^n)/(1-r)"}
+{"subject": "Mathematics", "keyword": "Slope of a line", "notes": "m = (y2-y1)/(x2-x1)"}
+{"subject": "Mathematics", "keyword": "Define Divergence theorem", "notes": "∭_V (∇·F) dV = ∯_S F·dS"}
+{"subject": "Mathematics", "keyword": "What is Fundamental theorem of calculus", "notes": "∫_a^b f(x) dx = F(b) - F(a) where F' = f"}
+{"subject": "Mathematics", "keyword": "Explain: Derivative of x²", "notes": "2x"}
+{"subject": "Mathematics", "keyword": "Eigenvalue definition", "notes": "Av = λv for nonzero v"}
+{"subject": "Mathematics", "keyword": "Important: Slope of a line", "notes": "m = (y2-y1)/(x2-x1)"}
+{"subject": "Mathematics", "keyword": "State: Slope of a line", "notes": "m = (y2-y1)/(x2-x1) This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Describe Law of cosines", "notes": "c² = a² + b² - 2ab cos C"}
+{"subject": "Mathematics", "keyword": "Describe Derivative of x²", "notes": "2x"}
+{"subject": "Mathematics", "keyword": "Key fact about Law of cosines", "notes": "c² = a² + b² - 2ab cos C This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Concept – Arithmetic sequence sum", "notes": "n/2 · (2a + (n-1)d)"}
+{"subject": "Mathematics", "keyword": "Define Dot product", "notes": "a·b = |a||b| cos θ This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Describe Chain rule", "notes": "d/dx [f(g(x))] = f'(g(x)) · g'(x) This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Important: Mean value theorem", "notes": "There exists c in (a,b) such that f'(c) = [f(b)-f(a)]/(b-a)"}
+{"subject": "Mathematics", "keyword": "Recall: Arithmetic sequence sum", "notes": "n/2 · (2a + (n-1)d) This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "What is Taylor series", "notes": "f(x) ≈ Σ f^{(n)}(a)(x-a)^n / n!"}
+{"subject": "Mathematics", "keyword": "State: Taylor series", "notes": "f(x) ≈ Σ f^{(n)}(a)(x-a)^n / n!"}
+{"subject": "Mathematics", "keyword": "Explain: Distance formula", "notes": "√[(x2-x1)² + (y2-y1)²] This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "What is Arithmetic sequence sum", "notes": "n/2 · (2a + (n-1)d)"}
+{"subject": "Mathematics", "keyword": "Geometric sequence sum", "notes": "a(1-r^n)/(1-r) This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Concept – Taylor series", "notes": "f(x) ≈ Σ f^{(n)}(a)(x-a)^n / n!"}
+{"subject": "Mathematics", "keyword": "Integral of 1/x", "notes": "ln|x| + C"}
+{"subject": "Mathematics", "keyword": "State: Pythagorean theorem", "notes": "a² + b² = c²"}
+{"subject": "Mathematics", "keyword": "Recall: Integral of cos x", "notes": "sin x + C"}
+{"subject": "Mathematics", "keyword": "What is Geometric sequence sum", "notes": "a(1-r^n)/(1-r)"}
+{"subject": "Mathematics", "keyword": "Dot product", "notes": "a·b = |a||b| cos θ This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Important: Logarithm change of base", "notes": "log_b a = log a / log b"}
+{"subject": "Mathematics", "keyword": "What is Integral of 1/x", "notes": "ln|x| + C"}
+{"subject": "Mathematics", "keyword": "Describe Euler's identity", "notes": "e^{iπ} + 1 = 0"}
+{"subject": "Mathematics", "keyword": "Define Integral of 1/x", "notes": "ln|x| + C"}
+{"subject": "Mathematics", "keyword": "2×2 matrix determinant", "notes": "ad - bc"}
+{"subject": "Mathematics", "keyword": "Define Derivative of sin x", "notes": "cos x"}
+{"subject": "Mathematics", "keyword": "Concept – Distance formula", "notes": "√[(x2-x1)² + (y2-y1)²]"}
+{"subject": "Mathematics", "keyword": "Define Logarithm power rule", "notes": "log(a^b) = b · log(a)"}
+{"subject": "Mathematics", "keyword": "Concept – Derivative of sin x", "notes": "cos x"}
+{"subject": "Mathematics", "keyword": "Recall: Law of cosines", "notes": "c² = a² + b² - 2ab cos C"}
+{"subject": "Mathematics", "keyword": "Define Midpoint formula", "notes": "((x1+x2)/2, (y1+y2)/2)"}
+{"subject": "Mathematics", "keyword": "What is Distance formula", "notes": "√[(x2-x1)² + (y2-y1)²]"}
+{"subject": "Mathematics", "keyword": "Eigenvalue definition", "notes": "Av = λv for nonzero v This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "What is Fundamental theorem of calculus", "notes": "∫_a^b f(x) dx = F(b) - F(a) where F' = f"}
+{"subject": "Mathematics", "keyword": "Important: Area of a circle", "notes": "πr²"}
+{"subject": "Mathematics", "keyword": "Recall: Taylor series", "notes": "f(x) ≈ Σ f^{(n)}(a)(x-a)^n / n! This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "State: Euler's identity", "notes": "e^{iπ} + 1 = 0"}
+{"subject": "Mathematics", "keyword": "Describe Eigenvalue definition", "notes": "Av = λv for nonzero v"}
+{"subject": "Mathematics", "keyword": "Define Divergence theorem", "notes": "∭_V (∇·F) dV = ∯_S F·dS"}
+{"subject": "Mathematics", "keyword": "Concept – Slope of a line", "notes": "m = (y2-y1)/(x2-x1) This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Key fact about Derivative of e^x", "notes": "e^x"}
+{"subject": "Mathematics", "keyword": "What is Distance formula", "notes": "√[(x2-x1)² + (y2-y1)²] This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Concept – Quadratic formula", "notes": "x = [-b ± √(b²-4ac)] / 2a"}
+{"subject": "Mathematics", "keyword": "Define Integral of cos x", "notes": "sin x + C"}
+{"subject": "Mathematics", "keyword": "Recall: 2×2 matrix determinant", "notes": "ad - bc This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Key fact about Derivative of x²", "notes": "2x"}
+{"subject": "Mathematics", "keyword": "Key fact about Area of a circle", "notes": "πr² This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Define Pythagorean theorem", "notes": "a² + b² = c²"}
+{"subject": "Mathematics", "keyword": "Describe Law of cosines", "notes": "c² = a² + b² - 2ab cos C"}
+{"subject": "Mathematics", "keyword": "Chain rule", "notes": "d/dx [f(g(x))] = f'(g(x)) · g'(x) This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "What is Law of cosines", "notes": "c² = a² + b² - 2ab cos C"}
+{"subject": "Mathematics", "keyword": "Recall: Volume of a sphere", "notes": "(4/3)πr³"}
+{"subject": "Mathematics", "keyword": "Key fact about Derivative of x²", "notes": "2x"}
+{"subject": "Mathematics", "keyword": "What is Area of a circle", "notes": "πr²"}
+{"subject": "Mathematics", "keyword": "Explain: Law of cosines", "notes": "c² = a² + b² - 2ab cos C"}
+{"subject": "Mathematics", "keyword": "Concept – Product rule", "notes": "(uv)' = u'v + uv' This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Key fact about Euler's identity", "notes": "e^{iπ} + 1 = 0 This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "What is Quadratic formula", "notes": "x = [-b ± √(b²-4ac)] / 2a This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Concept – Euler's identity", "notes": "e^{iπ} + 1 = 0 This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "What is Volume of a sphere", "notes": "(4/3)πr³"}
+{"subject": "Mathematics", "keyword": "State: Fundamental theorem of calculus", "notes": "∫_a^b f(x) dx = F(b) - F(a) where F' = f"}
+{"subject": "Mathematics", "keyword": "State: Mean value theorem", "notes": "There exists c in (a,b) such that f'(c) = [f(b)-f(a)]/(b-a) This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Logarithm power rule", "notes": "log(a^b) = b · log(a)"}
+{"subject": "Mathematics", "keyword": "Important: 2×2 matrix determinant", "notes": "ad - bc"}
+{"subject": "Mathematics", "keyword": "Recall: Geometric sequence sum", "notes": "a(1-r^n)/(1-r)"}
+{"subject": "Mathematics", "keyword": "Important: Divergence theorem", "notes": "∭_V (∇·F) dV = ∯_S F·dS This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Important: 2×2 matrix determinant", "notes": "ad - bc"}
+{"subject": "Mathematics", "keyword": "State: Mean value theorem", "notes": "There exists c in (a,b) such that f'(c) = [f(b)-f(a)]/(b-a)"}
+{"subject": "Mathematics", "keyword": "Recall: Taylor series", "notes": "f(x) ≈ Σ f^{(n)}(a)(x-a)^n / n! This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "State: Distance formula", "notes": "√[(x2-x1)² + (y2-y1)²]"}
+{"subject": "Mathematics", "keyword": "Explain: Volume of a sphere", "notes": "(4/3)πr³"}
+{"subject": "Mathematics", "keyword": "Concept – Euler's identity", "notes": "e^{iπ} + 1 = 0"}
+{"subject": "Mathematics", "keyword": "Important: Dot product", "notes": "a·b = |a||b| cos θ This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Define Law of cosines", "notes": "c² = a² + b² - 2ab cos C"}
+{"subject": "Mathematics", "keyword": "Law of cosines", "notes": "c² = a² + b² - 2ab cos C"}
+{"subject": "Mathematics", "keyword": "Explain: L'Hôpital's rule", "notes": "lim f/g = lim f'/g' when indeterminate"}
+{"subject": "Mathematics", "keyword": "What is Logarithm power rule", "notes": "log(a^b) = b · log(a)"}
+{"subject": "Mathematics", "keyword": "Concept – Volume of a sphere", "notes": "(4/3)πr³"}
+{"subject": "Mathematics", "keyword": "Key fact about Quadratic formula", "notes": "x = [-b ± √(b²-4ac)] / 2a This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Define Slope of a line", "notes": "m = (y2-y1)/(x2-x1)"}
+{"subject": "Mathematics", "keyword": "Concept – Volume of a sphere", "notes": "(4/3)πr³ This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "State: Derivative of e^x", "notes": "e^x"}
+{"subject": "Mathematics", "keyword": "Describe Law of cosines", "notes": "c² = a² + b² - 2ab cos C"}
+{"subject": "Mathematics", "keyword": "Concept – Geometric sequence sum", "notes": "a(1-r^n)/(1-r)"}
+{"subject": "Mathematics", "keyword": "Recall: Volume of a sphere", "notes": "(4/3)πr³"}
+{"subject": "Mathematics", "keyword": "Describe Volume of a sphere", "notes": "(4/3)πr³"}
+{"subject": "Mathematics", "keyword": "What is Dot product", "notes": "a·b = |a||b| cos θ This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Recall: Fundamental theorem of calculus", "notes": "∫_a^b f(x) dx = F(b) - F(a) where F' = f This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Derivative of e^x", "notes": "e^x"}
+{"subject": "Mathematics", "keyword": "Concept – Integral of cos x", "notes": "sin x + C"}
+{"subject": "Mathematics", "keyword": "Concept – 2×2 matrix determinant", "notes": "ad - bc This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Key fact about Chain rule", "notes": "d/dx [f(g(x))] = f'(g(x)) · g'(x) This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Describe Midpoint formula", "notes": "((x1+x2)/2, (y1+y2)/2)"}
+{"subject": "Mathematics", "keyword": "Important: Distance formula", "notes": "√[(x2-x1)² + (y2-y1)²] This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Concept – Eigenvalue definition", "notes": "Av = λv for nonzero v"}
+{"subject": "Mathematics", "keyword": "Important: Slope of a line", "notes": "m = (y2-y1)/(x2-x1)"}
+{"subject": "Mathematics", "keyword": "Recall: Quadratic formula", "notes": "x = [-b ± √(b²-4ac)] / 2a"}
+{"subject": "Mathematics", "keyword": "What is Integration by parts", "notes": "∫ u dv = uv - ∫ v du This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "What is Dot product", "notes": "a·b = |a||b| cos θ This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Define Midpoint formula", "notes": "((x1+x2)/2, (y1+y2)/2)"}
+{"subject": "Mathematics", "keyword": "State: 2×2 matrix determinant", "notes": "ad - bc"}
+{"subject": "Mathematics", "keyword": "State: Binomial theorem", "notes": "(x+y)^n = Σ C(n,k) x^{n-k} y^k"}
+{"subject": "Mathematics", "keyword": "State: Chain rule", "notes": "d/dx [f(g(x))] = f'(g(x)) · g'(x)"}
+{"subject": "Mathematics", "keyword": "Recall: L'Hôpital's rule", "notes": "lim f/g = lim f'/g' when indeterminate This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "What is Integral of 1/x", "notes": "ln|x| + C This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "What is 2×2 matrix determinant", "notes": "ad - bc"}
+{"subject": "Mathematics", "keyword": "Explain: Product rule", "notes": "(uv)' = u'v + uv'"}
+{"subject": "Mathematics", "keyword": "Define Law of cosines", "notes": "c² = a² + b² - 2ab cos C"}
+{"subject": "Mathematics", "keyword": "State: Divergence theorem", "notes": "∭_V (∇·F) dV = ∯_S F·dS This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Define Taylor series", "notes": "f(x) ≈ Σ f^{(n)}(a)(x-a)^n / n! This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Concept – Slope of a line", "notes": "m = (y2-y1)/(x2-x1)"}
+{"subject": "Mathematics", "keyword": "Important: Midpoint formula", "notes": "((x1+x2)/2, (y1+y2)/2)"}
+{"subject": "Mathematics", "keyword": "Important: L'Hôpital's rule", "notes": "lim f/g = lim f'/g' when indeterminate"}
+{"subject": "Mathematics", "keyword": "Explain: Derivative of x²", "notes": "2x This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "What is Area of a circle", "notes": "πr²"}
+{"subject": "Mathematics", "keyword": "Describe Volume of a sphere", "notes": "(4/3)πr³ This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Explain: 2×2 matrix determinant", "notes": "ad - bc"}
+{"subject": "Mathematics", "keyword": "State: Euler's identity", "notes": "e^{iπ} + 1 = 0"}
+{"subject": "Mathematics", "keyword": "Recall: Integral of cos x", "notes": "sin x + C"}
+{"subject": "Mathematics", "keyword": "Concept – Derivative of e^x", "notes": "e^x"}
+{"subject": "Mathematics", "keyword": "Recall: Eigenvalue definition", "notes": "Av = λv for nonzero v"}
+{"subject": "Mathematics", "keyword": "Define Derivative of e^x", "notes": "e^x"}
+{"subject": "Mathematics", "keyword": "Key fact about Distance formula", "notes": "√[(x2-x1)² + (y2-y1)²]"}
+{"subject": "Mathematics", "keyword": "What is Derivative of sin x", "notes": "cos x"}
+{"subject": "Mathematics", "keyword": "What is 2×2 matrix determinant", "notes": "ad - bc This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Define Chain rule", "notes": "d/dx [f(g(x))] = f'(g(x)) · g'(x)"}
+{"subject": "Mathematics", "keyword": "Describe Quadratic formula", "notes": "x = [-b ± √(b²-4ac)] / 2a"}
+{"subject": "Mathematics", "keyword": "Define Derivative of e^x", "notes": "e^x"}
+{"subject": "Mathematics", "keyword": "Define Divergence theorem", "notes": "∭_V (∇·F) dV = ∯_S F·dS"}
+{"subject": "Mathematics", "keyword": "Define Law of cosines", "notes": "c² = a² + b² - 2ab cos C"}
+{"subject": "Mathematics", "keyword": "Key fact about Integration by parts", "notes": "∫ u dv = uv - ∫ v du This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "State: 2×2 matrix determinant", "notes": "ad - bc"}
+{"subject": "Mathematics", "keyword": "Recall: Geometric sequence sum", "notes": "a(1-r^n)/(1-r)"}
+{"subject": "Mathematics", "keyword": "Define Integration by parts", "notes": "∫ u dv = uv - ∫ v du This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Describe Taylor series", "notes": "f(x) ≈ Σ f^{(n)}(a)(x-a)^n / n!"}
+{"subject": "Mathematics", "keyword": "Concept – Integration by parts", "notes": "∫ u dv = uv - ∫ v du"}
+{"subject": "Mathematics", "keyword": "State: Divergence theorem", "notes": "∭_V (∇·F) dV = ∯_S F·dS"}
+{"subject": "Mathematics", "keyword": "Important: Pythagorean theorem", "notes": "a² + b² = c² This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Explain: Area of a circle", "notes": "πr² This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Explain: Euler's identity", "notes": "e^{iπ} + 1 = 0"}
+{"subject": "Mathematics", "keyword": "State: Product rule", "notes": "(uv)' = u'v + uv'"}
+{"subject": "Mathematics", "keyword": "State: Area of a circle", "notes": "πr²"}
+{"subject": "Mathematics", "keyword": "Important: Chain rule", "notes": "d/dx [f(g(x))] = f'(g(x)) · g'(x) This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Describe Area of a circle", "notes": "πr²"}
+{"subject": "Mathematics", "keyword": "Describe Eigenvalue definition", "notes": "Av = λv for nonzero v"}
+{"subject": "Mathematics", "keyword": "State: Integral of 1/x", "notes": "ln|x| + C"}
+{"subject": "Mathematics", "keyword": "What is Divergence theorem", "notes": "∭_V (∇·F) dV = ∯_S F·dS"}
+{"subject": "Mathematics", "keyword": "Explain: Integral of cos x", "notes": "sin x + C This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "State: Integral of 1/x", "notes": "ln|x| + C This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "What is Geometric sequence sum", "notes": "a(1-r^n)/(1-r)"}
+{"subject": "Mathematics", "keyword": "Explain: Chain rule", "notes": "d/dx [f(g(x))] = f'(g(x)) · g'(x) This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Important: Midpoint formula", "notes": "((x1+x2)/2, (y1+y2)/2)"}
+{"subject": "Mathematics", "keyword": "Important: Geometric sequence sum", "notes": "a(1-r^n)/(1-r)"}
+{"subject": "Mathematics", "keyword": "Important: Product rule", "notes": "(uv)' = u'v + uv' This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Explain: Mean value theorem", "notes": "There exists c in (a,b) such that f'(c) = [f(b)-f(a)]/(b-a)"}
+{"subject": "Mathematics", "keyword": "Recall: Derivative of sin x", "notes": "cos x"}
+{"subject": "Mathematics", "keyword": "Describe Derivative of e^x", "notes": "e^x This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Key fact about Distance formula", "notes": "√[(x2-x1)² + (y2-y1)²] This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Describe Euler's identity", "notes": "e^{iπ} + 1 = 0"}
+{"subject": "Mathematics", "keyword": "What is Slope of a line", "notes": "m = (y2-y1)/(x2-x1) This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Concept – Area of a circle", "notes": "πr²"}
+{"subject": "Mathematics", "keyword": "Define Euler's identity", "notes": "e^{iπ} + 1 = 0"}
+{"subject": "Mathematics", "keyword": "Explain: Quadratic formula", "notes": "x = [-b ± √(b²-4ac)] / 2a This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Explain: 2×2 matrix determinant", "notes": "ad - bc"}
+{"subject": "Mathematics", "keyword": "Concept – Slope of a line", "notes": "m = (y2-y1)/(x2-x1)"}
+{"subject": "Mathematics", "keyword": "Key fact about Derivative of sin x", "notes": "cos x"}
+{"subject": "Mathematics", "keyword": "State: Taylor series", "notes": "f(x) ≈ Σ f^{(n)}(a)(x-a)^n / n! This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "What is Volume of a sphere", "notes": "(4/3)πr³"}
+{"subject": "Mathematics", "keyword": "Key fact about Midpoint formula", "notes": "((x1+x2)/2, (y1+y2)/2)"}
+{"subject": "Mathematics", "keyword": "Recall: Logarithm change of base", "notes": "log_b a = log a / log b"}
+{"subject": "Mathematics", "keyword": "Recall: Integration by parts", "notes": "∫ u dv = uv - ∫ v du"}
+{"subject": "Mathematics", "keyword": "What is Geometric sequence sum", "notes": "a(1-r^n)/(1-r)"}
+{"subject": "Mathematics", "keyword": "Recall: L'Hôpital's rule", "notes": "lim f/g = lim f'/g' when indeterminate"}
+{"subject": "Mathematics", "keyword": "Describe Volume of a sphere", "notes": "(4/3)πr³"}
+{"subject": "Mathematics", "keyword": "Explain: Divergence theorem", "notes": "∭_V (∇·F) dV = ∯_S F·dS"}
+{"subject": "Mathematics", "keyword": "Key fact about 2×2 matrix determinant", "notes": "ad - bc"}
+{"subject": "Mathematics", "keyword": "Define Derivative of sin x", "notes": "cos x"}
+{"subject": "Mathematics", "keyword": "Recall: Integration by parts", "notes": "∫ u dv = uv - ∫ v du"}
+{"subject": "Mathematics", "keyword": "Area of a circle", "notes": "πr² This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "State: Integral of cos x", "notes": "sin x + C This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Define Dot product", "notes": "a·b = |a||b| cos θ"}
+{"subject": "Mathematics", "keyword": "Concept – Derivative of x²", "notes": "2x This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Define Distance formula", "notes": "√[(x2-x1)² + (y2-y1)²]"}
+{"subject": "Mathematics", "keyword": "Define Logarithm power rule", "notes": "log(a^b) = b · log(a)"}
+{"subject": "Mathematics", "keyword": "Key fact about Logarithm change of base", "notes": "log_b a = log a / log b This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Key fact about Eigenvalue definition", "notes": "Av = λv for nonzero v This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Define Slope of a line", "notes": "m = (y2-y1)/(x2-x1) This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Key fact about Integral of cos x", "notes": "sin x + C"}
+{"subject": "Mathematics", "keyword": "Explain: Area of a circle", "notes": "πr²"}
+{"subject": "Mathematics", "keyword": "What is Pythagorean theorem", "notes": "a² + b² = c² This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "What is Integration by parts", "notes": "∫ u dv = uv - ∫ v du This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Describe Fundamental theorem of calculus", "notes": "∫_a^b f(x) dx = F(b) - F(a) where F' = f"}
+{"subject": "Mathematics", "keyword": "Derivative of x²", "notes": "2x"}
+{"subject": "Mathematics", "keyword": "What is Arithmetic sequence sum", "notes": "n/2 · (2a + (n-1)d)"}
+{"subject": "Mathematics", "keyword": "Define Divergence theorem", "notes": "∭_V (∇·F) dV = ∯_S F·dS"}
+{"subject": "Mathematics", "keyword": "Concept – Fundamental theorem of calculus", "notes": "∫_a^b f(x) dx = F(b) - F(a) where F' = f This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "What is Volume of a sphere", "notes": "(4/3)πr³ This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Key fact about Eigenvalue definition", "notes": "Av = λv for nonzero v This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Define Area of a circle", "notes": "πr²"}
+{"subject": "Mathematics", "keyword": "Define Slope of a line", "notes": "m = (y2-y1)/(x2-x1) This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Derivative of sin x", "notes": "cos x"}
+{"subject": "Mathematics", "keyword": "State: Product rule", "notes": "(uv)' = u'v + uv'"}
+{"subject": "Mathematics", "keyword": "Define Mean value theorem", "notes": "There exists c in (a,b) such that f'(c) = [f(b)-f(a)]/(b-a)"}
+{"subject": "Mathematics", "keyword": "State: Derivative of e^x", "notes": "e^x"}
+{"subject": "Mathematics", "keyword": "What is Pythagorean theorem", "notes": "a² + b² = c² This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Important: Chain rule", "notes": "d/dx [f(g(x))] = f'(g(x)) · g'(x)"}
+{"subject": "Mathematics", "keyword": "Concept – Eigenvalue definition", "notes": "Av = λv for nonzero v"}
+{"subject": "Mathematics", "keyword": "Explain: Quadratic formula", "notes": "x = [-b ± √(b²-4ac)] / 2a This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Explain: Pythagorean theorem", "notes": "a² + b² = c²"}
+{"subject": "Mathematics", "keyword": "Important: Derivative of e^x", "notes": "e^x This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Distance formula", "notes": "√[(x2-x1)² + (y2-y1)²]"}
+{"subject": "Mathematics", "keyword": "Key fact about Slope of a line", "notes": "m = (y2-y1)/(x2-x1) This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Describe Derivative of e^x", "notes": "e^x This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Key fact about Taylor series", "notes": "f(x) ≈ Σ f^{(n)}(a)(x-a)^n / n!"}
+{"subject": "Mathematics", "keyword": "Explain: Volume of a sphere", "notes": "(4/3)πr³"}
+{"subject": "Mathematics", "keyword": "Explain: Chain rule", "notes": "d/dx [f(g(x))] = f'(g(x)) · g'(x)"}
+{"subject": "Mathematics", "keyword": "What is Derivative of e^x", "notes": "e^x"}
+{"subject": "Mathematics", "keyword": "Recall: Derivative of x²", "notes": "2x"}
+{"subject": "Mathematics", "keyword": "Concept – Quadratic formula", "notes": "x = [-b ± √(b²-4ac)] / 2a"}
+{"subject": "Mathematics", "keyword": "Concept – Derivative of sin x", "notes": "cos x"}
+{"subject": "Mathematics", "keyword": "Define Slope of a line", "notes": "m = (y2-y1)/(x2-x1)"}
+{"subject": "Mathematics", "keyword": "What is Area of a circle", "notes": "πr² This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Pythagorean theorem", "notes": "a² + b² = c² This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Integral of 1/x", "notes": "ln|x| + C"}
+{"subject": "Mathematics", "keyword": "Describe Taylor series", "notes": "f(x) ≈ Σ f^{(n)}(a)(x-a)^n / n! This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Describe Distance formula", "notes": "√[(x2-x1)² + (y2-y1)²]"}
+{"subject": "Mathematics", "keyword": "Concept – Divergence theorem", "notes": "∭_V (∇·F) dV = ∯_S F·dS This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Describe Law of cosines", "notes": "c² = a² + b² - 2ab cos C"}
+{"subject": "Mathematics", "keyword": "What is Euler's identity", "notes": "e^{iπ} + 1 = 0"}
+{"subject": "Mathematics", "keyword": "Explain: Binomial theorem", "notes": "(x+y)^n = Σ C(n,k) x^{n-k} y^k"}
+{"subject": "Mathematics", "keyword": "Describe Quadratic formula", "notes": "x = [-b ± √(b²-4ac)] / 2a"}
+{"subject": "Mathematics", "keyword": "What is Derivative of sin x", "notes": "cos x"}
+{"subject": "Mathematics", "keyword": "Explain: Divergence theorem", "notes": "∭_V (∇·F) dV = ∯_S F·dS This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Concept – Pythagorean theorem", "notes": "a² + b² = c² This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Important: Derivative of e^x", "notes": "e^x This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Define Slope of a line", "notes": "m = (y2-y1)/(x2-x1) This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Define Distance formula", "notes": "√[(x2-x1)² + (y2-y1)²]"}
+{"subject": "Mathematics", "keyword": "State: Product rule", "notes": "(uv)' = u'v + uv'"}
+{"subject": "Mathematics", "keyword": "Describe Binomial theorem", "notes": "(x+y)^n = Σ C(n,k) x^{n-k} y^k"}
+{"subject": "Mathematics", "keyword": "Key fact about Midpoint formula", "notes": "((x1+x2)/2, (y1+y2)/2) This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Key fact about Quadratic formula", "notes": "x = [-b ± √(b²-4ac)] / 2a"}
+{"subject": "Mathematics", "keyword": "Chain rule", "notes": "d/dx [f(g(x))] = f'(g(x)) · g'(x)"}
+{"subject": "Mathematics", "keyword": "Key fact about Divergence theorem", "notes": "∭_V (∇·F) dV = ∯_S F·dS"}
+{"subject": "Mathematics", "keyword": "Important: Euler's identity", "notes": "e^{iπ} + 1 = 0"}
+{"subject": "Mathematics", "keyword": "State: Integration by parts", "notes": "∫ u dv = uv - ∫ v du"}
+{"subject": "Mathematics", "keyword": "State: Integral of 1/x", "notes": "ln|x| + C"}
+{"subject": "Mathematics", "keyword": "Recall: Product rule", "notes": "(uv)' = u'v + uv' This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "What is Area of a circle", "notes": "πr²"}
+{"subject": "Mathematics", "keyword": "What is Slope of a line", "notes": "m = (y2-y1)/(x2-x1) This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Binomial theorem", "notes": "(x+y)^n = Σ C(n,k) x^{n-k} y^k This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Geometric sequence sum", "notes": "a(1-r^n)/(1-r) This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Recall: Integration by parts", "notes": "∫ u dv = uv - ∫ v du"}
+{"subject": "Mathematics", "keyword": "Define Quadratic formula", "notes": "x = [-b ± √(b²-4ac)] / 2a"}
+{"subject": "Mathematics", "keyword": "Geometric sequence sum", "notes": "a(1-r^n)/(1-r)"}
+{"subject": "Mathematics", "keyword": "Concept – Dot product", "notes": "a·b = |a||b| cos θ This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Concept – Fundamental theorem of calculus", "notes": "∫_a^b f(x) dx = F(b) - F(a) where F' = f"}
+{"subject": "Mathematics", "keyword": "Key fact about 2×2 matrix determinant", "notes": "ad - bc"}
+{"subject": "Mathematics", "keyword": "Recall: Derivative of sin x", "notes": "cos x This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Slope of a line", "notes": "m = (y2-y1)/(x2-x1) This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Describe Volume of a sphere", "notes": "(4/3)πr³"}
+{"subject": "Mathematics", "keyword": "What is Taylor series", "notes": "f(x) ≈ Σ f^{(n)}(a)(x-a)^n / n!"}
+{"subject": "Mathematics", "keyword": "Key fact about Geometric sequence sum", "notes": "a(1-r^n)/(1-r)"}
+{"subject": "Mathematics", "keyword": "Recall: Logarithm power rule", "notes": "log(a^b) = b · log(a) This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "L'Hôpital's rule", "notes": "lim f/g = lim f'/g' when indeterminate"}
+{"subject": "Mathematics", "keyword": "Important: Logarithm power rule", "notes": "log(a^b) = b · log(a)"}
+{"subject": "Mathematics", "keyword": "Important: Midpoint formula", "notes": "((x1+x2)/2, (y1+y2)/2) This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Important: Eigenvalue definition", "notes": "Av = λv for nonzero v"}
+{"subject": "Mathematics", "keyword": "Explain: Area of a circle", "notes": "πr²"}
+{"subject": "Mathematics", "keyword": "Explain: Law of cosines", "notes": "c² = a² + b² - 2ab cos C This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Concept – Dot product", "notes": "a·b = |a||b| cos θ This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Recall: Law of cosines", "notes": "c² = a² + b² - 2ab cos C"}
+{"subject": "Mathematics", "keyword": "Distance formula", "notes": "√[(x2-x1)² + (y2-y1)²]"}
+{"subject": "Mathematics", "keyword": "Concept – Derivative of x²", "notes": "2x"}
+{"subject": "Mathematics", "keyword": "Key fact about Midpoint formula", "notes": "((x1+x2)/2, (y1+y2)/2) This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Explain: Binomial theorem", "notes": "(x+y)^n = Σ C(n,k) x^{n-k} y^k"}
+{"subject": "Mathematics", "keyword": "Define Integral of 1/x", "notes": "ln|x| + C"}
+{"subject": "Mathematics", "keyword": "Pythagorean theorem", "notes": "a² + b² = c²"}
+{"subject": "Mathematics", "keyword": "Describe Logarithm change of base", "notes": "log_b a = log a / log b"}
+{"subject": "Mathematics", "keyword": "Recall: Logarithm change of base", "notes": "log_b a = log a / log b"}
+{"subject": "Mathematics", "keyword": "What is Midpoint formula", "notes": "((x1+x2)/2, (y1+y2)/2)"}
+{"subject": "Mathematics", "keyword": "Define Binomial theorem", "notes": "(x+y)^n = Σ C(n,k) x^{n-k} y^k"}
+{"subject": "Mathematics", "keyword": "What is Taylor series", "notes": "f(x) ≈ Σ f^{(n)}(a)(x-a)^n / n!"}
+{"subject": "Mathematics", "keyword": "Concept – Integral of 1/x", "notes": "ln|x| + C"}
+{"subject": "Mathematics", "keyword": "Explain: Quadratic formula", "notes": "x = [-b ± √(b²-4ac)] / 2a This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Recall: Geometric sequence sum", "notes": "a(1-r^n)/(1-r)"}
+{"subject": "Mathematics", "keyword": "Recall: Taylor series", "notes": "f(x) ≈ Σ f^{(n)}(a)(x-a)^n / n!"}
+{"subject": "Mathematics", "keyword": "Explain: Euler's identity", "notes": "e^{iπ} + 1 = 0 This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Define Mean value theorem", "notes": "There exists c in (a,b) such that f'(c) = [f(b)-f(a)]/(b-a)"}
+{"subject": "Mathematics", "keyword": "What is Derivative of sin x", "notes": "cos x This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "State: Product rule", "notes": "(uv)' = u'v + uv'"}
+{"subject": "Mathematics", "keyword": "What is Divergence theorem", "notes": "∭_V (∇·F) dV = ∯_S F·dS"}
+{"subject": "Mathematics", "keyword": "Explain: Area of a circle", "notes": "πr²"}
+{"subject": "Mathematics", "keyword": "Key fact about L'Hôpital's rule", "notes": "lim f/g = lim f'/g' when indeterminate"}
+{"subject": "Mathematics", "keyword": "Define Pythagorean theorem", "notes": "a² + b² = c²"}
+{"subject": "Mathematics", "keyword": "Important: Logarithm power rule", "notes": "log(a^b) = b · log(a) This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Recall: Arithmetic sequence sum", "notes": "n/2 · (2a + (n-1)d) This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Explain: Distance formula", "notes": "√[(x2-x1)² + (y2-y1)²]"}
+{"subject": "Mathematics", "keyword": "Describe Taylor series", "notes": "f(x) ≈ Σ f^{(n)}(a)(x-a)^n / n! This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Key fact about Logarithm power rule", "notes": "log(a^b) = b · log(a)"}
+{"subject": "Mathematics", "keyword": "Product rule", "notes": "(uv)' = u'v + uv'"}
+{"subject": "Mathematics", "keyword": "State: Geometric sequence sum", "notes": "a(1-r^n)/(1-r)"}
+{"subject": "Mathematics", "keyword": "Explain: Law of cosines", "notes": "c² = a² + b² - 2ab cos C This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Define Chain rule", "notes": "d/dx [f(g(x))] = f'(g(x)) · g'(x) This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Explain: Integral of 1/x", "notes": "ln|x| + C This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Concept – Arithmetic sequence sum", "notes": "n/2 · (2a + (n-1)d)"}
+{"subject": "Mathematics", "keyword": "What is Integral of cos x", "notes": "sin x + C"}
+{"subject": "Mathematics", "keyword": "What is Euler's identity", "notes": "e^{iπ} + 1 = 0 This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Explain: Pythagorean theorem", "notes": "a² + b² = c²"}
+{"subject": "Mathematics", "keyword": "Define L'Hôpital's rule", "notes": "lim f/g = lim f'/g' when indeterminate This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Recall: Geometric sequence sum", "notes": "a(1-r^n)/(1-r) This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "L'Hôpital's rule", "notes": "lim f/g = lim f'/g' when indeterminate This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Concept – Derivative of sin x", "notes": "cos x"}
+{"subject": "Mathematics", "keyword": "State: Taylor series", "notes": "f(x) ≈ Σ f^{(n)}(a)(x-a)^n / n! This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Concept – Slope of a line", "notes": "m = (y2-y1)/(x2-x1) This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Define Mean value theorem", "notes": "There exists c in (a,b) such that f'(c) = [f(b)-f(a)]/(b-a) This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Define L'Hôpital's rule", "notes": "lim f/g = lim f'/g' when indeterminate This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Important: Derivative of e^x", "notes": "e^x This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "State: Logarithm power rule", "notes": "log(a^b) = b · log(a)"}
+{"subject": "Mathematics", "keyword": "State: Law of cosines", "notes": "c² = a² + b² - 2ab cos C This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Concept – Euler's identity", "notes": "e^{iπ} + 1 = 0 This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Describe Mean value theorem", "notes": "There exists c in (a,b) such that f'(c) = [f(b)-f(a)]/(b-a) This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Describe Volume of a sphere", "notes": "(4/3)πr³"}
+{"subject": "Mathematics", "keyword": "Recall: Taylor series", "notes": "f(x) ≈ Σ f^{(n)}(a)(x-a)^n / n!"}
+{"subject": "Mathematics", "keyword": "State: Volume of a sphere", "notes": "(4/3)πr³"}
+{"subject": "Mathematics", "keyword": "Describe Derivative of sin x", "notes": "cos x"}
+{"subject": "Mathematics", "keyword": "Define Euler's identity", "notes": "e^{iπ} + 1 = 0 This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Explain: Derivative of e^x", "notes": "e^x This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Key fact about Volume of a sphere", "notes": "(4/3)πr³ This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Describe Integration by parts", "notes": "∫ u dv = uv - ∫ v du"}
+{"subject": "Mathematics", "keyword": "Explain: Derivative of sin x", "notes": "cos x"}
+{"subject": "Mathematics", "keyword": "Explain: Chain rule", "notes": "d/dx [f(g(x))] = f'(g(x)) · g'(x)"}
+{"subject": "Mathematics", "keyword": "Describe Euler's identity", "notes": "e^{iπ} + 1 = 0"}
+{"subject": "Mathematics", "keyword": "Dot product", "notes": "a·b = |a||b| cos θ"}
+{"subject": "Mathematics", "keyword": "Important: Fundamental theorem of calculus", "notes": "∫_a^b f(x) dx = F(b) - F(a) where F' = f"}
+{"subject": "Mathematics", "keyword": "Concept – Volume of a sphere", "notes": "(4/3)πr³"}
+{"subject": "Mathematics", "keyword": "Define Arithmetic sequence sum", "notes": "n/2 · (2a + (n-1)d) This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Recall: Derivative of sin x", "notes": "cos x"}
+{"subject": "Mathematics", "keyword": "Recall: Distance formula", "notes": "√[(x2-x1)² + (y2-y1)²]"}
+{"subject": "Mathematics", "keyword": "Recall: Derivative of x²", "notes": "2x"}
+{"subject": "Mathematics", "keyword": "Define Derivative of sin x", "notes": "cos x"}
+{"subject": "Mathematics", "keyword": "State: Mean value theorem", "notes": "There exists c in (a,b) such that f'(c) = [f(b)-f(a)]/(b-a)"}
+{"subject": "Mathematics", "keyword": "State: Product rule", "notes": "(uv)' = u'v + uv' This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Explain: Integral of 1/x", "notes": "ln|x| + C"}
+{"subject": "Mathematics", "keyword": "Describe Derivative of x²", "notes": "2x"}
+{"subject": "Mathematics", "keyword": "Important: 2×2 matrix determinant", "notes": "ad - bc This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Recall: Quadratic formula", "notes": "x = [-b ± √(b²-4ac)] / 2a"}
+{"subject": "Mathematics", "keyword": "Recall: Dot product", "notes": "a·b = |a||b| cos θ This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Important: Quadratic formula", "notes": "x = [-b ± √(b²-4ac)] / 2a"}
+{"subject": "Mathematics", "keyword": "What is Quadratic formula", "notes": "x = [-b ± √(b²-4ac)] / 2a"}
+{"subject": "Mathematics", "keyword": "Recall: Geometric sequence sum", "notes": "a(1-r^n)/(1-r)"}
+{"subject": "Mathematics", "keyword": "Concept – Eigenvalue definition", "notes": "Av = λv for nonzero v"}
+{"subject": "Mathematics", "keyword": "Key fact about 2×2 matrix determinant", "notes": "ad - bc"}
+{"subject": "Mathematics", "keyword": "Concept – Product rule", "notes": "(uv)' = u'v + uv'"}
+{"subject": "Mathematics", "keyword": "Recall: Integration by parts", "notes": "∫ u dv = uv - ∫ v du This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Important: Law of cosines", "notes": "c² = a² + b² - 2ab cos C"}
+{"subject": "Mathematics", "keyword": "Important: Fundamental theorem of calculus", "notes": "∫_a^b f(x) dx = F(b) - F(a) where F' = f"}
+{"subject": "Mathematics", "keyword": "Key fact about Taylor series", "notes": "f(x) ≈ Σ f^{(n)}(a)(x-a)^n / n!"}
+{"subject": "Mathematics", "keyword": "Define Logarithm power rule", "notes": "log(a^b) = b · log(a) This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Important: Derivative of x²", "notes": "2x"}
+{"subject": "Mathematics", "keyword": "Important: Area of a circle", "notes": "πr² This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Recall: Derivative of e^x", "notes": "e^x"}
+{"subject": "Mathematics", "keyword": "Explain: Derivative of e^x", "notes": "e^x"}
+{"subject": "Mathematics", "keyword": "State: Chain rule", "notes": "d/dx [f(g(x))] = f'(g(x)) · g'(x) This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "What is Midpoint formula", "notes": "((x1+x2)/2, (y1+y2)/2) This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Define 2×2 matrix determinant", "notes": "ad - bc"}
+{"subject": "Mathematics", "keyword": "Recall: Pythagorean theorem", "notes": "a² + b² = c²"}
+{"subject": "Mathematics", "keyword": "Explain: Euler's identity", "notes": "e^{iπ} + 1 = 0 This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Recall: Pythagorean theorem", "notes": "a² + b² = c² This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Chain rule", "notes": "d/dx [f(g(x))] = f'(g(x)) · g'(x) This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Concept – L'Hôpital's rule", "notes": "lim f/g = lim f'/g' when indeterminate"}
+{"subject": "Mathematics", "keyword": "Concept – Logarithm change of base", "notes": "log_b a = log a / log b"}
+{"subject": "Mathematics", "keyword": "Recall: Taylor series", "notes": "f(x) ≈ Σ f^{(n)}(a)(x-a)^n / n!"}
+{"subject": "Mathematics", "keyword": "State: Chain rule", "notes": "d/dx [f(g(x))] = f'(g(x)) · g'(x)"}
+{"subject": "Mathematics", "keyword": "Explain: Derivative of sin x", "notes": "cos x This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Pythagorean theorem", "notes": "a² + b² = c² This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Key fact about 2×2 matrix determinant", "notes": "ad - bc"}
+{"subject": "Mathematics", "keyword": "Recall: Pythagorean theorem", "notes": "a² + b² = c² This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Define Taylor series", "notes": "f(x) ≈ Σ f^{(n)}(a)(x-a)^n / n!"}
+{"subject": "Mathematics", "keyword": "What is Law of cosines", "notes": "c² = a² + b² - 2ab cos C"}
+{"subject": "Mathematics", "keyword": "State: Derivative of e^x", "notes": "e^x"}
+{"subject": "Mathematics", "keyword": "Define Divergence theorem", "notes": "∭_V (∇·F) dV = ∯_S F·dS"}
+{"subject": "Mathematics", "keyword": "Define Divergence theorem", "notes": "∭_V (∇·F) dV = ∯_S F·dS This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Explain: 2×2 matrix determinant", "notes": "ad - bc"}
+{"subject": "Mathematics", "keyword": "Describe Divergence theorem", "notes": "∭_V (∇·F) dV = ∯_S F·dS"}
+{"subject": "Mathematics", "keyword": "Describe Midpoint formula", "notes": "((x1+x2)/2, (y1+y2)/2) This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Key fact about Logarithm power rule", "notes": "log(a^b) = b · log(a) This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Concept – Integral of 1/x", "notes": "ln|x| + C"}
+{"subject": "Mathematics", "keyword": "State: Arithmetic sequence sum", "notes": "n/2 · (2a + (n-1)d) This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Eigenvalue definition", "notes": "Av = λv for nonzero v"}
+{"subject": "Mathematics", "keyword": "Important: Logarithm power rule", "notes": "log(a^b) = b · log(a)"}
+{"subject": "Mathematics", "keyword": "Chain rule", "notes": "d/dx [f(g(x))] = f'(g(x)) · g'(x) This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Key fact about Integral of cos x", "notes": "sin x + C"}
+{"subject": "Mathematics", "keyword": "What is Integration by parts", "notes": "∫ u dv = uv - ∫ v du"}
+{"subject": "Mathematics", "keyword": "State: Taylor series", "notes": "f(x) ≈ Σ f^{(n)}(a)(x-a)^n / n!"}
+{"subject": "Mathematics", "keyword": "Key fact about Slope of a line", "notes": "m = (y2-y1)/(x2-x1) This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Concept – Law of cosines", "notes": "c² = a² + b² - 2ab cos C This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Concept – Logarithm change of base", "notes": "log_b a = log a / log b"}
+{"subject": "Mathematics", "keyword": "L'Hôpital's rule", "notes": "lim f/g = lim f'/g' when indeterminate This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Key fact about L'Hôpital's rule", "notes": "lim f/g = lim f'/g' when indeterminate This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Important: Euler's identity", "notes": "e^{iπ} + 1 = 0 This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "What is Area of a circle", "notes": "πr² This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Describe Eigenvalue definition", "notes": "Av = λv for nonzero v"}
+{"subject": "Mathematics", "keyword": "Important: Area of a circle", "notes": "πr² This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Concept – Integral of 1/x", "notes": "ln|x| + C"}
+{"subject": "Mathematics", "keyword": "Describe Divergence theorem", "notes": "∭_V (∇·F) dV = ∯_S F·dS"}
+{"subject": "Mathematics", "keyword": "State: Dot product", "notes": "a·b = |a||b| cos θ"}
+{"subject": "Mathematics", "keyword": "State: Fundamental theorem of calculus", "notes": "∫_a^b f(x) dx = F(b) - F(a) where F' = f This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Taylor series", "notes": "f(x) ≈ Σ f^{(n)}(a)(x-a)^n / n!"}
+{"subject": "Mathematics", "keyword": "Describe Logarithm change of base", "notes": "log_b a = log a / log b"}
+{"subject": "Mathematics", "keyword": "Important: Slope of a line", "notes": "m = (y2-y1)/(x2-x1) This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "State: Area of a circle", "notes": "πr² This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Explain: Product rule", "notes": "(uv)' = u'v + uv'"}
+{"subject": "Mathematics", "keyword": "Quadratic formula", "notes": "x = [-b ± √(b²-4ac)] / 2a"}
+{"subject": "Mathematics", "keyword": "Concept – Slope of a line", "notes": "m = (y2-y1)/(x2-x1) This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Define Arithmetic sequence sum", "notes": "n/2 · (2a + (n-1)d)"}
+{"subject": "Mathematics", "keyword": "Recall: Euler's identity", "notes": "e^{iπ} + 1 = 0"}
+{"subject": "Mathematics", "keyword": "What is Dot product", "notes": "a·b = |a||b| cos θ This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Concept – Law of cosines", "notes": "c² = a² + b² - 2ab cos C"}
+{"subject": "Mathematics", "keyword": "Key fact about Geometric sequence sum", "notes": "a(1-r^n)/(1-r)"}
+{"subject": "Mathematics", "keyword": "Dot product", "notes": "a·b = |a||b| cos θ"}
+{"subject": "Mathematics", "keyword": "Important: Derivative of e^x", "notes": "e^x"}
+{"subject": "Mathematics", "keyword": "What is Divergence theorem", "notes": "∭_V (∇·F) dV = ∯_S F·dS"}
+{"subject": "Mathematics", "keyword": "Important: Quadratic formula", "notes": "x = [-b ± √(b²-4ac)] / 2a"}
+{"subject": "Mathematics", "keyword": "What is Area of a circle", "notes": "πr²"}
+{"subject": "Mathematics", "keyword": "What is Derivative of sin x", "notes": "cos x"}
+{"subject": "Mathematics", "keyword": "Describe Geometric sequence sum", "notes": "a(1-r^n)/(1-r)"}
+{"subject": "Mathematics", "keyword": "Concept – Logarithm change of base", "notes": "log_b a = log a / log b This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "State: Integral of cos x", "notes": "sin x + C"}
+{"subject": "Mathematics", "keyword": "Integration by parts", "notes": "∫ u dv = uv - ∫ v du This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Define Taylor series", "notes": "f(x) ≈ Σ f^{(n)}(a)(x-a)^n / n!"}
+{"subject": "Mathematics", "keyword": "Concept – Slope of a line", "notes": "m = (y2-y1)/(x2-x1) This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Recall: Logarithm change of base", "notes": "log_b a = log a / log b"}
+{"subject": "Mathematics", "keyword": "State: Integral of 1/x", "notes": "ln|x| + C"}
+{"subject": "Mathematics", "keyword": "Recall: Logarithm change of base", "notes": "log_b a = log a / log b This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Key fact about Arithmetic sequence sum", "notes": "n/2 · (2a + (n-1)d)"}
+{"subject": "Mathematics", "keyword": "State: Arithmetic sequence sum", "notes": "n/2 · (2a + (n-1)d)"}
+{"subject": "Mathematics", "keyword": "What is Slope of a line", "notes": "m = (y2-y1)/(x2-x1)"}
+{"subject": "Mathematics", "keyword": "Define Fundamental theorem of calculus", "notes": "∫_a^b f(x) dx = F(b) - F(a) where F' = f"}
+{"subject": "Mathematics", "keyword": "State: Midpoint formula", "notes": "((x1+x2)/2, (y1+y2)/2)"}
+{"subject": "Mathematics", "keyword": "Key fact about 2×2 matrix determinant", "notes": "ad - bc"}
+{"subject": "Mathematics", "keyword": "What is Derivative of e^x", "notes": "e^x This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Concept – Mean value theorem", "notes": "There exists c in (a,b) such that f'(c) = [f(b)-f(a)]/(b-a)"}
+{"subject": "Mathematics", "keyword": "Describe Area of a circle", "notes": "πr²"}
+{"subject": "Mathematics", "keyword": "Arithmetic sequence sum", "notes": "n/2 · (2a + (n-1)d)"}
+{"subject": "Mathematics", "keyword": "What is Product rule", "notes": "(uv)' = u'v + uv'"}
+{"subject": "Mathematics", "keyword": "Concept – Binomial theorem", "notes": "(x+y)^n = Σ C(n,k) x^{n-k} y^k This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Describe Geometric sequence sum", "notes": "a(1-r^n)/(1-r)"}
+{"subject": "Mathematics", "keyword": "Define Derivative of x²", "notes": "2x This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Explain: Arithmetic sequence sum", "notes": "n/2 · (2a + (n-1)d)"}
+{"subject": "Mathematics", "keyword": "Fundamental theorem of calculus", "notes": "∫_a^b f(x) dx = F(b) - F(a) where F' = f"}
+{"subject": "Mathematics", "keyword": "Recall: Dot product", "notes": "a·b = |a||b| cos θ"}
+{"subject": "Mathematics", "keyword": "Recall: Euler's identity", "notes": "e^{iπ} + 1 = 0"}
+{"subject": "Mathematics", "keyword": "Concept – Binomial theorem", "notes": "(x+y)^n = Σ C(n,k) x^{n-k} y^k"}
+{"subject": "Mathematics", "keyword": "Chain rule", "notes": "d/dx [f(g(x))] = f'(g(x)) · g'(x) This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Important: Integration by parts", "notes": "∫ u dv = uv - ∫ v du"}
+{"subject": "Mathematics", "keyword": "State: Geometric sequence sum", "notes": "a(1-r^n)/(1-r)"}
+{"subject": "Mathematics", "keyword": "Recall: Eigenvalue definition", "notes": "Av = λv for nonzero v This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Key fact about Logarithm change of base", "notes": "log_b a = log a / log b"}
+{"subject": "Mathematics", "keyword": "What is Distance formula", "notes": "√[(x2-x1)² + (y2-y1)²] This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Taylor series", "notes": "f(x) ≈ Σ f^{(n)}(a)(x-a)^n / n! This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Explain: Derivative of sin x", "notes": "cos x"}
+{"subject": "Mathematics", "keyword": "Explain: Integral of cos x", "notes": "sin x + C"}
+{"subject": "Mathematics", "keyword": "Concept – Euler's identity", "notes": "e^{iπ} + 1 = 0"}
+{"subject": "Mathematics", "keyword": "Geometric sequence sum", "notes": "a(1-r^n)/(1-r)"}
+{"subject": "Mathematics", "keyword": "Define Quadratic formula", "notes": "x = [-b ± √(b²-4ac)] / 2a"}
+{"subject": "Mathematics", "keyword": "Explain: Derivative of x²", "notes": "2x This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Key fact about Volume of a sphere", "notes": "(4/3)πr³"}
+{"subject": "Mathematics", "keyword": "Key fact about Distance formula", "notes": "√[(x2-x1)² + (y2-y1)²]"}
+{"subject": "Mathematics", "keyword": "Recall: Taylor series", "notes": "f(x) ≈ Σ f^{(n)}(a)(x-a)^n / n!"}
+{"subject": "Mathematics", "keyword": "State: Mean value theorem", "notes": "There exists c in (a,b) such that f'(c) = [f(b)-f(a)]/(b-a)"}
+{"subject": "Mathematics", "keyword": "Important: Binomial theorem", "notes": "(x+y)^n = Σ C(n,k) x^{n-k} y^k"}
+{"subject": "Mathematics", "keyword": "Chain rule", "notes": "d/dx [f(g(x))] = f'(g(x)) · g'(x)"}
+{"subject": "Mathematics", "keyword": "Recall: Slope of a line", "notes": "m = (y2-y1)/(x2-x1)"}
+{"subject": "Mathematics", "keyword": "Important: Derivative of e^x", "notes": "e^x This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "What is Slope of a line", "notes": "m = (y2-y1)/(x2-x1)"}
+{"subject": "Mathematics", "keyword": "Key fact about 2×2 matrix determinant", "notes": "ad - bc"}
+{"subject": "Mathematics", "keyword": "Key fact about Geometric sequence sum", "notes": "a(1-r^n)/(1-r) This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Key fact about Distance formula", "notes": "√[(x2-x1)² + (y2-y1)²] This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Explain: Binomial theorem", "notes": "(x+y)^n = Σ C(n,k) x^{n-k} y^k"}
+{"subject": "Mathematics", "keyword": "Important: Volume of a sphere", "notes": "(4/3)πr³"}
+{"subject": "Mathematics", "keyword": "Define 2×2 matrix determinant", "notes": "ad - bc"}
+{"subject": "Mathematics", "keyword": "State: Integral of cos x", "notes": "sin x + C"}
+{"subject": "Mathematics", "keyword": "Concept – Euler's identity", "notes": "e^{iπ} + 1 = 0"}
+{"subject": "Mathematics", "keyword": "Midpoint formula", "notes": "((x1+x2)/2, (y1+y2)/2)"}
+{"subject": "Mathematics", "keyword": "Explain: Derivative of sin x", "notes": "cos x"}
+{"subject": "Mathematics", "keyword": "Explain: Distance formula", "notes": "√[(x2-x1)² + (y2-y1)²]"}
+{"subject": "Mathematics", "keyword": "State: Integral of cos x", "notes": "sin x + C"}
+{"subject": "Mathematics", "keyword": "Recall: Slope of a line", "notes": "m = (y2-y1)/(x2-x1)"}
+{"subject": "Mathematics", "keyword": "Define Geometric sequence sum", "notes": "a(1-r^n)/(1-r)"}
+{"subject": "Mathematics", "keyword": "Describe Logarithm change of base", "notes": "log_b a = log a / log b This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "State: Chain rule", "notes": "d/dx [f(g(x))] = f'(g(x)) · g'(x) This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Describe Euler's identity", "notes": "e^{iπ} + 1 = 0"}
+{"subject": "Mathematics", "keyword": "Recall: Product rule", "notes": "(uv)' = u'v + uv'"}
+{"subject": "Mathematics", "keyword": "Recall: Fundamental theorem of calculus", "notes": "∫_a^b f(x) dx = F(b) - F(a) where F' = f This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Key fact about Geometric sequence sum", "notes": "a(1-r^n)/(1-r)"}
+{"subject": "Mathematics", "keyword": "Recall: Logarithm change of base", "notes": "log_b a = log a / log b"}
+{"subject": "Mathematics", "keyword": "Key fact about Derivative of sin x", "notes": "cos x"}
+{"subject": "Mathematics", "keyword": "State: Chain rule", "notes": "d/dx [f(g(x))] = f'(g(x)) · g'(x) This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Important: Integral of cos x", "notes": "sin x + C"}
+{"subject": "Mathematics", "keyword": "What is Derivative of e^x", "notes": "e^x"}
+{"subject": "Mathematics", "keyword": "Describe Mean value theorem", "notes": "There exists c in (a,b) such that f'(c) = [f(b)-f(a)]/(b-a) This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Concept – Slope of a line", "notes": "m = (y2-y1)/(x2-x1)"}
+{"subject": "Mathematics", "keyword": "Divergence theorem", "notes": "∭_V (∇·F) dV = ∯_S F·dS"}
+{"subject": "Mathematics", "keyword": "Define Quadratic formula", "notes": "x = [-b ± √(b²-4ac)] / 2a"}
+{"subject": "Mathematics", "keyword": "Concept – 2×2 matrix determinant", "notes": "ad - bc"}
+{"subject": "Mathematics", "keyword": "State: Logarithm change of base", "notes": "log_b a = log a / log b This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Define Geometric sequence sum", "notes": "a(1-r^n)/(1-r)"}
+{"subject": "Mathematics", "keyword": "Recall: Integration by parts", "notes": "∫ u dv = uv - ∫ v du"}
+{"subject": "Mathematics", "keyword": "Recall: Product rule", "notes": "(uv)' = u'v + uv'"}
+{"subject": "Mathematics", "keyword": "State: Derivative of x²", "notes": "2x This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Define Area of a circle", "notes": "πr²"}
+{"subject": "Mathematics", "keyword": "State: Product rule", "notes": "(uv)' = u'v + uv'"}
+{"subject": "Mathematics", "keyword": "What is Area of a circle", "notes": "πr² This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Concept – Divergence theorem", "notes": "∭_V (∇·F) dV = ∯_S F·dS"}
+{"subject": "Mathematics", "keyword": "Concept – Integration by parts", "notes": "∫ u dv = uv - ∫ v du This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Explain: Law of cosines", "notes": "c² = a² + b² - 2ab cos C"}
+{"subject": "Mathematics", "keyword": "Recall: Derivative of x²", "notes": "2x"}
+{"subject": "Mathematics", "keyword": "Explain: Binomial theorem", "notes": "(x+y)^n = Σ C(n,k) x^{n-k} y^k This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Explain: Derivative of x²", "notes": "2x This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Recall: Logarithm change of base", "notes": "log_b a = log a / log b"}
+{"subject": "Mathematics", "keyword": "Concept – Chain rule", "notes": "d/dx [f(g(x))] = f'(g(x)) · g'(x)"}
+{"subject": "Mathematics", "keyword": "Define Logarithm power rule", "notes": "log(a^b) = b · log(a) This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Key fact about Integral of 1/x", "notes": "ln|x| + C"}
+{"subject": "Mathematics", "keyword": "Describe L'Hôpital's rule", "notes": "lim f/g = lim f'/g' when indeterminate"}
+{"subject": "Mathematics", "keyword": "Concept – 2×2 matrix determinant", "notes": "ad - bc"}
+{"subject": "Mathematics", "keyword": "Recall: Quadratic formula", "notes": "x = [-b ± √(b²-4ac)] / 2a"}
+{"subject": "Mathematics", "keyword": "Recall: Integration by parts", "notes": "∫ u dv = uv - ∫ v du"}
+{"subject": "Mathematics", "keyword": "Concept – Product rule", "notes": "(uv)' = u'v + uv' This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Define Fundamental theorem of calculus", "notes": "∫_a^b f(x) dx = F(b) - F(a) where F' = f This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Important: Derivative of x²", "notes": "2x"}
+{"subject": "Mathematics", "keyword": "Recall: Chain rule", "notes": "d/dx [f(g(x))] = f'(g(x)) · g'(x)"}
+{"subject": "Mathematics", "keyword": "Volume of a sphere", "notes": "(4/3)πr³"}
+{"subject": "Mathematics", "keyword": "Key fact about Integral of cos x", "notes": "sin x + C"}
+{"subject": "Mathematics", "keyword": "Derivative of e^x", "notes": "e^x"}
+{"subject": "Mathematics", "keyword": "What is Integral of 1/x", "notes": "ln|x| + C"}
+{"subject": "Mathematics", "keyword": "Derivative of x²", "notes": "2x"}
+{"subject": "Mathematics", "keyword": "State: Divergence theorem", "notes": "∭_V (∇·F) dV = ∯_S F·dS"}
+{"subject": "Mathematics", "keyword": "Key fact about Law of cosines", "notes": "c² = a² + b² - 2ab cos C"}
+{"subject": "Mathematics", "keyword": "Explain: Quadratic formula", "notes": "x = [-b ± √(b²-4ac)] / 2a"}
+{"subject": "Mathematics", "keyword": "Integral of cos x", "notes": "sin x + C"}
+{"subject": "Mathematics", "keyword": "What is Slope of a line", "notes": "m = (y2-y1)/(x2-x1)"}
+{"subject": "Mathematics", "keyword": "Important: Euler's identity", "notes": "e^{iπ} + 1 = 0"}
+{"subject": "Mathematics", "keyword": "Concept – Quadratic formula", "notes": "x = [-b ± √(b²-4ac)] / 2a"}
+{"subject": "Mathematics", "keyword": "Describe Chain rule", "notes": "d/dx [f(g(x))] = f'(g(x)) · g'(x)"}
+{"subject": "Mathematics", "keyword": "Key fact about Chain rule", "notes": "d/dx [f(g(x))] = f'(g(x)) · g'(x) This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "State: Chain rule", "notes": "d/dx [f(g(x))] = f'(g(x)) · g'(x) This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Key fact about Mean value theorem", "notes": "There exists c in (a,b) such that f'(c) = [f(b)-f(a)]/(b-a)"}
+{"subject": "Mathematics", "keyword": "Recall: Mean value theorem", "notes": "There exists c in (a,b) such that f'(c) = [f(b)-f(a)]/(b-a)"}
+{"subject": "Mathematics", "keyword": "Define Logarithm power rule", "notes": "log(a^b) = b · log(a) This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Explain: Integration by parts", "notes": "∫ u dv = uv - ∫ v du"}
+{"subject": "Mathematics", "keyword": "Recall: Integration by parts", "notes": "∫ u dv = uv - ∫ v du This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "What is Derivative of x²", "notes": "2x"}
+{"subject": "Mathematics", "keyword": "Important: Arithmetic sequence sum", "notes": "n/2 · (2a + (n-1)d)"}
+{"subject": "Mathematics", "keyword": "What is Quadratic formula", "notes": "x = [-b ± √(b²-4ac)] / 2a"}
+{"subject": "Mathematics", "keyword": "What is Pythagorean theorem", "notes": "a² + b² = c²"}
+{"subject": "Mathematics", "keyword": "Explain: Integral of cos x", "notes": "sin x + C"}
+{"subject": "Mathematics", "keyword": "Key fact about Logarithm power rule", "notes": "log(a^b) = b · log(a)"}
+{"subject": "Mathematics", "keyword": "Define Chain rule", "notes": "d/dx [f(g(x))] = f'(g(x)) · g'(x)"}
+{"subject": "Mathematics", "keyword": "Key fact about Geometric sequence sum", "notes": "a(1-r^n)/(1-r)"}
+{"subject": "Mathematics", "keyword": "Recall: Slope of a line", "notes": "m = (y2-y1)/(x2-x1)"}
+{"subject": "Mathematics", "keyword": "What is Chain rule", "notes": "d/dx [f(g(x))] = f'(g(x)) · g'(x)"}
+{"subject": "Mathematics", "keyword": "Logarithm change of base", "notes": "log_b a = log a / log b This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Define Quadratic formula", "notes": "x = [-b ± √(b²-4ac)] / 2a"}
+{"subject": "Mathematics", "keyword": "State: Logarithm change of base", "notes": "log_b a = log a / log b"}
+{"subject": "Mathematics", "keyword": "What is Euler's identity", "notes": "e^{iπ} + 1 = 0"}
+{"subject": "Mathematics", "keyword": "Define 2×2 matrix determinant", "notes": "ad - bc This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "State: Taylor series", "notes": "f(x) ≈ Σ f^{(n)}(a)(x-a)^n / n! This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "State: Taylor series", "notes": "f(x) ≈ Σ f^{(n)}(a)(x-a)^n / n!"}
+{"subject": "Mathematics", "keyword": "Define Integral of cos x", "notes": "sin x + C This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Distance formula", "notes": "√[(x2-x1)² + (y2-y1)²]"}
+{"subject": "Mathematics", "keyword": "Define Geometric sequence sum", "notes": "a(1-r^n)/(1-r) This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Important: Dot product", "notes": "a·b = |a||b| cos θ"}
+{"subject": "Mathematics", "keyword": "State: Derivative of sin x", "notes": "cos x This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Recall: Taylor series", "notes": "f(x) ≈ Σ f^{(n)}(a)(x-a)^n / n!"}
+{"subject": "Mathematics", "keyword": "Define Geometric sequence sum", "notes": "a(1-r^n)/(1-r)"}
+{"subject": "Mathematics", "keyword": "What is Integration by parts", "notes": "∫ u dv = uv - ∫ v du"}
+{"subject": "Mathematics", "keyword": "L'Hôpital's rule", "notes": "lim f/g = lim f'/g' when indeterminate This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Recall: Integral of cos x", "notes": "sin x + C This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Describe Geometric sequence sum", "notes": "a(1-r^n)/(1-r)"}
+{"subject": "Mathematics", "keyword": "Important: Derivative of sin x", "notes": "cos x This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Recall: Slope of a line", "notes": "m = (y2-y1)/(x2-x1)"}
+{"subject": "Mathematics", "keyword": "Important: Distance formula", "notes": "√[(x2-x1)² + (y2-y1)²] This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Explain: Slope of a line", "notes": "m = (y2-y1)/(x2-x1)"}
+{"subject": "Mathematics", "keyword": "Concept – Slope of a line", "notes": "m = (y2-y1)/(x2-x1) This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Describe Arithmetic sequence sum", "notes": "n/2 · (2a + (n-1)d)"}
+{"subject": "Mathematics", "keyword": "Derivative of e^x", "notes": "e^x This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Define Dot product", "notes": "a·b = |a||b| cos θ"}
+{"subject": "Mathematics", "keyword": "State: Integration by parts", "notes": "∫ u dv = uv - ∫ v du"}
+{"subject": "Mathematics", "keyword": "State: Pythagorean theorem", "notes": "a² + b² = c²"}
+{"subject": "Mathematics", "keyword": "Key fact about 2×2 matrix determinant", "notes": "ad - bc This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Describe Fundamental theorem of calculus", "notes": "∫_a^b f(x) dx = F(b) - F(a) where F' = f"}
+{"subject": "Mathematics", "keyword": "Explain: Taylor series", "notes": "f(x) ≈ Σ f^{(n)}(a)(x-a)^n / n! This is a core concept for review."}
+{"subject": "Mathematics", "keyword": "Important: L'Hôpital's rule", "notes": "lim f/g = lim f'/g' when indeterminate"}
+{"subject": "Mathematics", "keyword": "State: Geometric sequence sum", "notes": "a(1-r^n)/(1-r)"}

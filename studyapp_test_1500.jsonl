@@ -1,0 +1,1500 @@
+{"subject": "Chemistry", "keyword": "Concept – VSEPR theory", "notes": "Predicts molecular geometry from electron pairs"}
+{"subject": "Biology", "keyword": "Key fact: DNA vs RNA", "notes": "Thymine/double-stranded vs Uracil/single-stranded"}
+{"subject": "Biology", "keyword": "Concept – Meiosis", "notes": "Produces four haploid gametes"}
+{"subject": "Chemistry", "keyword": "Recall: Le Chatelier's principle", "notes": "System shifts to oppose change"}
+{"subject": "Mathematics", "keyword": "Concept – Chain rule", "notes": "d/dx [f(g(x))] = f'(g(x)) · g'(x)"}
+{"subject": "Biology", "keyword": "Concept – Action potential", "notes": "Rapid change in membrane potential"}
+{"subject": "Biology", "keyword": "Mitochondria function", "notes": "Produces ATP via cellular respiration"}
+{"subject": "Physics", "keyword": "Recall: Conservation of momentum", "notes": "Total momentum conserved in isolated systems"}
+{"subject": "Computer Science", "keyword": "Memoization (definition)", "notes": "Caching function results"}
+{"subject": "Computer Science", "keyword": "Recall: Big O of binary search", "notes": "O(log n)"}
+{"subject": "Biology", "keyword": "Mitochondria function (definition)", "notes": "Produces ATP via cellular respiration"}
+{"subject": "Computer Science", "keyword": "Binary search tree property (definition)", "notes": "Left < parent < right"}
+{"subject": "Biology", "keyword": "Meiosis", "notes": "Produces four haploid gametes"}
+{"subject": "Computer Science", "keyword": "Deadlock conditions (definition)", "notes": "Mutual exclusion, hold and wait, no preemption, circular wait"}
+{"subject": "Chemistry", "keyword": "Ionic vs covalent (definition)", "notes": "Transfer vs sharing of electrons"}
+{"subject": "Mathematics", "keyword": "Product rule", "notes": "(uv)' = u'v + uv'"}
+{"subject": "Mathematics", "keyword": "Mean value theorem", "notes": "∃ c ∈ (a,b) s.t. f'(c) = [f(b)-f(a)]/(b-a)"}
+{"subject": "Biology", "keyword": "Enzyme", "notes": "Biological catalyst lowering activation energy"}
+{"subject": "Biology", "keyword": "Describe Operon model", "notes": "Group of genes regulated together (e.g., lac operon)"}
+{"subject": "Biology", "keyword": "Define Chlorophyll", "notes": "Absorbs light for photosynthesis"}
+{"subject": "Physics", "keyword": "Doppler effect", "notes": "Frequency shift due to relative motion"}
+{"subject": "Mathematics", "keyword": "Product rule (definition)", "notes": "(uv)' = u'v + uv'"}
+{"subject": "Chemistry", "keyword": "Recall: Ionic vs covalent", "notes": "Transfer vs sharing of electrons"}
+{"subject": "Mathematics", "keyword": "Eigenvalue definition", "notes": "Av = λv"}
+{"subject": "Mathematics", "keyword": "Pythagorean theorem (definition)", "notes": "a² + b² = c²"}
+{"subject": "Biology", "keyword": "Homeostasis (definition)", "notes": "Stable internal conditions"}
+{"subject": "Physics", "keyword": "Torque", "notes": "τ = r × F"}
+{"subject": "Physics", "keyword": "Concept – Doppler effect", "notes": "Frequency shift due to relative motion"}
+{"subject": "Computer Science", "keyword": "Key fact: Big O of binary search", "notes": "O(log n)"}
+{"subject": "Mathematics", "keyword": "Explain: Taylor series", "notes": "f(x) ≈ f(a) + f'(a)(x-a) + f''(a)(x-a)²/2! + ..."}
+{"subject": "Biology", "keyword": "Mitochondria function", "notes": "Produces ATP via cellular respiration"}
+{"subject": "Mathematics", "keyword": "Concept – Chain rule", "notes": "d/dx [f(g(x))] = f'(g(x)) · g'(x)"}
+{"subject": "Biology", "keyword": "Enzyme", "notes": "Biological catalyst lowering activation energy"}
+{"subject": "Computer Science", "keyword": "Recall: Stack vs Queue", "notes": "LIFO vs FIFO"}
+{"subject": "Biology", "keyword": "Chlorophyll (definition)", "notes": "Absorbs light for photosynthesis"}
+{"subject": "Computer Science", "keyword": "Concept – TCP vs UDP", "notes": "Reliable/ordered vs fast/unreliable"}
+{"subject": "Chemistry", "keyword": "Define Hess's law", "notes": "Enthalpy change is path-independent"}
+{"subject": "Computer Science", "keyword": "Deadlock conditions (definition)", "notes": "Mutual exclusion, hold and wait, no preemption, circular wait"}
+{"subject": "Chemistry", "keyword": "What is ideal gas law?", "notes": "PV = nRT"}
+{"subject": "Computer Science", "keyword": "Key fact: Hash collision", "notes": "Two keys map to the same bucket"}
+{"subject": "Mathematics", "keyword": "Chain rule (definition)", "notes": "d/dx [f(g(x))] = f'(g(x)) · g'(x)"}
+{"subject": "Mathematics", "keyword": "Concept – Mean value theorem", "notes": "∃ c ∈ (a,b) s.t. f'(c) = [f(b)-f(a)]/(b-a)"}
+{"subject": "Physics", "keyword": "Photoelectric effect (definition)", "notes": "Electrons ejected above threshold frequency"}
+{"subject": "Physics", "keyword": "What is ohm's law?", "notes": "V = IR"}
+{"subject": "Biology", "keyword": "Recall: Meiosis", "notes": "Produces four haploid gametes"}
+{"subject": "Computer Science", "keyword": "Big O of binary search (definition)", "notes": "O(log n)"}
+{"subject": "Physics", "keyword": "What is Magnetic flux", "notes": "Φ = B · A"}
+{"subject": "Physics", "keyword": "Torque (definition)", "notes": "τ = r × F"}
+{"subject": "Mathematics", "keyword": "Divergence theorem", "notes": "∭ (∇·F) dV = ∯ F·dS"}
+{"subject": "Biology", "keyword": "Concept – Hardy-Weinberg", "notes": "p² + 2pq + q² = 1 under equilibrium"}
+{"subject": "Chemistry", "keyword": "Le Chatelier's principle", "notes": "System shifts to oppose change"}
+{"subject": "Mathematics", "keyword": "Quadratic formula", "notes": "x = [-b ± √(b²-4ac)] / 2a"}
+{"subject": "Computer Science", "keyword": "Define Stack vs Queue", "notes": "LIFO vs FIFO"}
+{"subject": "Computer Science", "keyword": "Key fact: TCP vs UDP", "notes": "Reliable/ordered vs fast/unreliable"}
+{"subject": "Computer Science", "keyword": "TCP vs UDP", "notes": "Reliable/ordered vs fast/unreliable"}
+{"subject": "Mathematics", "keyword": "Recall: Product rule", "notes": "(uv)' = u'v + uv'"}
+{"subject": "Chemistry", "keyword": "pH of pure water", "notes": "7"}
+{"subject": "Mathematics", "keyword": "Euler's identity (definition)", "notes": "e^{iπ} + 1 = 0"}
+{"subject": "Biology", "keyword": "Concept – Central dogma", "notes": "DNA → RNA → Protein"}
+{"subject": "Computer Science", "keyword": "Recall: Stack vs Queue", "notes": "LIFO vs FIFO"}
+{"subject": "Chemistry", "keyword": "Recall: Molarity", "notes": "Moles of solute per liter of solution"}
+{"subject": "Chemistry", "keyword": "Recall: Catalyst", "notes": "Speeds reaction without being consumed"}
+{"subject": "Mathematics", "keyword": "Recall: Mean value theorem", "notes": "∃ c ∈ (a,b) s.t. f'(c) = [f(b)-f(a)]/(b-a)"}
+{"subject": "Mathematics", "keyword": "Recall: Quadratic formula", "notes": "x = [-b ± √(b²-4ac)] / 2a"}
+{"subject": "Mathematics", "keyword": "Mean value theorem", "notes": "∃ c ∈ (a,b) s.t. f'(c) = [f(b)-f(a)]/(b-a)"}
+{"subject": "Physics", "keyword": "Recall: Uncertainty principle", "notes": "Δx Δp ≥ ħ/2"}
+{"subject": "Computer Science", "keyword": "Recall: CAP theorem", "notes": "Only 2 of Consistency, Availability, Partition tolerance"}
+{"subject": "Biology", "keyword": "Concept – Mitochondria function", "notes": "Produces ATP via cellular respiration"}
+{"subject": "Physics", "keyword": "Conservation of momentum", "notes": "Total momentum conserved in isolated systems"}
+{"subject": "Computer Science", "keyword": "Concept – Stack vs Queue", "notes": "LIFO vs FIFO"}
+{"subject": "Chemistry", "keyword": "Oxidation (definition)", "notes": "Loss of electrons"}
+{"subject": "Mathematics", "keyword": "Concept – Chain rule", "notes": "d/dx [f(g(x))] = f'(g(x)) · g'(x)"}
+{"subject": "Biology", "keyword": "Ribosome role", "notes": "Protein synthesis"}
+{"subject": "Physics", "keyword": "Conservation of momentum (definition)", "notes": "Total momentum conserved in isolated systems"}
+{"subject": "Physics", "keyword": "Kinetic energy", "notes": "½mv²"}
+{"subject": "Physics", "keyword": "Concept – Conservation of momentum", "notes": "Total momentum conserved in isolated systems"}
+{"subject": "Chemistry", "keyword": "Concept – Molarity", "notes": "Moles of solute per liter of solution"}
+{"subject": "Chemistry", "keyword": "Concept – pH of pure water", "notes": "7"}
+{"subject": "Computer Science", "keyword": "Binary search tree property (definition)", "notes": "Left < parent < right"}
+{"subject": "Computer Science", "keyword": "What is Garbage collection", "notes": "Automatic memory management that reclaims unused objects"}
+{"subject": "Computer Science", "keyword": "Define Big O of binary search", "notes": "O(log n)"}
+{"subject": "Physics", "keyword": "Wave-particle duality", "notes": "Particles exhibit both wave and particle properties"}
+{"subject": "Physics", "keyword": "Newton's second law", "notes": "F = ma"}
+{"subject": "Computer Science", "keyword": "Deadlock conditions (definition)", "notes": "Mutual exclusion, hold and wait, no preemption, circular wait"}
+{"subject": "Biology", "keyword": "Concept – Mitosis", "notes": "Produces two identical diploid cells"}
+{"subject": "Mathematics", "keyword": "Recall: Chain rule", "notes": "d/dx [f(g(x))] = f'(g(x)) · g'(x)"}
+{"subject": "Mathematics", "keyword": "Concept – Pythagorean theorem", "notes": "a² + b² = c²"}
+{"subject": "Chemistry", "keyword": "Catalyst (definition)", "notes": "Speeds reaction without being consumed"}
+{"subject": "Biology", "keyword": "Central dogma", "notes": "DNA → RNA → Protein"}
+{"subject": "Chemistry", "keyword": "Catalyst", "notes": "Speeds reaction without being consumed"}
+{"subject": "Mathematics", "keyword": "Recall: Integral of 1/x", "notes": "ln|x| + C"}
+{"subject": "Physics", "keyword": "Photoelectric effect", "notes": "Electrons ejected above threshold frequency"}
+{"subject": "Chemistry", "keyword": "Ionic vs covalent", "notes": "Transfer vs sharing of electrons"}
+{"subject": "Chemistry", "keyword": "What is Isotopes", "notes": "Same element, different number of neutrons"}
+{"subject": "Biology", "keyword": "Natural selection (definition)", "notes": "Advantageous traits increase reproductive success"}
+{"subject": "Mathematics", "keyword": "Fundamental theorem of calculus", "notes": "∫ₐᵇ f(x) dx = F(b) - F(a)"}
+{"subject": "Biology", "keyword": "Chlorophyll", "notes": "Absorbs light for photosynthesis"}
+{"subject": "Physics", "keyword": "Concept – Ohm's law", "notes": "V = IR"}
+{"subject": "Chemistry", "keyword": "Ideal gas law (definition)", "notes": "PV = nRT"}
+{"subject": "Physics", "keyword": "Key fact: Speed of light", "notes": "c ≈ 3×10⁸ m/s"}
+{"subject": "Physics", "keyword": "Concept – Bernoulli's principle", "notes": "Higher speed → lower pressure"}
+{"subject": "Physics", "keyword": "Torque", "notes": "τ = r × F"}
+{"subject": "Computer Science", "keyword": "TCP vs UDP", "notes": "Reliable/ordered vs fast/unreliable"}
+{"subject": "Mathematics", "keyword": "Recall: Quadratic formula", "notes": "x = [-b ± √(b²-4ac)] / 2a"}
+{"subject": "Mathematics", "keyword": "Recall: Matrix determinant 2×2", "notes": "ad - bc"}
+{"subject": "Physics", "keyword": "Torque (definition)", "notes": "τ = r × F"}
+{"subject": "Biology", "keyword": "Central dogma (definition)", "notes": "DNA → RNA → Protein"}
+{"subject": "Physics", "keyword": "Concept – Special relativity time dilation", "notes": "Δt' = γ Δt"}
+{"subject": "Computer Science", "keyword": "CAP theorem", "notes": "Only 2 of Consistency, Availability, Partition tolerance"}
+{"subject": "Mathematics", "keyword": "Define Product rule", "notes": "(uv)' = u'v + uv'"}
+{"subject": "Chemistry", "keyword": "Concept – VSEPR theory", "notes": "Predicts molecular geometry from electron pairs"}
+{"subject": "Computer Science", "keyword": "Race condition", "notes": "Result depends on timing of concurrent ops"}
+{"subject": "Physics", "keyword": "What is newton's second law?", "notes": "F = ma"}
+{"subject": "Physics", "keyword": "Recall: Photoelectric effect", "notes": "Electrons ejected above threshold frequency"}
+{"subject": "Chemistry", "keyword": "Oxidation", "notes": "Loss of electrons"}
+{"subject": "Physics", "keyword": "Photoelectric effect", "notes": "Electrons ejected above threshold frequency"}
+{"subject": "Chemistry", "keyword": "Recall: Ideal gas law", "notes": "PV = nRT"}
+{"subject": "Physics", "keyword": "Recall: Conservation of momentum", "notes": "Total momentum conserved in isolated systems"}
+{"subject": "Computer Science", "keyword": "Recursion (definition)", "notes": "Function calling itself"}
+{"subject": "Chemistry", "keyword": "Concept – Ideal gas law", "notes": "PV = nRT"}
+{"subject": "Physics", "keyword": "Entropy", "notes": "Measure of disorder; increases in closed systems"}
+{"subject": "Computer Science", "keyword": "CAP theorem", "notes": "Only 2 of Consistency, Availability, Partition tolerance"}
+{"subject": "Physics", "keyword": "Special relativity time dilation (definition)", "notes": "Δt' = γ Δt"}
+{"subject": "Physics", "keyword": "Recall: Doppler effect", "notes": "Frequency shift due to relative motion"}
+{"subject": "Computer Science", "keyword": "Concept – Binary search tree property", "notes": "Left < parent < right"}
+{"subject": "Biology", "keyword": "Recall: Enzyme", "notes": "Biological catalyst lowering activation energy"}
+{"subject": "Physics", "keyword": "Entropy (definition)", "notes": "Measure of disorder; increases in closed systems"}
+{"subject": "Chemistry", "keyword": "What is Activation energy", "notes": "Minimum energy required for a reaction to occur"}
+{"subject": "Physics", "keyword": "Key fact: Newton's second law", "notes": "F = ma"}
+{"subject": "Computer Science", "keyword": "CAP theorem", "notes": "Only 2 of Consistency, Availability, Partition tolerance"}
+{"subject": "Mathematics", "keyword": "Logarithm power rule", "notes": "log(a^b) = b · log(a)"}
+{"subject": "Physics", "keyword": "Recall: Uncertainty principle", "notes": "Δx Δp ≥ ħ/2"}
+{"subject": "Biology", "keyword": "What is chlorophyll?", "notes": "Absorbs light for photosynthesis"}
+{"subject": "Mathematics", "keyword": "Recall: Eigenvalue definition", "notes": "Av = λv"}
+{"subject": "Mathematics", "keyword": "Concept – Logarithm power rule", "notes": "log(a^b) = b · log(a)"}
+{"subject": "Physics", "keyword": "Uncertainty principle", "notes": "Δx Δp ≥ ħ/2"}
+{"subject": "Computer Science", "keyword": "Recall: CAP theorem", "notes": "Only 2 of Consistency, Availability, Partition tolerance"}
+{"subject": "Chemistry", "keyword": "Catalyst", "notes": "Speeds reaction without being consumed"}
+{"subject": "Physics", "keyword": "What is entropy?", "notes": "Measure of disorder; increases in closed systems"}
+{"subject": "Biology", "keyword": "Central dogma", "notes": "DNA → RNA → Protein"}
+{"subject": "Computer Science", "keyword": "Recall: Memoization", "notes": "Caching function results"}
+{"subject": "Physics", "keyword": "Concept – Speed of light", "notes": "c ≈ 3×10⁸ m/s"}
+{"subject": "Computer Science", "keyword": "Concept – Race condition", "notes": "Result depends on timing of concurrent ops"}
+{"subject": "Chemistry", "keyword": "Molarity (definition)", "notes": "Moles of solute per liter of solution"}
+{"subject": "Biology", "keyword": "Recall: Meiosis", "notes": "Produces four haploid gametes"}
+{"subject": "Chemistry", "keyword": "Recall: Avogadro's number", "notes": "6.022×10²³ / mol"}
+{"subject": "Chemistry", "keyword": "Ionic vs covalent (definition)", "notes": "Transfer vs sharing of electrons"}
+{"subject": "Computer Science", "keyword": "Hash collision", "notes": "Two keys map to the same bucket"}
+{"subject": "Computer Science", "keyword": "CAP theorem", "notes": "Only 2 of Consistency, Availability, Partition tolerance"}
+{"subject": "Physics", "keyword": "Photoelectric effect", "notes": "Electrons ejected above threshold frequency"}
+{"subject": "Computer Science", "keyword": "Concept – REST vs GraphQL", "notes": "Fixed endpoints vs flexible queries"}
+{"subject": "Mathematics", "keyword": "What is eigenvalue definition?", "notes": "Av = λv"}
+{"subject": "Physics", "keyword": "Speed of light", "notes": "c ≈ 3×10⁸ m/s"}
+{"subject": "Biology", "keyword": "Hardy-Weinberg", "notes": "p² + 2pq + q² = 1 under equilibrium"}
+{"subject": "Computer Science", "keyword": "Recall: Merge sort complexity", "notes": "O(n log n)"}
+{"subject": "Chemistry", "keyword": "Recall: Catalyst", "notes": "Speeds reaction without being consumed"}
+{"subject": "Physics", "keyword": "Kinetic energy", "notes": "½mv²"}
+{"subject": "Mathematics", "keyword": "Concept – Product rule", "notes": "(uv)' = u'v + uv'"}
+{"subject": "Physics", "keyword": "Torque (definition)", "notes": "τ = r × F"}
+{"subject": "Chemistry", "keyword": "Key fact: Oxidation", "notes": "Loss of electrons"}
+{"subject": "Computer Science", "keyword": "Recall: Binary search tree property", "notes": "Left < parent < right"}
+{"subject": "Computer Science", "keyword": "Binary search tree property", "notes": "Left < parent < right"}
+{"subject": "Computer Science", "keyword": "CAP theorem (definition)", "notes": "Only 2 of Consistency, Availability, Partition tolerance"}
+{"subject": "Mathematics", "keyword": "Product rule (definition)", "notes": "(uv)' = u'v + uv'"}
+{"subject": "Biology", "keyword": "Chlorophyll (definition)", "notes": "Absorbs light for photosynthesis"}
+{"subject": "Computer Science", "keyword": "Recall: Deadlock conditions", "notes": "Mutual exclusion, hold and wait, no preemption, circular wait"}
+{"subject": "Physics", "keyword": "Recall: Doppler effect", "notes": "Frequency shift due to relative motion"}
+{"subject": "Physics", "keyword": "What is uncertainty principle?", "notes": "Δx Δp ≥ ħ/2"}
+{"subject": "Computer Science", "keyword": "Big O of binary search", "notes": "O(log n)"}
+{"subject": "Biology", "keyword": "Mitochondria function", "notes": "Produces ATP via cellular respiration"}
+{"subject": "Computer Science", "keyword": "Binary search tree property", "notes": "Left < parent < right"}
+{"subject": "Computer Science", "keyword": "Concept – Big O of binary search", "notes": "O(log n)"}
+{"subject": "Computer Science", "keyword": "What is tcp vs udp?", "notes": "Reliable/ordered vs fast/unreliable"}
+{"subject": "Mathematics", "keyword": "Euler's identity (definition)", "notes": "e^{iπ} + 1 = 0"}
+{"subject": "Computer Science", "keyword": "Merge sort complexity (definition)", "notes": "O(n log n)"}
+{"subject": "Computer Science", "keyword": "Race condition", "notes": "Result depends on timing of concurrent ops"}
+{"subject": "Physics", "keyword": "Doppler effect (definition)", "notes": "Frequency shift due to relative motion"}
+{"subject": "Computer Science", "keyword": "Recall: Hash collision", "notes": "Two keys map to the same bucket"}
+{"subject": "Physics", "keyword": "Define Kinetic energy", "notes": "½mv²"}
+{"subject": "Mathematics", "keyword": "Describe Taylor series", "notes": "f(x) ≈ f(a) + f'(a)(x-a) + f''(a)(x-a)²/2! + ..."}
+{"subject": "Mathematics", "keyword": "Product rule", "notes": "(uv)' = u'v + uv'"}
+{"subject": "Biology", "keyword": "Key fact: Natural selection", "notes": "Advantageous traits increase reproductive success"}
+{"subject": "Biology", "keyword": "Chlorophyll (definition)", "notes": "Absorbs light for photosynthesis"}
+{"subject": "Biology", "keyword": "Concept – Hardy-Weinberg", "notes": "p² + 2pq + q² = 1 under equilibrium"}
+{"subject": "Physics", "keyword": "What is Wave-particle duality", "notes": "Particles exhibit both wave and particle properties"}
+{"subject": "Computer Science", "keyword": "CAP theorem (definition)", "notes": "Only 2 of Consistency, Availability, Partition tolerance"}
+{"subject": "Biology", "keyword": "Chlorophyll", "notes": "Absorbs light for photosynthesis"}
+{"subject": "Physics", "keyword": "Recall: Photoelectric effect", "notes": "Electrons ejected above threshold frequency"}
+{"subject": "Physics", "keyword": "Concept – Conservation of momentum", "notes": "Total momentum conserved in isolated systems"}
+{"subject": "Chemistry", "keyword": "Recall: Le Chatelier's principle", "notes": "System shifts to oppose change"}
+{"subject": "Biology", "keyword": "DNA vs RNA (definition)", "notes": "Thymine/double-stranded vs Uracil/single-stranded"}
+{"subject": "Physics", "keyword": "Speed of light", "notes": "c ≈ 3×10⁸ m/s"}
+{"subject": "Physics", "keyword": "Key fact: Entropy", "notes": "Measure of disorder; increases in closed systems"}
+{"subject": "Computer Science", "keyword": "Recall: Binary search tree property", "notes": "Left < parent < right"}
+{"subject": "Mathematics", "keyword": "Concept – Eigenvalue definition", "notes": "Av = λv"}
+{"subject": "Biology", "keyword": "Recall: Ribosome role", "notes": "Protein synthesis"}
+{"subject": "Mathematics", "keyword": "Recall: Mean value theorem", "notes": "∃ c ∈ (a,b) s.t. f'(c) = [f(b)-f(a)]/(b-a)"}
+{"subject": "Mathematics", "keyword": "Key fact: Fundamental theorem of calculus", "notes": "∫ₐᵇ f(x) dx = F(b) - F(a)"}
+{"subject": "Physics", "keyword": "Recall: Special relativity time dilation", "notes": "Δt' = γ Δt"}
+{"subject": "Computer Science", "keyword": "Recall: Stack vs Queue", "notes": "LIFO vs FIFO"}
+{"subject": "Computer Science", "keyword": "Hash collision (definition)", "notes": "Two keys map to the same bucket"}
+{"subject": "Biology", "keyword": "DNA vs RNA", "notes": "Thymine/double-stranded vs Uracil/single-stranded"}
+{"subject": "Biology", "keyword": "Concept – Enzyme", "notes": "Biological catalyst lowering activation energy"}
+{"subject": "Chemistry", "keyword": "Hess's law (definition)", "notes": "Enthalpy change is path-independent"}
+{"subject": "Chemistry", "keyword": "Molarity", "notes": "Moles of solute per liter of solution"}
+{"subject": "Physics", "keyword": "Uncertainty principle (definition)", "notes": "Δx Δp ≥ ħ/2"}
+{"subject": "Mathematics", "keyword": "Integral of 1/x (definition)", "notes": "ln|x| + C"}
+{"subject": "Computer Science", "keyword": "Concept – Deadlock conditions", "notes": "Mutual exclusion, hold and wait, no preemption, circular wait"}
+{"subject": "Biology", "keyword": "Concept – Enzyme", "notes": "Biological catalyst lowering activation energy"}
+{"subject": "Mathematics", "keyword": "Recall: Logarithm power rule", "notes": "log(a^b) = b · log(a)"}
+{"subject": "Computer Science", "keyword": "Concept – Merge sort complexity", "notes": "O(n log n)"}
+{"subject": "Chemistry", "keyword": "Concept – Ideal gas law", "notes": "PV = nRT"}
+{"subject": "Mathematics", "keyword": "Explain: Divergence theorem", "notes": "∭ (∇·F) dV = ∯ F·dS"}
+{"subject": "Computer Science", "keyword": "Define Hash collision", "notes": "Two keys map to the same bucket"}
+{"subject": "Mathematics", "keyword": "Concept – Euler's identity", "notes": "e^{iπ} + 1 = 0"}
+{"subject": "Biology", "keyword": "Recall: Mitochondria function", "notes": "Produces ATP via cellular respiration"}
+{"subject": "Mathematics", "keyword": "Pythagorean theorem", "notes": "a² + b² = c²"}
+{"subject": "Mathematics", "keyword": "Integral of 1/x", "notes": "ln|x| + C"}
+{"subject": "Biology", "keyword": "Recall: Hardy-Weinberg", "notes": "p² + 2pq + q² = 1 under equilibrium"}
+{"subject": "Chemistry", "keyword": "Recall: VSEPR theory", "notes": "Predicts molecular geometry from electron pairs"}
+{"subject": "Physics", "keyword": "Entropy", "notes": "Measure of disorder; increases in closed systems"}
+{"subject": "Physics", "keyword": "Recall: Uncertainty principle", "notes": "Δx Δp ≥ ħ/2"}
+{"subject": "Physics", "keyword": "Bernoulli's principle (definition)", "notes": "Higher speed → lower pressure"}
+{"subject": "Mathematics", "keyword": "Logarithm power rule (definition)", "notes": "log(a^b) = b · log(a)"}
+{"subject": "Computer Science", "keyword": "Stack vs Queue (definition)", "notes": "LIFO vs FIFO"}
+{"subject": "Computer Science", "keyword": "TCP vs UDP", "notes": "Reliable/ordered vs fast/unreliable"}
+{"subject": "Mathematics", "keyword": "Recall: Eigenvalue definition", "notes": "Av = λv"}
+{"subject": "Mathematics", "keyword": "Euler's identity (definition)", "notes": "e^{iπ} + 1 = 0"}
+{"subject": "Chemistry", "keyword": "Recall: Ionic vs covalent", "notes": "Transfer vs sharing of electrons"}
+{"subject": "Mathematics", "keyword": "Concept – Matrix determinant 2×2", "notes": "ad - bc"}
+{"subject": "Physics", "keyword": "Concept – Ohm's law", "notes": "V = IR"}
+{"subject": "Biology", "keyword": "Recall: Natural selection", "notes": "Advantageous traits increase reproductive success"}
+{"subject": "Computer Science", "keyword": "REST vs GraphQL (definition)", "notes": "Fixed endpoints vs flexible queries"}
+{"subject": "Physics", "keyword": "What is speed of light?", "notes": "c ≈ 3×10⁸ m/s"}
+{"subject": "Mathematics", "keyword": "Define Euler's identity", "notes": "e^{iπ} + 1 = 0"}
+{"subject": "Physics", "keyword": "Ohm's law", "notes": "V = IR"}
+{"subject": "Chemistry", "keyword": "Recall: Hess's law", "notes": "Enthalpy change is path-independent"}
+{"subject": "Biology", "keyword": "Chlorophyll (definition)", "notes": "Absorbs light for photosynthesis"}
+{"subject": "Biology", "keyword": "Recall: Action potential", "notes": "Rapid change in membrane potential"}
+{"subject": "Computer Science", "keyword": "Memoization (definition)", "notes": "Caching function results"}
+{"subject": "Chemistry", "keyword": "Concept – Ideal gas law", "notes": "PV = nRT"}
+{"subject": "Chemistry", "keyword": "Recall: Hess's law", "notes": "Enthalpy change is path-independent"}
+{"subject": "Biology", "keyword": "Concept – Enzyme", "notes": "Biological catalyst lowering activation energy"}
+{"subject": "Computer Science", "keyword": "What is big o of binary search?", "notes": "O(log n)"}
+{"subject": "Computer Science", "keyword": "Recall: Hash collision", "notes": "Two keys map to the same bucket"}
+{"subject": "Computer Science", "keyword": "Merge sort complexity", "notes": "O(n log n)"}
+{"subject": "Computer Science", "keyword": "Recall: REST vs GraphQL", "notes": "Fixed endpoints vs flexible queries"}
+{"subject": "Chemistry", "keyword": "Ionic vs covalent", "notes": "Transfer vs sharing of electrons"}
+{"subject": "Biology", "keyword": "Ribosome role (definition)", "notes": "Protein synthesis"}
+{"subject": "Computer Science", "keyword": "Concept – Big O of binary search", "notes": "O(log n)"}
+{"subject": "Chemistry", "keyword": "Recall: Ionic vs covalent", "notes": "Transfer vs sharing of electrons"}
+{"subject": "Physics", "keyword": "Newton's second law", "notes": "F = ma"}
+{"subject": "Mathematics", "keyword": "Derivative of x² (definition)", "notes": "2x"}
+{"subject": "Physics", "keyword": "Entropy", "notes": "Measure of disorder; increases in closed systems"}
+{"subject": "Mathematics", "keyword": "Concept – Chain rule", "notes": "d/dx [f(g(x))] = f'(g(x)) · g'(x)"}
+{"subject": "Computer Science", "keyword": "Concept – Recursion", "notes": "Function calling itself"}
+{"subject": "Physics", "keyword": "Doppler effect", "notes": "Frequency shift due to relative motion"}
+{"subject": "Physics", "keyword": "Kinetic energy (definition)", "notes": "½mv²"}
+{"subject": "Physics", "keyword": "Uncertainty principle", "notes": "Δx Δp ≥ ħ/2"}
+{"subject": "Chemistry", "keyword": "Oxidation", "notes": "Loss of electrons"}
+{"subject": "Biology", "keyword": "Recall: Mitochondria function", "notes": "Produces ATP via cellular respiration"}
+{"subject": "Mathematics", "keyword": "Define Chain rule", "notes": "d/dx [f(g(x))] = f'(g(x)) · g'(x)"}
+{"subject": "Mathematics", "keyword": "Concept – Logarithm power rule", "notes": "log(a^b) = b · log(a)"}
+{"subject": "Physics", "keyword": "Concept – Speed of light", "notes": "c ≈ 3×10⁸ m/s"}
+{"subject": "Biology", "keyword": "Concept – Natural selection", "notes": "Advantageous traits increase reproductive success"}
+{"subject": "Mathematics", "keyword": "Mean value theorem", "notes": "∃ c ∈ (a,b) s.t. f'(c) = [f(b)-f(a)]/(b-a)"}
+{"subject": "Computer Science", "keyword": "Recall: Memoization", "notes": "Caching function results"}
+{"subject": "Mathematics", "keyword": "Concept – Logarithm power rule", "notes": "log(a^b) = b · log(a)"}
+{"subject": "Biology", "keyword": "Concept – Mitosis", "notes": "Produces two identical diploid cells"}
+{"subject": "Chemistry", "keyword": "Define Ionic vs covalent", "notes": "Transfer vs sharing of electrons"}
+{"subject": "Biology", "keyword": "Central dogma (definition)", "notes": "DNA → RNA → Protein"}
+{"subject": "Chemistry", "keyword": "Recall: Le Chatelier's principle", "notes": "System shifts to oppose change"}
+{"subject": "Mathematics", "keyword": "Recall: Integral of 1/x", "notes": "ln|x| + C"}
+{"subject": "Mathematics", "keyword": "Eigenvalue definition (definition)", "notes": "Av = λv"}
+{"subject": "Physics", "keyword": "Speed of light (definition)", "notes": "c ≈ 3×10⁸ m/s"}
+{"subject": "Physics", "keyword": "Recall: Newton's second law", "notes": "F = ma"}
+{"subject": "Physics", "keyword": "Uncertainty principle", "notes": "Δx Δp ≥ ħ/2"}
+{"subject": "Computer Science", "keyword": "Define Deadlock conditions", "notes": "Mutual exclusion, hold and wait, no preemption, circular wait"}
+{"subject": "Biology", "keyword": "Recall: Meiosis", "notes": "Produces four haploid gametes"}
+{"subject": "Physics", "keyword": "Doppler effect", "notes": "Frequency shift due to relative motion"}
+{"subject": "Mathematics", "keyword": "Recall: Eigenvalue definition", "notes": "Av = λv"}
+{"subject": "Physics", "keyword": "Ohm's law", "notes": "V = IR"}
+{"subject": "Physics", "keyword": "Recall: Doppler effect", "notes": "Frequency shift due to relative motion"}
+{"subject": "Mathematics", "keyword": "Mean value theorem", "notes": "∃ c ∈ (a,b) s.t. f'(c) = [f(b)-f(a)]/(b-a)"}
+{"subject": "Computer Science", "keyword": "Concept – CAP theorem", "notes": "Only 2 of Consistency, Availability, Partition tolerance"}
+{"subject": "Biology", "keyword": "Natural selection (definition)", "notes": "Advantageous traits increase reproductive success"}
+{"subject": "Mathematics", "keyword": "Integral of 1/x", "notes": "ln|x| + C"}
+{"subject": "Biology", "keyword": "Homeostasis", "notes": "Stable internal conditions"}
+{"subject": "Chemistry", "keyword": "pH of pure water (definition)", "notes": "7"}
+{"subject": "Biology", "keyword": "Concept – Hardy-Weinberg", "notes": "p² + 2pq + q² = 1 under equilibrium"}
+{"subject": "Chemistry", "keyword": "Recall: VSEPR theory", "notes": "Predicts molecular geometry from electron pairs"}
+{"subject": "Chemistry", "keyword": "Recall: Electronegativity", "notes": "Ability to attract bonding electrons"}
+{"subject": "Biology", "keyword": "Recall: Central dogma", "notes": "DNA → RNA → Protein"}
+{"subject": "Chemistry", "keyword": "Recall: Le Chatelier's principle", "notes": "System shifts to oppose change"}
+{"subject": "Chemistry", "keyword": "Recall: Electronegativity", "notes": "Ability to attract bonding electrons"}
+{"subject": "Biology", "keyword": "Recall: Mitosis", "notes": "Produces two identical diploid cells"}
+{"subject": "Chemistry", "keyword": "What is ionic vs covalent?", "notes": "Transfer vs sharing of electrons"}
+{"subject": "Chemistry", "keyword": "Key fact: Le Chatelier's principle", "notes": "System shifts to oppose change"}
+{"subject": "Chemistry", "keyword": "What is molarity?", "notes": "Moles of solute per liter of solution"}
+{"subject": "Physics", "keyword": "Recall: Bernoulli's principle", "notes": "Higher speed → lower pressure"}
+{"subject": "Chemistry", "keyword": "Concept – Ideal gas law", "notes": "PV = nRT"}
+{"subject": "Computer Science", "keyword": "Memoization (definition)", "notes": "Caching function results"}
+{"subject": "Mathematics", "keyword": "Concept – Fundamental theorem of calculus", "notes": "∫ₐᵇ f(x) dx = F(b) - F(a)"}
+{"subject": "Mathematics", "keyword": "Eigenvalue definition (definition)", "notes": "Av = λv"}
+{"subject": "Biology", "keyword": "Concept – DNA vs RNA", "notes": "Thymine/double-stranded vs Uracil/single-stranded"}
+{"subject": "Physics", "keyword": "Entropy (definition)", "notes": "Measure of disorder; increases in closed systems"}
+{"subject": "Computer Science", "keyword": "REST vs GraphQL (definition)", "notes": "Fixed endpoints vs flexible queries"}
+{"subject": "Biology", "keyword": "Hardy-Weinberg (definition)", "notes": "p² + 2pq + q² = 1 under equilibrium"}
+{"subject": "Computer Science", "keyword": "Concept – Stack vs Queue", "notes": "LIFO vs FIFO"}
+{"subject": "Mathematics", "keyword": "Quadratic formula (definition)", "notes": "x = [-b ± √(b²-4ac)] / 2a"}
+{"subject": "Computer Science", "keyword": "Recall: Race condition", "notes": "Result depends on timing of concurrent ops"}
+{"subject": "Biology", "keyword": "Homeostasis", "notes": "Stable internal conditions"}
+{"subject": "Mathematics", "keyword": "Concept – Pythagorean theorem", "notes": "a² + b² = c²"}
+{"subject": "Physics", "keyword": "Concept – Kinetic energy", "notes": "½mv²"}
+{"subject": "Biology", "keyword": "Concept – Natural selection", "notes": "Advantageous traits increase reproductive success"}
+{"subject": "Chemistry", "keyword": "Avogadro's number", "notes": "6.022×10²³ / mol"}
+{"subject": "Chemistry", "keyword": "Avogadro's number (definition)", "notes": "6.022×10²³ / mol"}
+{"subject": "Biology", "keyword": "What is meiosis?", "notes": "Produces four haploid gametes"}
+{"subject": "Chemistry", "keyword": "Concept – pH of pure water", "notes": "7"}
+{"subject": "Biology", "keyword": "Recall: Mitosis", "notes": "Produces two identical diploid cells"}
+{"subject": "Computer Science", "keyword": "Define Memoization", "notes": "Caching function results"}
+{"subject": "Biology", "keyword": "What is mitochondria function?", "notes": "Produces ATP via cellular respiration"}
+{"subject": "Computer Science", "keyword": "Hash collision (definition)", "notes": "Two keys map to the same bucket"}
+{"subject": "Computer Science", "keyword": "What is stack vs queue?", "notes": "LIFO vs FIFO"}
+{"subject": "Computer Science", "keyword": "TCP vs UDP (definition)", "notes": "Reliable/ordered vs fast/unreliable"}
+{"subject": "Mathematics", "keyword": "Fundamental theorem of calculus (definition)", "notes": "∫ₐᵇ f(x) dx = F(b) - F(a)"}
+{"subject": "Mathematics", "keyword": "Euler's identity", "notes": "e^{iπ} + 1 = 0"}
+{"subject": "Mathematics", "keyword": "Pythagorean theorem", "notes": "a² + b² = c²"}
+{"subject": "Chemistry", "keyword": "Concept – pH of pure water", "notes": "7"}
+{"subject": "Computer Science", "keyword": "Concept – REST vs GraphQL", "notes": "Fixed endpoints vs flexible queries"}
+{"subject": "Mathematics", "keyword": "Concept – Integral of 1/x", "notes": "ln|x| + C"}
+{"subject": "Computer Science", "keyword": "Concept – CAP theorem", "notes": "Only 2 of Consistency, Availability, Partition tolerance"}
+{"subject": "Chemistry", "keyword": "VSEPR theory (definition)", "notes": "Predicts molecular geometry from electron pairs"}
+{"subject": "Computer Science", "keyword": "Concept – Binary search tree property", "notes": "Left < parent < right"}
+{"subject": "Mathematics", "keyword": "Recall: Chain rule", "notes": "d/dx [f(g(x))] = f'(g(x)) · g'(x)"}
+{"subject": "Biology", "keyword": "Recall: Enzyme", "notes": "Biological catalyst lowering activation energy"}
+{"subject": "Mathematics", "keyword": "Euler's identity (definition)", "notes": "e^{iπ} + 1 = 0"}
+{"subject": "Physics", "keyword": "Key fact: Photoelectric effect", "notes": "Electrons ejected above threshold frequency"}
+{"subject": "Computer Science", "keyword": "CAP theorem", "notes": "Only 2 of Consistency, Availability, Partition tolerance"}
+{"subject": "Physics", "keyword": "Define Bernoulli's principle", "notes": "Higher speed → lower pressure"}
+{"subject": "Computer Science", "keyword": "Explain: Garbage collection", "notes": "Automatic memory management that reclaims unused objects"}
+{"subject": "Biology", "keyword": "Concept – Ribosome role", "notes": "Protein synthesis"}
+{"subject": "Mathematics", "keyword": "Derivative of x²", "notes": "2x"}
+{"subject": "Physics", "keyword": "Key fact: Uncertainty principle", "notes": "Δx Δp ≥ ħ/2"}
+{"subject": "Computer Science", "keyword": "Explain: Virtual memory", "notes": "Abstraction that gives each process its own address space"}
+{"subject": "Biology", "keyword": "Recall: Meiosis", "notes": "Produces four haploid gametes"}
+{"subject": "Mathematics", "keyword": "Concept – Product rule", "notes": "(uv)' = u'v + uv'"}
+{"subject": "Mathematics", "keyword": "Eigenvalue definition (definition)", "notes": "Av = λv"}
+{"subject": "Computer Science", "keyword": "Define CAP theorem", "notes": "Only 2 of Consistency, Availability, Partition tolerance"}
+{"subject": "Chemistry", "keyword": "Concept – Ideal gas law", "notes": "PV = nRT"}
+{"subject": "Mathematics", "keyword": "Concept – Fundamental theorem of calculus", "notes": "∫ₐᵇ f(x) dx = F(b) - F(a)"}
+{"subject": "Biology", "keyword": "Natural selection (definition)", "notes": "Advantageous traits increase reproductive success"}
+{"subject": "Chemistry", "keyword": "Recall: Ionic vs covalent", "notes": "Transfer vs sharing of electrons"}
+{"subject": "Biology", "keyword": "Hardy-Weinberg (definition)", "notes": "p² + 2pq + q² = 1 under equilibrium"}
+{"subject": "Physics", "keyword": "Recall: Photoelectric effect", "notes": "Electrons ejected above threshold frequency"}
+{"subject": "Chemistry", "keyword": "Catalyst (definition)", "notes": "Speeds reaction without being consumed"}
+{"subject": "Mathematics", "keyword": "Pythagorean theorem", "notes": "a² + b² = c²"}
+{"subject": "Physics", "keyword": "Recall: Bernoulli's principle", "notes": "Higher speed → lower pressure"}
+{"subject": "Mathematics", "keyword": "Recall: Integral of 1/x", "notes": "ln|x| + C"}
+{"subject": "Mathematics", "keyword": "Integral of 1/x", "notes": "ln|x| + C"}
+{"subject": "Chemistry", "keyword": "pH of pure water", "notes": "7"}
+{"subject": "Mathematics", "keyword": "Concept – Pythagorean theorem", "notes": "a² + b² = c²"}
+{"subject": "Biology", "keyword": "Concept – Mitochondria function", "notes": "Produces ATP via cellular respiration"}
+{"subject": "Biology", "keyword": "Recall: Action potential", "notes": "Rapid change in membrane potential"}
+{"subject": "Biology", "keyword": "Enzyme", "notes": "Biological catalyst lowering activation energy"}
+{"subject": "Chemistry", "keyword": "Concept – Ideal gas law", "notes": "PV = nRT"}
+{"subject": "Mathematics", "keyword": "What is fundamental theorem of calculus?", "notes": "∫ₐᵇ f(x) dx = F(b) - F(a)"}
+{"subject": "Mathematics", "keyword": "Recall: Derivative of x²", "notes": "2x"}
+{"subject": "Mathematics", "keyword": "Concept – Fundamental theorem of calculus", "notes": "∫ₐᵇ f(x) dx = F(b) - F(a)"}
+{"subject": "Chemistry", "keyword": "Molarity", "notes": "Moles of solute per liter of solution"}
+{"subject": "Physics", "keyword": "Doppler effect", "notes": "Frequency shift due to relative motion"}
+{"subject": "Mathematics", "keyword": "Mean value theorem (definition)", "notes": "∃ c ∈ (a,b) s.t. f'(c) = [f(b)-f(a)]/(b-a)"}
+{"subject": "Physics", "keyword": "Doppler effect (definition)", "notes": "Frequency shift due to relative motion"}
+{"subject": "Computer Science", "keyword": "Concept – Merge sort complexity", "notes": "O(n log n)"}
+{"subject": "Biology", "keyword": "Mitosis (definition)", "notes": "Produces two identical diploid cells"}
+{"subject": "Computer Science", "keyword": "Recall: Merge sort complexity", "notes": "O(n log n)"}
+{"subject": "Chemistry", "keyword": "Recall: Avogadro's number", "notes": "6.022×10²³ / mol"}
+{"subject": "Biology", "keyword": "Concept – Enzyme", "notes": "Biological catalyst lowering activation energy"}
+{"subject": "Mathematics", "keyword": "Recall: Logarithm power rule", "notes": "log(a^b) = b · log(a)"}
+{"subject": "Physics", "keyword": "Explain: Wave-particle duality", "notes": "Particles exhibit both wave and particle properties"}
+{"subject": "Biology", "keyword": "Operon model", "notes": "Group of genes regulated together (e.g., lac operon)"}
+{"subject": "Mathematics", "keyword": "Recall: Quadratic formula", "notes": "x = [-b ± √(b²-4ac)] / 2a"}
+{"subject": "Mathematics", "keyword": "Define Pythagorean theorem", "notes": "a² + b² = c²"}
+{"subject": "Biology", "keyword": "Define Hardy-Weinberg", "notes": "p² + 2pq + q² = 1 under equilibrium"}
+{"subject": "Physics", "keyword": "Bernoulli's principle", "notes": "Higher speed → lower pressure"}
+{"subject": "Mathematics", "keyword": "Recall: Pythagorean theorem", "notes": "a² + b² = c²"}
+{"subject": "Computer Science", "keyword": "Concept – Race condition", "notes": "Result depends on timing of concurrent ops"}
+{"subject": "Computer Science", "keyword": "Recall: Race condition", "notes": "Result depends on timing of concurrent ops"}
+{"subject": "Mathematics", "keyword": "Recall: Quadratic formula", "notes": "x = [-b ± √(b²-4ac)] / 2a"}
+{"subject": "Mathematics", "keyword": "Recall: Mean value theorem", "notes": "∃ c ∈ (a,b) s.t. f'(c) = [f(b)-f(a)]/(b-a)"}
+{"subject": "Physics", "keyword": "Conservation of momentum", "notes": "Total momentum conserved in isolated systems"}
+{"subject": "Chemistry", "keyword": "Concept – pH of pure water", "notes": "7"}
+{"subject": "Mathematics", "keyword": "Concept – Derivative of x²", "notes": "2x"}
+{"subject": "Physics", "keyword": "Ohm's law", "notes": "V = IR"}
+{"subject": "Physics", "keyword": "What is photoelectric effect?", "notes": "Electrons ejected above threshold frequency"}
+{"subject": "Mathematics", "keyword": "Euler's identity (definition)", "notes": "e^{iπ} + 1 = 0"}
+{"subject": "Mathematics", "keyword": "Concept – Eigenvalue definition", "notes": "Av = λv"}
+{"subject": "Physics", "keyword": "Special relativity time dilation (definition)", "notes": "Δt' = γ Δt"}
+{"subject": "Mathematics", "keyword": "Concept – Eigenvalue definition", "notes": "Av = λv"}
+{"subject": "Physics", "keyword": "Torque", "notes": "τ = r × F"}
+{"subject": "Computer Science", "keyword": "Recall: CAP theorem", "notes": "Only 2 of Consistency, Availability, Partition tolerance"}
+{"subject": "Physics", "keyword": "Concept – Doppler effect", "notes": "Frequency shift due to relative motion"}
+{"subject": "Mathematics", "keyword": "Recall: Chain rule", "notes": "d/dx [f(g(x))] = f'(g(x)) · g'(x)"}
+{"subject": "Mathematics", "keyword": "Recall: Euler's identity", "notes": "e^{iπ} + 1 = 0"}
+{"subject": "Chemistry", "keyword": "VSEPR theory", "notes": "Predicts molecular geometry from electron pairs"}
+{"subject": "Chemistry", "keyword": "Recall: Oxidation", "notes": "Loss of electrons"}
+{"subject": "Computer Science", "keyword": "Concept – Race condition", "notes": "Result depends on timing of concurrent ops"}
+{"subject": "Chemistry", "keyword": "Key fact: Ionic vs covalent", "notes": "Transfer vs sharing of electrons"}
+{"subject": "Biology", "keyword": "Meiosis", "notes": "Produces four haploid gametes"}
+{"subject": "Computer Science", "keyword": "CAP theorem (definition)", "notes": "Only 2 of Consistency, Availability, Partition tolerance"}
+{"subject": "Computer Science", "keyword": "CAP theorem", "notes": "Only 2 of Consistency, Availability, Partition tolerance"}
+{"subject": "Physics", "keyword": "Doppler effect", "notes": "Frequency shift due to relative motion"}
+{"subject": "Mathematics", "keyword": "Recall: Fundamental theorem of calculus", "notes": "∫ₐᵇ f(x) dx = F(b) - F(a)"}
+{"subject": "Chemistry", "keyword": "Define VSEPR theory", "notes": "Predicts molecular geometry from electron pairs"}
+{"subject": "Computer Science", "keyword": "TCP vs UDP", "notes": "Reliable/ordered vs fast/unreliable"}
+{"subject": "Physics", "keyword": "Key fact: Kinetic energy", "notes": "½mv²"}
+{"subject": "Computer Science", "keyword": "Memoization", "notes": "Caching function results"}
+{"subject": "Computer Science", "keyword": "Binary search tree property (definition)", "notes": "Left < parent < right"}
+{"subject": "Mathematics", "keyword": "Define Logarithm power rule", "notes": "log(a^b) = b · log(a)"}
+{"subject": "Chemistry", "keyword": "Recall: Ideal gas law", "notes": "PV = nRT"}
+{"subject": "Biology", "keyword": "Recall: Meiosis", "notes": "Produces four haploid gametes"}
+{"subject": "Biology", "keyword": "Recall: Enzyme", "notes": "Biological catalyst lowering activation energy"}
+{"subject": "Biology", "keyword": "Central dogma (definition)", "notes": "DNA → RNA → Protein"}
+{"subject": "Computer Science", "keyword": "Stack vs Queue", "notes": "LIFO vs FIFO"}
+{"subject": "Biology", "keyword": "Recall: Natural selection", "notes": "Advantageous traits increase reproductive success"}
+{"subject": "Physics", "keyword": "Key fact: Conservation of momentum", "notes": "Total momentum conserved in isolated systems"}
+{"subject": "Physics", "keyword": "Ohm's law (definition)", "notes": "V = IR"}
+{"subject": "Chemistry", "keyword": "Recall: Catalyst", "notes": "Speeds reaction without being consumed"}
+{"subject": "Chemistry", "keyword": "Explain: Activation energy", "notes": "Minimum energy required for a reaction to occur"}
+{"subject": "Chemistry", "keyword": "Recall: Ionic vs covalent", "notes": "Transfer vs sharing of electrons"}
+{"subject": "Chemistry", "keyword": "Oxidation", "notes": "Loss of electrons"}
+{"subject": "Biology", "keyword": "Key fact: Mitosis", "notes": "Produces two identical diploid cells"}
+{"subject": "Biology", "keyword": "Concept – Hardy-Weinberg", "notes": "p² + 2pq + q² = 1 under equilibrium"}
+{"subject": "Biology", "keyword": "What is Operon model", "notes": "Group of genes regulated together (e.g., lac operon)"}
+{"subject": "Physics", "keyword": "Torque", "notes": "τ = r × F"}
+{"subject": "Computer Science", "keyword": "What is recursion?", "notes": "Function calling itself"}
+{"subject": "Physics", "keyword": "Define Uncertainty principle", "notes": "Δx Δp ≥ ħ/2"}
+{"subject": "Physics", "keyword": "Bernoulli's principle (definition)", "notes": "Higher speed → lower pressure"}
+{"subject": "Biology", "keyword": "Recall: Meiosis", "notes": "Produces four haploid gametes"}
+{"subject": "Chemistry", "keyword": "pH of pure water (definition)", "notes": "7"}
+{"subject": "Computer Science", "keyword": "Key fact: Binary search tree property", "notes": "Left < parent < right"}
+{"subject": "Biology", "keyword": "Ribosome role (definition)", "notes": "Protein synthesis"}
+{"subject": "Mathematics", "keyword": "Concept – Matrix determinant 2×2", "notes": "ad - bc"}
+{"subject": "Mathematics", "keyword": "Integral of 1/x", "notes": "ln|x| + C"}
+{"subject": "Computer Science", "keyword": "Race condition", "notes": "Result depends on timing of concurrent ops"}
+{"subject": "Mathematics", "keyword": "Chain rule (definition)", "notes": "d/dx [f(g(x))] = f'(g(x)) · g'(x)"}
+{"subject": "Chemistry", "keyword": "Key fact: Ideal gas law", "notes": "PV = nRT"}
+{"subject": "Chemistry", "keyword": "Define Le Chatelier's principle", "notes": "System shifts to oppose change"}
+{"subject": "Chemistry", "keyword": "What is Buffer solution", "notes": "Resists pH change when small amounts of acid/base are added"}
+{"subject": "Computer Science", "keyword": "Deadlock conditions (definition)", "notes": "Mutual exclusion, hold and wait, no preemption, circular wait"}
+{"subject": "Mathematics", "keyword": "Recall: Euler's identity", "notes": "e^{iπ} + 1 = 0"}
+{"subject": "Biology", "keyword": "Concept – DNA vs RNA", "notes": "Thymine/double-stranded vs Uracil/single-stranded"}
+{"subject": "Chemistry", "keyword": "Buffer solution", "notes": "Resists pH change when small amounts of acid/base are added"}
+{"subject": "Biology", "keyword": "Chlorophyll (definition)", "notes": "Absorbs light for photosynthesis"}
+{"subject": "Chemistry", "keyword": "VSEPR theory", "notes": "Predicts molecular geometry from electron pairs"}
+{"subject": "Biology", "keyword": "Natural selection (definition)", "notes": "Advantageous traits increase reproductive success"}
+{"subject": "Chemistry", "keyword": "VSEPR theory", "notes": "Predicts molecular geometry from electron pairs"}
+{"subject": "Mathematics", "keyword": "Quadratic formula", "notes": "x = [-b ± √(b²-4ac)] / 2a"}
+{"subject": "Computer Science", "keyword": "Hash collision (definition)", "notes": "Two keys map to the same bucket"}
+{"subject": "Physics", "keyword": "Recall: Doppler effect", "notes": "Frequency shift due to relative motion"}
+{"subject": "Biology", "keyword": "What is enzyme?", "notes": "Biological catalyst lowering activation energy"}
+{"subject": "Chemistry", "keyword": "Ideal gas law", "notes": "PV = nRT"}
+{"subject": "Chemistry", "keyword": "Concept – Catalyst", "notes": "Speeds reaction without being consumed"}
+{"subject": "Physics", "keyword": "Conservation of momentum (definition)", "notes": "Total momentum conserved in isolated systems"}
+{"subject": "Physics", "keyword": "Concept – Photoelectric effect", "notes": "Electrons ejected above threshold frequency"}
+{"subject": "Mathematics", "keyword": "Recall: Pythagorean theorem", "notes": "a² + b² = c²"}
+{"subject": "Mathematics", "keyword": "Define Matrix determinant 2×2", "notes": "ad - bc"}
+{"subject": "Computer Science", "keyword": "Memoization", "notes": "Caching function results"}
+{"subject": "Chemistry", "keyword": "Recall: Le Chatelier's principle", "notes": "System shifts to oppose change"}
+{"subject": "Mathematics", "keyword": "Concept – Mean value theorem", "notes": "∃ c ∈ (a,b) s.t. f'(c) = [f(b)-f(a)]/(b-a)"}
+{"subject": "Computer Science", "keyword": "Recursion", "notes": "Function calling itself"}
+{"subject": "Chemistry", "keyword": "Le Chatelier's principle (definition)", "notes": "System shifts to oppose change"}
+{"subject": "Chemistry", "keyword": "Concept – Ideal gas law", "notes": "PV = nRT"}
+{"subject": "Biology", "keyword": "Define Ribosome role", "notes": "Protein synthesis"}
+{"subject": "Computer Science", "keyword": "Recall: Big O of binary search", "notes": "O(log n)"}
+{"subject": "Mathematics", "keyword": "Quadratic formula (definition)", "notes": "x = [-b ± √(b²-4ac)] / 2a"}
+{"subject": "Computer Science", "keyword": "Stack vs Queue", "notes": "LIFO vs FIFO"}
+{"subject": "Mathematics", "keyword": "Product rule", "notes": "(uv)' = u'v + uv'"}
+{"subject": "Chemistry", "keyword": "Recall: Le Chatelier's principle", "notes": "System shifts to oppose change"}
+{"subject": "Chemistry", "keyword": "Recall: pH of pure water", "notes": "7"}
+{"subject": "Computer Science", "keyword": "TCP vs UDP", "notes": "Reliable/ordered vs fast/unreliable"}
+{"subject": "Biology", "keyword": "Chlorophyll (definition)", "notes": "Absorbs light for photosynthesis"}
+{"subject": "Mathematics", "keyword": "Derivative of x² (definition)", "notes": "2x"}
+{"subject": "Physics", "keyword": "Recall: Speed of light", "notes": "c ≈ 3×10⁸ m/s"}
+{"subject": "Biology", "keyword": "Natural selection (definition)", "notes": "Advantageous traits increase reproductive success"}
+{"subject": "Mathematics", "keyword": "Concept – Derivative of x²", "notes": "2x"}
+{"subject": "Mathematics", "keyword": "Euler's identity (definition)", "notes": "e^{iπ} + 1 = 0"}
+{"subject": "Biology", "keyword": "Chlorophyll (definition)", "notes": "Absorbs light for photosynthesis"}
+{"subject": "Chemistry", "keyword": "Covalent bond (definition)", "notes": "Sharing of electron pairs"}
+{"subject": "Chemistry", "keyword": "Recall: Molarity", "notes": "Moles of solute per liter of solution"}
+{"subject": "Computer Science", "keyword": "Binary search tree property (definition)", "notes": "Left < parent < right"}
+{"subject": "Physics", "keyword": "Concept – Entropy", "notes": "Measure of disorder; increases in closed systems"}
+{"subject": "Physics", "keyword": "Concept – Uncertainty principle", "notes": "Δx Δp ≥ ħ/2"}
+{"subject": "Biology", "keyword": "Recall: Action potential", "notes": "Rapid change in membrane potential"}
+{"subject": "Mathematics", "keyword": "Concept – Pythagorean theorem", "notes": "a² + b² = c²"}
+{"subject": "Mathematics", "keyword": "Concept – Euler's identity", "notes": "e^{iπ} + 1 = 0"}
+{"subject": "Biology", "keyword": "Enzyme", "notes": "Biological catalyst lowering activation energy"}
+{"subject": "Computer Science", "keyword": "Recall: Deadlock conditions", "notes": "Mutual exclusion, hold and wait, no preemption, circular wait"}
+{"subject": "Mathematics", "keyword": "Recall: Integral of 1/x", "notes": "ln|x| + C"}
+{"subject": "Physics", "keyword": "Special relativity time dilation", "notes": "Δt' = γ Δt"}
+{"subject": "Chemistry", "keyword": "Concept – Oxidation", "notes": "Loss of electrons"}
+{"subject": "Computer Science", "keyword": "Memoization (definition)", "notes": "Caching function results"}
+{"subject": "Physics", "keyword": "Concept – Newton's second law", "notes": "F = ma"}
+{"subject": "Computer Science", "keyword": "Concept – Merge sort complexity", "notes": "O(n log n)"}
+{"subject": "Chemistry", "keyword": "Le Chatelier's principle", "notes": "System shifts to oppose change"}
+{"subject": "Mathematics", "keyword": "Quadratic formula", "notes": "x = [-b ± √(b²-4ac)] / 2a"}
+{"subject": "Physics", "keyword": "Kinetic energy (definition)", "notes": "½mv²"}
+{"subject": "Biology", "keyword": "Recall: DNA vs RNA", "notes": "Thymine/double-stranded vs Uracil/single-stranded"}
+{"subject": "Mathematics", "keyword": "Concept – Matrix determinant 2×2", "notes": "ad - bc"}
+{"subject": "Mathematics", "keyword": "Define Integral of 1/x", "notes": "ln|x| + C"}
+{"subject": "Physics", "keyword": "Kinetic energy (definition)", "notes": "½mv²"}
+{"subject": "Biology", "keyword": "Recall: Natural selection", "notes": "Advantageous traits increase reproductive success"}
+{"subject": "Physics", "keyword": "Concept – Ohm's law", "notes": "V = IR"}
+{"subject": "Chemistry", "keyword": "Recall: Molarity", "notes": "Moles of solute per liter of solution"}
+{"subject": "Physics", "keyword": "Concept – Newton's second law", "notes": "F = ma"}
+{"subject": "Computer Science", "keyword": "Concept – CAP theorem", "notes": "Only 2 of Consistency, Availability, Partition tolerance"}
+{"subject": "Mathematics", "keyword": "Chain rule", "notes": "d/dx [f(g(x))] = f'(g(x)) · g'(x)"}
+{"subject": "Mathematics", "keyword": "Pythagorean theorem (definition)", "notes": "a² + b² = c²"}
+{"subject": "Chemistry", "keyword": "Electronegativity (definition)", "notes": "Ability to attract bonding electrons"}
+{"subject": "Computer Science", "keyword": "Concept – Race condition", "notes": "Result depends on timing of concurrent ops"}
+{"subject": "Computer Science", "keyword": "REST vs GraphQL", "notes": "Fixed endpoints vs flexible queries"}
+{"subject": "Computer Science", "keyword": "Concept – Deadlock conditions", "notes": "Mutual exclusion, hold and wait, no preemption, circular wait"}
+{"subject": "Physics", "keyword": "Describe Magnetic flux", "notes": "Φ = B · A"}
+{"subject": "Physics", "keyword": "Kinetic energy (definition)", "notes": "½mv²"}
+{"subject": "Chemistry", "keyword": "Isotopes", "notes": "Same element, different number of neutrons"}
+{"subject": "Chemistry", "keyword": "Molarity", "notes": "Moles of solute per liter of solution"}
+{"subject": "Physics", "keyword": "Key fact: Special relativity time dilation", "notes": "Δt' = γ Δt"}
+{"subject": "Computer Science", "keyword": "Memoization", "notes": "Caching function results"}
+{"subject": "Physics", "keyword": "Kinetic energy (definition)", "notes": "½mv²"}
+{"subject": "Mathematics", "keyword": "Derivative of x²", "notes": "2x"}
+{"subject": "Physics", "keyword": "Special relativity time dilation", "notes": "Δt' = γ Δt"}
+{"subject": "Biology", "keyword": "Mitochondria function", "notes": "Produces ATP via cellular respiration"}
+{"subject": "Mathematics", "keyword": "Concept – Derivative of x²", "notes": "2x"}
+{"subject": "Biology", "keyword": "Concept – Mitosis", "notes": "Produces two identical diploid cells"}
+{"subject": "Mathematics", "keyword": "Concept – Logarithm power rule", "notes": "log(a^b) = b · log(a)"}
+{"subject": "Chemistry", "keyword": "Concept – Molarity", "notes": "Moles of solute per liter of solution"}
+{"subject": "Physics", "keyword": "Concept – Conservation of momentum", "notes": "Total momentum conserved in isolated systems"}
+{"subject": "Mathematics", "keyword": "Concept – Quadratic formula", "notes": "x = [-b ± √(b²-4ac)] / 2a"}
+{"subject": "Physics", "keyword": "Speed of light (definition)", "notes": "c ≈ 3×10⁸ m/s"}
+{"subject": "Biology", "keyword": "Concept – Hardy-Weinberg", "notes": "p² + 2pq + q² = 1 under equilibrium"}
+{"subject": "Physics", "keyword": "Concept – Speed of light", "notes": "c ≈ 3×10⁸ m/s"}
+{"subject": "Mathematics", "keyword": "Product rule", "notes": "(uv)' = u'v + uv'"}
+{"subject": "Chemistry", "keyword": "Ideal gas law", "notes": "PV = nRT"}
+{"subject": "Computer Science", "keyword": "Merge sort complexity (definition)", "notes": "O(n log n)"}
+{"subject": "Mathematics", "keyword": "Euler's identity", "notes": "e^{iπ} + 1 = 0"}
+{"subject": "Biology", "keyword": "Recall: Ribosome role", "notes": "Protein synthesis"}
+{"subject": "Physics", "keyword": "Ohm's law", "notes": "V = IR"}
+{"subject": "Chemistry", "keyword": "Recall: Electronegativity", "notes": "Ability to attract bonding electrons"}
+{"subject": "Physics", "keyword": "Recall: Kinetic energy", "notes": "½mv²"}
+{"subject": "Mathematics", "keyword": "Recall: Product rule", "notes": "(uv)' = u'v + uv'"}
+{"subject": "Chemistry", "keyword": "Concept – Catalyst", "notes": "Speeds reaction without being consumed"}
+{"subject": "Mathematics", "keyword": "Recall: Pythagorean theorem", "notes": "a² + b² = c²"}
+{"subject": "Physics", "keyword": "Recall: Special relativity time dilation", "notes": "Δt' = γ Δt"}
+{"subject": "Biology", "keyword": "Concept – Homeostasis", "notes": "Stable internal conditions"}
+{"subject": "Biology", "keyword": "Concept – Meiosis", "notes": "Produces four haploid gametes"}
+{"subject": "Computer Science", "keyword": "TCP vs UDP", "notes": "Reliable/ordered vs fast/unreliable"}
+{"subject": "Mathematics", "keyword": "Product rule (definition)", "notes": "(uv)' = u'v + uv'"}
+{"subject": "Computer Science", "keyword": "REST vs GraphQL", "notes": "Fixed endpoints vs flexible queries"}
+{"subject": "Physics", "keyword": "Recall: Photoelectric effect", "notes": "Electrons ejected above threshold frequency"}
+{"subject": "Biology", "keyword": "Concept – Hardy-Weinberg", "notes": "p² + 2pq + q² = 1 under equilibrium"}
+{"subject": "Mathematics", "keyword": "Chain rule (definition)", "notes": "d/dx [f(g(x))] = f'(g(x)) · g'(x)"}
+{"subject": "Computer Science", "keyword": "TCP vs UDP (definition)", "notes": "Reliable/ordered vs fast/unreliable"}
+{"subject": "Chemistry", "keyword": "Covalent bond (definition)", "notes": "Sharing of electron pairs"}
+{"subject": "Computer Science", "keyword": "Recall: TCP vs UDP", "notes": "Reliable/ordered vs fast/unreliable"}
+{"subject": "Physics", "keyword": "Concept – Conservation of momentum", "notes": "Total momentum conserved in isolated systems"}
+{"subject": "Physics", "keyword": "Special relativity time dilation", "notes": "Δt' = γ Δt"}
+{"subject": "Chemistry", "keyword": "Key fact: Avogadro's number", "notes": "6.022×10²³ / mol"}
+{"subject": "Chemistry", "keyword": "Recall: Molarity", "notes": "Moles of solute per liter of solution"}
+{"subject": "Computer Science", "keyword": "Stack vs Queue", "notes": "LIFO vs FIFO"}
+{"subject": "Physics", "keyword": "Concept – Kinetic energy", "notes": "½mv²"}
+{"subject": "Chemistry", "keyword": "Concept – Oxidation", "notes": "Loss of electrons"}
+{"subject": "Physics", "keyword": "Concept – Photoelectric effect", "notes": "Electrons ejected above threshold frequency"}
+{"subject": "Chemistry", "keyword": "Electronegativity", "notes": "Ability to attract bonding electrons"}
+{"subject": "Computer Science", "keyword": "Big O of binary search (definition)", "notes": "O(log n)"}
+{"subject": "Mathematics", "keyword": "Integral of 1/x (definition)", "notes": "ln|x| + C"}
+{"subject": "Biology", "keyword": "Mitochondria function", "notes": "Produces ATP via cellular respiration"}
+{"subject": "Computer Science", "keyword": "Big O of binary search", "notes": "O(log n)"}
+{"subject": "Biology", "keyword": "Concept – Chlorophyll", "notes": "Absorbs light for photosynthesis"}
+{"subject": "Chemistry", "keyword": "Molarity (definition)", "notes": "Moles of solute per liter of solution"}
+{"subject": "Computer Science", "keyword": "Recall: Race condition", "notes": "Result depends on timing of concurrent ops"}
+{"subject": "Computer Science", "keyword": "REST vs GraphQL", "notes": "Fixed endpoints vs flexible queries"}
+{"subject": "Biology", "keyword": "Define Mitosis", "notes": "Produces two identical diploid cells"}
+{"subject": "Chemistry", "keyword": "Ionic vs covalent (definition)", "notes": "Transfer vs sharing of electrons"}
+{"subject": "Physics", "keyword": "Conservation of momentum", "notes": "Total momentum conserved in isolated systems"}
+{"subject": "Chemistry", "keyword": "Recall: Ionic vs covalent", "notes": "Transfer vs sharing of electrons"}
+{"subject": "Mathematics", "keyword": "Matrix determinant 2×2", "notes": "ad - bc"}
+{"subject": "Chemistry", "keyword": "What is vsepr theory?", "notes": "Predicts molecular geometry from electron pairs"}
+{"subject": "Biology", "keyword": "Action potential (definition)", "notes": "Rapid change in membrane potential"}
+{"subject": "Computer Science", "keyword": "Concept – Race condition", "notes": "Result depends on timing of concurrent ops"}
+{"subject": "Computer Science", "keyword": "What is deadlock conditions?", "notes": "Mutual exclusion, hold and wait, no preemption, circular wait"}
+{"subject": "Chemistry", "keyword": "Define Avogadro's number", "notes": "6.022×10²³ / mol"}
+{"subject": "Mathematics", "keyword": "Concept – Product rule", "notes": "(uv)' = u'v + uv'"}
+{"subject": "Mathematics", "keyword": "Fundamental theorem of calculus", "notes": "∫ₐᵇ f(x) dx = F(b) - F(a)"}
+{"subject": "Mathematics", "keyword": "Recall: Logarithm power rule", "notes": "log(a^b) = b · log(a)"}
+{"subject": "Chemistry", "keyword": "Concept – Avogadro's number", "notes": "6.022×10²³ / mol"}
+{"subject": "Computer Science", "keyword": "Key fact: Race condition", "notes": "Result depends on timing of concurrent ops"}
+{"subject": "Biology", "keyword": "Meiosis", "notes": "Produces four haploid gametes"}
+{"subject": "Computer Science", "keyword": "Recall: Recursion", "notes": "Function calling itself"}
+{"subject": "Physics", "keyword": "Kinetic energy (definition)", "notes": "½mv²"}
+{"subject": "Computer Science", "keyword": "What is cap theorem?", "notes": "Only 2 of Consistency, Availability, Partition tolerance"}
+{"subject": "Mathematics", "keyword": "Euler's identity (definition)", "notes": "e^{iπ} + 1 = 0"}
+{"subject": "Chemistry", "keyword": "Concept – Le Chatelier's principle", "notes": "System shifts to oppose change"}
+{"subject": "Biology", "keyword": "DNA vs RNA", "notes": "Thymine/double-stranded vs Uracil/single-stranded"}
+{"subject": "Physics", "keyword": "Concept – Ohm's law", "notes": "V = IR"}
+{"subject": "Chemistry", "keyword": "pH of pure water", "notes": "7"}
+{"subject": "Computer Science", "keyword": "Recall: Stack vs Queue", "notes": "LIFO vs FIFO"}
+{"subject": "Chemistry", "keyword": "What is ph of pure water?", "notes": "7"}
+{"subject": "Physics", "keyword": "What is torque?", "notes": "τ = r × F"}
+{"subject": "Biology", "keyword": "Concept – Hardy-Weinberg", "notes": "p² + 2pq + q² = 1 under equilibrium"}
+{"subject": "Physics", "keyword": "Concept – Uncertainty principle", "notes": "Δx Δp ≥ ħ/2"}
+{"subject": "Mathematics", "keyword": "Concept – Quadratic formula", "notes": "x = [-b ± √(b²-4ac)] / 2a"}
+{"subject": "Biology", "keyword": "Key fact: Ribosome role", "notes": "Protein synthesis"}
+{"subject": "Computer Science", "keyword": "Stack vs Queue (definition)", "notes": "LIFO vs FIFO"}
+{"subject": "Chemistry", "keyword": "pH of pure water (definition)", "notes": "7"}
+{"subject": "Chemistry", "keyword": "Recall: Ionic vs covalent", "notes": "Transfer vs sharing of electrons"}
+{"subject": "Mathematics", "keyword": "Mean value theorem (definition)", "notes": "∃ c ∈ (a,b) s.t. f'(c) = [f(b)-f(a)]/(b-a)"}
+{"subject": "Computer Science", "keyword": "REST vs GraphQL", "notes": "Fixed endpoints vs flexible queries"}
+{"subject": "Biology", "keyword": "Recall: Hardy-Weinberg", "notes": "p² + 2pq + q² = 1 under equilibrium"}
+{"subject": "Physics", "keyword": "Concept – Ohm's law", "notes": "V = IR"}
+{"subject": "Mathematics", "keyword": "Matrix determinant 2×2", "notes": "ad - bc"}
+{"subject": "Physics", "keyword": "Recall: Uncertainty principle", "notes": "Δx Δp ≥ ħ/2"}
+{"subject": "Computer Science", "keyword": "Recursion (definition)", "notes": "Function calling itself"}
+{"subject": "Physics", "keyword": "Speed of light", "notes": "c ≈ 3×10⁸ m/s"}
+{"subject": "Computer Science", "keyword": "Deadlock conditions (definition)", "notes": "Mutual exclusion, hold and wait, no preemption, circular wait"}
+{"subject": "Computer Science", "keyword": "Recall: Hash collision", "notes": "Two keys map to the same bucket"}
+{"subject": "Biology", "keyword": "Concept – Mitochondria function", "notes": "Produces ATP via cellular respiration"}
+{"subject": "Biology", "keyword": "Ribosome role", "notes": "Protein synthesis"}
+{"subject": "Chemistry", "keyword": "Concept – Electronegativity", "notes": "Ability to attract bonding electrons"}
+{"subject": "Chemistry", "keyword": "Oxidation (definition)", "notes": "Loss of electrons"}
+{"subject": "Physics", "keyword": "Recall: Special relativity time dilation", "notes": "Δt' = γ Δt"}
+{"subject": "Computer Science", "keyword": "What is binary search tree property?", "notes": "Left < parent < right"}
+{"subject": "Physics", "keyword": "Concept – Speed of light", "notes": "c ≈ 3×10⁸ m/s"}
+{"subject": "Chemistry", "keyword": "pH of pure water", "notes": "7"}
+{"subject": "Physics", "keyword": "Concept – Newton's second law", "notes": "F = ma"}
+{"subject": "Computer Science", "keyword": "Merge sort complexity", "notes": "O(n log n)"}
+{"subject": "Physics", "keyword": "Kinetic energy", "notes": "½mv²"}
+{"subject": "Chemistry", "keyword": "Recall: VSEPR theory", "notes": "Predicts molecular geometry from electron pairs"}
+{"subject": "Computer Science", "keyword": "Recursion (definition)", "notes": "Function calling itself"}
+{"subject": "Biology", "keyword": "Recall: Central dogma", "notes": "DNA → RNA → Protein"}
+{"subject": "Mathematics", "keyword": "What is mean value theorem?", "notes": "∃ c ∈ (a,b) s.t. f'(c) = [f(b)-f(a)]/(b-a)"}
+{"subject": "Biology", "keyword": "Concept – Homeostasis", "notes": "Stable internal conditions"}
+{"subject": "Mathematics", "keyword": "Recall: Quadratic formula", "notes": "x = [-b ± √(b²-4ac)] / 2a"}
+{"subject": "Mathematics", "keyword": "Recall: Logarithm power rule", "notes": "log(a^b) = b · log(a)"}
+{"subject": "Biology", "keyword": "Recall: Chlorophyll", "notes": "Absorbs light for photosynthesis"}
+{"subject": "Chemistry", "keyword": "Concept – Oxidation", "notes": "Loss of electrons"}
+{"subject": "Computer Science", "keyword": "Concept – Big O of binary search", "notes": "O(log n)"}
+{"subject": "Mathematics", "keyword": "Fundamental theorem of calculus (definition)", "notes": "∫ₐᵇ f(x) dx = F(b) - F(a)"}
+{"subject": "Biology", "keyword": "DNA vs RNA", "notes": "Thymine/double-stranded vs Uracil/single-stranded"}
+{"subject": "Chemistry", "keyword": "pH of pure water (definition)", "notes": "7"}
+{"subject": "Physics", "keyword": "Ohm's law (definition)", "notes": "V = IR"}
+{"subject": "Mathematics", "keyword": "Eigenvalue definition", "notes": "Av = λv"}
+{"subject": "Chemistry", "keyword": "Recall: Molarity", "notes": "Moles of solute per liter of solution"}
+{"subject": "Computer Science", "keyword": "Race condition", "notes": "Result depends on timing of concurrent ops"}
+{"subject": "Biology", "keyword": "Recall: Action potential", "notes": "Rapid change in membrane potential"}
+{"subject": "Chemistry", "keyword": "Recall: Molarity", "notes": "Moles of solute per liter of solution"}
+{"subject": "Biology", "keyword": "Recall: DNA vs RNA", "notes": "Thymine/double-stranded vs Uracil/single-stranded"}
+{"subject": "Computer Science", "keyword": "Concept – Merge sort complexity", "notes": "O(n log n)"}
+{"subject": "Mathematics", "keyword": "Concept – Logarithm power rule", "notes": "log(a^b) = b · log(a)"}
+{"subject": "Computer Science", "keyword": "Define Binary search tree property", "notes": "Left < parent < right"}
+{"subject": "Physics", "keyword": "Key fact: Torque", "notes": "τ = r × F"}
+{"subject": "Biology", "keyword": "Define Action potential", "notes": "Rapid change in membrane potential"}
+{"subject": "Biology", "keyword": "Recall: Action potential", "notes": "Rapid change in membrane potential"}
+{"subject": "Mathematics", "keyword": "Concept – Euler's identity", "notes": "e^{iπ} + 1 = 0"}
+{"subject": "Biology", "keyword": "Central dogma", "notes": "DNA → RNA → Protein"}
+{"subject": "Biology", "keyword": "Concept – Chlorophyll", "notes": "Absorbs light for photosynthesis"}
+{"subject": "Biology", "keyword": "Concept – Meiosis", "notes": "Produces four haploid gametes"}
+{"subject": "Mathematics", "keyword": "Fundamental theorem of calculus (definition)", "notes": "∫ₐᵇ f(x) dx = F(b) - F(a)"}
+{"subject": "Computer Science", "keyword": "Deadlock conditions", "notes": "Mutual exclusion, hold and wait, no preemption, circular wait"}
+{"subject": "Physics", "keyword": "Concept – Torque", "notes": "τ = r × F"}
+{"subject": "Chemistry", "keyword": "Recall: Avogadro's number", "notes": "6.022×10²³ / mol"}
+{"subject": "Computer Science", "keyword": "Memoization (definition)", "notes": "Caching function results"}
+{"subject": "Mathematics", "keyword": "Euler's identity", "notes": "e^{iπ} + 1 = 0"}
+{"subject": "Computer Science", "keyword": "Concept – CAP theorem", "notes": "Only 2 of Consistency, Availability, Partition tolerance"}
+{"subject": "Chemistry", "keyword": "Recall: pH of pure water", "notes": "7"}
+{"subject": "Mathematics", "keyword": "Key fact: Integral of 1/x", "notes": "ln|x| + C"}
+{"subject": "Chemistry", "keyword": "Recall: Electronegativity", "notes": "Ability to attract bonding electrons"}
+{"subject": "Physics", "keyword": "Define Doppler effect", "notes": "Frequency shift due to relative motion"}
+{"subject": "Biology", "keyword": "Enzyme (definition)", "notes": "Biological catalyst lowering activation energy"}
+{"subject": "Mathematics", "keyword": "Pythagorean theorem (definition)", "notes": "a² + b² = c²"}
+{"subject": "Mathematics", "keyword": "Logarithm power rule", "notes": "log(a^b) = b · log(a)"}
+{"subject": "Mathematics", "keyword": "Recall: Mean value theorem", "notes": "∃ c ∈ (a,b) s.t. f'(c) = [f(b)-f(a)]/(b-a)"}
+{"subject": "Computer Science", "keyword": "Merge sort complexity", "notes": "O(n log n)"}
+{"subject": "Physics", "keyword": "Conservation of momentum", "notes": "Total momentum conserved in isolated systems"}
+{"subject": "Mathematics", "keyword": "Key fact: Eigenvalue definition", "notes": "Av = λv"}
+{"subject": "Physics", "keyword": "Recall: Kinetic energy", "notes": "½mv²"}
+{"subject": "Physics", "keyword": "Key fact: Doppler effect", "notes": "Frequency shift due to relative motion"}
+{"subject": "Computer Science", "keyword": "Concept – Stack vs Queue", "notes": "LIFO vs FIFO"}
+{"subject": "Computer Science", "keyword": "Concept – Big O of binary search", "notes": "O(log n)"}
+{"subject": "Mathematics", "keyword": "Recall: Eigenvalue definition", "notes": "Av = λv"}
+{"subject": "Biology", "keyword": "Concept – Action potential", "notes": "Rapid change in membrane potential"}
+{"subject": "Mathematics", "keyword": "Mean value theorem (definition)", "notes": "∃ c ∈ (a,b) s.t. f'(c) = [f(b)-f(a)]/(b-a)"}
+{"subject": "Biology", "keyword": "Endosymbiotic theory", "notes": "Mitochondria and chloroplasts originated from engulfed bacteria"}
+{"subject": "Computer Science", "keyword": "Big O of binary search (definition)", "notes": "O(log n)"}
+{"subject": "Biology", "keyword": "Concept – Central dogma", "notes": "DNA → RNA → Protein"}
+{"subject": "Computer Science", "keyword": "Concept – Merge sort complexity", "notes": "O(n log n)"}
+{"subject": "Mathematics", "keyword": "Concept – Derivative of x²", "notes": "2x"}
+{"subject": "Computer Science", "keyword": "Binary search tree property (definition)", "notes": "Left < parent < right"}
+{"subject": "Biology", "keyword": "Recall: Enzyme", "notes": "Biological catalyst lowering activation energy"}
+{"subject": "Chemistry", "keyword": "Ionic vs covalent", "notes": "Transfer vs sharing of electrons"}
+{"subject": "Chemistry", "keyword": "Concept – Ideal gas law", "notes": "PV = nRT"}
+{"subject": "Computer Science", "keyword": "Big O of binary search (definition)", "notes": "O(log n)"}
+{"subject": "Physics", "keyword": "Bernoulli's principle", "notes": "Higher speed → lower pressure"}
+{"subject": "Physics", "keyword": "Concept – Uncertainty principle", "notes": "Δx Δp ≥ ħ/2"}
+{"subject": "Chemistry", "keyword": "Le Chatelier's principle", "notes": "System shifts to oppose change"}
+{"subject": "Computer Science", "keyword": "Merge sort complexity (definition)", "notes": "O(n log n)"}
+{"subject": "Physics", "keyword": "Recall: Entropy", "notes": "Measure of disorder; increases in closed systems"}
+{"subject": "Biology", "keyword": "Recall: Homeostasis", "notes": "Stable internal conditions"}
+{"subject": "Physics", "keyword": "Recall: Doppler effect", "notes": "Frequency shift due to relative motion"}
+{"subject": "Physics", "keyword": "Concept – Conservation of momentum", "notes": "Total momentum conserved in isolated systems"}
+{"subject": "Chemistry", "keyword": "Concept – Molarity", "notes": "Moles of solute per liter of solution"}
+{"subject": "Chemistry", "keyword": "Recall: Covalent bond", "notes": "Sharing of electron pairs"}
+{"subject": "Physics", "keyword": "Doppler effect (definition)", "notes": "Frequency shift due to relative motion"}
+{"subject": "Biology", "keyword": "Recall: Natural selection", "notes": "Advantageous traits increase reproductive success"}
+{"subject": "Chemistry", "keyword": "Molarity", "notes": "Moles of solute per liter of solution"}
+{"subject": "Physics", "keyword": "Concept – Ohm's law", "notes": "V = IR"}
+{"subject": "Computer Science", "keyword": "Race condition", "notes": "Result depends on timing of concurrent ops"}
+{"subject": "Mathematics", "keyword": "Fundamental theorem of calculus", "notes": "∫ₐᵇ f(x) dx = F(b) - F(a)"}
+{"subject": "Mathematics", "keyword": "Quadratic formula", "notes": "x = [-b ± √(b²-4ac)] / 2a"}
+{"subject": "Physics", "keyword": "Torque (definition)", "notes": "τ = r × F"}
+{"subject": "Biology", "keyword": "Describe Endosymbiotic theory", "notes": "Mitochondria and chloroplasts originated from engulfed bacteria"}
+{"subject": "Physics", "keyword": "Concept – Speed of light", "notes": "c ≈ 3×10⁸ m/s"}
+{"subject": "Biology", "keyword": "Concept – Chlorophyll", "notes": "Absorbs light for photosynthesis"}
+{"subject": "Computer Science", "keyword": "Recall: REST vs GraphQL", "notes": "Fixed endpoints vs flexible queries"}
+{"subject": "Chemistry", "keyword": "Recall: Covalent bond", "notes": "Sharing of electron pairs"}
+{"subject": "Mathematics", "keyword": "Matrix determinant 2×2 (definition)", "notes": "ad - bc"}
+{"subject": "Physics", "keyword": "Special relativity time dilation (definition)", "notes": "Δt' = γ Δt"}
+{"subject": "Mathematics", "keyword": "Euler's identity", "notes": "e^{iπ} + 1 = 0"}
+{"subject": "Physics", "keyword": "Recall: Special relativity time dilation", "notes": "Δt' = γ Δt"}
+{"subject": "Biology", "keyword": "Natural selection", "notes": "Advantageous traits increase reproductive success"}
+{"subject": "Chemistry", "keyword": "Oxidation", "notes": "Loss of electrons"}
+{"subject": "Chemistry", "keyword": "Describe Activation energy", "notes": "Minimum energy required for a reaction to occur"}
+{"subject": "Computer Science", "keyword": "Recall: Hash collision", "notes": "Two keys map to the same bucket"}
+{"subject": "Computer Science", "keyword": "Concept – CAP theorem", "notes": "Only 2 of Consistency, Availability, Partition tolerance"}
+{"subject": "Computer Science", "keyword": "What is Virtual memory", "notes": "Abstraction that gives each process its own address space"}
+{"subject": "Mathematics", "keyword": "Concept – Eigenvalue definition", "notes": "Av = λv"}
+{"subject": "Biology", "keyword": "Recall: Homeostasis", "notes": "Stable internal conditions"}
+{"subject": "Chemistry", "keyword": "Define Molarity", "notes": "Moles of solute per liter of solution"}
+{"subject": "Computer Science", "keyword": "TCP vs UDP", "notes": "Reliable/ordered vs fast/unreliable"}
+{"subject": "Mathematics", "keyword": "Eigenvalue definition (definition)", "notes": "Av = λv"}
+{"subject": "Biology", "keyword": "Meiosis (definition)", "notes": "Produces four haploid gametes"}
+{"subject": "Computer Science", "keyword": "Recall: Race condition", "notes": "Result depends on timing of concurrent ops"}
+{"subject": "Physics", "keyword": "Concept – Newton's second law", "notes": "F = ma"}
+{"subject": "Biology", "keyword": "Concept – Chlorophyll", "notes": "Absorbs light for photosynthesis"}
+{"subject": "Physics", "keyword": "Concept – Newton's second law", "notes": "F = ma"}
+{"subject": "Physics", "keyword": "Concept – Bernoulli's principle", "notes": "Higher speed → lower pressure"}
+{"subject": "Mathematics", "keyword": "Recall: Logarithm power rule", "notes": "log(a^b) = b · log(a)"}
+{"subject": "Computer Science", "keyword": "Concept – CAP theorem", "notes": "Only 2 of Consistency, Availability, Partition tolerance"}
+{"subject": "Biology", "keyword": "Ribosome role", "notes": "Protein synthesis"}
+{"subject": "Physics", "keyword": "What is doppler effect?", "notes": "Frequency shift due to relative motion"}
+{"subject": "Biology", "keyword": "Recall: Chlorophyll", "notes": "Absorbs light for photosynthesis"}
+{"subject": "Computer Science", "keyword": "Recall: Memoization", "notes": "Caching function results"}
+{"subject": "Mathematics", "keyword": "Matrix determinant 2×2", "notes": "ad - bc"}
+{"subject": "Chemistry", "keyword": "Catalyst (definition)", "notes": "Speeds reaction without being consumed"}
+{"subject": "Mathematics", "keyword": "Concept – Derivative of x²", "notes": "2x"}
+{"subject": "Biology", "keyword": "Recall: Central dogma", "notes": "DNA → RNA → Protein"}
+{"subject": "Mathematics", "keyword": "Recall: Pythagorean theorem", "notes": "a² + b² = c²"}
+{"subject": "Chemistry", "keyword": "Hess's law", "notes": "Enthalpy change is path-independent"}
+{"subject": "Physics", "keyword": "Recall: Doppler effect", "notes": "Frequency shift due to relative motion"}
+{"subject": "Biology", "keyword": "Action potential (definition)", "notes": "Rapid change in membrane potential"}
+{"subject": "Mathematics", "keyword": "Concept – Logarithm power rule", "notes": "log(a^b) = b · log(a)"}
+{"subject": "Chemistry", "keyword": "Concept – Covalent bond", "notes": "Sharing of electron pairs"}
+{"subject": "Chemistry", "keyword": "What is electronegativity?", "notes": "Ability to attract bonding electrons"}
+{"subject": "Physics", "keyword": "What is conservation of momentum?", "notes": "Total momentum conserved in isolated systems"}
+{"subject": "Computer Science", "keyword": "Merge sort complexity", "notes": "O(n log n)"}
+{"subject": "Computer Science", "keyword": "Recursion (definition)", "notes": "Function calling itself"}
+{"subject": "Biology", "keyword": "Recall: Natural selection", "notes": "Advantageous traits increase reproductive success"}
+{"subject": "Computer Science", "keyword": "Recall: Hash collision", "notes": "Two keys map to the same bucket"}
+{"subject": "Mathematics", "keyword": "Key fact: Euler's identity", "notes": "e^{iπ} + 1 = 0"}
+{"subject": "Chemistry", "keyword": "Catalyst (definition)", "notes": "Speeds reaction without being consumed"}
+{"subject": "Computer Science", "keyword": "Recall: Binary search tree property", "notes": "Left < parent < right"}
+{"subject": "Computer Science", "keyword": "Recall: Stack vs Queue", "notes": "LIFO vs FIFO"}
+{"subject": "Biology", "keyword": "Ribosome role", "notes": "Protein synthesis"}
+{"subject": "Biology", "keyword": "Central dogma (definition)", "notes": "DNA → RNA → Protein"}
+{"subject": "Physics", "keyword": "Torque", "notes": "τ = r × F"}
+{"subject": "Mathematics", "keyword": "Describe Divergence theorem", "notes": "∭ (∇·F) dV = ∯ F·dS"}
+{"subject": "Computer Science", "keyword": "Stack vs Queue", "notes": "LIFO vs FIFO"}
+{"subject": "Computer Science", "keyword": "Deadlock conditions", "notes": "Mutual exclusion, hold and wait, no preemption, circular wait"}
+{"subject": "Computer Science", "keyword": "Concept – Hash collision", "notes": "Two keys map to the same bucket"}
+{"subject": "Physics", "keyword": "Recall: Torque", "notes": "τ = r × F"}
+{"subject": "Computer Science", "keyword": "Concept – Hash collision", "notes": "Two keys map to the same bucket"}
+{"subject": "Biology", "keyword": "Concept – Mitochondria function", "notes": "Produces ATP via cellular respiration"}
+{"subject": "Biology", "keyword": "Key fact: Hardy-Weinberg", "notes": "p² + 2pq + q² = 1 under equilibrium"}
+{"subject": "Chemistry", "keyword": "Define Catalyst", "notes": "Speeds reaction without being consumed"}
+{"subject": "Chemistry", "keyword": "Ideal gas law", "notes": "PV = nRT"}
+{"subject": "Biology", "keyword": "Define Mitochondria function", "notes": "Produces ATP via cellular respiration"}
+{"subject": "Chemistry", "keyword": "Concept – Ionic vs covalent", "notes": "Transfer vs sharing of electrons"}
+{"subject": "Physics", "keyword": "Entropy (definition)", "notes": "Measure of disorder; increases in closed systems"}
+{"subject": "Biology", "keyword": "Hardy-Weinberg (definition)", "notes": "p² + 2pq + q² = 1 under equilibrium"}
+{"subject": "Chemistry", "keyword": "Concept – Le Chatelier's principle", "notes": "System shifts to oppose change"}
+{"subject": "Chemistry", "keyword": "Recall: Hess's law", "notes": "Enthalpy change is path-independent"}
+{"subject": "Mathematics", "keyword": "Eigenvalue definition (definition)", "notes": "Av = λv"}
+{"subject": "Biology", "keyword": "Recall: Ribosome role", "notes": "Protein synthesis"}
+{"subject": "Chemistry", "keyword": "Concept – VSEPR theory", "notes": "Predicts molecular geometry from electron pairs"}
+{"subject": "Chemistry", "keyword": "Covalent bond", "notes": "Sharing of electron pairs"}
+{"subject": "Chemistry", "keyword": "Recall: VSEPR theory", "notes": "Predicts molecular geometry from electron pairs"}
+{"subject": "Mathematics", "keyword": "Product rule (definition)", "notes": "(uv)' = u'v + uv'"}
+{"subject": "Mathematics", "keyword": "What is quadratic formula?", "notes": "x = [-b ± √(b²-4ac)] / 2a"}
+{"subject": "Biology", "keyword": "Concept – Chlorophyll", "notes": "Absorbs light for photosynthesis"}
+{"subject": "Biology", "keyword": "Natural selection (definition)", "notes": "Advantageous traits increase reproductive success"}
+{"subject": "Computer Science", "keyword": "Recall: CAP theorem", "notes": "Only 2 of Consistency, Availability, Partition tolerance"}
+{"subject": "Mathematics", "keyword": "Matrix determinant 2×2 (definition)", "notes": "ad - bc"}
+{"subject": "Computer Science", "keyword": "Stack vs Queue", "notes": "LIFO vs FIFO"}
+{"subject": "Biology", "keyword": "DNA vs RNA", "notes": "Thymine/double-stranded vs Uracil/single-stranded"}
+{"subject": "Chemistry", "keyword": "Recall: Catalyst", "notes": "Speeds reaction without being consumed"}
+{"subject": "Chemistry", "keyword": "Recall: Le Chatelier's principle", "notes": "System shifts to oppose change"}
+{"subject": "Computer Science", "keyword": "Recall: Merge sort complexity", "notes": "O(n log n)"}
+{"subject": "Biology", "keyword": "Recall: Enzyme", "notes": "Biological catalyst lowering activation energy"}
+{"subject": "Computer Science", "keyword": "Recall: REST vs GraphQL", "notes": "Fixed endpoints vs flexible queries"}
+{"subject": "Computer Science", "keyword": "Concept – Big O of binary search", "notes": "O(log n)"}
+{"subject": "Biology", "keyword": "Mitosis (definition)", "notes": "Produces two identical diploid cells"}
+{"subject": "Mathematics", "keyword": "Recall: Pythagorean theorem", "notes": "a² + b² = c²"}
+{"subject": "Chemistry", "keyword": "pH of pure water", "notes": "7"}
+{"subject": "Chemistry", "keyword": "Concept – Catalyst", "notes": "Speeds reaction without being consumed"}
+{"subject": "Computer Science", "keyword": "TCP vs UDP", "notes": "Reliable/ordered vs fast/unreliable"}
+{"subject": "Biology", "keyword": "Central dogma (definition)", "notes": "DNA → RNA → Protein"}
+{"subject": "Chemistry", "keyword": "Le Chatelier's principle", "notes": "System shifts to oppose change"}
+{"subject": "Computer Science", "keyword": "Concept – Recursion", "notes": "Function calling itself"}
+{"subject": "Biology", "keyword": "Hardy-Weinberg (definition)", "notes": "p² + 2pq + q² = 1 under equilibrium"}
+{"subject": "Mathematics", "keyword": "Derivative of x² (definition)", "notes": "2x"}
+{"subject": "Biology", "keyword": "Recall: Mitosis", "notes": "Produces two identical diploid cells"}
+{"subject": "Physics", "keyword": "Torque (definition)", "notes": "τ = r × F"}
+{"subject": "Computer Science", "keyword": "Concept – REST vs GraphQL", "notes": "Fixed endpoints vs flexible queries"}
+{"subject": "Computer Science", "keyword": "Define Race condition", "notes": "Result depends on timing of concurrent ops"}
+{"subject": "Mathematics", "keyword": "Concept – Product rule", "notes": "(uv)' = u'v + uv'"}
+{"subject": "Mathematics", "keyword": "Pythagorean theorem", "notes": "a² + b² = c²"}
+{"subject": "Computer Science", "keyword": "Recall: CAP theorem", "notes": "Only 2 of Consistency, Availability, Partition tolerance"}
+{"subject": "Chemistry", "keyword": "Define Ideal gas law", "notes": "PV = nRT"}
+{"subject": "Chemistry", "keyword": "Electronegativity", "notes": "Ability to attract bonding electrons"}
+{"subject": "Physics", "keyword": "Define Photoelectric effect", "notes": "Electrons ejected above threshold frequency"}
+{"subject": "Chemistry", "keyword": "Recall: Oxidation", "notes": "Loss of electrons"}
+{"subject": "Chemistry", "keyword": "Recall: pH of pure water", "notes": "7"}
+{"subject": "Physics", "keyword": "Entropy", "notes": "Measure of disorder; increases in closed systems"}
+{"subject": "Chemistry", "keyword": "Hess's law (definition)", "notes": "Enthalpy change is path-independent"}
+{"subject": "Biology", "keyword": "Natural selection (definition)", "notes": "Advantageous traits increase reproductive success"}
+{"subject": "Biology", "keyword": "Recall: Meiosis", "notes": "Produces four haploid gametes"}
+{"subject": "Biology", "keyword": "Action potential (definition)", "notes": "Rapid change in membrane potential"}
+{"subject": "Biology", "keyword": "Homeostasis", "notes": "Stable internal conditions"}
+{"subject": "Biology", "keyword": "Define Homeostasis", "notes": "Stable internal conditions"}
+{"subject": "Physics", "keyword": "Photoelectric effect (definition)", "notes": "Electrons ejected above threshold frequency"}
+{"subject": "Chemistry", "keyword": "Ionic vs covalent (definition)", "notes": "Transfer vs sharing of electrons"}
+{"subject": "Physics", "keyword": "Concept – Uncertainty principle", "notes": "Δx Δp ≥ ħ/2"}
+{"subject": "Chemistry", "keyword": "Recall: Ionic vs covalent", "notes": "Transfer vs sharing of electrons"}
+{"subject": "Chemistry", "keyword": "Recall: Molarity", "notes": "Moles of solute per liter of solution"}
+{"subject": "Physics", "keyword": "Doppler effect (definition)", "notes": "Frequency shift due to relative motion"}
+{"subject": "Computer Science", "keyword": "Concept – Deadlock conditions", "notes": "Mutual exclusion, hold and wait, no preemption, circular wait"}
+{"subject": "Chemistry", "keyword": "Key fact: Electronegativity", "notes": "Ability to attract bonding electrons"}
+{"subject": "Physics", "keyword": "Photoelectric effect (definition)", "notes": "Electrons ejected above threshold frequency"}
+{"subject": "Biology", "keyword": "Concept – Meiosis", "notes": "Produces four haploid gametes"}
+{"subject": "Computer Science", "keyword": "Recall: Merge sort complexity", "notes": "O(n log n)"}
+{"subject": "Mathematics", "keyword": "Product rule", "notes": "(uv)' = u'v + uv'"}
+{"subject": "Computer Science", "keyword": "Big O of binary search (definition)", "notes": "O(log n)"}
+{"subject": "Computer Science", "keyword": "Binary search tree property", "notes": "Left < parent < right"}
+{"subject": "Biology", "keyword": "Central dogma", "notes": "DNA → RNA → Protein"}
+{"subject": "Biology", "keyword": "Concept – Ribosome role", "notes": "Protein synthesis"}
+{"subject": "Chemistry", "keyword": "Recall: VSEPR theory", "notes": "Predicts molecular geometry from electron pairs"}
+{"subject": "Mathematics", "keyword": "Mean value theorem", "notes": "∃ c ∈ (a,b) s.t. f'(c) = [f(b)-f(a)]/(b-a)"}
+{"subject": "Biology", "keyword": "Concept – Mitosis", "notes": "Produces two identical diploid cells"}
+{"subject": "Computer Science", "keyword": "What is hash collision?", "notes": "Two keys map to the same bucket"}
+{"subject": "Computer Science", "keyword": "CAP theorem", "notes": "Only 2 of Consistency, Availability, Partition tolerance"}
+{"subject": "Physics", "keyword": "Conservation of momentum (definition)", "notes": "Total momentum conserved in isolated systems"}
+{"subject": "Chemistry", "keyword": "Recall: Avogadro's number", "notes": "6.022×10²³ / mol"}
+{"subject": "Physics", "keyword": "Entropy", "notes": "Measure of disorder; increases in closed systems"}
+{"subject": "Biology", "keyword": "Concept – Action potential", "notes": "Rapid change in membrane potential"}
+{"subject": "Biology", "keyword": "What is dna vs rna?", "notes": "Thymine/double-stranded vs Uracil/single-stranded"}
+{"subject": "Mathematics", "keyword": "Recall: Fundamental theorem of calculus", "notes": "∫ₐᵇ f(x) dx = F(b) - F(a)"}
+{"subject": "Computer Science", "keyword": "Garbage collection", "notes": "Automatic memory management that reclaims unused objects"}
+{"subject": "Chemistry", "keyword": "Catalyst", "notes": "Speeds reaction without being consumed"}
+{"subject": "Biology", "keyword": "Mitochondria function", "notes": "Produces ATP via cellular respiration"}
+{"subject": "Computer Science", "keyword": "Recursion (definition)", "notes": "Function calling itself"}
+{"subject": "Physics", "keyword": "Conservation of momentum", "notes": "Total momentum conserved in isolated systems"}
+{"subject": "Physics", "keyword": "Explain: Magnetic flux", "notes": "Φ = B · A"}
+{"subject": "Computer Science", "keyword": "Deadlock conditions", "notes": "Mutual exclusion, hold and wait, no preemption, circular wait"}
+{"subject": "Chemistry", "keyword": "Key fact: pH of pure water", "notes": "7"}
+{"subject": "Physics", "keyword": "Entropy", "notes": "Measure of disorder; increases in closed systems"}
+{"subject": "Mathematics", "keyword": "What is euler's identity?", "notes": "e^{iπ} + 1 = 0"}
+{"subject": "Physics", "keyword": "Define Ohm's law", "notes": "V = IR"}
+{"subject": "Chemistry", "keyword": "Recall: VSEPR theory", "notes": "Predicts molecular geometry from electron pairs"}
+{"subject": "Biology", "keyword": "Mitosis", "notes": "Produces two identical diploid cells"}
+{"subject": "Mathematics", "keyword": "Concept – Euler's identity", "notes": "e^{iπ} + 1 = 0"}
+{"subject": "Mathematics", "keyword": "Matrix determinant 2×2", "notes": "ad - bc"}
+{"subject": "Mathematics", "keyword": "Derivative of x²", "notes": "2x"}
+{"subject": "Biology", "keyword": "Hardy-Weinberg", "notes": "p² + 2pq + q² = 1 under equilibrium"}
+{"subject": "Computer Science", "keyword": "What is rest vs graphql?", "notes": "Fixed endpoints vs flexible queries"}
+{"subject": "Physics", "keyword": "Newton's second law", "notes": "F = ma"}
+{"subject": "Computer Science", "keyword": "Race condition", "notes": "Result depends on timing of concurrent ops"}
+{"subject": "Computer Science", "keyword": "Key fact: Stack vs Queue", "notes": "LIFO vs FIFO"}
+{"subject": "Computer Science", "keyword": "Key fact: Memoization", "notes": "Caching function results"}
+{"subject": "Biology", "keyword": "Concept – Ribosome role", "notes": "Protein synthesis"}
+{"subject": "Chemistry", "keyword": "Describe Buffer solution", "notes": "Resists pH change when small amounts of acid/base are added"}
+{"subject": "Physics", "keyword": "Newton's second law", "notes": "F = ma"}
+{"subject": "Computer Science", "keyword": "Merge sort complexity", "notes": "O(n log n)"}
+{"subject": "Physics", "keyword": "Speed of light", "notes": "c ≈ 3×10⁸ m/s"}
+{"subject": "Mathematics", "keyword": "Recall: Eigenvalue definition", "notes": "Av = λv"}
+{"subject": "Chemistry", "keyword": "Define Covalent bond", "notes": "Sharing of electron pairs"}
+{"subject": "Chemistry", "keyword": "Concept – Avogadro's number", "notes": "6.022×10²³ / mol"}
+{"subject": "Mathematics", "keyword": "Define Fundamental theorem of calculus", "notes": "∫ₐᵇ f(x) dx = F(b) - F(a)"}
+{"subject": "Mathematics", "keyword": "Euler's identity", "notes": "e^{iπ} + 1 = 0"}
+{"subject": "Biology", "keyword": "Recall: Chlorophyll", "notes": "Absorbs light for photosynthesis"}
+{"subject": "Biology", "keyword": "Concept – Ribosome role", "notes": "Protein synthesis"}
+{"subject": "Biology", "keyword": "Recall: Ribosome role", "notes": "Protein synthesis"}
+{"subject": "Chemistry", "keyword": "Concept – Molarity", "notes": "Moles of solute per liter of solution"}
+{"subject": "Mathematics", "keyword": "Mean value theorem", "notes": "∃ c ∈ (a,b) s.t. f'(c) = [f(b)-f(a)]/(b-a)"}
+{"subject": "Computer Science", "keyword": "Recall: Race condition", "notes": "Result depends on timing of concurrent ops"}
+{"subject": "Computer Science", "keyword": "Binary search tree property", "notes": "Left < parent < right"}
+{"subject": "Physics", "keyword": "Recall: Photoelectric effect", "notes": "Electrons ejected above threshold frequency"}
+{"subject": "Physics", "keyword": "Concept – Kinetic energy", "notes": "½mv²"}
+{"subject": "Chemistry", "keyword": "Recall: Catalyst", "notes": "Speeds reaction without being consumed"}
+{"subject": "Chemistry", "keyword": "Concept – Le Chatelier's principle", "notes": "System shifts to oppose change"}
+{"subject": "Computer Science", "keyword": "REST vs GraphQL (definition)", "notes": "Fixed endpoints vs flexible queries"}
+{"subject": "Biology", "keyword": "Concept – Action potential", "notes": "Rapid change in membrane potential"}
+{"subject": "Chemistry", "keyword": "Concept – Covalent bond", "notes": "Sharing of electron pairs"}
+{"subject": "Computer Science", "keyword": "Concept – Recursion", "notes": "Function calling itself"}
+{"subject": "Chemistry", "keyword": "Recall: VSEPR theory", "notes": "Predicts molecular geometry from electron pairs"}
+{"subject": "Computer Science", "keyword": "Memoization", "notes": "Caching function results"}
+{"subject": "Chemistry", "keyword": "Electronegativity (definition)", "notes": "Ability to attract bonding electrons"}
+{"subject": "Biology", "keyword": "Recall: DNA vs RNA", "notes": "Thymine/double-stranded vs Uracil/single-stranded"}
+{"subject": "Physics", "keyword": "Ohm's law (definition)", "notes": "V = IR"}
+{"subject": "Mathematics", "keyword": "Recall: Matrix determinant 2×2", "notes": "ad - bc"}
+{"subject": "Physics", "keyword": "Uncertainty principle", "notes": "Δx Δp ≥ ħ/2"}
+{"subject": "Chemistry", "keyword": "Recall: Oxidation", "notes": "Loss of electrons"}
+{"subject": "Mathematics", "keyword": "Concept – Pythagorean theorem", "notes": "a² + b² = c²"}
+{"subject": "Computer Science", "keyword": "Merge sort complexity", "notes": "O(n log n)"}
+{"subject": "Physics", "keyword": "Recall: Torque", "notes": "τ = r × F"}
+{"subject": "Biology", "keyword": "Recall: Natural selection", "notes": "Advantageous traits increase reproductive success"}
+{"subject": "Chemistry", "keyword": "Recall: Avogadro's number", "notes": "6.022×10²³ / mol"}
+{"subject": "Mathematics", "keyword": "What is logarithm power rule?", "notes": "log(a^b) = b · log(a)"}
+{"subject": "Mathematics", "keyword": "Concept – Product rule", "notes": "(uv)' = u'v + uv'"}
+{"subject": "Chemistry", "keyword": "Define Oxidation", "notes": "Loss of electrons"}
+{"subject": "Computer Science", "keyword": "Concept – CAP theorem", "notes": "Only 2 of Consistency, Availability, Partition tolerance"}
+{"subject": "Computer Science", "keyword": "Concept – CAP theorem", "notes": "Only 2 of Consistency, Availability, Partition tolerance"}
+{"subject": "Physics", "keyword": "Concept – Photoelectric effect", "notes": "Electrons ejected above threshold frequency"}
+{"subject": "Physics", "keyword": "Bernoulli's principle (definition)", "notes": "Higher speed → lower pressure"}
+{"subject": "Physics", "keyword": "Entropy", "notes": "Measure of disorder; increases in closed systems"}
+{"subject": "Computer Science", "keyword": "What is memoization?", "notes": "Caching function results"}
+{"subject": "Biology", "keyword": "Chlorophyll", "notes": "Absorbs light for photosynthesis"}
+{"subject": "Biology", "keyword": "Mitochondria function", "notes": "Produces ATP via cellular respiration"}
+{"subject": "Computer Science", "keyword": "REST vs GraphQL (definition)", "notes": "Fixed endpoints vs flexible queries"}
+{"subject": "Physics", "keyword": "Concept – Photoelectric effect", "notes": "Electrons ejected above threshold frequency"}
+{"subject": "Mathematics", "keyword": "Recall: Mean value theorem", "notes": "∃ c ∈ (a,b) s.t. f'(c) = [f(b)-f(a)]/(b-a)"}
+{"subject": "Biology", "keyword": "Recall: Meiosis", "notes": "Produces four haploid gametes"}
+{"subject": "Biology", "keyword": "Natural selection", "notes": "Advantageous traits increase reproductive success"}
+{"subject": "Physics", "keyword": "Concept – Uncertainty principle", "notes": "Δx Δp ≥ ħ/2"}
+{"subject": "Biology", "keyword": "Hardy-Weinberg", "notes": "p² + 2pq + q² = 1 under equilibrium"}
+{"subject": "Biology", "keyword": "Natural selection (definition)", "notes": "Advantageous traits increase reproductive success"}
+{"subject": "Physics", "keyword": "Concept – Entropy", "notes": "Measure of disorder; increases in closed systems"}
+{"subject": "Biology", "keyword": "What is action potential?", "notes": "Rapid change in membrane potential"}
+{"subject": "Mathematics", "keyword": "Define Quadratic formula", "notes": "x = [-b ± √(b²-4ac)] / 2a"}
+{"subject": "Biology", "keyword": "Recall: Meiosis", "notes": "Produces four haploid gametes"}
+{"subject": "Physics", "keyword": "Speed of light", "notes": "c ≈ 3×10⁸ m/s"}
+{"subject": "Biology", "keyword": "Hardy-Weinberg", "notes": "p² + 2pq + q² = 1 under equilibrium"}
+{"subject": "Physics", "keyword": "Concept – Special relativity time dilation", "notes": "Δt' = γ Δt"}
+{"subject": "Biology", "keyword": "Hardy-Weinberg (definition)", "notes": "p² + 2pq + q² = 1 under equilibrium"}
+{"subject": "Mathematics", "keyword": "Fundamental theorem of calculus", "notes": "∫ₐᵇ f(x) dx = F(b) - F(a)"}
+{"subject": "Biology", "keyword": "Meiosis (definition)", "notes": "Produces four haploid gametes"}
+{"subject": "Chemistry", "keyword": "Recall: Le Chatelier's principle", "notes": "System shifts to oppose change"}
+{"subject": "Chemistry", "keyword": "Recall: Molarity", "notes": "Moles of solute per liter of solution"}
+{"subject": "Biology", "keyword": "Recall: Mitosis", "notes": "Produces two identical diploid cells"}
+{"subject": "Mathematics", "keyword": "Recall: Pythagorean theorem", "notes": "a² + b² = c²"}
+{"subject": "Mathematics", "keyword": "Recall: Pythagorean theorem", "notes": "a² + b² = c²"}
+{"subject": "Chemistry", "keyword": "Covalent bond (definition)", "notes": "Sharing of electron pairs"}
+{"subject": "Mathematics", "keyword": "Pythagorean theorem (definition)", "notes": "a² + b² = c²"}
+{"subject": "Biology", "keyword": "Recall: Ribosome role", "notes": "Protein synthesis"}
+{"subject": "Biology", "keyword": "Ribosome role", "notes": "Protein synthesis"}
+{"subject": "Mathematics", "keyword": "Concept – Chain rule", "notes": "d/dx [f(g(x))] = f'(g(x)) · g'(x)"}
+{"subject": "Mathematics", "keyword": "Recall: Euler's identity", "notes": "e^{iπ} + 1 = 0"}
+{"subject": "Mathematics", "keyword": "Logarithm power rule", "notes": "log(a^b) = b · log(a)"}
+{"subject": "Chemistry", "keyword": "Concept – Oxidation", "notes": "Loss of electrons"}
+{"subject": "Chemistry", "keyword": "Recall: Oxidation", "notes": "Loss of electrons"}
+{"subject": "Computer Science", "keyword": "Concept – Deadlock conditions", "notes": "Mutual exclusion, hold and wait, no preemption, circular wait"}
+{"subject": "Physics", "keyword": "Concept – Bernoulli's principle", "notes": "Higher speed → lower pressure"}
+{"subject": "Biology", "keyword": "Recall: Homeostasis", "notes": "Stable internal conditions"}
+{"subject": "Mathematics", "keyword": "Chain rule", "notes": "d/dx [f(g(x))] = f'(g(x)) · g'(x)"}
+{"subject": "Physics", "keyword": "Recall: Kinetic energy", "notes": "½mv²"}
+{"subject": "Computer Science", "keyword": "Recall: CAP theorem", "notes": "Only 2 of Consistency, Availability, Partition tolerance"}
+{"subject": "Chemistry", "keyword": "Recall: Molarity", "notes": "Moles of solute per liter of solution"}
+{"subject": "Physics", "keyword": "Concept – Kinetic energy", "notes": "½mv²"}
+{"subject": "Computer Science", "keyword": "Concept – TCP vs UDP", "notes": "Reliable/ordered vs fast/unreliable"}
+{"subject": "Mathematics", "keyword": "What is pythagorean theorem?", "notes": "a² + b² = c²"}
+{"subject": "Biology", "keyword": "Homeostasis (definition)", "notes": "Stable internal conditions"}
+{"subject": "Physics", "keyword": "Concept – Uncertainty principle", "notes": "Δx Δp ≥ ħ/2"}
+{"subject": "Physics", "keyword": "Entropy", "notes": "Measure of disorder; increases in closed systems"}
+{"subject": "Chemistry", "keyword": "Concept – Hess's law", "notes": "Enthalpy change is path-independent"}
+{"subject": "Chemistry", "keyword": "What is avogadro's number?", "notes": "6.022×10²³ / mol"}
+{"subject": "Biology", "keyword": "Concept – Mitosis", "notes": "Produces two identical diploid cells"}
+{"subject": "Biology", "keyword": "Ribosome role", "notes": "Protein synthesis"}
+{"subject": "Computer Science", "keyword": "Concept – Big O of binary search", "notes": "O(log n)"}
+{"subject": "Computer Science", "keyword": "Big O of binary search", "notes": "O(log n)"}
+{"subject": "Chemistry", "keyword": "Electronegativity", "notes": "Ability to attract bonding electrons"}
+{"subject": "Mathematics", "keyword": "Pythagorean theorem (definition)", "notes": "a² + b² = c²"}
+{"subject": "Computer Science", "keyword": "Recursion", "notes": "Function calling itself"}
+{"subject": "Mathematics", "keyword": "Integral of 1/x", "notes": "ln|x| + C"}
+{"subject": "Mathematics", "keyword": "Taylor series", "notes": "f(x) ≈ f(a) + f'(a)(x-a) + f''(a)(x-a)²/2! + ..."}
+{"subject": "Chemistry", "keyword": "Key fact: Catalyst", "notes": "Speeds reaction without being consumed"}
+{"subject": "Mathematics", "keyword": "Product rule", "notes": "(uv)' = u'v + uv'"}
+{"subject": "Physics", "keyword": "Concept – Bernoulli's principle", "notes": "Higher speed → lower pressure"}
+{"subject": "Physics", "keyword": "Conservation of momentum (definition)", "notes": "Total momentum conserved in isolated systems"}
+{"subject": "Mathematics", "keyword": "Concept – Derivative of x²", "notes": "2x"}
+{"subject": "Mathematics", "keyword": "Fundamental theorem of calculus", "notes": "∫ₐᵇ f(x) dx = F(b) - F(a)"}
+{"subject": "Biology", "keyword": "Concept – Mitochondria function", "notes": "Produces ATP via cellular respiration"}
+{"subject": "Chemistry", "keyword": "Recall: Covalent bond", "notes": "Sharing of electron pairs"}
+{"subject": "Biology", "keyword": "Recall: Enzyme", "notes": "Biological catalyst lowering activation energy"}
+{"subject": "Mathematics", "keyword": "Logarithm power rule", "notes": "log(a^b) = b · log(a)"}
+{"subject": "Physics", "keyword": "Newton's second law (definition)", "notes": "F = ma"}
+{"subject": "Physics", "keyword": "Concept – Uncertainty principle", "notes": "Δx Δp ≥ ħ/2"}
+{"subject": "Mathematics", "keyword": "Concept – Logarithm power rule", "notes": "log(a^b) = b · log(a)"}
+{"subject": "Mathematics", "keyword": "Chain rule (definition)", "notes": "d/dx [f(g(x))] = f'(g(x)) · g'(x)"}
+{"subject": "Biology", "keyword": "Concept – Homeostasis", "notes": "Stable internal conditions"}
+{"subject": "Mathematics", "keyword": "Recall: Mean value theorem", "notes": "∃ c ∈ (a,b) s.t. f'(c) = [f(b)-f(a)]/(b-a)"}
+{"subject": "Biology", "keyword": "Action potential", "notes": "Rapid change in membrane potential"}
+{"subject": "Biology", "keyword": "What is ribosome role?", "notes": "Protein synthesis"}
+{"subject": "Computer Science", "keyword": "Key fact: Recursion", "notes": "Function calling itself"}
+{"subject": "Biology", "keyword": "Concept – Chlorophyll", "notes": "Absorbs light for photosynthesis"}
+{"subject": "Computer Science", "keyword": "Recall: Hash collision", "notes": "Two keys map to the same bucket"}
+{"subject": "Computer Science", "keyword": "Concept – Big O of binary search", "notes": "O(log n)"}
+{"subject": "Biology", "keyword": "Recall: Central dogma", "notes": "DNA → RNA → Protein"}
+{"subject": "Physics", "keyword": "Entropy (definition)", "notes": "Measure of disorder; increases in closed systems"}
+{"subject": "Computer Science", "keyword": "Recursion (definition)", "notes": "Function calling itself"}
+{"subject": "Chemistry", "keyword": "Avogadro's number (definition)", "notes": "6.022×10²³ / mol"}
+{"subject": "Mathematics", "keyword": "Concept – Derivative of x²", "notes": "2x"}
+{"subject": "Physics", "keyword": "Uncertainty principle", "notes": "Δx Δp ≥ ħ/2"}
+{"subject": "Physics", "keyword": "Torque", "notes": "τ = r × F"}
+{"subject": "Chemistry", "keyword": "Oxidation", "notes": "Loss of electrons"}
+{"subject": "Computer Science", "keyword": "Deadlock conditions", "notes": "Mutual exclusion, hold and wait, no preemption, circular wait"}
+{"subject": "Physics", "keyword": "Ohm's law", "notes": "V = IR"}
+{"subject": "Computer Science", "keyword": "Deadlock conditions", "notes": "Mutual exclusion, hold and wait, no preemption, circular wait"}
+{"subject": "Computer Science", "keyword": "Big O of binary search", "notes": "O(log n)"}
+{"subject": "Biology", "keyword": "Natural selection", "notes": "Advantageous traits increase reproductive success"}
+{"subject": "Chemistry", "keyword": "Recall: Avogadro's number", "notes": "6.022×10²³ / mol"}
+{"subject": "Chemistry", "keyword": "Key fact: Covalent bond", "notes": "Sharing of electron pairs"}
+{"subject": "Biology", "keyword": "Concept – Meiosis", "notes": "Produces four haploid gametes"}
+{"subject": "Mathematics", "keyword": "Product rule", "notes": "(uv)' = u'v + uv'"}
+{"subject": "Biology", "keyword": "Concept – Natural selection", "notes": "Advantageous traits increase reproductive success"}
+{"subject": "Physics", "keyword": "Conservation of momentum (definition)", "notes": "Total momentum conserved in isolated systems"}
+{"subject": "Physics", "keyword": "Define Torque", "notes": "τ = r × F"}
+{"subject": "Physics", "keyword": "Kinetic energy (definition)", "notes": "½mv²"}
+{"subject": "Mathematics", "keyword": "Concept – Derivative of x²", "notes": "2x"}
+{"subject": "Computer Science", "keyword": "Big O of binary search (definition)", "notes": "O(log n)"}
+{"subject": "Physics", "keyword": "Newton's second law (definition)", "notes": "F = ma"}
+{"subject": "Biology", "keyword": "Concept – Action potential", "notes": "Rapid change in membrane potential"}
+{"subject": "Physics", "keyword": "Concept – Speed of light", "notes": "c ≈ 3×10⁸ m/s"}
+{"subject": "Biology", "keyword": "Ribosome role (definition)", "notes": "Protein synthesis"}
+{"subject": "Biology", "keyword": "Concept – Central dogma", "notes": "DNA → RNA → Protein"}
+{"subject": "Computer Science", "keyword": "TCP vs UDP", "notes": "Reliable/ordered vs fast/unreliable"}
+{"subject": "Biology", "keyword": "Concept – DNA vs RNA", "notes": "Thymine/double-stranded vs Uracil/single-stranded"}
+{"subject": "Computer Science", "keyword": "Define Merge sort complexity", "notes": "O(n log n)"}
+{"subject": "Physics", "keyword": "Conservation of momentum (definition)", "notes": "Total momentum conserved in isolated systems"}
+{"subject": "Chemistry", "keyword": "Recall: Le Chatelier's principle", "notes": "System shifts to oppose change"}
+{"subject": "Biology", "keyword": "DNA vs RNA (definition)", "notes": "Thymine/double-stranded vs Uracil/single-stranded"}
+{"subject": "Computer Science", "keyword": "Recall: REST vs GraphQL", "notes": "Fixed endpoints vs flexible queries"}
+{"subject": "Mathematics", "keyword": "Eigenvalue definition", "notes": "Av = λv"}
+{"subject": "Physics", "keyword": "Concept – Conservation of momentum", "notes": "Total momentum conserved in isolated systems"}
+{"subject": "Chemistry", "keyword": "Recall: Hess's law", "notes": "Enthalpy change is path-independent"}
+{"subject": "Biology", "keyword": "Key fact: Meiosis", "notes": "Produces four haploid gametes"}
+{"subject": "Chemistry", "keyword": "Concept – Covalent bond", "notes": "Sharing of electron pairs"}
+{"subject": "Biology", "keyword": "Define DNA vs RNA", "notes": "Thymine/double-stranded vs Uracil/single-stranded"}
+{"subject": "Chemistry", "keyword": "Recall: pH of pure water", "notes": "7"}
+{"subject": "Physics", "keyword": "Recall: Bernoulli's principle", "notes": "Higher speed → lower pressure"}
+{"subject": "Physics", "keyword": "Torque", "notes": "τ = r × F"}
+{"subject": "Chemistry", "keyword": "Recall: Oxidation", "notes": "Loss of electrons"}
+{"subject": "Chemistry", "keyword": "Avogadro's number (definition)", "notes": "6.022×10²³ / mol"}
+{"subject": "Biology", "keyword": "Key fact: Enzyme", "notes": "Biological catalyst lowering activation energy"}
+{"subject": "Computer Science", "keyword": "Binary search tree property", "notes": "Left < parent < right"}
+{"subject": "Computer Science", "keyword": "Merge sort complexity", "notes": "O(n log n)"}
+{"subject": "Computer Science", "keyword": "TCP vs UDP", "notes": "Reliable/ordered vs fast/unreliable"}
+{"subject": "Mathematics", "keyword": "Fundamental theorem of calculus", "notes": "∫ₐᵇ f(x) dx = F(b) - F(a)"}
+{"subject": "Computer Science", "keyword": "Recall: Hash collision", "notes": "Two keys map to the same bucket"}
+{"subject": "Computer Science", "keyword": "Recall: Stack vs Queue", "notes": "LIFO vs FIFO"}
+{"subject": "Computer Science", "keyword": "Big O of binary search (definition)", "notes": "O(log n)"}
+{"subject": "Chemistry", "keyword": "Electronegativity", "notes": "Ability to attract bonding electrons"}
+{"subject": "Physics", "keyword": "Concept – Newton's second law", "notes": "F = ma"}
+{"subject": "Mathematics", "keyword": "Logarithm power rule (definition)", "notes": "log(a^b) = b · log(a)"}
+{"subject": "Chemistry", "keyword": "Oxidation", "notes": "Loss of electrons"}
+{"subject": "Computer Science", "keyword": "Key fact: Deadlock conditions", "notes": "Mutual exclusion, hold and wait, no preemption, circular wait"}
+{"subject": "Physics", "keyword": "Concept – Photoelectric effect", "notes": "Electrons ejected above threshold frequency"}
+{"subject": "Physics", "keyword": "Torque", "notes": "τ = r × F"}
+{"subject": "Physics", "keyword": "Recall: Photoelectric effect", "notes": "Electrons ejected above threshold frequency"}
+{"subject": "Mathematics", "keyword": "Key fact: Derivative of x²", "notes": "2x"}
+{"subject": "Physics", "keyword": "Doppler effect (definition)", "notes": "Frequency shift due to relative motion"}
+{"subject": "Computer Science", "keyword": "Deadlock conditions (definition)", "notes": "Mutual exclusion, hold and wait, no preemption, circular wait"}
+{"subject": "Physics", "keyword": "Recall: Torque", "notes": "τ = r × F"}
+{"subject": "Biology", "keyword": "Key fact: Chlorophyll", "notes": "Absorbs light for photosynthesis"}
+{"subject": "Physics", "keyword": "Concept – Entropy", "notes": "Measure of disorder; increases in closed systems"}
+{"subject": "Mathematics", "keyword": "Quadratic formula", "notes": "x = [-b ± √(b²-4ac)] / 2a"}
+{"subject": "Mathematics", "keyword": "Concept – Eigenvalue definition", "notes": "Av = λv"}
+{"subject": "Computer Science", "keyword": "Race condition", "notes": "Result depends on timing of concurrent ops"}
+{"subject": "Physics", "keyword": "Recall: Doppler effect", "notes": "Frequency shift due to relative motion"}
+{"subject": "Computer Science", "keyword": "Recall: TCP vs UDP", "notes": "Reliable/ordered vs fast/unreliable"}
+{"subject": "Chemistry", "keyword": "Key fact: Molarity", "notes": "Moles of solute per liter of solution"}
+{"subject": "Chemistry", "keyword": "Describe Isotopes", "notes": "Same element, different number of neutrons"}
+{"subject": "Physics", "keyword": "Photoelectric effect", "notes": "Electrons ejected above threshold frequency"}
+{"subject": "Mathematics", "keyword": "Recall: Mean value theorem", "notes": "∃ c ∈ (a,b) s.t. f'(c) = [f(b)-f(a)]/(b-a)"}
+{"subject": "Physics", "keyword": "Doppler effect", "notes": "Frequency shift due to relative motion"}
+{"subject": "Physics", "keyword": "Entropy (definition)", "notes": "Measure of disorder; increases in closed systems"}
+{"subject": "Biology", "keyword": "Action potential", "notes": "Rapid change in membrane potential"}
+{"subject": "Biology", "keyword": "Chlorophyll (definition)", "notes": "Absorbs light for photosynthesis"}
+{"subject": "Biology", "keyword": "Hardy-Weinberg (definition)", "notes": "p² + 2pq + q² = 1 under equilibrium"}
+{"subject": "Mathematics", "keyword": "What is Divergence theorem", "notes": "∭ (∇·F) dV = ∯ F·dS"}
+{"subject": "Biology", "keyword": "Homeostasis (definition)", "notes": "Stable internal conditions"}
+{"subject": "Biology", "keyword": "Mitochondria function", "notes": "Produces ATP via cellular respiration"}
+{"subject": "Biology", "keyword": "Concept – Homeostasis", "notes": "Stable internal conditions"}
+{"subject": "Chemistry", "keyword": "Recall: Oxidation", "notes": "Loss of electrons"}
+{"subject": "Computer Science", "keyword": "Recall: Deadlock conditions", "notes": "Mutual exclusion, hold and wait, no preemption, circular wait"}
+{"subject": "Computer Science", "keyword": "Recall: Stack vs Queue", "notes": "LIFO vs FIFO"}
+{"subject": "Physics", "keyword": "Concept – Kinetic energy", "notes": "½mv²"}
+{"subject": "Mathematics", "keyword": "Recall: Matrix determinant 2×2", "notes": "ad - bc"}
+{"subject": "Physics", "keyword": "Speed of light", "notes": "c ≈ 3×10⁸ m/s"}
+{"subject": "Chemistry", "keyword": "Catalyst", "notes": "Speeds reaction without being consumed"}
+{"subject": "Biology", "keyword": "Ribosome role", "notes": "Protein synthesis"}
+{"subject": "Mathematics", "keyword": "Mean value theorem", "notes": "∃ c ∈ (a,b) s.t. f'(c) = [f(b)-f(a)]/(b-a)"}
+{"subject": "Chemistry", "keyword": "Electronegativity", "notes": "Ability to attract bonding electrons"}
+{"subject": "Physics", "keyword": "Kinetic energy", "notes": "½mv²"}
+{"subject": "Biology", "keyword": "Mitosis (definition)", "notes": "Produces two identical diploid cells"}
+{"subject": "Chemistry", "keyword": "Concept – Oxidation", "notes": "Loss of electrons"}
+{"subject": "Computer Science", "keyword": "Concept – CAP theorem", "notes": "Only 2 of Consistency, Availability, Partition tolerance"}
+{"subject": "Computer Science", "keyword": "Recall: Merge sort complexity", "notes": "O(n log n)"}
+{"subject": "Biology", "keyword": "Recall: Meiosis", "notes": "Produces four haploid gametes"}
+{"subject": "Computer Science", "keyword": "Concept – REST vs GraphQL", "notes": "Fixed endpoints vs flexible queries"}
+{"subject": "Physics", "keyword": "Ohm's law (definition)", "notes": "V = IR"}
+{"subject": "Mathematics", "keyword": "Concept – Matrix determinant 2×2", "notes": "ad - bc"}
+{"subject": "Mathematics", "keyword": "Fundamental theorem of calculus", "notes": "∫ₐᵇ f(x) dx = F(b) - F(a)"}
+{"subject": "Biology", "keyword": "Key fact: Action potential", "notes": "Rapid change in membrane potential"}
+{"subject": "Chemistry", "keyword": "Concept – VSEPR theory", "notes": "Predicts molecular geometry from electron pairs"}
+{"subject": "Chemistry", "keyword": "Ionic vs covalent (definition)", "notes": "Transfer vs sharing of electrons"}
+{"subject": "Biology", "keyword": "What is hardy-weinberg?", "notes": "p² + 2pq + q² = 1 under equilibrium"}
+{"subject": "Physics", "keyword": "Concept – Uncertainty principle", "notes": "Δx Δp ≥ ħ/2"}
+{"subject": "Biology", "keyword": "Natural selection", "notes": "Advantageous traits increase reproductive success"}
+{"subject": "Physics", "keyword": "Concept – Uncertainty principle", "notes": "Δx Δp ≥ ħ/2"}
+{"subject": "Chemistry", "keyword": "Concept – Molarity", "notes": "Moles of solute per liter of solution"}
+{"subject": "Chemistry", "keyword": "Catalyst (definition)", "notes": "Speeds reaction without being consumed"}
+{"subject": "Mathematics", "keyword": "Concept – Quadratic formula", "notes": "x = [-b ± √(b²-4ac)] / 2a"}
+{"subject": "Chemistry", "keyword": "Ideal gas law", "notes": "PV = nRT"}
+{"subject": "Physics", "keyword": "Concept – Photoelectric effect", "notes": "Electrons ejected above threshold frequency"}
+{"subject": "Biology", "keyword": "Chlorophyll (definition)", "notes": "Absorbs light for photosynthesis"}
+{"subject": "Biology", "keyword": "DNA vs RNA", "notes": "Thymine/double-stranded vs Uracil/single-stranded"}
+{"subject": "Physics", "keyword": "Doppler effect (definition)", "notes": "Frequency shift due to relative motion"}
+{"subject": "Mathematics", "keyword": "Key fact: Logarithm power rule", "notes": "log(a^b) = b · log(a)"}
+{"subject": "Physics", "keyword": "Bernoulli's principle", "notes": "Higher speed → lower pressure"}
+{"subject": "Physics", "keyword": "Newton's second law", "notes": "F = ma"}
+{"subject": "Chemistry", "keyword": "Concept – VSEPR theory", "notes": "Predicts molecular geometry from electron pairs"}
+{"subject": "Mathematics", "keyword": "What is matrix determinant 2×2?", "notes": "ad - bc"}
+{"subject": "Physics", "keyword": "Recall: Speed of light", "notes": "c ≈ 3×10⁸ m/s"}
+{"subject": "Physics", "keyword": "Define Speed of light", "notes": "c ≈ 3×10⁸ m/s"}
+{"subject": "Mathematics", "keyword": "Integral of 1/x (definition)", "notes": "ln|x| + C"}
+{"subject": "Biology", "keyword": "Concept – Central dogma", "notes": "DNA → RNA → Protein"}
+{"subject": "Biology", "keyword": "Concept – Chlorophyll", "notes": "Absorbs light for photosynthesis"}
+{"subject": "Biology", "keyword": "Recall: Action potential", "notes": "Rapid change in membrane potential"}
+{"subject": "Computer Science", "keyword": "Recall: Race condition", "notes": "Result depends on timing of concurrent ops"}
+{"subject": "Biology", "keyword": "Enzyme", "notes": "Biological catalyst lowering activation energy"}
+{"subject": "Biology", "keyword": "What is Endosymbiotic theory", "notes": "Mitochondria and chloroplasts originated from engulfed bacteria"}
+{"subject": "Chemistry", "keyword": "VSEPR theory", "notes": "Predicts molecular geometry from electron pairs"}
+{"subject": "Biology", "keyword": "Key fact: Homeostasis", "notes": "Stable internal conditions"}
+{"subject": "Chemistry", "keyword": "Key fact: VSEPR theory", "notes": "Predicts molecular geometry from electron pairs"}
+{"subject": "Mathematics", "keyword": "Concept – Derivative of x²", "notes": "2x"}
+{"subject": "Computer Science", "keyword": "Key fact: Merge sort complexity", "notes": "O(n log n)"}
+{"subject": "Chemistry", "keyword": "Oxidation (definition)", "notes": "Loss of electrons"}
+{"subject": "Mathematics", "keyword": "What is derivative of x²?", "notes": "2x"}
+{"subject": "Computer Science", "keyword": "Concept – Stack vs Queue", "notes": "LIFO vs FIFO"}
+{"subject": "Biology", "keyword": "Recall: Action potential", "notes": "Rapid change in membrane potential"}
+{"subject": "Computer Science", "keyword": "Race condition", "notes": "Result depends on timing of concurrent ops"}
+{"subject": "Computer Science", "keyword": "Recall: REST vs GraphQL", "notes": "Fixed endpoints vs flexible queries"}
+{"subject": "Biology", "keyword": "Homeostasis", "notes": "Stable internal conditions"}
+{"subject": "Mathematics", "keyword": "Recall: Matrix determinant 2×2", "notes": "ad - bc"}
+{"subject": "Mathematics", "keyword": "Key fact: Product rule", "notes": "(uv)' = u'v + uv'"}
+{"subject": "Chemistry", "keyword": "pH of pure water (definition)", "notes": "7"}
+{"subject": "Biology", "keyword": "Mitochondria function", "notes": "Produces ATP via cellular respiration"}
+{"subject": "Chemistry", "keyword": "Explain: Isotopes", "notes": "Same element, different number of neutrons"}
+{"subject": "Biology", "keyword": "What is mitosis?", "notes": "Produces two identical diploid cells"}
+{"subject": "Biology", "keyword": "Define Meiosis", "notes": "Produces four haploid gametes"}
+{"subject": "Mathematics", "keyword": "Recall: Derivative of x²", "notes": "2x"}
+{"subject": "Chemistry", "keyword": "Define Electronegativity", "notes": "Ability to attract bonding electrons"}
+{"subject": "Chemistry", "keyword": "Covalent bond", "notes": "Sharing of electron pairs"}
+{"subject": "Physics", "keyword": "Kinetic energy (definition)", "notes": "½mv²"}
+{"subject": "Mathematics", "keyword": "Integral of 1/x (definition)", "notes": "ln|x| + C"}
+{"subject": "Computer Science", "keyword": "Recall: Binary search tree property", "notes": "Left < parent < right"}
+{"subject": "Chemistry", "keyword": "Recall: Molarity", "notes": "Moles of solute per liter of solution"}
+{"subject": "Physics", "keyword": "Torque", "notes": "τ = r × F"}
+{"subject": "Chemistry", "keyword": "Recall: Catalyst", "notes": "Speeds reaction without being consumed"}
+{"subject": "Mathematics", "keyword": "Eigenvalue definition", "notes": "Av = λv"}
+{"subject": "Computer Science", "keyword": "Hash collision", "notes": "Two keys map to the same bucket"}
+{"subject": "Physics", "keyword": "Concept – Photoelectric effect", "notes": "Electrons ejected above threshold frequency"}
+{"subject": "Mathematics", "keyword": "Pythagorean theorem (definition)", "notes": "a² + b² = c²"}
+{"subject": "Chemistry", "keyword": "Oxidation (definition)", "notes": "Loss of electrons"}
+{"subject": "Computer Science", "keyword": "Big O of binary search", "notes": "O(log n)"}
+{"subject": "Biology", "keyword": "DNA vs RNA (definition)", "notes": "Thymine/double-stranded vs Uracil/single-stranded"}
+{"subject": "Computer Science", "keyword": "Concept – Memoization", "notes": "Caching function results"}
+{"subject": "Mathematics", "keyword": "Product rule (definition)", "notes": "(uv)' = u'v + uv'"}
+{"subject": "Biology", "keyword": "Mitosis (definition)", "notes": "Produces two identical diploid cells"}
+{"subject": "Physics", "keyword": "Recall: Conservation of momentum", "notes": "Total momentum conserved in isolated systems"}
+{"subject": "Computer Science", "keyword": "Memoization (definition)", "notes": "Caching function results"}
+{"subject": "Computer Science", "keyword": "Recall: Race condition", "notes": "Result depends on timing of concurrent ops"}
+{"subject": "Mathematics", "keyword": "Pythagorean theorem", "notes": "a² + b² = c²"}
+{"subject": "Computer Science", "keyword": "Recall: Recursion", "notes": "Function calling itself"}
+{"subject": "Physics", "keyword": "Special relativity time dilation", "notes": "Δt' = γ Δt"}
+{"subject": "Computer Science", "keyword": "Binary search tree property", "notes": "Left < parent < right"}
+{"subject": "Mathematics", "keyword": "Quadratic formula", "notes": "x = [-b ± √(b²-4ac)] / 2a"}
+{"subject": "Computer Science", "keyword": "Recall: Recursion", "notes": "Function calling itself"}
+{"subject": "Biology", "keyword": "Recall: Natural selection", "notes": "Advantageous traits increase reproductive success"}
+{"subject": "Chemistry", "keyword": "What is catalyst?", "notes": "Speeds reaction without being consumed"}
+{"subject": "Physics", "keyword": "Magnetic flux", "notes": "Φ = B · A"}
+{"subject": "Mathematics", "keyword": "Key fact: Mean value theorem", "notes": "∃ c ∈ (a,b) s.t. f'(c) = [f(b)-f(a)]/(b-a)"}
+{"subject": "Computer Science", "keyword": "Deadlock conditions", "notes": "Mutual exclusion, hold and wait, no preemption, circular wait"}
+{"subject": "Biology", "keyword": "What is central dogma?", "notes": "DNA → RNA → Protein"}
+{"subject": "Physics", "keyword": "Concept – Conservation of momentum", "notes": "Total momentum conserved in isolated systems"}
+{"subject": "Mathematics", "keyword": "Recall: Logarithm power rule", "notes": "log(a^b) = b · log(a)"}
+{"subject": "Physics", "keyword": "Recall: Photoelectric effect", "notes": "Electrons ejected above threshold frequency"}
+{"subject": "Mathematics", "keyword": "Fundamental theorem of calculus", "notes": "∫ₐᵇ f(x) dx = F(b) - F(a)"}
+{"subject": "Chemistry", "keyword": "Recall: Ideal gas law", "notes": "PV = nRT"}
+{"subject": "Mathematics", "keyword": "Concept – Logarithm power rule", "notes": "log(a^b) = b · log(a)"}
+{"subject": "Chemistry", "keyword": "Concept – pH of pure water", "notes": "7"}
+{"subject": "Chemistry", "keyword": "Catalyst", "notes": "Speeds reaction without being consumed"}
+{"subject": "Computer Science", "keyword": "Concept – Merge sort complexity", "notes": "O(n log n)"}
+{"subject": "Chemistry", "keyword": "Recall: Electronegativity", "notes": "Ability to attract bonding electrons"}
+{"subject": "Chemistry", "keyword": "Avogadro's number", "notes": "6.022×10²³ / mol"}
+{"subject": "Chemistry", "keyword": "Covalent bond (definition)", "notes": "Sharing of electron pairs"}
+{"subject": "Physics", "keyword": "Recall: Conservation of momentum", "notes": "Total momentum conserved in isolated systems"}
+{"subject": "Biology", "keyword": "Homeostasis", "notes": "Stable internal conditions"}
+{"subject": "Computer Science", "keyword": "Concept – Hash collision", "notes": "Two keys map to the same bucket"}
+{"subject": "Computer Science", "keyword": "Concept – Merge sort complexity", "notes": "O(n log n)"}
+{"subject": "Physics", "keyword": "Ohm's law", "notes": "V = IR"}
+{"subject": "Chemistry", "keyword": "Avogadro's number (definition)", "notes": "6.022×10²³ / mol"}
+{"subject": "Computer Science", "keyword": "Recall: Merge sort complexity", "notes": "O(n log n)"}
+{"subject": "Physics", "keyword": "What is kinetic energy?", "notes": "½mv²"}
+{"subject": "Physics", "keyword": "Newton's second law", "notes": "F = ma"}
+{"subject": "Mathematics", "keyword": "Mean value theorem", "notes": "∃ c ∈ (a,b) s.t. f'(c) = [f(b)-f(a)]/(b-a)"}
+{"subject": "Physics", "keyword": "Concept – Speed of light", "notes": "c ≈ 3×10⁸ m/s"}
+{"subject": "Chemistry", "keyword": "Molarity", "notes": "Moles of solute per liter of solution"}
+{"subject": "Mathematics", "keyword": "Fundamental theorem of calculus", "notes": "∫ₐᵇ f(x) dx = F(b) - F(a)"}
+{"subject": "Physics", "keyword": "Concept – Entropy", "notes": "Measure of disorder; increases in closed systems"}
+{"subject": "Physics", "keyword": "Uncertainty principle (definition)", "notes": "Δx Δp ≥ ħ/2"}
+{"subject": "Physics", "keyword": "Entropy", "notes": "Measure of disorder; increases in closed systems"}
+{"subject": "Biology", "keyword": "Recall: Action potential", "notes": "Rapid change in membrane potential"}
+{"subject": "Physics", "keyword": "Concept – Ohm's law", "notes": "V = IR"}
+{"subject": "Physics", "keyword": "Concept – Conservation of momentum", "notes": "Total momentum conserved in isolated systems"}
+{"subject": "Physics", "keyword": "Key fact: Ohm's law", "notes": "V = IR"}
+{"subject": "Mathematics", "keyword": "Eigenvalue definition", "notes": "Av = λv"}
+{"subject": "Computer Science", "keyword": "Define Recursion", "notes": "Function calling itself"}
+{"subject": "Biology", "keyword": "Action potential", "notes": "Rapid change in membrane potential"}
+{"subject": "Mathematics", "keyword": "Concept – Chain rule", "notes": "d/dx [f(g(x))] = f'(g(x)) · g'(x)"}
+{"subject": "Chemistry", "keyword": "Concept – Le Chatelier's principle", "notes": "System shifts to oppose change"}
+{"subject": "Biology", "keyword": "Concept – Central dogma", "notes": "DNA → RNA → Protein"}
+{"subject": "Mathematics", "keyword": "Recall: Fundamental theorem of calculus", "notes": "∫ₐᵇ f(x) dx = F(b) - F(a)"}
+{"subject": "Computer Science", "keyword": "Concept – Stack vs Queue", "notes": "LIFO vs FIFO"}
+{"subject": "Mathematics", "keyword": "Recall: Pythagorean theorem", "notes": "a² + b² = c²"}
+{"subject": "Mathematics", "keyword": "Key fact: Chain rule", "notes": "d/dx [f(g(x))] = f'(g(x)) · g'(x)"}
+{"subject": "Biology", "keyword": "Concept – Hardy-Weinberg", "notes": "p² + 2pq + q² = 1 under equilibrium"}
+{"subject": "Physics", "keyword": "Concept – Torque", "notes": "τ = r × F"}
+{"subject": "Physics", "keyword": "Torque", "notes": "τ = r × F"}
+{"subject": "Biology", "keyword": "Mitochondria function (definition)", "notes": "Produces ATP via cellular respiration"}
+{"subject": "Mathematics", "keyword": "Define Mean value theorem", "notes": "∃ c ∈ (a,b) s.t. f'(c) = [f(b)-f(a)]/(b-a)"}
+{"subject": "Computer Science", "keyword": "Concept – Stack vs Queue", "notes": "LIFO vs FIFO"}
+{"subject": "Mathematics", "keyword": "Product rule", "notes": "(uv)' = u'v + uv'"}
+{"subject": "Physics", "keyword": "Recall: Conservation of momentum", "notes": "Total momentum conserved in isolated systems"}
+{"subject": "Physics", "keyword": "Conservation of momentum", "notes": "Total momentum conserved in isolated systems"}
+{"subject": "Physics", "keyword": "Conservation of momentum", "notes": "Total momentum conserved in isolated systems"}
+{"subject": "Mathematics", "keyword": "Mean value theorem", "notes": "∃ c ∈ (a,b) s.t. f'(c) = [f(b)-f(a)]/(b-a)"}
+{"subject": "Chemistry", "keyword": "Covalent bond", "notes": "Sharing of electron pairs"}
+{"subject": "Mathematics", "keyword": "Recall: Logarithm power rule", "notes": "log(a^b) = b · log(a)"}
+{"subject": "Computer Science", "keyword": "Describe Garbage collection", "notes": "Automatic memory management that reclaims unused objects"}
+{"subject": "Biology", "keyword": "Mitochondria function", "notes": "Produces ATP via cellular respiration"}
+{"subject": "Computer Science", "keyword": "Concept – Hash collision", "notes": "Two keys map to the same bucket"}
+{"subject": "Computer Science", "keyword": "Recall: Stack vs Queue", "notes": "LIFO vs FIFO"}
+{"subject": "Biology", "keyword": "What is natural selection?", "notes": "Advantageous traits increase reproductive success"}
+{"subject": "Computer Science", "keyword": "Concept – Race condition", "notes": "Result depends on timing of concurrent ops"}
+{"subject": "Mathematics", "keyword": "Eigenvalue definition", "notes": "Av = λv"}
+{"subject": "Chemistry", "keyword": "Define pH of pure water", "notes": "7"}
+{"subject": "Physics", "keyword": "Photoelectric effect", "notes": "Electrons ejected above threshold frequency"}
+{"subject": "Computer Science", "keyword": "Recall: Recursion", "notes": "Function calling itself"}
+{"subject": "Physics", "keyword": "Conservation of momentum (definition)", "notes": "Total momentum conserved in isolated systems"}
+{"subject": "Chemistry", "keyword": "Recall: VSEPR theory", "notes": "Predicts molecular geometry from electron pairs"}
+{"subject": "Physics", "keyword": "Newton's second law (definition)", "notes": "F = ma"}
+{"subject": "Chemistry", "keyword": "Recall: Molarity", "notes": "Moles of solute per liter of solution"}
+{"subject": "Computer Science", "keyword": "Concept – Memoization", "notes": "Caching function results"}
+{"subject": "Biology", "keyword": "Recall: Mitochondria function", "notes": "Produces ATP via cellular respiration"}
+{"subject": "Chemistry", "keyword": "Recall: Molarity", "notes": "Moles of solute per liter of solution"}
+{"subject": "Physics", "keyword": "Concept – Torque", "notes": "τ = r × F"}
+{"subject": "Physics", "keyword": "Recall: Speed of light", "notes": "c ≈ 3×10⁸ m/s"}
+{"subject": "Biology", "keyword": "Homeostasis", "notes": "Stable internal conditions"}
+{"subject": "Mathematics", "keyword": "Recall: Mean value theorem", "notes": "∃ c ∈ (a,b) s.t. f'(c) = [f(b)-f(a)]/(b-a)"}
+{"subject": "Mathematics", "keyword": "What is product rule?", "notes": "(uv)' = u'v + uv'"}
+{"subject": "Chemistry", "keyword": "Oxidation", "notes": "Loss of electrons"}
+{"subject": "Chemistry", "keyword": "Covalent bond", "notes": "Sharing of electron pairs"}
+{"subject": "Computer Science", "keyword": "Big O of binary search (definition)", "notes": "O(log n)"}
+{"subject": "Computer Science", "keyword": "Concept – CAP theorem", "notes": "Only 2 of Consistency, Availability, Partition tolerance"}
+{"subject": "Computer Science", "keyword": "Concept – Recursion", "notes": "Function calling itself"}
+{"subject": "Physics", "keyword": "Concept – Doppler effect", "notes": "Frequency shift due to relative motion"}
+{"subject": "Computer Science", "keyword": "What is merge sort complexity?", "notes": "O(n log n)"}
+{"subject": "Computer Science", "keyword": "Concept – Race condition", "notes": "Result depends on timing of concurrent ops"}
+{"subject": "Biology", "keyword": "Recall: Action potential", "notes": "Rapid change in membrane potential"}
+{"subject": "Chemistry", "keyword": "Recall: Hess's law", "notes": "Enthalpy change is path-independent"}
+{"subject": "Chemistry", "keyword": "Molarity (definition)", "notes": "Moles of solute per liter of solution"}
+{"subject": "Physics", "keyword": "Define Newton's second law", "notes": "F = ma"}
+{"subject": "Biology", "keyword": "Explain: Operon model", "notes": "Group of genes regulated together (e.g., lac operon)"}
+{"subject": "Mathematics", "keyword": "Concept – Derivative of x²", "notes": "2x"}
+{"subject": "Mathematics", "keyword": "Chain rule", "notes": "d/dx [f(g(x))] = f'(g(x)) · g'(x)"}
+{"subject": "Mathematics", "keyword": "Key fact: Pythagorean theorem", "notes": "a² + b² = c²"}
+{"subject": "Mathematics", "keyword": "Recall: Derivative of x²", "notes": "2x"}
+{"subject": "Computer Science", "keyword": "Merge sort complexity", "notes": "O(n log n)"}
+{"subject": "Mathematics", "keyword": "Chain rule", "notes": "d/dx [f(g(x))] = f'(g(x)) · g'(x)"}
+{"subject": "Biology", "keyword": "Concept – Enzyme", "notes": "Biological catalyst lowering activation energy"}
+{"subject": "Biology", "keyword": "Define Enzyme", "notes": "Biological catalyst lowering activation energy"}
+{"subject": "Biology", "keyword": "Define Natural selection", "notes": "Advantageous traits increase reproductive success"}
+{"subject": "Mathematics", "keyword": "Concept – Eigenvalue definition", "notes": "Av = λv"}
+{"subject": "Biology", "keyword": "Meiosis (definition)", "notes": "Produces four haploid gametes"}
+{"subject": "Biology", "keyword": "Chlorophyll (definition)", "notes": "Absorbs light for photosynthesis"}
+{"subject": "Computer Science", "keyword": "Recall: TCP vs UDP", "notes": "Reliable/ordered vs fast/unreliable"}
+{"subject": "Mathematics", "keyword": "Key fact: Quadratic formula", "notes": "x = [-b ± √(b²-4ac)] / 2a"}
+{"subject": "Mathematics", "keyword": "What is Taylor series", "notes": "f(x) ≈ f(a) + f'(a)(x-a) + f''(a)(x-a)²/2! + ..."}
+{"subject": "Biology", "keyword": "Recall: Ribosome role", "notes": "Protein synthesis"}
+{"subject": "Computer Science", "keyword": "Concept – Big O of binary search", "notes": "O(log n)"}
+{"subject": "Biology", "keyword": "Recall: Mitosis", "notes": "Produces two identical diploid cells"}
+{"subject": "Biology", "keyword": "Recall: Natural selection", "notes": "Advantageous traits increase reproductive success"}
+{"subject": "Biology", "keyword": "Concept – DNA vs RNA", "notes": "Thymine/double-stranded vs Uracil/single-stranded"}
+{"subject": "Mathematics", "keyword": "Recall: Matrix determinant 2×2", "notes": "ad - bc"}
+{"subject": "Mathematics", "keyword": "Integral of 1/x (definition)", "notes": "ln|x| + C"}
+{"subject": "Chemistry", "keyword": "What is hess's law?", "notes": "Enthalpy change is path-independent"}
+{"subject": "Mathematics", "keyword": "Concept – Chain rule", "notes": "d/dx [f(g(x))] = f'(g(x)) · g'(x)"}
+{"subject": "Physics", "keyword": "Entropy", "notes": "Measure of disorder; increases in closed systems"}
+{"subject": "Biology", "keyword": "Meiosis (definition)", "notes": "Produces four haploid gametes"}
+{"subject": "Computer Science", "keyword": "Concept – Memoization", "notes": "Caching function results"}
+{"subject": "Mathematics", "keyword": "Recall: Quadratic formula", "notes": "x = [-b ± √(b²-4ac)] / 2a"}
+{"subject": "Physics", "keyword": "Entropy", "notes": "Measure of disorder; increases in closed systems"}
+{"subject": "Mathematics", "keyword": "Logarithm power rule (definition)", "notes": "log(a^b) = b · log(a)"}
+{"subject": "Chemistry", "keyword": "What is covalent bond?", "notes": "Sharing of electron pairs"}
+{"subject": "Mathematics", "keyword": "Quadratic formula", "notes": "x = [-b ± √(b²-4ac)] / 2a"}
+{"subject": "Computer Science", "keyword": "Describe Virtual memory", "notes": "Abstraction that gives each process its own address space"}
+{"subject": "Physics", "keyword": "Speed of light (definition)", "notes": "c ≈ 3×10⁸ m/s"}
+{"subject": "Physics", "keyword": "Recall: Ohm's law", "notes": "V = IR"}
+{"subject": "Computer Science", "keyword": "Virtual memory", "notes": "Abstraction that gives each process its own address space"}
+{"subject": "Mathematics", "keyword": "Define Eigenvalue definition", "notes": "Av = λv"}
+{"subject": "Computer Science", "keyword": "Key fact: CAP theorem", "notes": "Only 2 of Consistency, Availability, Partition tolerance"}
+{"subject": "Mathematics", "keyword": "Concept – Logarithm power rule", "notes": "log(a^b) = b · log(a)"}
+{"subject": "Mathematics", "keyword": "Mean value theorem", "notes": "∃ c ∈ (a,b) s.t. f'(c) = [f(b)-f(a)]/(b-a)"}
+{"subject": "Mathematics", "keyword": "Recall: Mean value theorem", "notes": "∃ c ∈ (a,b) s.t. f'(c) = [f(b)-f(a)]/(b-a)"}
+{"subject": "Chemistry", "keyword": "Oxidation", "notes": "Loss of electrons"}
+{"subject": "Chemistry", "keyword": "Ideal gas law", "notes": "PV = nRT"}
+{"subject": "Computer Science", "keyword": "Stack vs Queue", "notes": "LIFO vs FIFO"}
+{"subject": "Chemistry", "keyword": "Concept – Electronegativity", "notes": "Ability to attract bonding electrons"}
+{"subject": "Biology", "keyword": "Key fact: Mitochondria function", "notes": "Produces ATP via cellular respiration"}
+{"subject": "Computer Science", "keyword": "Memoization (definition)", "notes": "Caching function results"}
+{"subject": "Physics", "keyword": "Concept – Special relativity time dilation", "notes": "Δt' = γ Δt"}
+{"subject": "Computer Science", "keyword": "Concept – TCP vs UDP", "notes": "Reliable/ordered vs fast/unreliable"}
+{"subject": "Chemistry", "keyword": "Concept – Oxidation", "notes": "Loss of electrons"}
+{"subject": "Biology", "keyword": "Mitosis (definition)", "notes": "Produces two identical diploid cells"}
+{"subject": "Computer Science", "keyword": "Recall: Memoization", "notes": "Caching function results"}
+{"subject": "Physics", "keyword": "Newton's second law (definition)", "notes": "F = ma"}
+{"subject": "Chemistry", "keyword": "Explain: Buffer solution", "notes": "Resists pH change when small amounts of acid/base are added"}
+{"subject": "Biology", "keyword": "Mitosis", "notes": "Produces two identical diploid cells"}
+{"subject": "Computer Science", "keyword": "Concept – TCP vs UDP", "notes": "Reliable/ordered vs fast/unreliable"}
+{"subject": "Biology", "keyword": "Key fact: Central dogma", "notes": "DNA → RNA → Protein"}
+{"subject": "Computer Science", "keyword": "Concept – CAP theorem", "notes": "Only 2 of Consistency, Availability, Partition tolerance"}
+{"subject": "Mathematics", "keyword": "Recall: Derivative of x²", "notes": "2x"}
+{"subject": "Biology", "keyword": "Ribosome role (definition)", "notes": "Protein synthesis"}
+{"subject": "Biology", "keyword": "Action potential", "notes": "Rapid change in membrane potential"}
+{"subject": "Mathematics", "keyword": "Recall: Product rule", "notes": "(uv)' = u'v + uv'"}
+{"subject": "Computer Science", "keyword": "Recall: Memoization", "notes": "Caching function results"}
+{"subject": "Chemistry", "keyword": "Avogadro's number", "notes": "6.022×10²³ / mol"}
+{"subject": "Mathematics", "keyword": "Product rule (definition)", "notes": "(uv)' = u'v + uv'"}
+{"subject": "Physics", "keyword": "Recall: Entropy", "notes": "Measure of disorder; increases in closed systems"}
+{"subject": "Chemistry", "keyword": "Recall: Catalyst", "notes": "Speeds reaction without being consumed"}
+{"subject": "Physics", "keyword": "Speed of light", "notes": "c ≈ 3×10⁸ m/s"}
+{"subject": "Physics", "keyword": "Recall: Torque", "notes": "τ = r × F"}
+{"subject": "Computer Science", "keyword": "Deadlock conditions", "notes": "Mutual exclusion, hold and wait, no preemption, circular wait"}
+{"subject": "Physics", "keyword": "Key fact: Bernoulli's principle", "notes": "Higher speed → lower pressure"}
+{"subject": "Mathematics", "keyword": "Define Derivative of x²", "notes": "2x"}
+{"subject": "Biology", "keyword": "Hardy-Weinberg", "notes": "p² + 2pq + q² = 1 under equilibrium"}
+{"subject": "Physics", "keyword": "Concept – Ohm's law", "notes": "V = IR"}
+{"subject": "Computer Science", "keyword": "Define REST vs GraphQL", "notes": "Fixed endpoints vs flexible queries"}
+{"subject": "Biology", "keyword": "Recall: Mitochondria function", "notes": "Produces ATP via cellular respiration"}
+{"subject": "Computer Science", "keyword": "Recall: CAP theorem", "notes": "Only 2 of Consistency, Availability, Partition tolerance"}
+{"subject": "Physics", "keyword": "Concept – Speed of light", "notes": "c ≈ 3×10⁸ m/s"}
+{"subject": "Biology", "keyword": "Concept – Hardy-Weinberg", "notes": "p² + 2pq + q² = 1 under equilibrium"}
+{"subject": "Chemistry", "keyword": "Recall: Le Chatelier's principle", "notes": "System shifts to oppose change"}
+{"subject": "Mathematics", "keyword": "Chain rule", "notes": "d/dx [f(g(x))] = f'(g(x)) · g'(x)"}
+{"subject": "Mathematics", "keyword": "Matrix determinant 2×2 (definition)", "notes": "ad - bc"}
+{"subject": "Biology", "keyword": "Concept – Homeostasis", "notes": "Stable internal conditions"}
+{"subject": "Computer Science", "keyword": "CAP theorem", "notes": "Only 2 of Consistency, Availability, Partition tolerance"}
+{"subject": "Chemistry", "keyword": "Activation energy", "notes": "Minimum energy required for a reaction to occur"}
+{"subject": "Mathematics", "keyword": "Integral of 1/x (definition)", "notes": "ln|x| + C"}
+{"subject": "Chemistry", "keyword": "Ionic vs covalent (definition)", "notes": "Transfer vs sharing of electrons"}
+{"subject": "Computer Science", "keyword": "Define TCP vs UDP", "notes": "Reliable/ordered vs fast/unreliable"}
+{"subject": "Biology", "keyword": "Concept – Enzyme", "notes": "Biological catalyst lowering activation energy"}
+{"subject": "Biology", "keyword": "What is homeostasis?", "notes": "Stable internal conditions"}
+{"subject": "Mathematics", "keyword": "Key fact: Matrix determinant 2×2", "notes": "ad - bc"}
+{"subject": "Chemistry", "keyword": "VSEPR theory", "notes": "Predicts molecular geometry from electron pairs"}
+{"subject": "Biology", "keyword": "Explain: Endosymbiotic theory", "notes": "Mitochondria and chloroplasts originated from engulfed bacteria"}
+{"subject": "Computer Science", "keyword": "Merge sort complexity (definition)", "notes": "O(n log n)"}
+{"subject": "Computer Science", "keyword": "Hash collision", "notes": "Two keys map to the same bucket"}
+{"subject": "Physics", "keyword": "Newton's second law", "notes": "F = ma"}
+{"subject": "Biology", "keyword": "Concept – Mitochondria function", "notes": "Produces ATP via cellular respiration"}
+{"subject": "Mathematics", "keyword": "Recall: Euler's identity", "notes": "e^{iπ} + 1 = 0"}
+{"subject": "Physics", "keyword": "Recall: Speed of light", "notes": "c ≈ 3×10⁸ m/s"}
+{"subject": "Mathematics", "keyword": "Eigenvalue definition", "notes": "Av = λv"}
+{"subject": "Computer Science", "keyword": "Binary search tree property", "notes": "Left < parent < right"}
+{"subject": "Mathematics", "keyword": "Concept – Logarithm power rule", "notes": "log(a^b) = b · log(a)"}
+{"subject": "Mathematics", "keyword": "Integral of 1/x", "notes": "ln|x| + C"}
+{"subject": "Computer Science", "keyword": "Recall: Recursion", "notes": "Function calling itself"}
+{"subject": "Physics", "keyword": "Define Entropy", "notes": "Measure of disorder; increases in closed systems"}
+{"subject": "Mathematics", "keyword": "Chain rule", "notes": "d/dx [f(g(x))] = f'(g(x)) · g'(x)"}
+{"subject": "Biology", "keyword": "Chlorophyll", "notes": "Absorbs light for photosynthesis"}
+{"subject": "Biology", "keyword": "Meiosis (definition)", "notes": "Produces four haploid gametes"}
+{"subject": "Chemistry", "keyword": "Hess's law", "notes": "Enthalpy change is path-independent"}
+{"subject": "Chemistry", "keyword": "Key fact: Hess's law", "notes": "Enthalpy change is path-independent"}
+{"subject": "Biology", "keyword": "Concept – Mitosis", "notes": "Produces two identical diploid cells"}
+{"subject": "Computer Science", "keyword": "Memoization", "notes": "Caching function results"}
+{"subject": "Chemistry", "keyword": "Recall: Oxidation", "notes": "Loss of electrons"}
+{"subject": "Biology", "keyword": "Concept – DNA vs RNA", "notes": "Thymine/double-stranded vs Uracil/single-stranded"}
+{"subject": "Mathematics", "keyword": "What is chain rule?", "notes": "d/dx [f(g(x))] = f'(g(x)) · g'(x)"}
+{"subject": "Mathematics", "keyword": "Concept – Chain rule", "notes": "d/dx [f(g(x))] = f'(g(x)) · g'(x)"}
+{"subject": "Mathematics", "keyword": "Concept – Logarithm power rule", "notes": "log(a^b) = b · log(a)"}
+{"subject": "Chemistry", "keyword": "Catalyst (definition)", "notes": "Speeds reaction without being consumed"}
+{"subject": "Computer Science", "keyword": "What is race condition?", "notes": "Result depends on timing of concurrent ops"}
+{"subject": "Physics", "keyword": "Concept – Doppler effect", "notes": "Frequency shift due to relative motion"}
+{"subject": "Chemistry", "keyword": "VSEPR theory", "notes": "Predicts molecular geometry from electron pairs"}
+{"subject": "Physics", "keyword": "Special relativity time dilation (definition)", "notes": "Δt' = γ Δt"}
+{"subject": "Biology", "keyword": "DNA vs RNA", "notes": "Thymine/double-stranded vs Uracil/single-stranded"}
+{"subject": "Physics", "keyword": "Speed of light", "notes": "c ≈ 3×10⁸ m/s"}
+{"subject": "Computer Science", "keyword": "CAP theorem", "notes": "Only 2 of Consistency, Availability, Partition tolerance"}
+{"subject": "Computer Science", "keyword": "Merge sort complexity (definition)", "notes": "O(n log n)"}
+{"subject": "Physics", "keyword": "Concept – Newton's second law", "notes": "F = ma"}
+{"subject": "Physics", "keyword": "What is special relativity time dilation?", "notes": "Δt' = γ Δt"}
+{"subject": "Physics", "keyword": "Recall: Entropy", "notes": "Measure of disorder; increases in closed systems"}
+{"subject": "Computer Science", "keyword": "Recall: Recursion", "notes": "Function calling itself"}
+{"subject": "Physics", "keyword": "Torque (definition)", "notes": "τ = r × F"}
+{"subject": "Biology", "keyword": "Natural selection", "notes": "Advantageous traits increase reproductive success"}
+{"subject": "Mathematics", "keyword": "Recall: Product rule", "notes": "(uv)' = u'v + uv'"}
+{"subject": "Physics", "keyword": "Concept – Special relativity time dilation", "notes": "Δt' = γ Δt"}
+{"subject": "Mathematics", "keyword": "Recall: Matrix determinant 2×2", "notes": "ad - bc"}
+{"subject": "Computer Science", "keyword": "Recall: Hash collision", "notes": "Two keys map to the same bucket"}
+{"subject": "Physics", "keyword": "Define Special relativity time dilation", "notes": "Δt' = γ Δt"}
+{"subject": "Mathematics", "keyword": "Recall: Logarithm power rule", "notes": "log(a^b) = b · log(a)"}
+{"subject": "Mathematics", "keyword": "Chain rule", "notes": "d/dx [f(g(x))] = f'(g(x)) · g'(x)"}
+{"subject": "Mathematics", "keyword": "Concept – Mean value theorem", "notes": "∃ c ∈ (a,b) s.t. f'(c) = [f(b)-f(a)]/(b-a)"}
+{"subject": "Biology", "keyword": "Homeostasis", "notes": "Stable internal conditions"}
+{"subject": "Chemistry", "keyword": "What is oxidation?", "notes": "Loss of electrons"}
+{"subject": "Mathematics", "keyword": "Euler's identity", "notes": "e^{iπ} + 1 = 0"}
+{"subject": "Physics", "keyword": "Concept – Torque", "notes": "τ = r × F"}
+{"subject": "Mathematics", "keyword": "Recall: Pythagorean theorem", "notes": "a² + b² = c²"}
+{"subject": "Physics", "keyword": "Define Conservation of momentum", "notes": "Total momentum conserved in isolated systems"}
+{"subject": "Chemistry", "keyword": "Concept – Ideal gas law", "notes": "PV = nRT"}
+{"subject": "Physics", "keyword": "Ohm's law", "notes": "V = IR"}
+{"subject": "Mathematics", "keyword": "Pythagorean theorem", "notes": "a² + b² = c²"}
+{"subject": "Mathematics", "keyword": "Pythagorean theorem", "notes": "a² + b² = c²"}
+{"subject": "Physics", "keyword": "Recall: Kinetic energy", "notes": "½mv²"}
+{"subject": "Biology", "keyword": "Natural selection", "notes": "Advantageous traits increase reproductive success"}
+{"subject": "Chemistry", "keyword": "Covalent bond (definition)", "notes": "Sharing of electron pairs"}
+{"subject": "Computer Science", "keyword": "Race condition", "notes": "Result depends on timing of concurrent ops"}
+{"subject": "Mathematics", "keyword": "Quadratic formula (definition)", "notes": "x = [-b ± √(b²-4ac)] / 2a"}
+{"subject": "Chemistry", "keyword": "Concept – VSEPR theory", "notes": "Predicts molecular geometry from electron pairs"}
+{"subject": "Mathematics", "keyword": "What is integral of 1/x?", "notes": "ln|x| + C"}
+{"subject": "Mathematics", "keyword": "Eigenvalue definition", "notes": "Av = λv"}
+{"subject": "Chemistry", "keyword": "Recall: Ideal gas law", "notes": "PV = nRT"}
+{"subject": "Mathematics", "keyword": "Pythagorean theorem", "notes": "a² + b² = c²"}
+{"subject": "Chemistry", "keyword": "What is le chatelier's principle?", "notes": "System shifts to oppose change"}
+{"subject": "Computer Science", "keyword": "TCP vs UDP (definition)", "notes": "Reliable/ordered vs fast/unreliable"}
+{"subject": "Physics", "keyword": "Photoelectric effect", "notes": "Electrons ejected above threshold frequency"}
+{"subject": "Chemistry", "keyword": "VSEPR theory (definition)", "notes": "Predicts molecular geometry from electron pairs"}
+{"subject": "Mathematics", "keyword": "Concept – Integral of 1/x", "notes": "ln|x| + C"}
+{"subject": "Computer Science", "keyword": "Recall: Deadlock conditions", "notes": "Mutual exclusion, hold and wait, no preemption, circular wait"}
+{"subject": "Mathematics", "keyword": "Concept – Euler's identity", "notes": "e^{iπ} + 1 = 0"}
+{"subject": "Physics", "keyword": "Recall: Newton's second law", "notes": "F = ma"}
+{"subject": "Mathematics", "keyword": "Recall: Fundamental theorem of calculus", "notes": "∫ₐᵇ f(x) dx = F(b) - F(a)"}
+{"subject": "Computer Science", "keyword": "Merge sort complexity", "notes": "O(n log n)"}
+{"subject": "Computer Science", "keyword": "Recall: Recursion", "notes": "Function calling itself"}
+{"subject": "Biology", "keyword": "Define Central dogma", "notes": "DNA → RNA → Protein"}
+{"subject": "Mathematics", "keyword": "Quadratic formula (definition)", "notes": "x = [-b ± √(b²-4ac)] / 2a"}
+{"subject": "Biology", "keyword": "Concept – Central dogma", "notes": "DNA → RNA → Protein"}
+{"subject": "Mathematics", "keyword": "Concept – Chain rule", "notes": "d/dx [f(g(x))] = f'(g(x)) · g'(x)"}
+{"subject": "Biology", "keyword": "Meiosis", "notes": "Produces four haploid gametes"}
+{"subject": "Chemistry", "keyword": "Oxidation", "notes": "Loss of electrons"}
+{"subject": "Biology", "keyword": "DNA vs RNA", "notes": "Thymine/double-stranded vs Uracil/single-stranded"}
+{"subject": "Mathematics", "keyword": "Derivative of x²", "notes": "2x"}
+{"subject": "Chemistry", "keyword": "Concept – Electronegativity", "notes": "Ability to attract bonding electrons"}
+{"subject": "Biology", "keyword": "DNA vs RNA", "notes": "Thymine/double-stranded vs Uracil/single-stranded"}
+{"subject": "Chemistry", "keyword": "Oxidation (definition)", "notes": "Loss of electrons"}
+{"subject": "Computer Science", "keyword": "Key fact: REST vs GraphQL", "notes": "Fixed endpoints vs flexible queries"}
+{"subject": "Physics", "keyword": "Kinetic energy (definition)", "notes": "½mv²"}
+{"subject": "Biology", "keyword": "Homeostasis (definition)", "notes": "Stable internal conditions"}
+{"subject": "Biology", "keyword": "Concept – Meiosis", "notes": "Produces four haploid gametes"}
+{"subject": "Biology", "keyword": "Recall: Action potential", "notes": "Rapid change in membrane potential"}
+{"subject": "Computer Science", "keyword": "Recursion (definition)", "notes": "Function calling itself"}
+{"subject": "Chemistry", "keyword": "Covalent bond (definition)", "notes": "Sharing of electron pairs"}
+{"subject": "Physics", "keyword": "Conservation of momentum", "notes": "Total momentum conserved in isolated systems"}
+{"subject": "Physics", "keyword": "What is bernoulli's principle?", "notes": "Higher speed → lower pressure"}
+{"subject": "Mathematics", "keyword": "Fundamental theorem of calculus (definition)", "notes": "∫ₐᵇ f(x) dx = F(b) - F(a)"}
+{"subject": "Computer Science", "keyword": "Concept – Stack vs Queue", "notes": "LIFO vs FIFO"}
+{"subject": "Mathematics", "keyword": "Pythagorean theorem", "notes": "a² + b² = c²"}
+{"subject": "Physics", "keyword": "Describe Wave-particle duality", "notes": "Particles exhibit both wave and particle properties"}
+{"subject": "Biology", "keyword": "Homeostasis (definition)", "notes": "Stable internal conditions"}
+{"subject": "Computer Science", "keyword": "Race condition", "notes": "Result depends on timing of concurrent ops"}
+{"subject": "Physics", "keyword": "Recall: Special relativity time dilation", "notes": "Δt' = γ Δt"}
+{"subject": "Chemistry", "keyword": "Concept – Electronegativity", "notes": "Ability to attract bonding electrons"}
+{"subject": "Biology", "keyword": "Concept – Ribosome role", "notes": "Protein synthesis"}
+{"subject": "Chemistry", "keyword": "Molarity (definition)", "notes": "Moles of solute per liter of solution"}
+{"subject": "Mathematics", "keyword": "Concept – Chain rule", "notes": "d/dx [f(g(x))] = f'(g(x)) · g'(x)"}
+{"subject": "Computer Science", "keyword": "CAP theorem", "notes": "Only 2 of Consistency, Availability, Partition tolerance"}
+{"subject": "Mathematics", "keyword": "Quadratic formula (definition)", "notes": "x = [-b ± √(b²-4ac)] / 2a"}
+{"subject": "Physics", "keyword": "Concept – Speed of light", "notes": "c ≈ 3×10⁸ m/s"}
+{"subject": "Biology", "keyword": "Enzyme (definition)", "notes": "Biological catalyst lowering activation energy"}
+{"subject": "Physics", "keyword": "Concept – Conservation of momentum", "notes": "Total momentum conserved in isolated systems"}
+{"subject": "Mathematics", "keyword": "Integral of 1/x (definition)", "notes": "ln|x| + C"}
