@@ -132,10 +132,22 @@ export default function Study() {
                 <input type="radio" checked={searchMode === 'server'} onChange={() => setSearchMode('server')} disabled={!isLoggedIn()} /> Server (all subjects)
               </label>
               <button onClick={performSearch}>Search</button>
+              <button onClick={() => { setShowSearch(false); setSearchResults([]); setSearchQuery(''); }} style={{ marginLeft: 6 }}>Close</button>
               <div>{searchTime}</div>
               <div style={{ maxHeight: 200, overflowY: 'auto', marginTop: 6 }}>
                 {searchResults.map((r, i) => (
-                  <div key={i} style={{ padding: 4, borderBottom: '1px solid #eee', cursor: 'pointer' }} onClick={() => alert(`${r.keyword || r.subject || ''}: ${r.notes || ''}`)}>
+                  <div
+                    key={i}
+                    style={{ padding: 4, borderBottom: '1px solid #eee', cursor: 'pointer' }}
+                    onClick={() => {
+                      setCurrentCard({ keyword: r.keyword || '', notes: r.notes || '' });
+                      setIsFlipped(false);
+                      setShowSearch(false);
+                      setSearchResults([]);
+                      setSearchQuery('');
+                    }}
+                    title="Click to study this card"
+                  >
                     <strong>{r.keyword || '(no keyword)'}</strong>
                     {r.subject && <em> ({r.subject})</em>}
                     <div style={{ fontSize: '0.85em', color: '#555' }}>{(r.notes || '').slice(0, 120)}{(r.notes || '').length > 120 ? '…' : ''}</div>
