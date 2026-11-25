@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import { loadSubjects, getSubjectCards, saveSubjectCards, fuzzyMatch } from '../utils/storage'
+import { isLoggedIn, listSubjects, downloadSubject, uploadCards } from '../utils/api'
 
 export default function Notes() {
   const [subjects, setSubjects] = useState({})
@@ -13,56 +14,46 @@ export default function Notes() {
   const [popup, setPopup] = useState(null)
 
   useEffect(() => {
-    setSubjects(loadSubjects())
+    async function load() {
+      if (isLoggedIn()) {
+        try {
+          const serverSubs = await listSubjects()
+          const subList = Array.isArray(serverSubs) ? serverSubs : serverSubs.subjects || []
+          const subMap = {}
+          for (const sub of subList) {
+            try {
+              const cards = await downloadSubject(sub)
+              subMap[sub] = cards
+              saveSubjectCards(sub, cards) // cache locally
+            } catch {}
+          }
+          setSubjects(subMap)
+        } catch {
+          setSubjects(loadSubjects())
+        }
+      } else {
+        setSubjects(loadSubjects())
+      }
+    }
+    load()
   }, [])
 
-  // Set the subject, with fuzzy matching to suggest existing subjects
-  // Its a lot of try/catch blocks, but will hopefully lead to a cleaner user experience.
-const handleSetSubject = () => {
-  const input = subjectInput.trim()
-  if (!input) return
-
-  try {
+  const handleSetSubject = () => {
+    const input = subjectInput.trim()
+    if (!input) return
     const match = fuzzyMatch(input, subjects)
-    // If a near-identical subject exists, prompt user to choose between using the existing subject and creating a new one.
     if (match && match !== input) {
       setPopup({
         message: `Near-identical subject "${match}" exists. Use existing or create new?`,
-        onYes: () => {
-          try {
-            setCurrentSubject(match)
-            loadCards(match)
-            setPopup(null)
-          } catch (err) {
-            console.error('Failed to load existing subject', err)
-            setStatus(`Could not load "${match}": ${err.message || 'unknown error'}`)
-            setPopup(null)
-          }
-        },
-        onNo: () => {
-          try {
-            setCurrentSubject(input)
-            loadCards(input)
-            setPopup(null)
-          } catch (err) {
-            console.error('Failed to create subject', err)
-            setStatus(`Could not create "${input}": ${err.message || 'unknown error'}`)
-            setPopup(null)
-          }
-        }
+        onYes: () => { setCurrentSubject(match); loadCards(match); setPopup(null) },
+        onNo: () => { setCurrentSubject(input); loadCards(input); setPopup(null) }
       })
-    // Else, if no near-identical subject exists, just set the current subject to the input and load its cards.
     } else {
       setCurrentSubject(input)
       loadCards(input)
     }
-  } catch (err) {
-    console.error('handleSetSubject failed', err)
-    setStatus(`Subject error: ${err.message || 'unknown error'}`)
   }
-}
 
-  // Load the cards for the specified subject
   const loadCards = (sub) => {
     const loaded = getSubjectCards(sub)
     setCards(loaded)
@@ -71,7 +62,6 @@ const handleSetSubject = () => {
     setIsDirty(false)
   }
 
-  // Display the card at the specified index, else clear the fields if the index is out of bounds
   const displayCard = (cardList, idx) => {
     if (idx >= 0 && idx < cardList.length) {
       setKeyword(cardList[idx].keyword || '')
@@ -81,28 +71,27 @@ const handleSetSubject = () => {
       setNotes('')
     }
   }
-  // Check for unsaved changes, and then navigate to the next or previous card
-  const navigate = (change) => {
+
+  const navigate = (delta) => {
     if (isDirty) {
       setPopup({
         message: 'Unsaved changes. Save or discard?',
-        onYes: () => { saveCurrent(); doNavigate(change); setPopup(null) },
-        onNo: () => { setIsDirty(false); doNavigate(change); setPopup(null) }
+        onYes: () => { saveCurrent(); doNavigate(delta); setPopup(null) },
+        onNo: () => { setIsDirty(false); doNavigate(delta); setPopup(null) }
       })
       return
     }
-    doNavigate(change)
+    doNavigate(delta)
   }
-  // Perform the actual navigation to the next or previous card
-  const doNavigate = (change) => {
-    let newIdx = currentIndex + change
+
+  const doNavigate = (delta) => {
+    let newIdx = currentIndex + delta
     if (newIdx < 0) newIdx = 0
     if (newIdx >= cards.length) newIdx = cards.length - 1
     setCurrentIndex(newIdx)
     displayCard(cards, newIdx)
   }
 
-  // Create a new card, prompting user to save if there are unsaved changes
   const createNew = () => {
     if (isDirty) {
       setPopup({
@@ -115,7 +104,6 @@ const handleSetSubject = () => {
     addNew()
   }
 
-  // Add a new card to the list and reset the input fields
   const addNew = () => {
     const newCards = [...cards, { keyword: '', notes: '' }]
     setCards(newCards)
@@ -125,8 +113,7 @@ const handleSetSubject = () => {
     setIsDirty(false)
   }
 
-  // Save current card, either updating an existing one or adding a new one, and persist the changes to storage
-  const saveCurrent = () => {
+  const saveCurrent = async () => {
     const newCards = [...cards]
     if (currentIndex >= 0 && currentIndex < newCards.length) {
       newCards[currentIndex] = { keyword, notes }
@@ -137,9 +124,15 @@ const handleSetSubject = () => {
     setCards(newCards)
     saveSubjectCards(currentSubject, newCards)
     setIsDirty(false)
+    if (isLoggedIn() && currentSubject) {
+      try {
+        await uploadCards(currentSubject, newCards)
+      } catch (err) {
+        console.error('Failed to sync to server', err)
+      }
+    }
   }
 
-  // Actual component rendering
   return (
     <div>
       <h2>Take Notes</h2>
