@@ -18,6 +18,7 @@ export default function Notes() {
     loadInitialSubjects()
   }, [])
 
+  // Load initial subjects from local storage and server if logged in
   const loadInitialSubjects = async () => {
     const local = loadSubjects()
     setSubjects(local)
@@ -33,6 +34,7 @@ export default function Notes() {
     }
   }
 
+  // Load cards for a given subject, either from local storage or from the server
   const loadCards = async (sub) => {
     let loaded = getSubjectCards(sub)
     if (isLoggedIn() && loaded.length === 0) {
@@ -53,6 +55,8 @@ export default function Notes() {
     setIsDirty(false)
   }
 
+  // Set the current subject; check for near-identical subjects and prompt user to
+  // use them if found, or else to create a new one
   const handleSetSubject = () => {
     const input = subjectInput.trim()
     if (!input) return
@@ -73,6 +77,8 @@ export default function Notes() {
     }
   }
 
+  // Display the card at the given index from the card list, 
+  // or clear the fields if index is out of bounds
   const displayCard = (cardList, idx) => {
     if (idx >= 0 && idx < cardList.length) {
       setKeyword(cardList[idx].keyword || '')
@@ -83,6 +89,7 @@ export default function Notes() {
     }
   }
 
+  // Navigate to the next or previous card; prompt to save if there are unsaved changes
   const navigate = (change) => {
     if (isDirty) {
       setPopup({
@@ -95,6 +102,7 @@ export default function Notes() {
     doNavigate(change)
   }
 
+  // Perform the actual navigation
   const doNavigate = (change) => {
     let newIdx = currentIndex + change
     if (newIdx < 0) newIdx = 0
@@ -103,6 +111,8 @@ export default function Notes() {
     displayCard(cards, newIdx)
   }
 
+  // Create a new card; if there are unsaved changes
+  // prompt the user to save or discard them first
   const createNew = () => {
     if (isDirty) {
       setPopup({
@@ -115,6 +125,7 @@ export default function Notes() {
     addNew()
   }
 
+  // Add a new card to the list and set it as the current card
   const addNew = () => {
     const newCards = [...cards, { keyword: '', notes: '' }]
     setCards(newCards)
@@ -124,6 +135,7 @@ export default function Notes() {
     setIsDirty(false)
   }
 
+  // Save the current card to the list and to local storage; if logged in, also push to server
   const saveCurrent = async () => {
     const newCards = [...cards]
     if (currentIndex >= 0 && currentIndex < newCards.length) {

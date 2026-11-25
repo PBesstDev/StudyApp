@@ -8,6 +8,7 @@ export default function Auth({ onAuthChange }) {
   const [status, setStatus] = useState('');
   const [loggedIn, setLoggedIn] = useState(isLoggedIn());
 
+  // Logic for form submission for login or registration
   const handleSubmit = async (e) => {
     e.preventDefault();
     setStatus('');
@@ -27,6 +28,7 @@ export default function Auth({ onAuthChange }) {
     }
   };
 
+  // Logic for handling logout
   const handleLogout = () => {
     logout();
     setLoggedIn(false);

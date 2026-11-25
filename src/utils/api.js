@@ -1,5 +1,6 @@
 const API_BASE = import.meta.env.VITE_API_URL || 'http://localhost:3001';
 
+// Utility functions for managing authentication tokens and user information in local storage
 function getToken() {
   return localStorage.getItem('studyapp_token');
 }

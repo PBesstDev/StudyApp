@@ -20,6 +20,7 @@ export default function Study() {
     setSubjects(loadSubjects())
   }, [])
 
+  // Load cards for the selected subject into the study pile
   const startStudy = () => {
     if (!selectedSubject) return alert('Select subject')
     const cards = getSubjectCards(selectedSubject)
@@ -28,6 +29,7 @@ export default function Study() {
     showNext([...cards])
   }
 
+  // Show the next card from the pile; if the pile is empty, clear the current card
   const showNext = (currentPile = pile) => {
     if (!currentPile.length) {
       setCurrentCard(null)
@@ -40,14 +42,17 @@ export default function Study() {
 
   const flip = () => setIsFlipped(!isFlipped)
 
+  // Discard the current card from the pile and show the next one
   const discard = () => {
     const newPile = pile.filter(c => c !== currentCard)
     setPile(newPile)
     showNext(newPile)
   }
 
+  // ...else, just show the next one
   const keep = () => showNext()
 
+  // Perform a search for the given query, either on the server if logged in, or locally on the current pile
   const performSearch = async () => {
     if (!searchQuery.trim()) return
     const start = performance.now()
@@ -72,6 +77,7 @@ export default function Study() {
     }
   }
 
+  // Select a search result and load it into the study view
   const selectResult = async (result) => {
     try {
       let cards = getSubjectCards(result.subject)
@@ -91,6 +97,7 @@ export default function Study() {
     }
   }
 
+  // Make the magnifier icon draggable
   useEffect(() => {
     const el = magRef.current
     if (!el) return

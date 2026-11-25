@@ -1,3 +1,7 @@
+
+// Utility functions for searching cards by keyword or notes using a binary search tree
+
+// Node class for the binary search tree
 class Node {
   constructor(key, card) {
     this.key = key.toLowerCase();
@@ -32,6 +36,8 @@ export class BinarySearchTree {
     }
   }
 
+
+  // Search for a card by keyword or notes; returns the first matching card found
   search(query) {
     const q = query.toLowerCase();
     return this._search(this.root, q);
@@ -45,6 +51,7 @@ export class BinarySearchTree {
   }
 }
 
+// Build a binary search tree from an array of cards, indexing by keyword and notes
 export function buildBST(cards) {
   const bst = new BinarySearchTree();
   cards.forEach(card => {

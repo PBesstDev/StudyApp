@@ -13,6 +13,8 @@ export default function IO() {
   const [loggedIn, setLoggedIn] = useState(isLoggedIn())
   const [currentUser, setCurrentUser] = useState(getUsername())
 
+  // Load subjects from local storage and server on component mount
+  // or when loggedIn changes
   useEffect(() => {
     const local = loadSubjects()
     setSubjects(local)
@@ -21,6 +23,7 @@ export default function IO() {
     }
   }, [loggedIn])
 
+  // Load subjects from the server and merge with local subjects
   const loadFromServer = async () => {
     try {
       const serverSubs = await getSubjects()
@@ -36,11 +39,13 @@ export default function IO() {
     }
   }
 
+  // Show a preview of cards for the selected subject
   const showPreview = (subject) => {
     setSelectedSubject(subject)
     setPreview(getSubjectCards(subject))
   }
 
+  // Download cards for the selected subject in the specified format (JSON or JSONL)
   const downloadLocal = (format) => {
     if (!selectedSubject) return setStatus('Select a subject')
     try {
@@ -66,6 +71,7 @@ export default function IO() {
     }
   }
 
+  // Pull cards from the server for the selected subject
   const pullFromServer = async () => {
     if (!selectedSubject) return setStatus('Select a subject')
     if (!loggedIn) return setStatus('Please log in first')
@@ -80,6 +86,7 @@ export default function IO() {
     }
   }
 
+  // Push cards to the server for the selected subject
   const pushToServer = async () => {
     if (!selectedSubject) return setStatus('Select a subject')
     if (!loggedIn) return setStatus('Please log in first')
@@ -92,6 +99,7 @@ export default function IO() {
     }
   }
 
+  // Handle file upload for importing cards to a subject
   const handleFileUpload = (e) => {
     const file = e.target.files[0]
     if (!file || !uploadSubject) return setStatus('Select file and enter subject')
@@ -122,6 +130,7 @@ export default function IO() {
     reader.readAsText(file)
   }
 
+  // Login form submission
   const handleLogin = async () => {
     try {
       await login(username, password)
@@ -135,6 +144,7 @@ export default function IO() {
     }
   }
 
+  // Registration form submission
   const handleRegister = async () => {
     try {
       await register(username, password)
@@ -148,6 +158,7 @@ export default function IO() {
     }
   }
 
+  // Logout logic
   const handleLogout = () => {
     logout()
     setLoggedIn(false)
