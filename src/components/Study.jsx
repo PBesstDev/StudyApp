@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef } from 'react'
 import { loadSubjects, getSubjectCards } from '../utils/storage'
 import { buildBST } from '../utils/search'
+import { search as serverSearch, isLoggedIn } from '../utils/api'
 
 export default function Study() {
   const [subjects, setSubjects] = useState({})
@@ -53,14 +54,32 @@ export default function Study() {
 
   // Perform a search on the current pile of cards using a binary search tree.
   // Keeping a timer on the search tree since we will eventually move to a vector search tree.
-  const performSearch = () => {
+  const performSearch = async () => {
     if (!searchQuery) return
-    const bst = buildBST(pile)
     const start = performance.now()
-    const found = bst.search(searchQuery)
-    const time = (performance.now() - start).toFixed(2)
-    setSearchResult(found ? `Found: ${found.keyword}` : 'Nothing found')
-    setSearchTime(`Search took ${time} ms`)
+    try {
+      if (isLoggedIn()) {
+        // Database search - returns all matches
+        const results = await serverSearch(searchQuery)
+        const time = (performance.now() - start).toFixed(2)
+        if (results.length === 0) {
+          setSearchResult('Nothing found in database')
+        } else {
+          const list = results.map(r => `${r.subject}: ${r.keyword}`).join('\n')
+          setSearchResult(`Found ${results.length} match(es):\n${list}`)
+        }
+        setSearchTime(`Server search took ${time} ms`)
+      } else {
+        // Fallback to local BST on current pile
+        const bst = buildBST(pile)
+        const found = bst.search(searchQuery)
+        const time = (performance.now() - start).toFixed(2)
+        setSearchResult(found ? `Found (local): ${found.keyword}` : 'Nothing found')
+        setSearchTime(`Local search took ${time} ms`)
+      }
+    } catch (err) {
+      setSearchResult('Search error: ' + err.message)
+    }
   }
 
   // Simple drag for "Search" magnifier icon, allowing user to move it around the screen. 
@@ -120,7 +139,7 @@ export default function Study() {
             <div className="popup" style={{ position: 'absolute' }}>
               <input value={searchQuery} onChange={e => setSearchQuery(e.target.value)} placeholder="Search" />
               <button onClick={performSearch}>Search</button>
-              <div>{searchResult}</div>
+              <div style={{ whiteSpace: "pre-wrap" }}>{searchResult}</div>
               <div>{searchTime}</div>
             </div>
           )}

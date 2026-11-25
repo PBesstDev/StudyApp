@@ -84,3 +84,9 @@ export async function uploadCards(subject, cards) {
 }
 
 export { getToken, getUsername };
+
+
+export async function search(query) {
+  if (!query || !query.trim()) return [];
+  return apiFetch(`/api/notes/search?q=${encodeURIComponent(query.trim())}`);
+}
