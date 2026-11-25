@@ -7,7 +7,6 @@ class Node {
   }
 }
 
-// Binary Search Tree implementation for searching cards by keyword or notes
 export class BinarySearchTree {
   constructor() {
     this.root = null;
@@ -32,16 +31,27 @@ export class BinarySearchTree {
     }
   }
 
-  search(query) {
+  searchAll(query) {
     const q = query.toLowerCase();
-    return this._search(this.root, q);
+    const results = [];
+    this._searchAll(this.root, q, results);
+    // Deduplicate by keyword+notes
+    const seen = new Set();
+    return results.filter(card => {
+      const key = `${card.keyword}|${card.notes}`;
+      if (seen.has(key)) return false;
+      seen.add(key);
+      return true;
+    });
   }
 
-  _search(node, q) {
-    if (!node) return null;
-    if (node.key.includes(q) || q.includes(node.key)) return node.card;
-    if (q < node.key) return this._search(node.left, q);
-    return this._search(node.right, q);
+  _searchAll(node, q, results) {
+    if (!node) return;
+    if (node.key.includes(q) || q.includes(node.key)) {
+      results.push(node.card);
+    }
+    this._searchAll(node.left, q, results);
+    this._searchAll(node.right, q, results);
   }
 }
 
