@@ -2,17 +2,20 @@ import { useState } from 'react';
 import { login, register, logout, isLoggedIn } from '../utils/api';
 
 export default function Auth({ onAuthChange }) {
+  // Create scoped constants for the login form fields and authentication state
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
   const [mode, setMode] = useState('login');
   const [status, setStatus] = useState('');
   const [loggedIn, setLoggedIn] = useState(isLoggedIn());
 
-  // Logic for form submission for login or registration
+  // Submit the login or registration form and update the authentication state
   const handleSubmit = async (e) => {
+    // Prevent the default form submission and clear the previous status
     e.preventDefault();
     setStatus('');
     try {
+      // Use the selected mode to log in or register a new account
       if (mode === 'login') {
         await login(username, password);
         setStatus('Logged in');
@@ -21,14 +24,16 @@ export default function Auth({ onAuthChange }) {
         setStatus('Registered — now log in');
         setMode('login');
       }
+      // Refresh the logged-in state and notify the parent component
       setLoggedIn(isLoggedIn());
       onAuthChange?.(isLoggedIn());
     } catch (err) {
+      // Report any login or registration error
       setStatus(err.message);
     }
   };
 
-  // Logic for handling logout
+  // Log out the current user and reset the authentication state
   const handleLogout = () => {
     logout();
     setLoggedIn(false);
@@ -36,6 +41,7 @@ export default function Auth({ onAuthChange }) {
     onAuthChange?.(false);
   };
 
+  // Return the logged-in view when the user is authenticated
   if (loggedIn) {
     return (
       <div style={{ marginLeft: 'auto', display: 'flex', alignItems: 'center', gap: 8 }}>
@@ -45,6 +51,7 @@ export default function Auth({ onAuthChange }) {
     );
   }
 
+  // Return the actual JSX component for the login and registration form
   return (
     <form onSubmit={handleSubmit} style={{ marginLeft: 'auto', display: 'flex', gap: 6, alignItems: 'center' }}>
       <input

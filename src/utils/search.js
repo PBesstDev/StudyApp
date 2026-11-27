@@ -1,7 +1,7 @@
 
-// Utility functions for searching cards by keyword or notes using a binary search tree
+// Search cards by keyword or notes using a binary search tree
 
-// Node class for the binary search tree
+// Create a node in the binary search tree
 class Node {
   constructor(key, card) {
     this.key = key.toLowerCase();
@@ -13,11 +13,14 @@ class Node {
 
 // Binary Search Tree implementation for searching cards by keyword or notes
 export class BinarySearchTree {
+  // Initialize the binary search tree with an empty root
   constructor() {
     this.root = null;
   }
 
+  // Insert a card key into the binary search tree
   insert(key, card) {
+    // Create a scoped constant for the new node
     const newNode = new Node(key, card);
     if (!this.root) {
       this.root = newNode;
@@ -26,6 +29,7 @@ export class BinarySearchTree {
     this._insert(this.root, newNode);
   }
 
+  // Insert a node into the appropriate position below a parent node
   _insert(node, newNode) {
     if (newNode.key < node.key) {
       if (!node.left) node.left = newNode;
@@ -36,13 +40,14 @@ export class BinarySearchTree {
     }
   }
 
-
   // Search for a card by keyword or notes; returns the first matching card found
   search(query) {
+    // Create a scoped constant for the normalized search query
     const q = query.toLowerCase();
     return this._search(this.root, q);
   }
 
+  // Search the tree recursively and return the first matching card
   _search(node, q) {
     if (!node) return null;
     if (node.key.includes(q) || q.includes(node.key)) return node.card;

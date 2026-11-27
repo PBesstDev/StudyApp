@@ -3,6 +3,7 @@ import { loadSubjects, getSubjectCards, saveSubjectCards, exportJSONL, importJSO
 import { isLoggedIn, getSubjects, downloadCards, uploadCards, login, register, logout, getUsername } from '../utils/api'
 
 export default function IO() {
+  // Create scoped constants for subjects, selections, status, preview data, and authentication
   const [subjects, setSubjects] = useState({})
   const [selectedSubject, setSelectedSubject] = useState('')
   const [uploadSubject, setUploadSubject] = useState('')
@@ -13,19 +14,22 @@ export default function IO() {
   const [loggedIn, setLoggedIn] = useState(isLoggedIn())
   const [currentUser, setCurrentUser] = useState(getUsername())
 
-  // Load subjects from local storage and server on component mount
-  // or when loggedIn changes
+  // Load subjects from local storage and the server when the component mounts
+  // or when the logged-in state changes
   useEffect(() => {
+    // Create a scoped constant, load subjects from local storage into it, and set the subjects state
     const local = loadSubjects()
     setSubjects(local)
+    // If logged in, also load subjects from the server
     if (loggedIn) {
       loadFromServer()
     }
   }, [loggedIn])
 
-  // Load subjects from the server and merge with local subjects
+  // Load subjects from the server and merge them with local subjects
   const loadFromServer = async () => {
     try {
+      // Create scoped constants for the server subjects, local subjects, and merged subject list
       const serverSubs = await getSubjects()
       const local = loadSubjects()
       const merged = { ...local }
@@ -35,20 +39,24 @@ export default function IO() {
       setSubjects(merged)
       setStatus('Loaded subjects from server')
     } catch (err) {
+      // Report any server subject loading error
       setStatus('Could not load subjects from server: ' + err.message)
     }
   }
 
-  // Show a preview of cards for the selected subject
+  // Set the selected subject and show a preview of its locally stored cards
   const showPreview = (subject) => {
+    // Store the selected subject and load its cards into the preview
     setSelectedSubject(subject)
     setPreview(getSubjectCards(subject))
   }
 
-  // Download cards for the selected subject in the specified format (JSON or JSONL)
+  // Download cards for the selected subject in JSON or JSONL format
   const downloadLocal = (format) => {
+    // Return early if no subject is selected
     if (!selectedSubject) return setStatus('Select a subject')
     try {
+      // Create scoped constants for the selected subject's cards and download properties
       const cards = getSubjectCards(selectedSubject)
       let content, filename
       if (format === 'jsonl') {
@@ -58,56 +66,68 @@ export default function IO() {
         content = JSON.stringify({ subject: selectedSubject, cards }, null, 2)
         filename = `${selectedSubject}.json`
       }
+      // Create and activate a temporary download link
       const blob = new Blob([content], { type: 'application/json' })
       const url = URL.createObjectURL(blob)
       const a = document.createElement('a')
       a.href = url
       a.download = filename
       a.click()
+      // Release the temporary object URL after the download starts
       setTimeout(() => URL.revokeObjectURL(url), 1000)
       setStatus(`Downloaded local ${filename}`)
     } catch (err) {
+      // Report any export error
       setStatus(`Export failed: ${err.message}`)
     }
   }
 
-  // Pull cards from the server for the selected subject
+  // Pull cards from the server for the selected subject and save them locally
   const pullFromServer = async () => {
+    // Return early if no subject is selected or the user is not logged in
     if (!selectedSubject) return setStatus('Select a subject')
     if (!loggedIn) return setStatus('Please log in first')
     try {
+      // Download the cards and update local storage, the preview, and the subject list
       const cards = await downloadCards(selectedSubject)
       saveSubjectCards(selectedSubject, cards)
       setPreview(cards)
       setSubjects(loadSubjects())
       setStatus(`Pulled ${cards.length} cards from server into "${selectedSubject}"`)
     } catch (err) {
+      // Report any server pull error
       setStatus('Pull from server failed: ' + err.message)
     }
   }
 
-  // Push cards to the server for the selected subject
+  // Push locally stored cards to the server for the selected subject
   const pushToServer = async () => {
+    // Return early if no subject is selected or the user is not logged in
     if (!selectedSubject) return setStatus('Select a subject')
     if (!loggedIn) return setStatus('Please log in first')
     try {
+      // Create a scoped constant for the selected subject's cards and upload them
       const cards = getSubjectCards(selectedSubject)
       await uploadCards(selectedSubject, cards)
       setStatus(`Pushed ${cards.length} cards to server for "${selectedSubject}"`)
     } catch (err) {
+      // Report any server push error
       setStatus('Push to server failed: ' + err.message)
     }
   }
 
-  // Handle file upload for importing cards to a subject
+  // Handle file selection and import cards into the selected upload subject
   const handleFileUpload = (e) => {
+    // Create a scoped constant for the selected file and validate the upload fields
     const file = e.target.files[0]
     if (!file || !uploadSubject) return setStatus('Select file and enter subject')
     if (!loggedIn) return setStatus('Please log in to upload to server')
 
+    // Read the selected file and process it after loading completes
     const reader = new FileReader()
     reader.onload = async (ev) => {
       try {
+        // Create a scoped constant and parse cards from JSONL or JSON content
         let cards = []
         if (file.name.endsWith('.jsonl')) {
           cards = importJSONL(ev.target.result)
@@ -117,22 +137,25 @@ export default function IO() {
         }
         if (!cards.length) throw new Error('No valid cards in file')
 
-        // Upload to server
+        // Upload the cards to the server
         await uploadCards(uploadSubject, cards)
-        // Also save locally
+        // Also save the cards locally
         saveSubjectCards(uploadSubject, cards)
         setSubjects(loadSubjects())
         setStatus(`Uploaded ${cards.length} cards from file to server for "${uploadSubject}"`)
       } catch (err) {
+        // Report any file parsing or upload error
         setStatus(`Upload error: ${err.message}`)
       }
     }
+    // Start reading the selected file as text
     reader.readAsText(file)
   }
 
-  // Login form submission
+  // Submit the login form and update the current user state
   const handleLogin = async () => {
     try {
+      // Log in and refresh the authentication state
       await login(username, password)
       setLoggedIn(true)
       setCurrentUser(username)
@@ -140,13 +163,15 @@ export default function IO() {
       setUsernameInput('')
       setPassword('')
     } catch (err) {
+      // Report any login error
       setStatus('Login failed: ' + err.message)
     }
   }
 
-  // Registration form submission
+  // Submit the registration form and update the current user state
   const handleRegister = async () => {
     try {
+      // Register and log in the new user
       await register(username, password)
       setLoggedIn(true)
       setCurrentUser(username)
@@ -154,11 +179,12 @@ export default function IO() {
       setUsernameInput('')
       setPassword('')
     } catch (err) {
+      // Report any registration error
       setStatus('Register failed: ' + err.message)
     }
   }
 
-  // Logout logic
+  // Log out the current user and reset the authentication state
   const handleLogout = () => {
     logout()
     setLoggedIn(false)
@@ -166,6 +192,7 @@ export default function IO() {
     setStatus('Logged out')
   }
 
+  // Return the actual JSX component for local and server note import and export
   return (
     <div>
       <h2>Download / Upload Notes</h2>

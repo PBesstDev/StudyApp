@@ -20,8 +20,12 @@ export default function Notes() {
 
   // Load initial subjects from local storage and server if logged in
   const loadInitialSubjects = async () => {
+    // Create a scoped constant, load subjects from local storage into it, 
+    // and set the subjects state to that constant
     const local = loadSubjects()
     setSubjects(local)
+
+    // If logged in, also load subjects from the server and merge them with local subjects
     if (isLoggedIn()) {
       try {
         const serverSubs = await getSubjects()
@@ -36,6 +40,8 @@ export default function Notes() {
 
   // Load cards for a given subject, either from local storage or from the server
   const loadCards = async (sub) => {
+    // Create a scoped constant, load cards for the subject from local storage into it,
+    // and if logged in and no cards are found, attempt to download from the server
     let loaded = getSubjectCards(sub)
     if (isLoggedIn() && loaded.length === 0) {
       try {
@@ -58,6 +64,7 @@ export default function Notes() {
   // Set the current subject; check for near-identical subjects and prompt user to
   // use them if found, or else to create a new one
   const handleSetSubject = () => {
+    // Create a scoped constant, trim the subject input, and if it's empty, return early
     const input = subjectInput.trim()
     if (!input) return
     try {
@@ -137,6 +144,8 @@ export default function Notes() {
 
   // Save the current card to the list and to local storage; if logged in, also push to server
   const saveCurrent = async () => {
+    // Create a scoped constant, copy the current cards into it by desctructuring, 
+    // and if the current index is valid, update that card; otherwise, add a new card
     const newCards = [...cards]
     if (currentIndex >= 0 && currentIndex < newCards.length) {
       newCards[currentIndex] = { keyword, notes }
@@ -159,6 +168,7 @@ export default function Notes() {
     }
   }
 
+  //Return the actual JSX component for Notes, including subject input, card navigation, and popup handling
   return (
     <div>
       <h2>Take Notes</h2>

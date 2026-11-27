@@ -4,6 +4,7 @@ import Notes from './components/Notes'
 import IO from './components/IO'
 import Study from './components/Study'
 
+// Beginning of actual react code.
 function App() {
   const [currentModule, setCurrentModule] = useState('notes')
 

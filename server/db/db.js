@@ -2,18 +2,21 @@ import pg from 'pg';
 import dotenv from 'dotenv';
 dotenv.config();
 
+// Create a scoped constant for the PostgreSQL pool constructor
 const { Pool } = pg;
 
-// Create a new PostgreSQL connection pool using the connection string from environment variables.
+// Create a new PostgreSQL connection pool using the database URL from the environment
 export const pool = new Pool({
   connectionString: process.env.DATABASE_URL || 'postgresql://localhost/studyapp',
   ssl: process.env.NODE_ENV === 'production' ? { rejectUnauthorized: false } : false
 });
 
-// Function to initialize the database schema if it doesn't exist.
+// Initialize the database schema and create required tables and indexes
 export async function initSchema() {
+  // Create a scoped constant for a PostgreSQL client connection
   const client = await pool.connect();
   try {
+    // Create the users and cards tables plus search indexes if they do not exist
     await client.query(`
       CREATE TABLE IF NOT EXISTS users (
         id SERIAL PRIMARY KEY,
@@ -37,9 +40,11 @@ export async function initSchema() {
     `);
     console.log('Schema initialized');
   } catch (err) {
+    // Report and rethrow any schema initialization error
     console.error('Schema init error:', err);
     throw err;
   } finally {
+    // Release the database client connection
     client.release();
   }
 }

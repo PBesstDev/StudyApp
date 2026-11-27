@@ -4,6 +4,7 @@ import { buildBST } from '../utils/search'
 import { search as serverSearch, isLoggedIn, downloadCards } from '../utils/api'
 
 export default function Study() {
+  // Create scoped constants for subjects, study mode, card pile, search state, and UI state
   const [subjects, setSubjects] = useState({})
   const [selectedSubject, setSelectedSubject] = useState('')
   const [mode, setMode] = useState('keywords')
@@ -16,12 +17,14 @@ export default function Study() {
   const [showSearch, setShowSearch] = useState(false)
   const magRef = useRef(null)
 
+  // Load subjects from local storage when the component mounts
   useEffect(() => {
     setSubjects(loadSubjects())
   }, [])
 
-  // Load cards for the selected subject into the study pile
+  // Load cards for the selected subject into the study pile and begin study
   const startStudy = () => {
+    // Return early if no subject or cards are available
     if (!selectedSubject) return alert('Select subject')
     const cards = getSubjectCards(selectedSubject)
     if (!cards.length) return alert('No cards')
@@ -29,31 +32,35 @@ export default function Study() {
     showNext([...cards])
   }
 
-  // Show the next card from the pile; if the pile is empty, clear the current card
+  // Show a random next card from the pile, or clear the current card if the pile is empty
   const showNext = (currentPile = pile) => {
     if (!currentPile.length) {
       setCurrentCard(null)
       return
     }
+    // Create a scoped constant for a random card index and display that card
     const idx = Math.floor(Math.random() * currentPile.length)
     setCurrentCard(currentPile[idx])
     setIsFlipped(false)
   }
 
+  // Toggle whether the current flashcard is flipped
   const flip = () => setIsFlipped(!isFlipped)
 
-  // Discard the current card from the pile and show the next one
+  // Discard the current card from the pile and show the next card
   const discard = () => {
+    // Create a scoped constant containing the remaining cards
     const newPile = pile.filter(c => c !== currentCard)
     setPile(newPile)
     showNext(newPile)
   }
 
-  // ...else, just show the next one
+  // Keep the current card and show the next card
   const keep = () => showNext()
 
-  // Perform a search for the given query, either on the server if logged in, or locally on the current pile
+  // Search the server when logged in, or search the current pile locally
   const performSearch = async () => {
+    // Return early if the search query is empty
     if (!searchQuery.trim()) return
     const start = performance.now()
     try {
@@ -61,7 +68,7 @@ export default function Study() {
       if (isLoggedIn()) {
         results = await serverSearch(searchQuery)
       } else {
-        // Local fallback: filter current pile
+        // Filter the current pile as a local fallback
         const lower = searchQuery.toLowerCase()
         results = pile.filter(c =>
           (c.keyword && c.keyword.toLowerCase().includes(lower)) ||
@@ -72,19 +79,22 @@ export default function Study() {
       setSearchResults(results)
       setSearchTime(`Search took ${time} ms (${results.length} matches)`)
     } catch (err) {
+      // Report any search error
       setSearchResults([])
       setSearchTime('Search error: ' + err.message)
     }
   }
 
-  // Select a search result and load it into the study view
+  // Select a search result and load its card into the study view
   const selectResult = async (result) => {
     try {
+      // Create a scoped constant for locally stored cards and load server cards when needed
       let cards = getSubjectCards(result.subject)
       if (isLoggedIn() && cards.length === 0) {
         cards = await downloadCards(result.subject)
         if (cards.length) saveSubjectCards(result.subject, cards)
       }
+      // Update the selected subject and selected study card
       setSelectedSubject(result.subject)
       setPile(cards)
       const match = cards.find(c => c.keyword === result.keyword && c.notes === result.notes) || cards[0]
@@ -93,27 +103,33 @@ export default function Study() {
       setShowSearch(false)
       setSearchResults([])
     } catch (err) {
+      // Report any card loading error
       alert('Could not load card: ' + err.message)
     }
   }
 
-  // Make the magnifier icon draggable
+  // Make the magnifier icon draggable while the component is mounted
   useEffect(() => {
+    // Create scoped constants for the magnifier element and dragging state
     const el = magRef.current
     if (!el) return
     let isDragging = false, offsetX, offsetY
+    // Track the mouse position and calculate the drag offset
     const onMouseDown = (e) => {
       isDragging = true
       offsetX = e.clientX - el.getBoundingClientRect().left
       offsetY = e.clientY - el.getBoundingClientRect().top
     }
+    // Move the magnifier while dragging
     const onMouseMove = (e) => {
       if (isDragging) {
         el.style.left = (e.clientX - offsetX) + 'px'
         el.style.top = (e.clientY - offsetY) + 'px'
       }
     }
+    // Stop dragging when the mouse is released
     const onMouseUp = () => { isDragging = false }
+    // Attach the drag event listeners and remove them on unmount
     el.addEventListener('mousedown', onMouseDown)
     document.addEventListener('mousemove', onMouseMove)
     document.addEventListener('mouseup', onMouseUp)
@@ -124,6 +140,7 @@ export default function Study() {
     }
   }, [])
 
+  // Return the actual JSX component for study mode, search, and flashcards
   return (
     <div>
       <h2>Study</h2>
